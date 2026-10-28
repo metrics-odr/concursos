@@ -12,6 +12,7 @@ concursos/                      (raiz do repo)
 ├── _templates/                 → modelos de nota
 ├── conversas/                  → resumos de conversas Eduardo ↔ Claude (AAAA-MM-DD-tema.md)
 ├── ideias/                     → organização de pensamento, estratégia, planejamento
+├── flashcards/                 → método, banco de cards (CSV por disciplina) e exportação p/ Anki
 ├── disciplinas/                → notas COMPARTILHADAS entre concursos
 │   └── <disciplina>/
 │       ├── README.md           → índice da disciplina
@@ -41,6 +42,7 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 - Callouts do GitHub: `> [!IMPORTANT]`, `> [!WARNING]` (pegadinhas), `> [!TIP]`.
 - Citar o dispositivo legal exato (lei, artigo, inciso) e a fonte do material.
 - Fechar com: pegadinhas de prova, flashcards e questões de fixação.
+- **Flashcards** não ficam soltos na nota: vão para `flashcards/banco/<disciplina>.csv`, seguindo `flashcards/como-criar.md` e `flashcards/base-de-dados.md`. Decisões sobre flashcards → `flashcards/decisoes.md`.
 - Não inventar conteúdo: se algo do material estiver incompleto ou duvidoso, marcar com `> [!NOTE] Verificar:`.
 
 ## Tipos de material e como tratar cada um

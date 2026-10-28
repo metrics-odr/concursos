@@ -25,6 +25,8 @@ flowchart LR
     C --> F[revisao/: flashcards e pegadinhas]
 ```
 
+🃏 [`flashcards/`](flashcards/) → banco de flashcards e exportação para o Anki
+
 📁 [`conversas/`](conversas/) → resumos das nossas conversas · [`ideias/`](ideias/) → organização de pensamento
 
 Modelo de nota: [`_templates/nota-topico.md`](_templates/nota-topico.md)

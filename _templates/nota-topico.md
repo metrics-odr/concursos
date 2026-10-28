@@ -31,9 +31,7 @@ mindmap
 > Afirmação que a banca costuma trocar → versão correta.
 
 ## 🃏 Flashcards
-| Pergunta | Resposta |
-|---|---|
-| ... | ... |
+→ Cards deste tópico em [`flashcards/banco/<disciplina>.csv`](../../flashcards/banco/) (filtrar por `topico`).
 
 ## ❓ Questões de fixação
 1. (Banca/Ano) Enunciado...
