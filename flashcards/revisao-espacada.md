@@ -23,7 +23,7 @@ xychart-beta
 
 ## ⚙️ Rotina sugerida
 - **Todo dia**, mesmo que pouco: 15–30 min, de preferência no mesmo horário.
-- **Cards novos:** 10–20 por dia. Novos demais hoje ⇒ montanha de revisões em uma semana.
+- **Cards novos:** **20 por dia** (definido em 2026-10-28). Novos demais hoje ⇒ montanha de revisões em uma semana.
 - **Revisões primeiro**, cards novos depois.
 - Errou de novo e de novo ⇒ o card vai para ajuste (ver [`como-criar.md`](como-criar.md)).
 

@@ -6,6 +6,7 @@ Central de flashcards do repositório: como criar, onde ficam guardados, como re
 
 | Arquivo / pasta | Para quê |
 |---|---|
+| [`primeiros-passos-anki.md`](primeiros-passos-anki.md) | **Comece aqui**: instalar, configurar e importar no Anki |
 | [`como-criar.md`](como-criar.md) | Regras para escrever um bom card + tipos de card com exemplos |
 | [`base-de-dados.md`](base-de-dados.md) | Formato do banco (colunas, tags, IDs) |
 | [`revisao-espacada.md`](revisao-espacada.md) | Como e quando revisar (repetição espaçada, Anki) |

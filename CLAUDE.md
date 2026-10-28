@@ -43,6 +43,8 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 - Citar o dispositivo legal exato (lei, artigo, inciso) e a fonte do material.
 - Fechar com: pegadinhas de prova, flashcards e questões de fixação.
 - **Flashcards** não ficam soltos na nota: vão para `flashcards/banco/<disciplina>.csv`, seguindo `flashcards/como-criar.md` e `flashcards/base-de-dados.md`. Decisões sobre flashcards → `flashcards/decisoes.md`.
+  - **Só criar cards quando o Eduardo pedir** (pode sugerir tópicos). Limite de estudo: 20 novos/dia.
+  - Ao criar cards, rodar `python3 flashcards/scripts/exportar_anki.py` e commitar `flashcards/exportados/` junto (o Eduardo não roda scripts).
 - Não inventar conteúdo: se algo do material estiver incompleto ou duvidoso, marcar com `> [!NOTE] Verificar:`.
 
 ## Tipos de material e como tratar cada um
