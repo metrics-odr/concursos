@@ -10,6 +10,8 @@ concursos/                      (raiz do repo)
 ├── CLAUDE.md                   → este arquivo (regras e contexto permanente)
 ├── README.md                   → índice geral: concursos ativos e disciplinas
 ├── _templates/                 → modelos de nota
+├── conversas/                  → resumos de conversas Eduardo ↔ Claude (AAAA-MM-DD-tema.md)
+├── ideias/                     → organização de pensamento, estratégia, planejamento
 ├── disciplinas/                → notas COMPARTILHADAS entre concursos
 │   └── <disciplina>/
 │       ├── README.md           → índice da disciplina
@@ -41,8 +43,24 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 - Fechar com: pegadinhas de prova, flashcards e questões de fixação.
 - Não inventar conteúdo: se algo do material estiver incompleto ou duvidoso, marcar com `> [!NOTE] Verificar:`.
 
+## Tipos de material e como tratar cada um
+
+| Tipo | Como chega | O que fazer |
+|---|---|---|
+| ✍️ Manuscrito (PDF do tablet / foto de caderno) | PDF ou imagem | Ler página a página, **transcrever fielmente** para Markdown e depois organizar no modelo de nota. Palavras ilegíveis → `[ilegível: ?palpite]`. Desenhos/esquemas → recriar como tabela ou Mermaid. |
+| 📄 PDF digitado (apostila, lei, slide) | PDF | Extrair só o que é relevante para o edital; resumir e citar a fonte (página). |
+| 🖼️ Foto / print (lousa, questão, tabela) | Imagem | Transcrever o conteúdo; se for questão, ir para `revisao/questoes.md`. |
+| 🎙️ Áudio / fala | Transcrição em texto (ditado do celular ou transcrição do app) | Limpar vícios de fala, manter as ideias do Eduardo, estruturar em tópicos. |
+| 💬 Conversa com o Claude | Pedido "resume nossa conversa" | Salvar em `conversas/AAAA-MM-DD-<tema>.md`: dúvidas, explicações, conclusões. O conteúdo de estudo também vai para a nota da disciplina. |
+| 🧠 Organização de pensamento | Texto livre / fala | Salvar em `ideias/AAAA-MM-DD-<tema>.md` (estratégia, planejamento, reflexões). Se virar decisão de estudo, refletir no `PROGRESSO.md`. |
+
+**Regras gerais da transcrição**
+- Transcrever primeiro, organizar depois: o conteúdo do Eduardo não pode se perder na reorganização.
+- Marcar com `> [!NOTE] Verificar:` qualquer afirmação que pareça errada em relação à lei/doutrina — corrigir só com a fonte citada.
+- Registrar na nota a origem: `Fonte: manuscrito 2026-10-28, p. 3`.
+
 ## Fluxo ao receber material
-1. Salvar o original em `concursos/<concurso>/materiais-brutos/` (se for adequado versionar).
+1. Salvar o original em `concursos/<concurso>/materiais-brutos/` (se for adequado versionar; nada de apostila paga com direitos autorais em repo público).
 2. Identificar a disciplina e o tópico do edital correspondente.
 3. Criar/atualizar a nota em `disciplinas/<disciplina>/`.
 4. Atualizar o `PROGRESSO.md` do concurso e os índices (`README.md`).
