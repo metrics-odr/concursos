@@ -18,5 +18,5 @@ Primeira conversa: definição de como o repositório vai funcionar.
 - 🧠 Organização de pensamento → `ideias/`
 
 ## Pendências
-- [ ] Enviar o edital da CGU
+- [x] Enviar o edital da CGU → `concursos/cgu-affc/edital/edital-cgu-2026-12.md`
 - [ ] Confirmar a área/especialidade

@@ -73,4 +73,4 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 ## Concursos ativos
 | Concurso | Pasta | Status |
 |---|---|---|
-| CGU — Auditor Federal de Finanças e Controle (área a confirmar) | `concursos/cgu-affc/` | Aguardando edital |
+| CGU — Auditor Federal de Finanças e Controle (Cebraspe; especialidade a confirmar, provável Cargo 1 – Auditoria) | `concursos/cgu-affc/` | Edital transcrito em `edital/edital-cgu-2026-12.md` · prova 13/12/2026 |

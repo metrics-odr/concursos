@@ -6,7 +6,7 @@ Repositório pessoal de estudos para concursos públicos: editais, notas por dis
 
 | Concurso | Banca | Prova | Status | Progresso |
 |---|---|---|---|---|
-| [CGU — AFFC](concursos/cgu-affc/README.md) | a confirmar | a confirmar | ⏳ Aguardando edital | [checklist](concursos/cgu-affc/PROGRESSO.md) |
+| [CGU — AFFC](concursos/cgu-affc/README.md) | Cebraspe | 13/12/2026 | 📖 Edital publicado ([ver](concursos/cgu-affc/edital/edital-cgu-2026-12.md)) | [checklist](concursos/cgu-affc/PROGRESSO.md) |
 
 ## 📖 Disciplinas
 
