@@ -1,0 +1,6 @@
+id,tipo,frente,verso,topico,concursos,fonte,criado
+ex-0001,basico,"Quais são os princípios expressos da Administração Pública?","LIMPE → Legalidade, Impessoalidade, Moralidade, Publicidade, Eficiência",principios,cgu-affc,"CF, art. 37, caput",2026-10-28
+ex-0002,invertido,"Lei 8.429/1992","Lei de Improbidade Administrativa",improbidade,cgu-affc,"Lei 8.429/1992",2026-10-28
+ex-0003,cloze,"Os princípios expressos da Administração Pública estão no art. {{c1::37}} da CF.","",principios,cgu-affc,"CF, art. 37",2026-10-28
+ex-0004,vf,"(C/E) A improbidade administrativa admite a modalidade culposa.","Errado. Desde a Lei 14.230/2021, exige-se dolo.",improbidade,cgu-affc,"Lei 8.429/1992, art. 1º, §1º (red. Lei 14.230/2021)",2026-10-28
+ex-0005,comparacao,"Anulação × revogação: qual o motivo de cada uma?","Anulação → ilegalidade · Revogação → conveniência e oportunidade",atos-administrativos,cgu-affc,"Súmula 473 STF",2026-10-28
