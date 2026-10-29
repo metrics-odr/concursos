@@ -540,18 +540,35 @@
     const ta = $("#ed-texto");
     const prev = $("#ed-prev");
     let original = texto;
-    const atualizar = () => prev && renderMarkdown(ta.value, path, prev);
+    // Editor "live preview" (estilo Obsidian): CodeMirror esconde os marcadores fora da linha do cursor.
+    // Sem CDN (ou arquivo não-md), cai no textarea simples.
+    const cm = ehMd && window.CodeMirror ? CodeMirror.fromTextArea(ta, {
+      mode: { name: "markdown", highlightFormatting: true },
+      lineWrapping: true, styleActiveLine: true, spellcheck: true, inputStyle: "contenteditable",
+      gutters: ["CodeMirror-foldgutter"], foldGutter: true,
+      extraKeys: {
+        Enter: "newlineAndIndentContinueMarkdownList",
+        Tab: (c) => (c.somethingSelected() ? c.indentSelection("add") : c.replaceSelection("  ")),
+        "Shift-Tab": (c) => c.indentSelection("subtract"),
+        "Ctrl-S": () => salvar(), "Cmd-S": () => salvar(),
+      },
+    }) : null;
+    if (cm) $("#ed-wrap").classList.add("live", "so-editor");
+    const valor = () => (cm ? cm.getValue() : ta.value);
+    const atualizar = () => prev && renderMarkdown(valor(), path, prev);
     let t;
-    ta.addEventListener("input", () => { clearTimeout(t); t = setTimeout(atualizar, 250); });
+    if (!cm) ta.addEventListener("input", () => { clearTimeout(t); t = setTimeout(atualizar, 250); });
+    cm?.on("change", () => { clearTimeout(t); t = setTimeout(atualizar, 250); });
     atualizar();
-    $("#ed-preview")?.addEventListener("click", () => $("#ed-wrap").classList.toggle("so-editor"));
+    $("#ed-preview")?.addEventListener("click", () => { $("#ed-wrap").classList.toggle("so-editor"); cm?.refresh(); });
     const salvar = async () => {
-      if (ta.value === original && existe) { toast("Nada mudou."); return; }
+      if (valor() === original && existe) { toast("Nada mudou."); return; }
       const btn = $("#ed-salvar");
       btn.disabled = true;
       btn.textContent = "Salvando…";
-      if (await persistir(path, ta.value, existe ? "Edita nota" : "Cria nota")) {
-        original = ta.value;
+      const conteudo = valor();
+      if (await persistir(path, conteudo, existe ? "Edita nota" : "Cria nota")) {
+        original = conteudo;
         location.hash = rotaNota(path);
       }
       btn.disabled = false;
@@ -562,7 +579,7 @@
       if ((e.ctrlKey || e.metaKey) && e.key === "s") { e.preventDefault(); salvar(); }
       if (e.key === "Tab") { e.preventDefault(); ta.setRangeText("  ", ta.selectionStart, ta.selectionEnd, "end"); }
     });
-    ta.focus();
+    if (cm) { cm.focus(); cm.execCommand("goDocEnd"); } else ta.focus();
   }
 
   async function novaNota(pastaPadrao) {
