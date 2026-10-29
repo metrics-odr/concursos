@@ -308,3 +308,35 @@ textarea.editor { width: 100%; height: 100%; resize: none; font-size: 14px; line
 
 .editor-wrap.live .cm-bullet { color: var(--fg); display: inline-block; width: 1em; text-align: center; }
 .editor-wrap.live .cm-quote { border-left: 3px solid var(--border); padding-left: 8px; }
+
+/* ---- Seleção de concurso e selo da banca ---- */
+[hidden] { display: none !important; }
+.banca-badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 12px; font-weight: 700; letter-spacing: .2px;
+  background: var(--banca, #475569); color: #fff; white-space: nowrap; vertical-align: middle; }
+.banca-badge.b-cebraspe { --banca: #0e7490; }
+.banca-badge.b-fgv { --banca: #15803d; }
+.banca-badge.b-fcc { --banca: #c2410c; }
+.banca-badge.b-vunesp { --banca: #b91c1c; }
+.banca-badge.b-cesgranrio { --banca: #a16207; }
+.banca-badge.b-quadrix { --banca: #7e22ce; }
+.banca-badge.b-ibfc { --banca: #be185d; }
+.chip-concurso { display: flex; align-items: center; gap: 8px; font-size: 13px; white-space: nowrap; }
+body[data-banca="cebraspe"] .topbar { border-bottom: 3px solid #0e7490; }
+body[data-banca="fgv"] .topbar { border-bottom: 3px solid #15803d; }
+body[data-banca="fcc"] .topbar { border-bottom: 3px solid #c2410c; }
+body[data-banca="vunesp"] .topbar { border-bottom: 3px solid #b91c1c; }
+.conc-secao { margin: 26px 0 10px; font-size: 14px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); }
+.conc-card { display: flex; gap: 16px; align-items: flex-start; background: var(--bg-2); border: 1px solid var(--border); border-radius: 12px;
+  padding: 16px 18px; margin-bottom: 12px; color: var(--fg); }
+.conc-card:hover { border-color: var(--accent); text-decoration: none; box-shadow: var(--shadow); }
+.conc-card.passado { opacity: .8; }
+.conc-radio { display: flex; align-items: center; gap: 8px; font-weight: 600; min-width: 92px; padding-top: 2px; }
+.radio { width: 16px; height: 16px; border: 2px solid var(--muted); border-radius: 50%; display: inline-block; position: relative; }
+.radio.on { border-color: var(--ok); }
+.radio.on::after { content: ""; position: absolute; inset: 2px; background: var(--ok); border-radius: 50%; }
+.conc-codigo { font-weight: 700; font-size: 16px; margin-bottom: 6px; word-break: break-word; }
+.conc-linha { margin: 3px 0; }
+.conc-cab h1 { margin: 6px 0; }
+.aviso-banca { background: var(--accent-soft); border-radius: 8px; padding: 8px 12px; font-size: 14px; }
+.niv-meta .banca-badge, .fc-meta .banca-badge { margin-right: 4px; }
+@media (max-width: 860px) { .chip-concurso a { display: none; } .conc-card { flex-direction: column; gap: 8px; } }

@@ -30,12 +30,14 @@ Para cada tópico: filtrar `_indices/questoes.json` por `topicos` contendo o ID 
 - Se **não existir questão real** do tópico, dizer isso explicitamente (“sem questão real no banco para ML.5.3 — itens inéditos”).
 
 ## 5. Montar a saída
+> [!IMPORTANT]
+> **Banca sempre visível.** O arquivo/saída abre com `🏛️ **Banca: <nome>**` (do concurso em `concursos/concursos.json`) e **cada questão** leva a banca no rótulo: `[INÉDITA · Banca Cebraspe]`. Frontmatter de simulado exige `banca:`. Nunca misturar bancas no mesmo bloco; um questionário por banca.
 ```
 ### Bloco 1 — <tópico do edital: ID + nome curto>
 <texto-base curto, se houver>
 <comando: "Considerando..., julgue os itens a seguir.">
-1. <item>   [INÉDITA]
-2. <item>   [ADAPTADA de CEB-2022-PETROBRAS-CD-Q056]
+1. <item>   [INÉDITA · Banca Cebraspe]
+2. <item>   [ADAPTADA de CEB-2022-PETROBRAS-CD-Q056 · Banca Cebraspe]
 ...
 ---
 ## Gabarito comentado
@@ -46,7 +48,7 @@ Para cada tópico: filtrar `_indices/questoes.json` por `topicos` contendo o ID 
 - Não inventar dispositivo legal, número ou fato: se não tiver certeza, não use ou marque `> [!NOTE] Verificar:`.
 
 ## 6. Depois
-- Se o Eduardo pedir para salvar: `desafios/simulados/prova-claude-<DD-MM-AAAA>-<descricao>.md` e, se o gabarito for separado, `gabarito-claude-<DD-MM-AAAA>-<descricao>.md` (padrão em `questoes/README.md` → “Padrão de nome”; com frontmatter `titulo`, `tipo: simulado`, `topicos: [...]`, `atualizado`), rodar `python3 scripts/build_indices.py && python3 scripts/validar.py`, commit e push.
+- Se o Eduardo pedir para salvar: `desafios/simulados/prova-claude-<DD-MM-AAAA>-<descricao>.md` e, se o gabarito for separado, `gabarito-claude-<DD-MM-AAAA>-<descricao>.md` (padrão em `questoes/README.md` → “Padrão de nome”; com frontmatter `titulo`, `tipo: simulado`, `banca`, `topicos: [...]`, `atualizado`), rodar `python3 scripts/build_indices.py && python3 scripts/validar.py`, commit e push.
 - Se ele responder os itens: corrigir, e registrar os erros em `concursos/cgu-affc/revisao/questoes.md` (caderno de erros).
 
 ## Variações
