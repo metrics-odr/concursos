@@ -4,6 +4,13 @@ Registro do que combinamos sobre flashcards. Entradas mais recentes no topo.
 
 ---
 
+## 2026-10-29 — Cards no modelo Cebraspe + menu de matérias
+- **Todos os flashcards passam a ser itens Cebraspe (Certo/Errado)** → novo tipo `ce` (o `vf` continua aceito como legado).
+- **Pontuação da prova**: acerto +1, erro −1, em branco 0 → *um errado anula um certo*. O app mostra placar e **nota líquida** e, no fim, a lista dos itens errados.
+- **Menu suspenso de matérias** no app, com a prova antes do nome (`P1 · …`, `P2 · …`, `P3 · …`), montado a partir das disciplinas do edital (`topicos.json`); também dá para escolher “todas de P1/P2/P3” ou todas.
+- Dois modos: **Estudar** (revisão espaçada, respeita 20 novos/dia) e **Simulado** (todos os itens da matéria, ordem aleatória, não mexe na revisão).
+- Foco no **Cargo 2 – Ciência de Dados**: primeiro lote com 59 itens, mais pesado em P3 (36 itens), a pedido do Eduardo.
+
 ## 2026-10-28 — Preferências do Eduardo
 | Pergunta | Resposta | Consequência |
 |---|---|---|

@@ -190,7 +190,21 @@ textarea.editor { width: 100%; height: 100%; resize: none; font-size: 14px; line
 .b-errei { border-color: var(--bad) !important; color: var(--bad); }
 .b-facil { border-color: var(--ok) !important; color: var(--ok); }
 .decks { display: grid; gap: 8px; }
-.deck { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.deck { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+.fc-filtro { display: grid; gap: 4px; font-size: 14px; color: var(--muted); }
+.fc-filtro select { width: 100%; font-size: 15px; padding: 8px 10px; }
+.fc-acoes { display: flex; gap: 8px; }
+.fc-placar { display: flex; flex-wrap: wrap; gap: 6px 16px; justify-content: center; font-size: 14px; color: var(--muted); margin: 0 0 10px; }
+.fc-placar b { color: var(--fg); }
+.fc-placar .ok, .fc-res.ok { color: var(--ok); }
+.fc-placar .bad, .fc-res.bad { color: var(--bad); }
+.fc-res { font-weight: 600; margin-bottom: 6px; }
+.fc-botoes.ce { grid-template-columns: 1fr 1fr 1fr; }
+.b-certo { border-color: var(--ok) !important; color: var(--ok); font-weight: 600; }
+.b-errado { border-color: var(--bad) !important; color: var(--bad); font-weight: 600; }
+.fc-erros { text-align: left; font-size: 15px; }
+.fc-erros li { margin: 6px 0; }
+.fc-erros small { color: var(--muted); }
 
 /* Dialogs */
 .dlg { border: 1px solid var(--border); border-radius: 12px; background: var(--bg-2); color: var(--fg); padding: 0; width: min(560px, calc(100vw - 32px)); box-shadow: var(--shadow); }

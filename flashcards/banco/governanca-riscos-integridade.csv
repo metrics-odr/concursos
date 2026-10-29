@@ -1,0 +1,4 @@
+id,tipo,frente,verso,topico,concursos,fonte,criado
+gri-0001,ce,"Risco residual é o risco que permanece após a resposta da gestão, incluindo a implementação de controles.",Certo. Risco inerente (sem controles) → controles → risco residual.,riscos,cgu-affc,COSO ERM; IN Conjunta MP/CGU 1/2016,2026-10-29
+gri-0002,ce,"A segregação de funções busca evitar que um mesmo agente concentre etapas críticas de um processo, como autorizar, executar e conferir uma mesma operação.",Certo. Controle preventivo clássico.,controles,cgu-affc,IN Conjunta MP/CGU 1/2016,2026-10-29
+gri-0003,ce,"A ausência de denúncias em um órgão comprova, por si só, a efetividade de seu programa de integridade.",Errado. Baixa ocorrência ≠ baixa detecção: pode haver desconfiança no canal ou medo de retaliação.,efetividade,cgu-affc,Edital P2 — Governança 5.3,2026-10-29

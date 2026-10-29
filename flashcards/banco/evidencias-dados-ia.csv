@@ -1,0 +1,4 @@
+id,tipo,frente,verso,topico,concursos,fonte,criado
+edia-0001,ce,A existência de forte correlação entre duas variáveis observadas é suficiente para concluir que uma causa a outra.,"Errado. Correlação ≠ causalidade: confundidores, causalidade reversa, coincidência.",causalidade,cgu-affc,Edital P2 — Evidências 3.1,2026-10-29
+edia-0002,ce,Comete falácia ecológica quem infere características de indivíduos a partir de dados agregados de grupos.,Certo. Ex.: município com alta renda média → concluir que cada morador é rico.,falacias,cgu-affc,Edital P2 — Evidências 3.2,2026-10-29
+edia-0003,ce,"Aumento no número de denúncias de corrupção registradas indica, necessariamente, aumento da ocorrência de corrupção.","Errado. Pode refletir maior confiança nos canais ou mais detecção. Denúncia e sanção medem detecção, não ocorrência (subnotificação).",indicadores-corrupcao,cgu-affc,Edital P2 — Evidências 2.2,2026-10-29
