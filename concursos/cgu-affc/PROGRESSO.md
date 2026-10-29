@@ -26,7 +26,7 @@ Pasta: `disciplinas/ciencia-politica-e-estado/` (ainda sem notas) · Acervo: [`a
   - 🟨 1.1 Estado, governo e administração; autoridade, legitimidade e poder; interesse público, pluralismo e conflitos distributivos · [📚 acervo](acervo/ciencia-politica-e-estado.md#1-estado-e-legitimidade)
 - ⬜ **2** Democracia e representação · [📚 acervo](acervo/ciencia-politica-e-estado.md#2-democracia-e-representacao)
   - ⬜ 2.1 Representação e participação; responsabilização democrática; relações entre Executivo, Legislativo e Judiciário; governabilidade e controles recíprocos · [📚 acervo](acervo/ciencia-politica-e-estado.md#2-democracia-e-representacao)
-- 🔁 **3** Federalismo e capacidades estatais · [📚 acervo](acervo/ciencia-politica-e-estado.md#3-federalismo-e-capacidades-estatais)
+- ⬜ **3** Federalismo e capacidades estatais · [📚 acervo](acervo/ciencia-politica-e-estado.md#3-federalismo-e-capacidades-estatais)
   - ⬜ 3.1 Autonomia, coordenação e cooperação federativa; capacidades administrativas e políticas; burocracia, discricionariedade e implementação de direitos · [📚 acervo](acervo/ciencia-politica-e-estado.md#3-federalismo-e-capacidades-estatais)
 - ⬜ **4** Ordem constitucional e direitos · [📚 acervo](acervo/ciencia-politica-e-estado.md#4-ordem-constitucional-e-direitos)
   - ⬜ 4.1 Fundamentos e objetivos da República; direitos fundamentais, sociais e políticos; igualdade, devido processo e limites ao exercício do poder; princípios da administração pública · [📚 acervo](acervo/ciencia-politica-e-estado.md#4-ordem-constitucional-e-direitos)
