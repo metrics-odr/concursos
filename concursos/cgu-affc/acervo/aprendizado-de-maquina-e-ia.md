@@ -1,6 +1,6 @@
 # 🔎 Acervo — Aprendizado de Máquina e Inteligência Artificial
 
-> P3 · Conhecimentos específicos · Pasta de notas: [`disciplinas/aprendizado-de-maquina-e-ia/`](../../../disciplinas/aprendizado-de-maquina-e-ia/)
+> P3 · Conhecimentos específicos · Pasta de notas: `disciplinas/aprendizado-de-maquina-e-ia/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

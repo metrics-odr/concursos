@@ -1,6 +1,6 @@
 # 🔎 Acervo — Estatística, Programação e Análise de Dados
 
-> P3 · Conhecimentos específicos · Pasta de notas: [`disciplinas/estatistica-programacao-analise-dados/`](../../../disciplinas/estatistica-programacao-analise-dados/)
+> P3 · Conhecimentos específicos · Pasta de notas: `disciplinas/estatistica-programacao-analise-dados/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

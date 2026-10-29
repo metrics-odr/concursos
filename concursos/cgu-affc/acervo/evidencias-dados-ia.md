@@ -1,6 +1,6 @@
 # 🔎 Acervo — Fundamentos de Evidências, Dados e Inteligência Artificial
 
-> P2 · Conhecimentos complementares · Pasta de notas: [`disciplinas/evidencias-dados-ia/`](../../../disciplinas/evidencias-dados-ia/)
+> P2 · Conhecimentos complementares · Pasta de notas: `disciplinas/evidencias-dados-ia/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

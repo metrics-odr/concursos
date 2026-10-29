@@ -143,8 +143,12 @@ def checklist(disciplinas):
         if d["grupo"] != grupo:
             grupo = d["grupo"]
             out += [f"## {d['prova']} — {d['grupo_nome']}", ""]
+        # só linka a pasta se ela já tem notas (link para pasta inexistente/vazia = página vazia no site)
+        tem_notas = any((RAIZ / "disciplinas" / d["slug"]).glob("*.md"))
+        pasta = (f"Pasta: [`disciplinas/{d['slug']}/`](../../disciplinas/{d['slug']}/)" if tem_notas
+                 else f"Pasta: `disciplinas/{d['slug']}/` (ainda sem notas)")
         out += [f"### {d['disciplina']}",
-                f"Pasta: [`disciplinas/{d['slug']}/`](../../disciplinas/{d['slug']}/) · "
+                f"{pasta} · "
                 f"Acervo: [`acervo/{d['slug']}.md`](acervo/{d['slug']}.md)", ""]
         for t in d["topicos"]:
             out.append(f"- ⬜ **{t['num']}** {t['titulo']}")

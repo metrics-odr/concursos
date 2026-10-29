@@ -6,11 +6,14 @@ Verifica:
     tópicos existentes no edital, texto-base e PDF de origem existentes
   - disciplinas/: tópicos do frontmatter existem no edital
   - [[wikilinks]] em questoes/, disciplinas/, bancas/ e _indices/ apontam para arquivos que existem
+  - links Markdown relativos [texto](caminho) em TODO .md do repositório apontam para arquivo existente
+    (ou pasta com notas). Ao mover/renomear um arquivo, atualize os links que apontam para ele.
 
 Uso: python3 scripts/validar.py
 """
 import re
 import sys
+import urllib.parse
 from collections import defaultdict
 
 from comum import (QUESTOES, RAIZ, TIPOS_ITEM, WIKILINK, arquivos_repo, como_lista, ler_md,
@@ -21,6 +24,9 @@ OBRIGATORIOS = ["id", "tipo", "banca", "ano", "orgao", "cargo", "especialidade",
 STATUS = {"valida", "anulada", "alterada"}
 CARGO_ALVO = {"sim", "analogo"}
 PASTAS_LINKS = ["questoes", "disciplinas", "bancas", "_indices"]
+LINK_MD = re.compile(r"(?<!!)\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
+EXTERNO = re.compile(r"^(?:[a-z][a-z0-9+.-]*:|#|/|\{)", re.I)
+IGNORAR_LINKS = {"_templates", "_site", "node_modules", ".git"}  # modelos têm links de exemplo
 CODIGO = re.compile(r"```.*?```|`[^`\n]*`", re.S)
 
 erros = []
@@ -112,6 +118,25 @@ def main():
             for m in WIKILINK.finditer(texto):
                 if not resolver_wikilink(m.group(1), arquivos):
                     erro(str(p.relative_to(RAIZ)), f"link interno quebrado [[{m.group(1)}]]")
+
+    for p in sorted(RAIZ.rglob("*.md")):
+        partes = p.relative_to(RAIZ).parts
+        if IGNORAR_LINKS & set(partes):
+            continue
+        texto = CODIGO.sub("", p.read_text(encoding="utf-8"))
+        for m in LINK_MD.finditer(texto):
+            alvo = m.group(1)
+            if EXTERNO.match(alvo):
+                continue
+            caminho = urllib.parse.unquote(alvo.split("#")[0].split("?")[0])
+            if not caminho:
+                continue
+            destino = (p.parent / caminho).resolve()
+            rel = str(p.relative_to(RAIZ))
+            if not destino.exists():
+                erro(rel, f"link quebrado ({alvo}): o destino não existe — se o arquivo foi movido/renomeado, atualize este link")
+            elif destino.is_dir() and not any(f.is_file() for f in destino.rglob("*")):
+                erro(rel, f"link ({alvo}) aponta para pasta vazia (abre página vazia no site) — remova o link ou crie a nota")
 
     if erros:
         print(f"❌ {len(erros)} problema(s):")

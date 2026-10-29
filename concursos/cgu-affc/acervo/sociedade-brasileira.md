@@ -1,6 +1,6 @@
 # 🔎 Acervo — Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento
 
-> P1 · Conhecimentos básicos · Pasta de notas: [`disciplinas/sociedade-brasileira/`](../../../disciplinas/sociedade-brasileira/)
+> P1 · Conhecimentos básicos · Pasta de notas: `disciplinas/sociedade-brasileira/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

@@ -1,6 +1,6 @@
 # 🔎 Acervo — Administração Pública e Fundamentos de Políticas Públicas
 
-> P1 · Conhecimentos básicos · Pasta de notas: [`disciplinas/administracao-publica-e-politicas/`](../../../disciplinas/administracao-publica-e-politicas/)
+> P1 · Conhecimentos básicos · Pasta de notas: `disciplinas/administracao-publica-e-politicas/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

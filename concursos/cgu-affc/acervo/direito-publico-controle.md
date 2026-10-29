@@ -1,6 +1,6 @@
 # 🔎 Acervo — Fundamentos de Direito Público Aplicado, Controle e Responsabilização
 
-> P2 · Conhecimentos complementares · Pasta de notas: [`disciplinas/direito-publico-controle/`](../../../disciplinas/direito-publico-controle/)
+> P2 · Conhecimentos complementares · Pasta de notas: `disciplinas/direito-publico-controle/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

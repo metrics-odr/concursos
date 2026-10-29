@@ -1,6 +1,6 @@
 # 🔎 Acervo — Fundamentos de Transparência, Ouvidoria e Participação Social
 
-> P2 · Conhecimentos complementares · Pasta de notas: [`disciplinas/transparencia-ouvidoria-participacao/`](../../../disciplinas/transparencia-ouvidoria-participacao/)
+> P2 · Conhecimentos complementares · Pasta de notas: `disciplinas/transparencia-ouvidoria-participacao/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

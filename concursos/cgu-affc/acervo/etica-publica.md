@@ -1,6 +1,6 @@
 # 🔎 Acervo — Ética Pública e Responsabilidade Profissional
 
-> P1 · Conhecimentos básicos · Pasta de notas: [`disciplinas/etica-publica/`](../../../disciplinas/etica-publica/)
+> P1 · Conhecimentos básicos · Pasta de notas: `disciplinas/etica-publica/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

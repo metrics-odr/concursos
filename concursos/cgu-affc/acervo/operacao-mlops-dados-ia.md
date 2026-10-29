@@ -1,6 +1,6 @@
 # 🔎 Acervo — Operação, Governança e Gestão de Soluções de Dados e IA
 
-> P3 · Conhecimentos específicos · Pasta de notas: [`disciplinas/operacao-mlops-dados-ia/`](../../../disciplinas/operacao-mlops-dados-ia/)
+> P3 · Conhecimentos específicos · Pasta de notas: `disciplinas/operacao-mlops-dados-ia/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

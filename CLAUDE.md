@@ -16,6 +16,9 @@ O Claude atua como organizador: lê os materiais enviados, escreve notas em Mark
 > [!IMPORTANT]
 > **Antes de todo commit** que mexa em `questoes/`, `disciplinas/` ou `bancas/`: `python3 scripts/build_indices.py && python3 scripts/validar.py`. O `validar.py` diz o arquivo e o que corrigir; o site não publica se ele falhar. `_indices/` é gerado — nunca editar à mão.
 
+> [!IMPORTANT]
+> **Links nunca podem quebrar.** Ao criar, mover, renomear ou apagar QUALQUER arquivo/pasta, atualizar **todos** os links que apontam para ele (`grep -rn "<nome-antigo>"` no repo inteiro, inclusive `app/app.js`, `scripts/` geradores e `nivelamento/resultados/`) e regenerar o que for gerado. Nunca linkar pasta vazia/inexistente (abre página vazia no site). Links gerados pelo app em `.md` são relativos ao local do arquivo gerado. O `validar.py` confere todos os links Markdown relativos do repo; rode antes de todo commit (qualquer pasta).
+
 ## Estrutura
 
 ```
