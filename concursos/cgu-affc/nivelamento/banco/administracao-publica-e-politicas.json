@@ -1,0 +1,115 @@
+{
+ "disciplina": "administracao-publica-e-politicas",
+ "itens": [
+  {
+   "id": "ap-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "A desconcentração consiste na distribuição de competências entre órgãos de uma mesma pessoa jurídica, ao passo que a descentralização envolve a transferência de atividades para outra pessoa, física ou jurídica.",
+   "j": "Desconcentração → órgãos, mesma pessoa, há hierarquia; descentralização → outra pessoa, há vinculação/controle finalístico."
+  },
+  {
+   "id": "ap-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "As autarquias integram a administração direta, por serem criadas por lei específica.",
+   "j": "Autarquias integram a administração indireta (DL nº 200/1967, art. 4º, II).",
+   "f": "Decreto-Lei nº 200/1967, art. 4º"
+  },
+  {
+   "id": "ap-1-03",
+   "t": "1",
+   "g": "C",
+   "q": "Empresas públicas e sociedades de economia mista são pessoas jurídicas de direito privado integrantes da administração indireta.",
+   "f": "Decreto-Lei nº 200/1967; Lei nº 13.303/2016"
+  },
+  {
+   "id": "ap-2-01",
+   "t": "2",
+   "g": "C",
+   "q": "O modelo burocrático weberiano tem como características a impessoalidade, a hierarquia, a profissionalização e o formalismo."
+  },
+  {
+   "id": "ap-2-02",
+   "t": "2",
+   "g": "E",
+   "q": "O modelo gerencial do Plano Diretor da Reforma do Aparelho do Estado (1995) enfatizava o controle de procedimentos a priori em detrimento do controle de resultados.",
+   "j": "É o inverso: o gerencialismo desloca o foco para resultados (controle a posteriori).",
+   "f": "PDRAE (1995)"
+  },
+  {
+   "id": "ap-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "O patrimonialismo caracteriza-se pela confusão entre o patrimônio público e o privado do governante."
+  },
+  {
+   "id": "ap-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "No modelo de múltiplos fluxos de Kingdon, uma janela de oportunidade se abre quando convergem os fluxos dos problemas, das soluções e da política.",
+   "j": "Problems, policies e politics.",
+   "f": "Kingdon (1984)"
+  },
+  {
+   "id": "ap-3-02",
+   "t": "3",
+   "g": "E",
+   "q": "No ciclo de políticas públicas, a avaliação só pode ocorrer após o término da implementação, sendo inviável a avaliação ex ante.",
+   "j": "Avaliação ex ante (desenho), intermediária/de processo e ex post.",
+   "f": "Guia de avaliação ex ante (Casa Civil/Ipea)"
+  },
+  {
+   "id": "ap-3-03",
+   "t": "3",
+   "g": "C",
+   "q": "Na abordagem bottom-up de implementação, enfatiza-se o papel dos atores locais e da burocracia de linha na conformação dos resultados da política.",
+   "j": "Top-down → foco na decisão central; bottom-up → foco em quem implementa."
+  },
+  {
+   "id": "ap-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "O plano plurianual estabelece, de forma regionalizada, as diretrizes, os objetivos e as metas da administração pública federal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada.",
+   "j": "Texto do art. 165, § 1º, da CF.",
+   "f": "CF/1988, art. 165, § 1º"
+  },
+  {
+   "id": "ap-4-02",
+   "t": "4",
+   "g": "E",
+   "q": "A lei de diretrizes orçamentárias, de iniciativa do Poder Legislativo, estima as receitas e fixa as despesas para o exercício financeiro.",
+   "j": "Quem estima receitas e fixa despesas é a LOA; as três leis orçamentárias são de iniciativa do Poder Executivo.",
+   "f": "CF/1988, art. 165"
+  },
+  {
+   "id": "ap-4-03",
+   "t": "4",
+   "g": "C",
+   "q": "A LDO compreende as metas e prioridades da administração pública federal e orienta a elaboração da lei orçamentária anual.",
+   "f": "CF/1988, art. 165, § 2º"
+  },
+  {
+   "id": "ap-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "A Lei do Governo Digital estabelece, entre seus princípios, a desburocratização e a simplificação da relação do poder público com a sociedade.",
+   "f": "Lei nº 14.129/2021, art. 3º"
+  },
+  {
+   "id": "ap-5-02",
+   "t": "5",
+   "g": "E",
+   "q": "A automação de serviços públicos por inteligência artificial elimina os riscos de exclusão de usuários, pois dispensa a interação humana.",
+   "j": "Automação pode criar novas barreiras (digitais, de acessibilidade) e erros que afetam direitos; deve haver canais alternativos e revisão."
+  },
+  {
+   "id": "ap-5-03",
+   "t": "5",
+   "g": "C",
+   "q": "A Lei nº 13.460/2017 dispõe sobre a participação, a proteção e a defesa dos direitos do usuário dos serviços públicos da administração pública.",
+   "j": "Código de Defesa do Usuário do Serviço Público.",
+   "f": "Lei nº 13.460/2017"
+  }
+ ]
+}

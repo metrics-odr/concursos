@@ -1,3 +1,9 @@
+---
+titulo: <Título do Tópico>
+tipo: nota
+topicos: [ML.3.1]        # IDs do edital (concursos/cgu-affc/edital/topicos.json)
+atualizado: AAAA-MM-DD
+---
 # <Número>. <Título do Tópico>
 
 > **Disciplina:** <disciplina> · **Item do edital:** <concurso> — <item>

@@ -1,0 +1,4345 @@
+{
+ "CP.1": {
+  "texto": "Estado e legitimidade",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.1.1": {
+  "texto": "Estado, governo e administração; autoridade, legitimidade e poder; interesse público, pluralismo e conflitos distributivos",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.2": {
+  "texto": "Democracia e representação",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.2.1": {
+  "texto": "Representação e participação; responsabilização democrática; relações entre Executivo, Legislativo e Judiciário; governabilidade e controles recíprocos",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.3": {
+  "texto": "Federalismo e capacidades estatais",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q018",
+   "CEB-2025-ANM-CD-Q019"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.3.1": {
+  "texto": "Autonomia, coordenação e cooperação federativa; capacidades administrativas e políticas; burocracia, discricionariedade e implementação de direitos",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q018",
+   "CEB-2025-ANM-CD-Q019"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.4": {
+  "texto": "Ordem constitucional e direitos",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.4.1": {
+  "texto": "Fundamentos e objetivos da República; direitos fundamentais, sociais e políticos; igualdade, devido processo e limites ao exercício do poder; princípios da administração pública",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.5": {
+  "texto": "Valor público e controle",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.5.1": {
+  "texto": "Resultados socialmente relevantes; legitimidade, confiança e direitos; controle interno, externo e social em perspectiva institucional; tensões entre eficiência, equidade e garantias",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.6": {
+  "texto": "Corrupção como fenômeno político e social",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.6.1": {
+  "texto": "Abuso do poder confiado e apropriação de decisões públicas em benefício particular; dimensões política, administrativa e público-privada",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.6.2": {
+  "texto": "Distinções entre corrupção, falha de gestão, conflito de interesses e ilícitos específicos; relações e diferenças entre clientelismo, patronagem, nepotismo e captura",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.7": {
+  "texto": "Mecanismos de reprodução e captura",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.7.1": {
+  "texto": "Assimetrias de poder e informação, incentivos e oportunidades; relações principal-agente e problemas de ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.7.2": {
+  "texto": "Captura de políticas e influência indevida; distinção entre representação legítima de interesses e favorecimento",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.8": {
+  "texto": "Consequências e respostas à corrupção",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.8.1": {
+  "texto": "Efeitos sobre direitos, desigualdades, competição, alocação de recursos, qualidade dos serviços e confiança institucional",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.8.2": {
+  "texto": "Relações entre prevenção, detecção, responsabilização e reparação; controles democráticos, participação e capacidades estatais",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.8.3": {
+  "texto": "Avaliação crítica das respostas e de seus efeitos não pretendidos, preservados o devido processo e a continuidade de serviços essenciais",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.9": {
+  "texto": "Estado e modelos de desenvolvimento econômico",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q016",
+   "CEB-2025-ANM-CD-Q017",
+   "CEB-2025-ANM-CD-Q029",
+   "CEB-2025-ANM-CD-Q030",
+   "CEB-2025-ANM-CD-Q031",
+   "CEB-2025-ANM-CD-Q033"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.9.1": {
+  "texto": "Arranjos de desenvolvimento com diferentes combinações de mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado; industrialização, inovação e transformação produtiva",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q029",
+   "CEB-2025-ANM-CD-Q030"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.9.2": {
+  "texto": "Papel das empresas estatais no investimento de longo prazo, na infraestrutura, no financiamento e na prestação de serviços públicos",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.9.3": {
+  "texto": "Relações entre finalidade pública, concorrência, universalização, sustentabilidade fiscal e socioambiental; capacidades estatais, riscos de captura e efeitos distributivos",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q031",
+   "CEB-2025-ANM-CD-Q033"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "CP.9.4": {
+  "texto": "Fundamentos constitucionais da atuação econômica do Estado e comparação de alternativas institucionais à luz de objetivos, evidências e resultados",
+  "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q016",
+   "CEB-2025-ANM-CD-Q017"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/ciencia-politica-e-estado.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "SB.1": {
+  "texto": "Fundamentos sociológicos",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "SB.1.1": {
+  "texto": "Instituições, socialização e ação coletiva; estratificação e mobilidade social; redes, poder, discriminação e reprodução das desigualdades",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "SB.2": {
+  "texto": "Formação social e cidadania no Brasil",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "SB.2.1": {
+  "texto": "Heranças da escravidão, hierarquias sociais e construção da cidadania; transformações nas relações entre Estado e sociedade; mecanismos de inclusão e exclusão institucional",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "SB.3": {
+  "texto": "População, território e trabalho",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "SB.3.1": {
+  "texto": "Transição demográfica, envelhecimento e cuidado; desigualdades regionais, urbanas e rurais; estrutura produtiva, informalidade e mudanças tecnológicas no trabalho",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "SB.4": {
+  "texto": "Diversidade e acesso a direitos",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "SB.4.1": {
+  "texto": "Relações étnico-raciais, gênero e sexualidade; pessoas com deficiência; idade; povos indígenas e comunidades tradicionais. Interseccionalidade, acessibilidade e barreiras administrativas e digitais",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "SB.5": {
+  "texto": "Desenvolvimento e realidade brasileira",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "SB.5.1": {
+  "texto": "Pobreza, renda e proteção social; educação, saúde, saneamento e habitação como problemas públicos; sustentabilidade e vulnerabilidade climática; leitura contextual de indicadores e desigualdades",
+  "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/sociedade-brasileira.md"
+  ],
+  "flashcards": []
+ },
+ "ET.1": {
+  "texto": "Fundamentos da ética pública",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.1.1": {
+  "texto": "Interesse público, dignidade, justiça e responsabilidade; relações entre deveres, consequências e virtudes profissionais; conflitos entre valores em decisões públicas",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.2": {
+  "texto": "Deveres profissionais",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q024",
+   "CEB-2025-ANM-CD-Q025",
+   "CEB-2025-ANM-CD-Q026"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.2.1": {
+  "texto": "Imparcialidade, probidade, diligência e respeito; autonomia técnica e responsabilidade; limites da obediência hierárquica; uso adequado de informação e recursos públicos",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q024",
+   "CEB-2025-ANM-CD-Q025",
+   "CEB-2025-ANM-CD-Q026"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.2.2": {
+  "texto": "Aplicação dos valores e deveres de conduta ética da CGU a situações de trabalho",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.3": {
+  "texto": "Conflitos de interesses e imparcialidade",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.3.1": {
+  "texto": "Identificação de interesses privados em conflito com a função pública e medidas de prevenção, consulta e encaminhamento, nos termos dos arts. 3º a 5º, 8º e 10 da Lei nº 12.813/2013",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.3.2": {
+  "texto": "Impedimento e suspeição no processo administrativo federal, nos termos dos arts. 18 a 21 da Lei nº 9.784/1999; comunicação e abstenção quando exigidas",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.4": {
+  "texto": "Relações de trabalho e atendimento",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.4.1": {
+  "texto": "Dignidade, diversidade e relações de poder; reconhecimento e prevenção de assédio e discriminação; respeito, escuta e não retaliação",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.4.2": {
+  "texto": "Distinção entre acolher uma pessoa, verificar fatos e atribuir responsabilidade",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.5": {
+  "texto": "Integridade como responsabilidade institucional",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "ET.5.1": {
+  "texto": "Coerência entre regras e práticas; ambiente organizacional e incentivos; canais de orientação e relato; papel do exemplo, da confiança e da prestação de contas",
+  "disciplina": "Ética Pública e Responsabilidade Profissional",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/etica-publica.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/etica-publica.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AP.1": {
+  "texto": "Organização administrativa",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q020",
+   "CEB-2025-ANM-CD-Q023",
+   "CEB-2025-ANM-CD-Q032"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "AP.1.1": {
+  "texto": "Administração direta e indireta; descentralização e desconcentração; agentes públicos; funções da administração pública: formulação, execução, regulação e controle de políticas e ações públicas; arranjos de cooperação com entes federativos e entidades não estatais",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q020",
+   "CEB-2025-ANM-CD-Q023",
+   "CEB-2025-ANM-CD-Q032"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "AP.2": {
+  "texto": "Modelos de administração",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "AP.2.1": {
+  "texto": "Burocracia e profissionalização; gestão orientada a resultados; participação e governança; limites e contribuições de diferentes modelos na realidade brasileira",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "AP.3": {
+  "texto": "Políticas públicas",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "AP.3.1": {
+  "texto": "Problema público, agenda e formulação; instrumentos de ação estatal; implementação, monitoramento e avaliação; intersetorialidade e atores governamentais e sociais",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "AP.4": {
+  "texto": "Planejamento e recursos",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q064",
+   "CEB-2025-ANM-CD-Q066"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "AP.4.1": {
+  "texto": "Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q064",
+   "CEB-2025-ANM-CD-Q066"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "AP.5": {
+  "texto": "Serviços e transformação digital",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "AP.5.1": {
+  "texto": "Orientação ao usuário; simplificação e acessibilidade; coordenação de serviços; oportunidades e riscos da automação e da inteligência artificial na administração",
+  "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+  "prova": "P1",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/administracao-publica-e-politicas.csv",
+    "cards": 2
+   }
+  ]
+ },
+ "GR.1": {
+  "texto": "Governança e responsabilidades",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q064"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.1.1": {
+  "texto": "Distinção entre direção, gestão, controle e prestação de contas; papéis, supervisão, transparência e responsabilização. Relação entre decisões organizacionais, finalidade pública e direitos",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q064"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.2": {
+  "texto": "Riscos e controles essenciais",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q076",
+   "CEB-2025-ANM-CD-Q077",
+   "CEB-2025-ANM-CD-Q078",
+   "CEB-2025-ANM-CD-Q083"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.2.1": {
+  "texto": "Risco, causa, consequência e controle; prevenção e detecção; proporcionalidade dos controles, segregação de funções e risco residual",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q076",
+   "CEB-2025-ANM-CD-Q077",
+   "CEB-2025-ANM-CD-Q078",
+   "CEB-2025-ANM-CD-Q083"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.2.2": {
+  "texto": "Identificação de vulnerabilidades e de controles compatíveis com situações usuais, a partir dos dados fornecidos",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.3": {
+  "texto": "Integridade pública",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.3.1": {
+  "texto": "Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.3.2": {
+  "texto": "Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.4": {
+  "texto": "Integridade privada",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.4.1": {
+  "texto": "Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.4.2": {
+  "texto": "Diferença entre existência documental, implementação e efetividade dos mecanismos",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.5": {
+  "texto": "Prevenção e melhoria institucional",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.5.1": {
+  "texto": "Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.5.2": {
+  "texto": "Denúncias e resultados de controle como insumos de melhoria",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "GR.5.3": {
+  "texto": "Distinção entre baixa ocorrência e baixa detecção de problemas; leitura de evidências simples sobre funcionamento e resultados das medidas",
+  "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/governanca-riscos-integridade.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "TO.1": {
+  "texto": "Acesso à informação",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q028",
+   "CEB-2025-ANM-CD-Q075"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.1.1": {
+  "texto": "Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q028"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.1.2": {
+  "texto": "Distinção conceitual entre informação classificada, sigilos previstos em lei, informação pessoal e documento preparatório; acesso parcial e comunicação clara da decisão",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q075"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.2": {
+  "texto": "Transparência e proteção de dados",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q027"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.2.1": {
+  "texto": "Compatibilização entre acesso à informação e proteção de dados pessoais; finalidade, necessidade e salvaguardas",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q027"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.2.2": {
+  "texto": "Diferença entre dados pessoais e dados pessoais sensíveis; noções de tarjamento, anonimização e risco de reidentificação",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.3": {
+  "texto": "Ouvidoria e proteção das pessoas",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.3.1": {
+  "texto": "Finalidades das manifestações; acolhimento, encaminhamento e resposta ao usuário; acessibilidade e linguagem cidadã",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.3.2": {
+  "texto": "Proteção da identidade e prevenção de retaliação",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.3.3": {
+  "texto": "Distinção entre receber um relato, apurar fatos e decidir sobre responsabilidade",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.4": {
+  "texto": "Participação e melhoria de serviços",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.4.1": {
+  "texto": "Participação e controle social; conselhos, consultas e escuta de usuários; representatividade e barreiras à participação",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.4.2": {
+  "texto": "Recorrências em manifestações como sinais de problemas. 4.2.1 Subnotificação",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.4.3": {
+  "texto": "Transparência ativa, dados abertos e Portal da Transparência como meios de acesso e controle; qualidade, atualização, cobertura e limites da informação",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.4.4": {
+  "texto": "Papel da CGU na orientação e no monitoramento da transparência e do acesso à informação, em nível de finalidade institucional",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.5": {
+  "texto": "Integridade da informação e comunicação",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.5.1": {
+  "texto": "Confiabilidade e contexto das fontes; distinção entre fato, alegação e interpretação",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.5.2": {
+  "texto": "Desinformação e efeitos sobre políticas públicas; comunicação de incertezas e correção de erros",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "TO.5.3": {
+  "texto": "Liberdade de expressão e pluralismo. 5.3.1 Distinção entre crítica legítima e desinformação",
+  "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/transparencia-ouvidoria-participacao.csv",
+    "cards": 4
+   }
+  ]
+ },
+ "DP.1": {
+  "texto": "Decisão administrativa",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q022"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.1.1": {
+  "texto": "Competência, finalidade, motivação, proporcionalidade e segurança jurídica; consideração das consequências e das condições de atuação",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.1.2": {
+  "texto": "Dever de fundamentação e limites ao exercício do poder e à revisão de decisões",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q022"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.2": {
+  "texto": "Processo e garantias",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.2.1": {
+  "texto": "Devido processo, contraditório, defesa e imparcialidade; finalidade da instrução e da prova",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.2.2": {
+  "texto": "Distinção entre procedimento investigativo e processo sancionador; proteção de direitos e necessidade de fundamentar conclusões",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.3": {
+  "texto": "Funções de controle e melhoria da gestão",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.3.1": {
+  "texto": "Finalidades do controle interno, externo e social; inserção institucional da CGU no Poder Executivo federal",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.3.2": {
+  "texto": "Avaliação da ação governamental e apoio ao aprimoramento da gestão, da governança, dos controles e dos resultados das políticas públicas; prevenção, detecção e correção de irregularidades",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.3.3": {
+  "texto": "Autonomia técnica e responsabilidades dos gestores; diferenças de competências e complementaridade com o controle externo exercido pelo Congresso Nacional com o auxílio do TCU",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.3.4": {
+  "texto": "Distinção entre avaliar a gestão, apurar fatos e aplicar sanções; cooperação e compartilhamento lícito de informações",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.4": {
+  "texto": "Responsabilização em nível introdutório",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q021",
+   "CEB-2025-ANM-CD-Q023"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.4.1": {
+  "texto": "Distinção entre indício, falha de gestão, irregularidade e responsabilidade",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.4.2": {
+  "texto": "Finalidades e diferenças entre responsabilização de agentes públicos e de pessoas jurídicas; noções de admissibilidade, processo disciplinar, processo administrativo de responsabilização e acordo de leniência",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q021",
+   "CEB-2025-ANM-CD-Q023"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.5": {
+  "texto": "Proteção e encaminhamento",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "DP.5.1": {
+  "texto": "Distinção entre acolhimento, medidas de proteção, apuração de fatos e conclusão sancionadora, especialmente diante de assédio e discriminação; finalidades e garantias de cada atuação",
+  "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/direito-publico-controle.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/direito-publico-controle.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.1": {
+  "texto": "Perguntas e fontes",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.1.1": {
+  "texto": "Relação entre problema, pergunta e informação necessária; fontes documentais, administrativas, estatísticas e de participação social",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.1.2": {
+  "texto": "Distinção entre dado, evidência, interpretação e juízo de valor; verificação de origem e confronto de fontes",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.2": {
+  "texto": "Leitura de dados e indicadores",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.2.1": {
+  "texto": "Interpretação de tabelas, gráficos, proporções, taxas e medidas descritivas; denominadores, qualidade e comparabilidade",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.2.2": {
+  "texto": "Distinção entre indicadores de percepção, experiência, denúncias, detecção e sanções na análise da corrupção; subnotificação e limites de inferência sobre sua ocorrência",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.3": {
+  "texto": "Inferências e erros de raciocínio",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.3.1": {
+  "texto": "Associação e causalidade; seleção e representatividade; explicações alternativas e incerteza",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.3.2": {
+  "texto": "Generalizações indevidas, falácia ecológica e viés de confirmação; falsos positivos e falsos negativos",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.4": {
+  "texto": "Integridade da evidência e proteção",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.4.1": {
+  "texto": "Rastreabilidade e verificação de informações; comunicação proporcional dos resultados e limites",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.4.2": {
+  "texto": "Escuta sem indução, confidencialidade e risco de identificação indireta",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.4.3": {
+  "texto": "Distinção entre as condições e os regimes de proteção de entrevistados em auditoria, participantes de pesquisa e denunciantes",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.5": {
+  "texto": "Uso responsável de inteligência artificial",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.5.1": {
+  "texto": "Possibilidades de classificação, busca, síntese e apoio à análise; escolha entre IA, solução simples e revisão humana",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.5.2": {
+  "texto": "Erros, conteúdo não sustentado, vieses e efeitos sobre grupos; proteção de informações, supervisão, rastreabilidade e contestação",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EV.5.3": {
+  "texto": "Verificação de fontes e limites da automação de decisões que afetam direitos",
+  "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/evidencias-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/evidencias-dados-ia.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.1": {
+  "texto": "Propósito, serviços e papéis",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.1.1": {
+  "texto": "Contribuição da auditoria para a governança, os riscos, os controles e os resultados",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.1.2": {
+  "texto": "Avaliação e consultoria como serviços de auditoria interna governamental; apuração de atos e fatos com indícios de ilegalidade ou irregularidade na utilização de recursos públicos federais como competência do sistema de controle interno",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.1.3": {
+  "texto": "Finalidades e diferenças entre as três formas de atuação da SFC; relação com a gestão, correição e avaliação de políticas",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.1.4": {
+  "texto": "Independência, objetividade, diligência e ceticismo; papéis de gestão, supervisão e auditoria no modelo das três linhas",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.2": {
+  "texto": "Ciclo do trabalho",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.2.1": {
+  "texto": "Planejamento, execução, comunicação e monitoramento; finalidade de objetivos, escopo, critérios e perguntas",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.2.2": {
+  "texto": "Priorização por risco, materialidade e relevância social em nível conceitual; adequação do trabalho às finalidades de avaliação, consultoria ou apuração",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.2.3": {
+  "texto": "Apoio à melhoria da gestão com preservação da autonomia técnica e das responsabilidades de decisão e execução dos gestores",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.3": {
+  "texto": "Evidência e conclusão",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.3.1": {
+  "texto": "Suficiência, adequação e confiabilidade; noção de achado e de limitações",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.3.2": {
+  "texto": "Distinção entre sinal de risco, evidência e conclusão; necessidade de aprofundamento e proporcionalidade da afirmação",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.4": {
+  "texto": "Comunicação e acompanhamento",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.4.1": {
+  "texto": "Clareza, contexto e utilidade dos resultados; publicidade e proteção de pessoas e informações",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.4.2": {
+  "texto": "Recomendações relacionadas a causas e riscos; distinção entre plano de ação, implementação, resultado e benefício",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.5": {
+  "texto": "Integração entre funções da CGU",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.5.1": {
+  "texto": "Denúncias e informações de ouvidoria e transparência como insumos de risco; achados como subsídios para admissibilidade correcional e responsabilização de entes privados",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "AU.5.2": {
+  "texto": "Resultados do controle como insumos de integridade e melhoria de serviços; compartilhamento lícito, devolutivas e proteção",
+  "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+  "prova": "P2",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/auditoria-governamental-cgu.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/auditoria-governamental-cgu.csv",
+    "cards": 3
+   }
+  ]
+ },
+ "EP.1": {
+  "texto": "Exploração e descrição",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q086",
+   "CEB-2022-PETROBRAS-CD-Q087",
+   "CEB-2022-PETROBRAS-CD-Q088",
+   "CEB-2022-PETROBRAS-CD-Q113",
+   "CEB-2022-PETROBRAS-CD-Q114",
+   "CEB-2022-PETROBRAS-CD-Q115"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.1.1": {
+  "texto": "Tipos de dados e variáveis; distribuições de frequências, medidas de posição e dispersão; exploração e visualização; comparação de grupos e períodos; identificação de padrões, anomalias e limites das fontes",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q086",
+   "CEB-2022-PETROBRAS-CD-Q087",
+   "CEB-2022-PETROBRAS-CD-Q088",
+   "CEB-2022-PETROBRAS-CD-Q113",
+   "CEB-2022-PETROBRAS-CD-Q114",
+   "CEB-2022-PETROBRAS-CD-Q115"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.2": {
+  "texto": "Probabilidade e inferência",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q089",
+   "CEB-2022-PETROBRAS-CD-Q110",
+   "CEB-2022-PETROBRAS-CD-Q111",
+   "CEB-2022-PETROBRAS-CD-Q112",
+   "CEB-2022-PETROBRAS-CD-Q114",
+   "CEB-2025-ANM-CD-Q048",
+   "CEB-2025-ANM-CD-Q049",
+   "CEB-2025-ANM-CD-Q050"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.2.1": {
+  "texto": "Probabilidade e distribuições em aplicações; amostragem, estimação, intervalos de confiança e testes de hipóteses",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q089",
+   "CEB-2022-PETROBRAS-CD-Q110",
+   "CEB-2022-PETROBRAS-CD-Q111",
+   "CEB-2022-PETROBRAS-CD-Q112",
+   "CEB-2022-PETROBRAS-CD-Q114",
+   "CEB-2025-ANM-CD-Q048",
+   "CEB-2025-ANM-CD-Q049",
+   "CEB-2025-ANM-CD-Q050"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.2.2": {
+  "texto": "Pressupostos, incerteza e erros de inferência; significância estatística e relevância prática",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.3": {
+  "texto": "Relações entre variáveis",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q051",
+   "CEB-2022-PETROBRAS-CD-Q058",
+   "CEB-2022-PETROBRAS-CD-Q059"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.3.1": {
+  "texto": "Correlação, regressão e análise de variância; pressupostos, tamanho de efeito e interpretação de resultados",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q051",
+   "CEB-2022-PETROBRAS-CD-Q058",
+   "CEB-2022-PETROBRAS-CD-Q059"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.3.2": {
+  "texto": "Associação, predição e causalidade; seleção, representatividade e explicações alternativas em dados administrativos",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.4": {
+  "texto": "Programação para análise",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q064",
+   "CEB-2022-PETROBRAS-CD-Q065",
+   "CEB-2022-PETROBRAS-CD-Q078",
+   "CEB-2022-PETROBRAS-CD-Q093",
+   "CEB-2022-PETROBRAS-CD-Q094",
+   "CEB-2022-PETROBRAS-CD-Q108",
+   "CEB-2022-PETROBRAS-CD-Q109"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.4.1": {
+  "texto": "Python 3: estruturas de dados, controle de fluxo, funções, módulos, arquivos e exceções; leitura, análise e depuração de rotinas de manipulação de dados; organização modular, testes e reprodutibilidade de análises",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q064",
+   "CEB-2022-PETROBRAS-CD-Q065",
+   "CEB-2022-PETROBRAS-CD-Q078",
+   "CEB-2022-PETROBRAS-CD-Q093",
+   "CEB-2022-PETROBRAS-CD-Q094",
+   "CEB-2022-PETROBRAS-CD-Q108",
+   "CEB-2022-PETROBRAS-CD-Q109"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.5": {
+  "texto": "Preparação e transformação",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q051",
+   "CEB-2022-PETROBRAS-CD-Q088",
+   "CEB-2022-PETROBRAS-CD-Q089",
+   "CEB-2022-PETROBRAS-CD-Q090",
+   "CEB-2022-PETROBRAS-CD-Q091",
+   "CEB-2022-PETROBRAS-CD-Q092",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q109",
+   "CEB-2025-ANM-CD-Q120"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "EP.5.1": {
+  "texto": "Valores ausentes, inconsistências, duplicações, outliers e desbalanceamento; transformação, codificação, normalização e padronização; engenharia e seleção de atributos; prevenção de vazamento de informação na preparação dos dados",
+  "disciplina": "Estatística, Programação e Análise de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q051",
+   "CEB-2022-PETROBRAS-CD-Q088",
+   "CEB-2022-PETROBRAS-CD-Q089",
+   "CEB-2022-PETROBRAS-CD-Q090",
+   "CEB-2022-PETROBRAS-CD-Q091",
+   "CEB-2022-PETROBRAS-CD-Q092",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q109",
+   "CEB-2025-ANM-CD-Q120"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/estatistica-programacao-analise-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/estatistica-programacao-analise-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.1": {
+  "texto": "Modelagem e arquiteturas",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q095",
+   "CEB-2022-PETROBRAS-CD-Q096",
+   "CEB-2022-PETROBRAS-CD-Q098",
+   "CEB-2025-ANM-CD-Q102",
+   "CEB-2025-ANM-CD-Q103",
+   "CEB-2025-ANM-CD-Q104",
+   "CEB-2025-ANM-CD-Q105",
+   "CEB-2025-ANM-CD-Q106",
+   "CEB-2025-ANM-CD-Q108"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.1.1": {
+  "texto": "Modelos relacional, documental, chave-valor, multidimensional e vetorial; normalização e integridade; transações e consistência",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q095",
+   "CEB-2022-PETROBRAS-CD-Q096",
+   "CEB-2022-PETROBRAS-CD-Q098",
+   "CEB-2025-ANM-CD-Q102",
+   "CEB-2025-ANM-CD-Q103",
+   "CEB-2025-ANM-CD-Q104",
+   "CEB-2025-ANM-CD-Q105",
+   "CEB-2025-ANM-CD-Q108"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.1.2": {
+  "texto": "Data warehouse, data mart, data lake e lakehouse; produtos de dados, responsabilidade por domínios, autosserviço e governança federada em data mesh",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q106",
+   "CEB-2025-ANM-CD-Q108"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.2": {
+  "texto": "SQL e consultas analíticas",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q095",
+   "CEB-2022-PETROBRAS-CD-Q097",
+   "CEB-2025-ANM-CD-Q101",
+   "CEB-2025-ANM-CD-Q113",
+   "CEB-2025-ANM-CD-Q114"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.2.1": {
+  "texto": "Definição e manipulação de dados, controle de acesso e transações; filtros, junções, agregações, subconsultas, expressões de tabela comuns e funções de janela",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q095",
+   "CEB-2022-PETROBRAS-CD-Q097",
+   "CEB-2025-ANM-CD-Q101",
+   "CEB-2025-ANM-CD-Q113",
+   "CEB-2025-ANM-CD-Q114"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.2.2": {
+  "texto": "Índices, planos de execução e desempenho; valores nulos, duplicações e erros de interpretação em consultas",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.3": {
+  "texto": "Ingestão e integração",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q093",
+   "CEB-2022-PETROBRAS-CD-Q094",
+   "CEB-2025-ANM-CD-Q107",
+   "CEB-2025-ANM-CD-Q110",
+   "CEB-2025-ANM-CD-Q111"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.3.1": {
+  "texto": "ETL e ELT; processamento em lote e fluxo, completo e incremental; APIs e contratos de dados; formatos CSV, JSON, XML e Parquet; interoperabilidade semântica e técnica; falhas, repetição de processamento e consistência",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q093",
+   "CEB-2022-PETROBRAS-CD-Q094",
+   "CEB-2025-ANM-CD-Q107",
+   "CEB-2025-ANM-CD-Q110",
+   "CEB-2025-ANM-CD-Q111"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.4": {
+  "texto": "Processamento distribuído",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q099"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.4.1": {
+  "texto": "Particionamento, paralelismo, movimentação de dados e execução distribuída de transformações e junções",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q099"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.4.2": {
+  "texto": "Escalabilidade, tolerância a falhas e custo",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q099"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.4.3": {
+  "texto": "Planos de execução",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.4.4": {
+  "texto": "Assimetria entre partições e resultados inconsistentes",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.5": {
+  "texto": "Qualidade e rastreabilidade",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q107"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.5.1": {
+  "texto": "Metadados, catálogo e linhagem",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.5.2": {
+  "texto": "Completude, consistência, validade, unicidade, acurácia e atualidade",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.5.3": {
+  "texto": "Perfilamento, deduplicação, vinculação de registros e enriquecimento",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q107"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.5.4": {
+  "texto": "Conciliação de fontes",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.5.5": {
+  "texto": "Riscos de correspondências incorretas entre pessoas ou entidades",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.6": {
+  "texto": "Compartilhamento e proteção",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q027",
+   "CEB-2025-ANM-CD-Q055",
+   "CEB-2025-ANM-CD-Q056",
+   "CEB-2025-ANM-CD-Q086"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.6.1": {
+  "texto": "Minimização, segregação de ambientes e privilégios",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q086"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.6.2": {
+  "texto": "Retenção e descarte",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q086"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.6.3": {
+  "texto": "Anonimização, pseudonimização e reidentificação",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.6.4": {
+  "texto": "Publicação, reutilização e compartilhamento controlados",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ED.6.5": {
+  "texto": "Proteção de dados pessoais e equilíbrio entre utilidade analítica, abertura e proteção de pessoas",
+  "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q027",
+   "CEB-2025-ANM-CD-Q055",
+   "CEB-2025-ANM-CD-Q056"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/engenharia-arquitetura-governanca-dados.csv",
+    "cards": 9
+   }
+  ]
+ },
+ "ML.1": {
+  "texto": "Seleção e construção de modelos",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q056",
+   "CEB-2022-PETROBRAS-CD-Q057",
+   "CEB-2022-PETROBRAS-CD-Q058",
+   "CEB-2022-PETROBRAS-CD-Q060",
+   "CEB-2022-PETROBRAS-CD-Q061",
+   "CEB-2022-PETROBRAS-CD-Q062",
+   "CEB-2022-PETROBRAS-CD-Q063",
+   "CEB-2022-PETROBRAS-CD-Q064",
+   "CEB-2022-PETROBRAS-CD-Q065",
+   "CEB-2022-PETROBRAS-CD-Q066",
+   "CEB-2022-PETROBRAS-CD-Q067",
+   "CEB-2022-PETROBRAS-CD-Q068",
+   "CEB-2022-PETROBRAS-CD-Q069",
+   "CEB-2022-PETROBRAS-CD-Q079",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q092",
+   "CEB-2025-ANM-CD-Q093",
+   "CEB-2025-ANM-CD-Q094",
+   "CEB-2025-ANM-CD-Q115",
+   "CEB-2025-ANM-CD-Q119"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.1.1": {
+  "texto": "Aprendizado supervisionado e não supervisionado; noções e limites de abordagens semissupervisionadas e por reforço",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q079",
+   "CEB-2025-ANM-CD-Q092",
+   "CEB-2025-ANM-CD-Q093"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.1.2": {
+  "texto": "Regressão, classificação, agrupamento, redução de dimensionalidade e detecção de anomalias; regularização, ensembles, sobreajuste e subajuste; comparação com soluções simples",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q056",
+   "CEB-2022-PETROBRAS-CD-Q057",
+   "CEB-2022-PETROBRAS-CD-Q058",
+   "CEB-2022-PETROBRAS-CD-Q060",
+   "CEB-2022-PETROBRAS-CD-Q061",
+   "CEB-2022-PETROBRAS-CD-Q062",
+   "CEB-2022-PETROBRAS-CD-Q063",
+   "CEB-2022-PETROBRAS-CD-Q064",
+   "CEB-2022-PETROBRAS-CD-Q065",
+   "CEB-2022-PETROBRAS-CD-Q066",
+   "CEB-2022-PETROBRAS-CD-Q067",
+   "CEB-2022-PETROBRAS-CD-Q068",
+   "CEB-2022-PETROBRAS-CD-Q069",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q094",
+   "CEB-2025-ANM-CD-Q115",
+   "CEB-2025-ANM-CD-Q119"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.2": {
+  "texto": "Validação e generalização",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q054",
+   "CEB-2022-PETROBRAS-CD-Q055",
+   "CEB-2022-PETROBRAS-CD-Q056",
+   "CEB-2022-PETROBRAS-CD-Q057",
+   "CEB-2022-PETROBRAS-CD-Q063",
+   "CEB-2022-PETROBRAS-CD-Q066",
+   "CEB-2022-PETROBRAS-CD-Q075",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q112",
+   "CEB-2025-ANM-CD-Q116",
+   "CEB-2025-ANM-CD-Q117"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.2.1": {
+  "texto": "Separação de treino, validação e teste",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q055"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.2.2": {
+  "texto": "Validação cruzada e temporal",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.2.3": {
+  "texto": "Vazamento de informação",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.2.4": {
+  "texto": "Viés e variância",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q054",
+   "CEB-2022-PETROBRAS-CD-Q056",
+   "CEB-2022-PETROBRAS-CD-Q057",
+   "CEB-2022-PETROBRAS-CD-Q063",
+   "CEB-2022-PETROBRAS-CD-Q075",
+   "CEB-2025-ANM-CD-Q116",
+   "CEB-2025-ANM-CD-Q117"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.2.5": {
+  "texto": "Generalização e estabilidade dos resultados",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q054",
+   "CEB-2025-ANM-CD-Q116"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.2.6": {
+  "texto": "Comparação de modelos e adequação ao uso pretendido",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q066",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q112"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.3": {
+  "texto": "Métricas e efeitos das decisões",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q052",
+   "CEB-2022-PETROBRAS-CD-Q053",
+   "CEB-2025-ANM-CD-DISC01"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.3.1": {
+  "texto": "Precisão, sensibilidade, especificidade, calibração e métricas de regressão",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q052",
+   "CEB-2022-PETROBRAS-CD-Q053",
+   "CEB-2025-ANM-CD-DISC01"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.3.2": {
+  "texto": "Custos dos falsos positivos e falsos negativos",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.3.3": {
+  "texto": "Desempenho por grupos, discriminação e incerteza",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.3.4": {
+  "texto": "Explicabilidade e interpretabilidade",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.3.5": {
+  "texto": "Limites do uso de escores para priorização e tomada de decisão",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.4": {
+  "texto": "Redes neurais",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q070",
+   "CEB-2022-PETROBRAS-CD-Q071",
+   "CEB-2022-PETROBRAS-CD-Q072",
+   "CEB-2022-PETROBRAS-CD-Q073",
+   "CEB-2022-PETROBRAS-CD-Q074",
+   "CEB-2022-PETROBRAS-CD-Q075",
+   "CEB-2022-PETROBRAS-CD-Q076",
+   "CEB-2022-PETROBRAS-CD-Q077",
+   "CEB-2022-PETROBRAS-CD-Q078",
+   "CEB-2022-PETROBRAS-CD-Q079",
+   "CEB-2022-PETROBRAS-CD-Q080",
+   "CEB-2025-ANM-CD-Q087",
+   "CEB-2025-ANM-CD-Q088",
+   "CEB-2025-ANM-CD-Q089",
+   "CEB-2025-ANM-CD-Q096",
+   "CEB-2025-ANM-CD-Q097",
+   "CEB-2025-ANM-CD-Q118",
+   "CEB-2025-ANM-CD-Q120"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.4.1": {
+  "texto": "Perceptron e redes multicamadas",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q070",
+   "CEB-2022-PETROBRAS-CD-Q071",
+   "CEB-2025-ANM-CD-Q087",
+   "CEB-2025-ANM-CD-Q088",
+   "CEB-2025-ANM-CD-Q089"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.4.2": {
+  "texto": "Funções de ativação e perda, otimização, retropropagação e regularização em nível conceitual e de interpretação de resultados",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q071",
+   "CEB-2022-PETROBRAS-CD-Q072",
+   "CEB-2022-PETROBRAS-CD-Q073",
+   "CEB-2022-PETROBRAS-CD-Q075",
+   "CEB-2022-PETROBRAS-CD-Q078",
+   "CEB-2025-ANM-CD-Q118"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.4.3": {
+  "texto": "Redes convolucionais, recorrentes e transformers",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q074",
+   "CEB-2022-PETROBRAS-CD-Q076",
+   "CEB-2022-PETROBRAS-CD-Q077",
+   "CEB-2022-PETROBRAS-CD-Q080",
+   "CEB-2025-ANM-CD-Q096",
+   "CEB-2025-ANM-CD-Q097"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.4.4": {
+  "texto": "Adequação ao tipo de dado, custo, limitações e alternativas",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q079",
+   "CEB-2025-ANM-CD-Q087",
+   "CEB-2025-ANM-CD-Q120"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.4.5": {
+  "texto": "Transferência de aprendizado e ajuste de modelos",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.5": {
+  "texto": "Linguagem natural e modelos generativos",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q081",
+   "CEB-2022-PETROBRAS-CD-Q082",
+   "CEB-2022-PETROBRAS-CD-Q083",
+   "CEB-2025-ANM-CD-Q090",
+   "CEB-2025-ANM-CD-Q091",
+   "CEB-2025-ANM-CD-Q093",
+   "CEB-2025-ANM-CD-Q095",
+   "CEB-2025-ANM-CD-Q097"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.5.1": {
+  "texto": "Pré-processamento e classificação de textos",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q081",
+   "CEB-2022-PETROBRAS-CD-Q083"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.5.2": {
+  "texto": "Representações vetoriais, embeddings e similaridade semântica",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q082",
+   "CEB-2022-PETROBRAS-CD-Q083"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.5.3": {
+  "texto": "Modelos de linguagem e LLMs",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q090",
+   "CEB-2025-ANM-CD-Q093",
+   "CEB-2025-ANM-CD-Q095",
+   "CEB-2025-ANM-CD-Q097"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.5.4": {
+  "texto": "Prompts, recuperação de informação para geração de respostas e ajuste de modelos",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q091"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.5.5": {
+  "texto": "Avaliação de respostas, fontes, alucinações e limitações",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.6": {
+  "texto": "Agentes e uso seguro de ferramentas",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.6.1": {
+  "texto": "Agentes de IA e integração com ferramentas e fontes",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.6.2": {
+  "texto": "Autorização, rastreabilidade e supervisão",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.6.3": {
+  "texto": "Proteção contra instruções maliciosas em conteúdo externo, exposição de dados e uso indevido de ferramentas",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "ML.6.4": {
+  "texto": "Avaliação dos resultados e limites de autonomia",
+  "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/aprendizado-de-maquina-e-ia.csv",
+    "cards": 11
+   }
+  ]
+ },
+ "OP.1": {
+  "texto": "Ciclo de vida e MLOps",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q118",
+   "CEB-2022-PETROBRAS-CD-Q119",
+   "CEB-2022-PETROBRAS-CD-Q120"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.1.1": {
+  "texto": "Versionamento de dados, código e modelos",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.1.2": {
+  "texto": "Registro de experimentos",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.1.3": {
+  "texto": "Pipelines, testes e integração e entrega contínuas",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q118",
+   "CEB-2022-PETROBRAS-CD-Q120"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.1.4": {
+  "texto": "Reprodutibilidade",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.1.5": {
+  "texto": "Disponibilização por APIs, implantação e reversão",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q119",
+   "CEB-2022-PETROBRAS-CD-Q120"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.1.6": {
+  "texto": "Monitoramento de mudanças nas distribuições, nas relações e no desempenho",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.2": {
+  "texto": "Sustentação de soluções analíticas",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q117",
+   "CEB-2025-ANM-CD-Q079",
+   "CEB-2025-ANM-CD-Q080",
+   "CEB-2025-ANM-CD-Q081",
+   "CEB-2025-ANM-CD-Q083",
+   "CEB-2025-ANM-CD-Q084",
+   "CEB-2025-ANM-CD-Q085",
+   "CEB-2025-ANM-CD-Q098",
+   "CEB-2025-ANM-CD-Q099",
+   "CEB-2025-ANM-CD-Q100",
+   "CEB-2025-ANM-CD-Q118"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.2.1": {
+  "texto": "Serviços gerenciados e operação própria",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q117",
+   "CEB-2025-ANM-CD-Q098",
+   "CEB-2025-ANM-CD-Q099",
+   "CEB-2025-ANM-CD-Q100"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.2.2": {
+  "texto": "Requisitos de processamento, memória, armazenamento e aceleradores",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q118"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.2.3": {
+  "texto": "Custo, latência, disponibilidade e observabilidade de pipelines e inferência",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.2.4": {
+  "texto": "Controle de acesso, proteção de segredos e continuidade das soluções",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q079",
+   "CEB-2025-ANM-CD-Q080",
+   "CEB-2025-ANM-CD-Q081",
+   "CEB-2025-ANM-CD-Q083",
+   "CEB-2025-ANM-CD-Q084",
+   "CEB-2025-ANM-CD-Q085"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.3": {
+  "texto": "Governança e responsabilidade",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q055"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.3.1": {
+  "texto": "Papéis, riscos e evidências sobre dados, modelos e decisões",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.3.2": {
+  "texto": "Rastreabilidade, avaliação de impacto, revisão humana e contestação",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.3.3": {
+  "texto": "Proteção de dados pessoais e informações sensíveis",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q055"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.3.4": {
+  "texto": "Prevenção e tratamento de discriminação e de uso fora da finalidade",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.3.5": {
+  "texto": "Avaliação de resultados e limites da automação",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.4": {
+  "texto": "Gestão de produtos de dados",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q057",
+   "CEB-2025-ANM-CD-Q058",
+   "CEB-2025-ANM-CD-Q059",
+   "CEB-2025-ANM-CD-Q060",
+   "CEB-2025-ANM-CD-Q061",
+   "CEB-2025-ANM-CD-Q062"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.4.1": {
+  "texto": "Alinhamento entre problema público, produto e resultado",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.4.2": {
+  "texto": "Priorização, critérios de aceitação e indicadores",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.4.3": {
+  "texto": "Descoberta de necessidades, entrega e ciclo de vida",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q059",
+   "CEB-2025-ANM-CD-Q060",
+   "CEB-2025-ANM-CD-Q061",
+   "CEB-2025-ANM-CD-Q062"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.4.4": {
+  "texto": "Scrum e Kanban",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.4.5": {
+  "texto": "Articulação com PDTIC, plano de transformação digital e plano de dados abertos",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q057",
+   "CEB-2025-ANM-CD-Q058"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.4.6": {
+  "texto": "Comunicação dos resultados e das incertezas aos usuários",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.5": {
+  "texto": "Contratação e controle de soluções",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q117",
+   "CEB-2025-ANM-CD-Q063",
+   "CEB-2025-ANM-CD-Q065",
+   "CEB-2025-ANM-CD-Q067",
+   "CEB-2025-ANM-CD-Q068",
+   "CEB-2025-ANM-CD-Q069",
+   "CEB-2025-ANM-CD-Q070",
+   "CEB-2025-ANM-CD-Q071",
+   "CEB-2025-ANM-CD-Q072",
+   "CEB-2025-ANM-CD-Q073",
+   "CEB-2025-ANM-CD-Q074",
+   "CEB-2025-ANM-CD-Q099",
+   "CEB-2025-ANM-CD-Q100"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.5.1": {
+  "texto": "Estudo técnico preliminar e termo de referência",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q069",
+   "CEB-2025-ANM-CD-Q072",
+   "CEB-2025-ANM-CD-Q073"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.5.2": {
+  "texto": "Viabilidade, dimensionamento e custo total de propriedade",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.5.3": {
+  "texto": "Comparação entre desenvolvimento próprio, contratação e serviços de nuvem",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2022-PETROBRAS-CD-Q117",
+   "CEB-2025-ANM-CD-Q068",
+   "CEB-2025-ANM-CD-Q099",
+   "CEB-2025-ANM-CD-Q100"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.5.4": {
+  "texto": "Pesquisa de preços",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q074"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.5.5": {
+  "texto": "Requisitos de qualidade, proteção e desempenho",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q065",
+   "CEB-2025-ANM-CD-Q070"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.5.6": {
+  "texto": "Fiscalização e pagamento por entregas verificáveis",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q067",
+   "CEB-2025-ANM-CD-Q071"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ },
+ "OP.5.7": {
+  "texto": "Propriedade intelectual, portabilidade, acesso a dados e modelos, dependência tecnológica e plano de saída",
+  "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+  "prova": "P3",
+  "questoes": [
+   "CEB-2025-ANM-CD-Q063"
+  ],
+  "notas": [],
+  "acervo": [
+   "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
+  ],
+  "flashcards": [
+   {
+    "arquivo": "flashcards/banco/operacao-mlops-dados-ia.csv",
+    "cards": 7
+   }
+  ]
+ }
+}

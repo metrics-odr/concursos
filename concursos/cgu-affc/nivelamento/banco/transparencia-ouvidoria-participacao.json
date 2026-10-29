@@ -1,0 +1,112 @@
+{
+ "disciplina": "transparencia-ouvidoria-participacao",
+ "itens": [
+  {
+   "id": "to-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "Pela Lei de Acesso à Informação, a observância da publicidade é preceito geral e o sigilo é exceção.",
+   "f": "Lei nº 12.527/2011, art. 3º, I"
+  },
+  {
+   "id": "to-1-02",
+   "t": "1",
+   "g": "C",
+   "q": "Segundo a LAI, são vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.",
+   "f": "Lei nº 12.527/2011, art. 10, § 3º"
+  },
+  {
+   "id": "to-1-03",
+   "t": "1",
+   "g": "E",
+   "q": "A informação classificada como ultrassecreta tem prazo máximo de restrição de acesso de 15 anos.",
+   "j": "Ultrassecreta: 25 anos; secreta: 15 anos; reservada: 5 anos.",
+   "f": "Lei nº 12.527/2011, art. 24"
+  },
+  {
+   "id": "to-1-04",
+   "t": "1",
+   "g": "C",
+   "q": "Quando a informação for parcialmente sigilosa, é assegurado o acesso à parte não sigilosa por meio de certidão, extrato ou cópia com ocultação da parte sob sigilo.",
+   "f": "Lei nº 12.527/2011, art. 7º, § 2º"
+  },
+  {
+   "id": "to-2-01",
+   "t": "2",
+   "g": "C",
+   "q": "Segundo a LGPD, dado referente a convicção religiosa, opinião política e saúde é dado pessoal sensível.",
+   "f": "Lei nº 13.709/2018, art. 5º, II"
+  },
+  {
+   "id": "to-2-02",
+   "t": "2",
+   "g": "E",
+   "q": "Dados anonimizados são considerados dados pessoais para os fins da LGPD, ainda que o processo de anonimização não possa ser revertido com esforços razoáveis.",
+   "j": "Art. 12: não são dados pessoais, salvo quando a anonimização puder ser revertida com esforços razoáveis.",
+   "f": "Lei nº 13.709/2018, art. 12"
+  },
+  {
+   "id": "to-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "Pelo princípio da necessidade, previsto na LGPD, o tratamento deve limitar-se ao mínimo necessário para a realização de suas finalidades.",
+   "f": "Lei nº 13.709/2018, art. 6º, III"
+  },
+  {
+   "id": "to-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "Conforme a Lei nº 13.460/2017, a identificação do requerente é informação pessoal protegida com restrição de acesso nos termos da Lei de Acesso à Informação.",
+   "f": "Lei nº 13.460/2017, art. 10, § 7º"
+  },
+  {
+   "id": "to-3-02",
+   "t": "3",
+   "g": "E",
+   "q": "Ao receber uma denúncia, a ouvidoria deve, por si só, concluir sobre a responsabilidade do agente denunciado.",
+   "j": "Receber relato ≠ apurar fatos ≠ decidir responsabilidade; a ouvidoria acolhe, analisa e encaminha às instâncias competentes."
+  },
+  {
+   "id": "to-3-03",
+   "t": "3",
+   "g": "C",
+   "q": "A utilização de linguagem simples e compreensível, evitando siglas e jargões, é diretriz de atendimento ao usuário de serviços públicos.",
+   "f": "Lei nº 13.460/2017, art. 5º"
+  },
+  {
+   "id": "to-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "O aumento do número de reclamações sobre um serviço pode decorrer tanto de piora do serviço quanto de maior facilidade de acesso aos canais de manifestação.",
+   "j": "Cuidado com inferências a partir de registros: mudança de canal altera a notificação."
+  },
+  {
+   "id": "to-4-02",
+   "t": "4",
+   "g": "E",
+   "q": "Os conselhos de políticas públicas asseguram, por sua mera existência, representatividade equitativa de todos os grupos afetados pela política.",
+   "j": "Há barreiras de participação (tempo, informação, renda, acessibilidade) que afetam a representatividade."
+  },
+  {
+   "id": "to-4-03",
+   "t": "4",
+   "g": "C",
+   "q": "Dados abertos são dados acessíveis ao público, representados em meio digital, estruturados em formato aberto, processáveis por máquina e disponibilizados sob licença aberta que permita sua livre utilização, consumo ou cruzamento.",
+   "f": "Decreto nº 8.777/2016, art. 2º, III"
+  },
+  {
+   "id": "to-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "A desinformação diferencia-se da crítica legítima, entre outros aspectos, pela falsidade ou descontextualização de fatos com potencial de causar dano.",
+   "j": "Crítica, ainda que dura, é expressão legítima; desinformação envolve conteúdo falso/enganoso."
+  },
+  {
+   "id": "to-5-02",
+   "t": "5",
+   "g": "E",
+   "q": "A correção pública de erros por órgãos governamentais tende a reduzir a confiança institucional e, por isso, deve ser evitada.",
+   "j": "Corrigir erros e comunicar incertezas fortalece a confiança."
+  }
+ ]
+}

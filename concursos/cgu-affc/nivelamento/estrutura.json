@@ -1,0 +1,197 @@
+{
+ "titulo": "Prova de nivelamento — CGU AFFC · Cargo 2 (TI – Ciência de Dados)",
+ "tempo_sugerido_min": 40,
+ "regra": "Cebraspe: item certo soma o peso, item errado subtrai o peso, item em branco vale zero. São 20 itens: cada disciplina tem cota fixa; os tópicos sorteados dentro dela rodam a cada execução (os menos vistos primeiro).",
+ "provas": [
+  {
+   "id": "P1",
+   "nome": "Conhecimentos básicos",
+   "peso": 1,
+   "itens_reais": 40,
+   "minimo_real": 8,
+   "itens": 4
+  },
+  {
+   "id": "P2",
+   "nome": "Conhecimentos complementares",
+   "peso": 1,
+   "itens_reais": 40,
+   "minimo_real": 12,
+   "itens": 5
+  },
+  {
+   "id": "P3",
+   "nome": "Conhecimentos específicos",
+   "peso": 2,
+   "itens_reais": 90,
+   "minimo_real": 54,
+   "itens": 11
+  }
+ ],
+ "minimo_total_real": 78,
+ "disciplinas": [
+  {
+   "slug": "ciencia-politica-e-estado",
+   "prova": "P1",
+   "itens": 1,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "slug": "sociedade-brasileira",
+   "prova": "P1",
+   "itens": 1,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "slug": "etica-publica",
+   "prova": "P1",
+   "itens": 1,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "slug": "administracao-publica-e-politicas",
+   "prova": "P1",
+   "itens": 1,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "slug": "governanca-riscos-integridade",
+   "prova": "P2",
+   "itens": 1,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "slug": "transparencia-ouvidoria-participacao",
+   "prova": "P2",
+   "itens": 1,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "slug": "direito-publico-controle",
+   "prova": "P2",
+   "itens": 1,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "slug": "evidencias-dados-ia",
+   "prova": "P2",
+   "itens": 1,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "slug": "auditoria-governamental-cgu",
+   "prova": "P2",
+   "itens": 1,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "slug": "estatistica-programacao-analise-dados",
+   "prova": "P3",
+   "itens": 2,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "slug": "engenharia-arquitetura-governanca-dados",
+   "prova": "P3",
+   "itens": 3,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "slug": "aprendizado-de-maquina-e-ia",
+   "prova": "P3",
+   "itens": 3,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "slug": "operacao-mlops-dados-ia",
+   "prova": "P3",
+   "itens": 3,
+   "topicos": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  }
+ ],
+ "total_itens": 20
+}

@@ -1,0 +1,155 @@
+{
+ "_sobre": "Curadoria de fontes por disciplina. Editar aqui e rodar `python3 scripts/gerar_acervo.py`. tipo: video | curso | pdf | lei | artigo | ferramenta | questoes",
+ "geral": {
+  "como_estudar": [
+   "Ciclo semanal: teoria curta (1 tópico/dia) → 20–30 itens Cebraspe do tópico → revisão pelos erros.",
+   "Cebraspe cobra interpretação e aplicação: estude pelo texto do edital (verbos 'distinção', 'relação', 'limites') e treine C/E com justificativa.",
+   "Um errado anula um certo: deixe em branco quando a confiança for < ~60%.",
+   "Discursiva: 1 texto por semana (30 linhas complementares; 60 linhas situação-problema de Ciência de Dados)."
+  ],
+  "links": [
+   {"tipo": "pdf", "titulo": "Edital nº 1 – CGU 2026 (transcrito no repo)", "url": "concursos/cgu-affc/edital/edital-cgu-2026-12.md"},
+   {"tipo": "artigo", "titulo": "Edital verticalizado CGU 2026 (Você Concursado)", "url": "https://voceconcursado.com.br/blog/edital-verticalizado-cgu-2026/"},
+   {"tipo": "artigo", "titulo": "Concurso CGU 2026 — resumo do edital (Estratégia)", "url": "https://concursos.estrategia.com/portal/concurso-cgu-2026-edital-publicado/"},
+   {"tipo": "questoes", "titulo": "Questões Cebraspe de Ciência de Dados e IA (Estudeplan)", "url": "https://estudeplan.com.br/questoes/cebraspe/ciencia-de-dados.html"},
+   {"tipo": "questoes", "titulo": "Provas de cargos de Ciência de Dados (PCI Concursos)", "url": "https://www.pciconcursos.com.br/provas/ciencia-de-dados"},
+   {"tipo": "curso", "titulo": "Escola Virtual de Governo (ENAP) — cursos gratuitos com certificado", "url": "https://www.escolavirtual.gov.br/"},
+   {"tipo": "ferramenta", "titulo": "Repositório institucional da CGU (manuais, guias, normas)", "url": "https://repositorio.cgu.gov.br/"},
+   {"tipo": "ferramenta", "titulo": "Repositório da ENAP (apostilas de cursos públicos)", "url": "https://repositorio.enap.gov.br/"}
+  ]
+ },
+ "ciencia-politica-e-estado": {
+  "como_estudar": ["Base: CF/88 (arts. 1º a 5º, 37, 70 a 75) + conceitos de ciência política (legitimidade, accountability, captura).", "Corrupção: treine as distinções que o edital pede (corrupção × falha de gestão × conflito de interesses; clientelismo × patronagem × nepotismo × captura)."],
+  "links": [
+   {"tipo": "lei", "titulo": "Constituição Federal de 1988", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},
+   {"tipo": "lei", "titulo": "Lei 12.846/2013 — Lei Anticorrupção", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm"},
+   {"tipo": "artigo", "titulo": "Transparency International — Índice de Percepção da Corrupção", "url": "https://www.transparency.org/en/cpi"},
+   {"tipo": "pdf", "titulo": "TCU — Referencial Básico de Governança Organizacional (3ª ed.)", "url": "https://portal.tcu.gov.br/referencial-basico-de-governanca-organizacional.htm"}
+  ]
+ },
+ "sociedade-brasileira": {
+  "como_estudar": ["Leia indicadores (IBGE/IPEA) com olhar crítico: o edital cobra 'leitura contextual de indicadores e desigualdades'.", "Monte um quadro: desigualdade de renda, raça, gênero, território, clima × dados que medem cada uma."],
+  "links": [
+   {"tipo": "pdf", "titulo": "IBGE — Síntese de Indicadores Sociais", "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/9221-sintese-de-indicadores-sociais.html"},
+   {"tipo": "artigo", "titulo": "IPEA — publicações e estudos", "url": "https://www.ipea.gov.br/portal/"},
+   {"tipo": "ferramenta", "titulo": "ODS Brasil — indicadores dos Objetivos de Desenvolvimento Sustentável", "url": "https://odsbrasil.gov.br/"}
+  ]
+ },
+ "etica-publica": {
+  "como_estudar": ["Normas-base: Código de Ética (Dec. 1.171/94), Lei 12.813/2013 (conflito de interesses), Lei 8.112/90 (deveres e proibições).", "Cebraspe gosta de casos práticos: pergunte-se 'qual dever está em jogo?' e 'há conflito de interesses?'."],
+  "links": [
+   {"tipo": "lei", "titulo": "Decreto 1.171/1994 — Código de Ética do Servidor", "url": "https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm"},
+   {"tipo": "lei", "titulo": "Lei 12.813/2013 — Conflito de interesses", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12813.htm"},
+   {"tipo": "lei", "titulo": "Lei 8.112/1990 — Regime jurídico dos servidores", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm"}
+  ]
+ },
+ "administracao-publica-e-politicas": {
+  "como_estudar": ["Organização administrativa (direta/indireta, desconcentração × descentralização) + ciclo de políticas públicas.", "Transformação digital: Lei 14.129/2021 (Governo Digital)."],
+  "links": [
+   {"tipo": "lei", "titulo": "Lei 14.129/2021 — Governo Digital", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm"},
+   {"tipo": "lei", "titulo": "Decreto 9.203/2017 — Política de governança da administração federal", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm"},
+   {"tipo": "curso", "titulo": "ENAP — repositório de cursos de políticas públicas", "url": "https://repositorio.enap.gov.br/"}
+  ]
+ },
+ "governanca-riscos-integridade": {
+  "como_estudar": ["Governança (TCU: liderança, estratégia, controle) × gestão; modelo das Três Linhas (IIA); COSO para riscos e controles.", "Integridade privada: programa de integridade do Decreto 11.129/2022."],
+  "links": [
+   {"tipo": "pdf", "titulo": "TCU — Referencial Básico de Governança Organizacional (3ª ed.)", "url": "https://portal.tcu.gov.br/referencial-basico-de-governanca-organizacional.htm"},
+   {"tipo": "lei", "titulo": "Decreto 9.203/2017 — Governança pública", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm"},
+   {"tipo": "lei", "titulo": "Decreto 11.129/2022 — Regulamenta a Lei Anticorrupção (programa de integridade)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11129.htm"},
+   {"tipo": "artigo", "titulo": "COSO — frameworks de controle interno e gestão de riscos", "url": "https://www.coso.org/"}
+  ]
+ },
+ "transparencia-ouvidoria-participacao": {
+  "como_estudar": ["LAI (Lei 12.527 + Dec. 7.724) × LGPD (Lei 13.709): saiba onde uma limita a outra.", "Ouvidoria: Lei 13.460/2017 (usuário de serviço público) e proteção ao denunciante (Lei 13.608/2018)."],
+  "links": [
+   {"tipo": "lei", "titulo": "Lei 12.527/2011 — Lei de Acesso à Informação", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"},
+   {"tipo": "lei", "titulo": "Decreto 7.724/2012 — Regulamenta a LAI", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7724.htm"},
+   {"tipo": "lei", "titulo": "Lei 13.709/2018 — LGPD", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"},
+   {"tipo": "lei", "titulo": "Lei 13.460/2017 — Código de defesa do usuário de serviço público", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm"},
+   {"tipo": "lei", "titulo": "Lei 13.608/2018 — Proteção ao denunciante", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13608.htm"},
+   {"tipo": "ferramenta", "titulo": "Portal da Transparência (CGU)", "url": "https://portaldatransparencia.gov.br/"},
+   {"tipo": "ferramenta", "titulo": "Fala.BR — plataforma de ouvidoria e acesso à informação", "url": "https://falabr.cgu.gov.br/"}
+  ]
+ },
+ "direito-publico-controle": {
+  "como_estudar": ["Decisão administrativa: Lei 9.784/99 (motivação, processo) + LINDB arts. 20–30 (consequências e segurança jurídica).", "Responsabilização: improbidade (Lei 8.429 c/ Lei 14.230), anticorrupção (Lei 12.846), disciplinar (Lei 8.112)."],
+  "links": [
+   {"tipo": "lei", "titulo": "Lei 9.784/1999 — Processo administrativo federal", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"},
+   {"tipo": "lei", "titulo": "LINDB — Decreto-Lei 4.657/1942 (compilado)", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm"},
+   {"tipo": "lei", "titulo": "Lei 8.429/1992 — Improbidade administrativa", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"},
+   {"tipo": "lei", "titulo": "Lei 10.180/2001 — Sistema de Controle Interno do Executivo Federal", "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10180.htm"}
+  ]
+ },
+ "evidencias-dados-ia": {
+  "como_estudar": ["Sobrepõe-se à P3: aproveite o estudo de estatística/ML, focando em interpretação (viés, correlação × causalidade, representatividade).", "Uso responsável de IA: guia da CGU + princípios da OCDE."],
+  "links": [
+   {"tipo": "pdf", "titulo": "CGU — Guia de uso responsável de IA", "url": "https://repositorio.cgu.gov.br/bitstream/1/94718/2/Guia_de_uso_respons%c3%a1vel_de_IA_v5_publicacao.pdf"},
+   {"tipo": "artigo", "titulo": "OCDE — Princípios de IA", "url": "https://oecd.ai/en/ai-principles"},
+   {"tipo": "pdf", "titulo": "OpenIntro Statistics (livro gratuito)", "url": "https://www.openintro.org/book/os/"},
+   {"tipo": "ferramenta", "titulo": "Portal Brasileiro de Dados Abertos", "url": "https://dados.gov.br/"}
+  ]
+ },
+ "auditoria-governamental-cgu": {
+  "como_estudar": ["Leia o Manual de Orientações Técnicas da AIG (CGU) inteiro: planejamento → execução → comunicação → monitoramento.", "Achado = critério × condição × causa × efeito: treine montar achados (serve para a discursiva)."],
+  "links": [
+   {"tipo": "pdf", "titulo": "CGU — Manual de Orientações Técnicas da Auditoria Interna Governamental", "url": "https://repositorio.cgu.gov.br/bitstream/1/44984/5/Manual_de_Orientacoes_Tecnicas_sobre_Auditora_Interna_Governamental.pdf"},
+   {"tipo": "curso", "titulo": "ENAP — Curso Técnicas de Auditoria Interna Governamental (material)", "url": "https://repositorio.enap.gov.br/handle/1/5146"},
+   {"tipo": "artigo", "titulo": "IIA — Normas Globais de Auditoria Interna", "url": "https://www.theiia.org/en/standards/2024-standards/global-internal-audit-standards/"},
+   {"tipo": "lei", "titulo": "Lei 10.180/2001 — Sistema de Controle Interno", "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10180.htm"}
+  ]
+ },
+ "estatistica-programacao-analise-dados": {
+  "como_estudar": ["Estatística: descritiva → probabilidade → inferência → regressão/ANOVA. Faça contas à mão nas fórmulas mais cobradas.", "Python: leia e 'execute de cabeça' trechos de código (Cebraspe cobra saída de código e depuração).", "Pandas: limpeza, ausentes, outliers, encoding, normalização, vazamento de dados."],
+  "links": [
+   {"tipo": "video", "titulo": "StatQuest (YouTube) — estatística e ML explicados visualmente", "url": "https://www.youtube.com/@statquest"},
+   {"tipo": "video", "titulo": "Téo Me Why — curso de estatística completo (playlist)", "url": "https://teomewhy.substack.com/p/curso-de-estatistica-completo"},
+   {"tipo": "video", "titulo": "Curso em Vídeo — Python (Gustavo Guanabara)", "url": "https://www.youtube.com/@CursoemVideo"},
+   {"tipo": "pdf", "titulo": "OpenIntro Statistics (livro gratuito)", "url": "https://www.openintro.org/book/os/"},
+   {"tipo": "curso", "titulo": "Tutorial oficial do Python (pt-BR)", "url": "https://docs.python.org/pt-br/3/tutorial/"},
+   {"tipo": "curso", "titulo": "pandas — User Guide", "url": "https://pandas.pydata.org/docs/user_guide/index.html"},
+   {"tipo": "curso", "titulo": "Kaggle Learn — Python, Pandas, Data Cleaning, Feature Engineering", "url": "https://www.kaggle.com/learn"},
+   {"tipo": "questoes", "titulo": "Petrobras 2022 – Ciência de Dados (Cebraspe) — prova", "url": "https://www.pciconcursos.com.br/provas/download/ciencia-de-dados-petrobras-cebraspe-2022"}
+  ]
+ },
+ "engenharia-arquitetura-governanca-dados": {
+  "como_estudar": ["Modelagem: relacional/normalização, NoSQL (documento, chave-valor), dimensional (Kimball: fato × dimensão, SCD), vetorial.", "SQL: joins, GROUP BY/HAVING, subconsultas e funções de janela — escreva consultas à mão.", "Arquiteturas: DW × data lake × lakehouse × data mesh; batch × streaming; Spark."],
+  "links": [
+   {"tipo": "artigo", "titulo": "Zhamak Dehghani — Data Mesh Principles and Logical Architecture", "url": "https://martinfowler.com/articles/data-mesh-principles.html"},
+   {"tipo": "pdf", "titulo": "Lakehouse (CIDR 2021) — artigo original", "url": "https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf"},
+   {"tipo": "artigo", "titulo": "Kimball Group — técnicas de modelagem dimensional", "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/"},
+   {"tipo": "curso", "titulo": "PostgreSQL — tutorial de funções de janela", "url": "https://www.postgresql.org/docs/current/tutorial-window.html"},
+   {"tipo": "curso", "titulo": "Apache Spark — documentação", "url": "https://spark.apache.org/docs/latest/"},
+   {"tipo": "lei", "titulo": "Decreto 10.046/2019 — Compartilhamento de dados na administração federal", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/D10046.htm"},
+   {"tipo": "lei", "titulo": "Decreto 8.777/2016 — Política de Dados Abertos", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm"}
+  ]
+ },
+ "aprendizado-de-maquina-e-ia": {
+  "como_estudar": ["Supervisionado × não supervisionado; viés-variância; validação cruzada; métricas (precisão, recall, F1, AUC) e matriz de confusão.", "Redes neurais e Transformers: entenda atenção, embeddings, RAG e limites (alucinação, injeção de prompt).", "Agentes: ferramentas, limites de autonomia e avaliação."],
+  "links": [
+   {"tipo": "pdf", "titulo": "ISLP — An Introduction to Statistical Learning (livro gratuito)", "url": "https://www.statlearning.com/"},
+   {"tipo": "curso", "titulo": "Google — Machine Learning Crash Course", "url": "https://developers.google.com/machine-learning/crash-course"},
+   {"tipo": "curso", "titulo": "scikit-learn — User Guide", "url": "https://scikit-learn.org/stable/user_guide.html"},
+   {"tipo": "video", "titulo": "3Blue1Brown — série sobre redes neurais", "url": "https://www.youtube.com/@3blue1brown"},
+   {"tipo": "video", "titulo": "Andrej Karpathy — Neural Networks: Zero to Hero", "url": "https://www.youtube.com/@AndrejKarpathy"},
+   {"tipo": "curso", "titulo": "Hugging Face — curso de LLM/NLP", "url": "https://huggingface.co/learn/llm-course"},
+   {"tipo": "pdf", "titulo": "Attention Is All You Need (Transformer)", "url": "https://arxiv.org/abs/1706.03762"},
+   {"tipo": "pdf", "titulo": "Retrieval-Augmented Generation (RAG) — artigo original", "url": "https://arxiv.org/abs/2005.11401"},
+   {"tipo": "artigo", "titulo": "Anthropic — Building effective agents", "url": "https://www.anthropic.com/research/building-effective-agents"},
+   {"tipo": "artigo", "titulo": "OWASP — Top 10 para aplicações com LLM", "url": "https://genai.owasp.org/llm-top-10/"}
+  ]
+ },
+ "operacao-mlops-dados-ia": {
+  "como_estudar": ["MLOps: versionamento (dados, código, modelo), registro de experimentos, CI/CD/CT, monitoramento de drift.", "Governança de IA: NIST AI RMF, documentação (model cards), contratação de soluções e plano de saída."],
+  "links": [
+   {"tipo": "artigo", "titulo": "Google Cloud — MLOps: pipelines de entrega contínua e automação (pt-BR)", "url": "https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning?hl=pt-br"},
+   {"tipo": "artigo", "titulo": "Google — Rules of Machine Learning", "url": "https://developers.google.com/machine-learning/guides/rules-of-ml"},
+   {"tipo": "pdf", "titulo": "Hidden Technical Debt in Machine Learning Systems (NeurIPS 2015)", "url": "https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems"},
+   {"tipo": "pdf", "titulo": "Model Cards for Model Reporting", "url": "https://arxiv.org/abs/1810.03993"},
+   {"tipo": "curso", "titulo": "MLflow — documentação (tracking, registry)", "url": "https://mlflow.org/docs/latest/index.html"},
+   {"tipo": "curso", "titulo": "DVC — versionamento de dados e modelos", "url": "https://dvc.org/doc"},
+   {"tipo": "artigo", "titulo": "NIST — AI Risk Management Framework", "url": "https://www.nist.gov/itl/ai-risk-management-framework"},
+   {"tipo": "lei", "titulo": "Lei 14.133/2021 — Licitações e contratos (contratação de soluções)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"}
+  ]
+ }
+}

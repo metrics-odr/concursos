@@ -2,7 +2,7 @@
 """Exporta os cards de flashcards/banco/*.csv para arquivos de importação do Anki.
 
 Gera em flashcards/exportados/:
-  anki-basico.txt     -> tipo de nota "Básico"                       (basico, vf, comparacao)
+  anki-basico.txt     -> tipo de nota "Básico"                       (ce, basico, vf, comparacao)
   anki-invertido.txt  -> tipo de nota "Básico (e cartão invertido)"  (invertido)
   anki-cloze.txt      -> tipo de nota "Omissão de palavras"          (cloze)
 
@@ -19,6 +19,7 @@ BANCO = RAIZ / "banco"
 SAIDA = RAIZ / "exportados"
 
 ARQUIVO_POR_TIPO = {
+    "ce": "anki-basico.txt",
     "basico": "anki-basico.txt",
     "vf": "anki-basico.txt",
     "comparacao": "anki-basico.txt",
@@ -58,6 +59,8 @@ def main():
         tags = [f"disciplina::{disciplina}", f"topico::{card['topico']}", f"tipo::{card['tipo']}"]
         tags += [f"concurso::{c}" for c in concursos]
         verso = card["verso"]
+        if card["tipo"] == "ce" and not card["frente"].startswith("(C/E)"):
+            card["frente"] = f"(C/E) {card['frente']}"
         if card["fonte"]:
             verso = f"{verso}<br><small>Fonte: {card['fonte']}</small>" if verso else f"<small>Fonte: {card['fonte']}</small>"
         baralho = f"Concursos::{disciplina}"

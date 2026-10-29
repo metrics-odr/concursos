@@ -19,4 +19,4 @@ Primeira conversa: definição de como o repositório vai funcionar.
 
 ## Pendências
 - [x] Enviar o edital da CGU → `concursos/cgu-affc/edital/edital-cgu-2026-12.md`
-- [ ] Confirmar a área/especialidade
+- [x] Confirmar a área/especialidade → **Cargo 2 – TI – Ciência de Dados**

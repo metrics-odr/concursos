@@ -1,0 +1,235 @@
+{
+ "disciplina": "ciencia-politica-e-estado",
+ "itens": [
+  {
+   "id": "cp-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "Segundo a tipologia weberiana, a dominação legal-racional fundamenta-se na crença na legalidade de ordenamentos estatuídos e no direito de mando daqueles que, em virtude desses ordenamentos, estão nomeados para exercer a dominação.",
+   "j": "É a definição clássica de Weber; as outras formas são a tradicional e a carismática.",
+   "f": "Weber, Economia e Sociedade"
+  },
+  {
+   "id": "cp-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "Governo e administração pública são conceitos equivalentes: ambos designam o conjunto de órgãos que fixam as diretrizes políticas do Estado.",
+   "j": "Governo → função política, fixa diretrizes; administração → aparelho que executa, de forma técnica e subordinada, as decisões."
+  },
+  {
+   "id": "cp-1-03",
+   "t": "1",
+   "g": "C",
+   "q": "Para Max Weber, o Estado moderno caracteriza-se por reivindicar, com êxito, o monopólio do uso legítimo da força física dentro de determinado território.",
+   "j": "Definição de Weber em A política como vocação.",
+   "f": "Weber, A política como vocação"
+  },
+  {
+   "id": "cp-1-04",
+   "t": "1",
+   "g": "E",
+   "q": "Na perspectiva pluralista, o interesse público resulta da imposição unilateral dos interesses de uma elite dirigente, sem espaço para competição entre grupos.",
+   "j": "O pluralismo (Dahl) vê o poder disperso entre grupos que competem e negociam; a descrição do item corresponde às teorias elitistas."
+  },
+  {
+   "id": "cp-2-01",
+   "t": "2",
+   "g": "E",
+   "q": "A accountability horizontal, na formulação de Guillermo O'Donnell, corresponde ao controle exercido pelos eleitores sobre os governantes por meio de eleições periódicas.",
+   "j": "Eleições = accountability vertical. Horizontal = controle entre agências estatais (Legislativo, tribunais de contas, Judiciário, órgãos de controle).",
+   "f": "O'Donnell (1998)"
+  },
+  {
+   "id": "cp-2-02",
+   "t": "2",
+   "g": "C",
+   "q": "O veto presidencial a projeto de lei pode ser rejeitado pelo voto da maioria absoluta dos deputados e senadores, em sessão conjunta do Congresso Nacional.",
+   "j": "CF, art. 66, § 4º.",
+   "f": "CF/1988, art. 66, § 4º"
+  },
+  {
+   "id": "cp-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "O chamado presidencialismo de coalizão descreve arranjo em que o presidente, para obter governabilidade, constrói maiorias legislativas com a distribuição de ministérios e cargos entre partidos aliados.",
+   "j": "Expressão de Sérgio Abranches (1988) para o caso brasileiro.",
+   "f": "Abranches (1988)"
+  },
+  {
+   "id": "cp-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "No federalismo brasileiro, os municípios são entes federativos dotados de autonomia política, administrativa e financeira.",
+   "j": "CF, arts. 1º e 18: a Federação é formada pela união indissolúvel de estados, municípios e DF, todos autônomos.",
+   "f": "CF/1988, arts. 1º e 18"
+  },
+  {
+   "id": "cp-3-02",
+   "t": "3",
+   "g": "E",
+   "q": "As competências comuns do art. 23 da CF, como cuidar da saúde e proteger o meio ambiente, pertencem exclusivamente à União, que pode delegá-las aos estados por lei complementar.",
+   "j": "Competência comum é de União, estados, DF e municípios. A delegação por lei complementar (art. 22, parágrafo único) refere-se à competência legislativa privativa da União.",
+   "f": "CF/1988, arts. 22 e 23"
+  },
+  {
+   "id": "cp-3-03",
+   "t": "3",
+   "g": "E",
+   "q": "Capacidades estatais referem-se apenas à disponibilidade de recursos orçamentários, não abrangendo dimensões como qualificação da burocracia, coordenação e articulação com atores sociais.",
+   "j": "A literatura distingue capacidades técnico-administrativas (burocracia, coordenação, monitoramento) e político-relacionais (articulação com atores).",
+   "f": "Gomide e Pires (Ipea)"
+  },
+  {
+   "id": "cp-3-04",
+   "t": "3",
+   "g": "C",
+   "q": "Na abordagem de Michael Lipsky, a discricionariedade dos burocratas de nível de rua pode influenciar a forma como os direitos são efetivamente implementados junto aos cidadãos.",
+   "j": "Lipsky (1980): quem atende na ponta (professores, policiais, assistentes) toma decisões que, somadas, se tornam a política de fato.",
+   "f": "Lipsky, Street-level bureaucracy"
+  },
+  {
+   "id": "cp-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "A dignidade da pessoa humana, a cidadania e o pluralismo político figuram entre os fundamentos da República Federativa do Brasil.",
+   "j": "CF, art. 1º: soberania, cidadania, dignidade, valores sociais do trabalho e da livre-iniciativa, pluralismo político (SO-CI-DI-VA-PLU).",
+   "f": "CF/1988, art. 1º"
+  },
+  {
+   "id": "cp-4-02",
+   "t": "4",
+   "g": "E",
+   "q": "Erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais constitui fundamento da República, previsto no art. 1º da CF.",
+   "j": "É objetivo fundamental (art. 3º, III), não fundamento (art. 1º). Objetivos começam com verbos: construir, garantir, erradicar, promover.",
+   "f": "CF/1988, art. 3º"
+  },
+  {
+   "id": "cp-4-03",
+   "t": "4",
+   "g": "C",
+   "q": "Os princípios expressos no caput do art. 37 da CF para a administração pública são legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+   "j": "LIMPE.",
+   "f": "CF/1988, art. 37"
+  },
+  {
+   "id": "cp-4-04",
+   "t": "4",
+   "g": "E",
+   "q": "Na CF, o contraditório e a ampla defesa aplicam-se somente aos processos judiciais, não alcançando os processos administrativos.",
+   "j": "Art. 5º, LV: aos litigantes, em processo judicial ou administrativo, e aos acusados em geral.",
+   "f": "CF/1988, art. 5º, LV"
+  },
+  {
+   "id": "cp-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "O conceito de valor público, associado a Mark Moore, enfatiza que a gestão deve gerar resultados valorizados pela sociedade, sustentados por legitimidade e apoio político e por capacidade operacional.",
+   "j": "É o triângulo estratégico de Moore: valor público, legitimidade/apoio e capacidade operacional.",
+   "f": "Moore, Creating Public Value (1995)"
+  },
+  {
+   "id": "cp-5-02",
+   "t": "5",
+   "g": "E",
+   "q": "O controle social exercido por cidadãos e organizações da sociedade civil prescinde de transparência e de acesso a informações públicas.",
+   "j": "Sem informação não há controle social: transparência é pré-condição."
+  },
+  {
+   "id": "cp-5-03",
+   "t": "5",
+   "g": "C",
+   "q": "Medidas que aumentam a eficiência de um serviço público podem, em certos casos, entrar em tensão com a equidade no acesso ou com garantias procedimentais dos usuários.",
+   "j": "Ex.: digitalizar 100% do atendimento reduz custo, mas pode excluir quem não tem acesso à internet."
+  },
+  {
+   "id": "cp-6-01",
+   "t": "6",
+   "g": "C",
+   "q": "A definição de corrupção como abuso do poder confiado para ganho privado abrange situações que envolvem agentes privados, não se restringindo ao setor público.",
+   "j": "Definição da Transparência Internacional: o poder confiado pode ser público ou privado (ex.: corrupção entre empresas).",
+   "f": "Transparência Internacional"
+  },
+  {
+   "id": "cp-6-02",
+   "t": "6",
+   "g": "E",
+   "q": "Toda falha de gestão que cause prejuízo ao erário configura, por definição, ato de corrupção.",
+   "j": "Falha de gestão (erro, ineficiência) ≠ corrupção, que exige desvio do poder confiado em benefício particular."
+  },
+  {
+   "id": "cp-6-03",
+   "t": "6",
+   "g": "C",
+   "q": "O nepotismo caracteriza-se pelo favorecimento de parentes na nomeação para cargos, ao passo que o clientelismo envolve a troca de bens ou benefícios públicos por apoio político.",
+   "j": "São fenômenos aparentados, mas distintos; a patronagem é o uso de cargos para recompensar aliados."
+  },
+  {
+   "id": "cp-7-01",
+   "t": "7",
+   "g": "C",
+   "q": "No modelo principal-agente, a assimetria de informação cria oportunidades para que o agente atue segundo interesses próprios, divergentes dos do principal.",
+   "j": "Base da teoria da agência aplicada à corrupção (Klitgaard: C = M + D − A).",
+   "f": "Klitgaard (1988)"
+  },
+  {
+   "id": "cp-7-02",
+   "t": "7",
+   "g": "E",
+   "q": "A atuação de grupos de interesse junto a tomadores de decisão é, por si só, ilegítima e caracteriza captura de políticas, independentemente de transparência e de regras de conduta.",
+   "j": "Representar interesses é legítimo em democracia; vira captura quando há influência indevida, opaca, que submete a decisão a interesses particulares."
+  },
+  {
+   "id": "cp-7-03",
+   "t": "7",
+   "g": "C",
+   "q": "Problemas de ação coletiva ajudam a explicar por que práticas corruptas podem persistir mesmo quando a maioria dos atores prefere um ambiente íntegro.",
+   "j": "Se todos esperam que os outros sejam corruptos, ser íntegro sozinho não compensa (Persson, Rothstein e Teorell)."
+  },
+  {
+   "id": "cp-8-01",
+   "t": "8",
+   "g": "C",
+   "q": "A corrupção tende a distorcer a alocação de recursos públicos, favorecendo projetos com maior possibilidade de extração de rendas em detrimento de sua relevância social.",
+   "j": "Ex.: preferência por grandes obras em vez de manutenção ou serviços.",
+   "f": "Mauro; Tanzi e Davoodi"
+  },
+  {
+   "id": "cp-8-02",
+   "t": "8",
+   "g": "E",
+   "q": "Respostas anticorrupção estritamente punitivas estão isentas de efeitos não pretendidos, como a paralisia decisória de gestores.",
+   "j": "O medo de responsabilização pode gerar o chamado apagão das canetas: gestores deixam de decidir."
+  },
+  {
+   "id": "cp-8-03",
+   "t": "8",
+   "g": "E",
+   "q": "A reparação do dano causado pela corrupção é etapa dispensável da resposta institucional, porque a responsabilização penal dos autores esgota a finalidade do sistema.",
+   "j": "Prevenção, detecção, responsabilização e reparação são complementares."
+  },
+  {
+   "id": "cp-9-01",
+   "t": "9",
+   "g": "C",
+   "q": "Segundo a CF, a exploração direta de atividade econômica pelo Estado só é permitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo, conforme definidos em lei.",
+   "j": "Ressalvados os casos previstos na própria Constituição.",
+   "f": "CF/1988, art. 173"
+  },
+  {
+   "id": "cp-9-02",
+   "t": "9",
+   "g": "C",
+   "q": "Como agente normativo e regulador da atividade econômica, o Estado exerce as funções de fiscalização, incentivo e planejamento, sendo este determinante para o setor público e indicativo para o setor privado.",
+   "j": "Texto do art. 174 da CF.",
+   "f": "CF/1988, art. 174"
+  },
+  {
+   "id": "cp-9-03",
+   "t": "9",
+   "g": "E",
+   "q": "As empresas públicas e sociedades de economia mista que exploram atividade econômica podem gozar de privilégios fiscais não extensivos às empresas do setor privado.",
+   "j": "É o contrário: art. 173, § 2º, veda esses privilégios.",
+   "f": "CF/1988, art. 173, § 2º"
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "disciplina": "operacao-mlops-dados-ia",
+ "itens": [
+  {
+   "id": "mo-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "Data drift refere-se à mudança na distribuição dos dados de entrada em relação aos dados usados no treinamento."
+  },
+  {
+   "id": "mo-1-02",
+   "t": "1",
+   "g": "C",
+   "q": "Concept drift ocorre quando muda a relação entre as variáveis de entrada e a variável-alvo."
+  },
+  {
+   "id": "mo-1-03",
+   "t": "1",
+   "g": "E",
+   "q": "Versionar apenas o código é suficiente para garantir a reprodutibilidade de um modelo de aprendizado de máquina.",
+   "j": "É preciso versionar dados, código, configuração/hiperparâmetros, ambiente e modelo."
+  },
+  {
+   "id": "mo-1-04",
+   "t": "1",
+   "g": "C",
+   "q": "Ferramentas de registro de experimentos, como o MLflow, armazenam parâmetros, métricas e artefatos das execuções."
+  },
+  {
+   "id": "mo-1-05",
+   "t": "1",
+   "g": "C",
+   "q": "Na implantação canário, a nova versão do modelo é liberada para pequena parcela do tráfego antes da liberação total.",
+   "j": "Permite reversão rápida se houver problema."
+  },
+  {
+   "id": "mo-2-01",
+   "t": "2",
+   "g": "C",
+   "q": "GPUs são aceleradores especialmente eficientes para operações matriciais paralelas, como as envolvidas no treinamento de redes neurais profundas."
+  },
+  {
+   "id": "mo-2-02",
+   "t": "2",
+   "g": "E",
+   "q": "Segredos, como senhas e chaves de API, devem ser armazenados diretamente no código-fonte versionado, para facilitar a implantação.",
+   "j": "Use cofres de segredos/variáveis de ambiente; nunca no repositório."
+  },
+  {
+   "id": "mo-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "Latência de inferência é o tempo decorrido entre o envio de uma requisição ao modelo e o recebimento da resposta."
+  },
+  {
+   "id": "mo-2-04",
+   "t": "2",
+   "g": "E",
+   "q": "A utilização de serviços gerenciados em nuvem elimina integralmente a responsabilidade do órgão contratante pela segurança dos dados.",
+   "j": "Modelo de responsabilidade compartilhada."
+  },
+  {
+   "id": "mo-2-05",
+   "t": "2",
+   "g": "C",
+   "q": "A observabilidade de pipelines envolve a coleta de métricas, logs e rastros que permitam diagnosticar falhas e problemas de desempenho."
+  },
+  {
+   "id": "mo-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "O relatório de impacto à proteção de dados pessoais é documentação do controlador que descreve os processos de tratamento que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas de mitigação.",
+   "f": "Lei nº 13.709/2018, art. 5º, XVII"
+  },
+  {
+   "id": "mo-3-02",
+   "t": "3",
+   "g": "E",
+   "q": "O uso de um modelo para finalidade diversa daquela para a qual foi desenvolvido e validado dispensa nova avaliação, desde que seu desempenho global tenha sido elevado.",
+   "j": "Uso fora da finalidade exige nova avaliação de desempenho, riscos e base legal."
+  },
+  {
+   "id": "mo-3-03",
+   "t": "3",
+   "g": "E",
+   "q": "Remover atributos sensíveis, como raça e sexo, garante que o modelo não produza discriminação.",
+   "j": "Variáveis proxy (CEP, renda, nome) podem reproduzir a discriminação."
+  },
+  {
+   "id": "mo-3-04",
+   "t": "3",
+   "g": "C",
+   "q": "A revisão humana efetiva pressupõe que o revisor tenha informação, competência e autoridade para divergir da recomendação do modelo.",
+   "j": "Senão há só um carimbo (viés de automação)."
+  },
+  {
+   "id": "mo-3-05",
+   "t": "3",
+   "g": "C",
+   "q": "Documentar dados, modelos e decisões, por exemplo por meio de model cards, contribui para a prestação de contas sobre soluções de IA."
+  },
+  {
+   "id": "mo-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "No Scrum, o Product Owner é responsável por maximizar o valor do produto e por gerenciar o Product Backlog.",
+   "f": "Guia do Scrum (2020)"
+  },
+  {
+   "id": "mo-4-02",
+   "t": "4",
+   "g": "C",
+   "q": "No Scrum, a Sprint é um evento de duração fixa de um mês ou menos.",
+   "f": "Guia do Scrum (2020)"
+  },
+  {
+   "id": "mo-4-03",
+   "t": "4",
+   "g": "E",
+   "q": "O Kanban prescreve sprints de duração fixa e papéis obrigatórios, como o de Scrum Master.",
+   "j": "Kanban: fluxo contínuo, visualização e limite de WIP; não prescreve sprints nem papéis."
+  },
+  {
+   "id": "mo-4-04",
+   "t": "4",
+   "g": "C",
+   "q": "Limitar o trabalho em progresso (WIP) é prática central do Kanban."
+  },
+  {
+   "id": "mo-4-05",
+   "t": "4",
+   "g": "C",
+   "q": "O PDTIC é instrumento de diagnóstico, planejamento e gestão dos recursos e processos de tecnologia da informação de um órgão.",
+   "f": "SISP"
+  },
+  {
+   "id": "mo-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "Segundo a Lei nº 14.133/2021, o estudo técnico preliminar é documento constitutivo da primeira etapa do planejamento de uma contratação, que caracteriza o interesse público envolvido e a sua melhor solução.",
+   "f": "Lei nº 14.133/2021, art. 6º, XX"
+  },
+  {
+   "id": "mo-5-02",
+   "t": "5",
+   "g": "E",
+   "q": "O custo total de propriedade de uma solução de TI considera apenas o seu preço de aquisição.",
+   "j": "Inclui implantação, operação, manutenção, licenças, capacitação, infraestrutura e saída."
+  },
+  {
+   "id": "mo-5-03",
+   "t": "5",
+   "g": "C",
+   "q": "Na pesquisa de preços prevista na Lei nº 14.133/2021, admite-se o uso de contratações similares feitas pela administração pública e de dados do painel oficial de preços.",
+   "f": "Lei nº 14.133/2021, art. 23, § 1º"
+  },
+  {
+   "id": "mo-5-04",
+   "t": "5",
+   "g": "C",
+   "q": "Plano de saída e cláusulas de portabilidade de dados reduzem o risco de dependência tecnológica em relação ao fornecedor.",
+   "j": "Evitam aprisionamento (lock-in)."
+  },
+  {
+   "id": "mo-5-05",
+   "t": "5",
+   "g": "E",
+   "q": "A Lei nº 14.133/2021 só admite remuneração por horas trabalhadas na contratação de serviços de TI, sendo vedado vincular o pagamento a entregas e resultados.",
+   "j": "A lei admite remuneração variável vinculada ao desempenho (art. 144); o modelo recomendado é pagar por entregas verificáveis.",
+   "f": "Lei nº 14.133/2021, art. 144"
+  }
+ ]
+}

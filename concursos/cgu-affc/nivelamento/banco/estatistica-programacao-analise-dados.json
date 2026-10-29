@@ -1,0 +1,195 @@
+{
+ "disciplina": "estatistica-programacao-analise-dados",
+ "itens": [
+  {
+   "id": "es-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "A mediana é medida de posição menos sensível a valores extremos que a média aritmética.",
+   "j": "A média é puxada por outliers; a mediana depende só da ordem."
+  },
+  {
+   "id": "es-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "Em distribuição com assimetria positiva (cauda à direita), tipicamente a média é menor que a mediana.",
+   "j": "Assimetria positiva: moda < mediana < média."
+  },
+  {
+   "id": "es-1-03",
+   "t": "1",
+   "g": "C",
+   "q": "O desvio padrão é expresso na mesma unidade de medida dos dados, ao contrário da variância, expressa no quadrado dessa unidade."
+  },
+  {
+   "id": "es-1-04",
+   "t": "1",
+   "g": "C",
+   "q": "O coeficiente de variação, razão entre o desvio padrão e a média, permite comparar a dispersão de variáveis medidas em unidades diferentes.",
+   "j": "É adimensional."
+  },
+  {
+   "id": "es-1-05",
+   "t": "1",
+   "g": "E",
+   "q": "A escolaridade classificada em fundamental, médio e superior é variável qualitativa nominal.",
+   "j": "Há ordem natural → qualitativa ordinal."
+  },
+  {
+   "id": "es-1-06",
+   "t": "1",
+   "g": "C",
+   "q": "Em um boxplot, valores situados além de 1,5 vez a amplitude interquartil abaixo do primeiro quartil ou acima do terceiro quartil são usualmente sinalizados como possíveis outliers.",
+   "j": "Regra de Tukey."
+  },
+  {
+   "id": "es-2-01",
+   "t": "2",
+   "g": "C",
+   "q": "O erro do tipo I consiste em rejeitar a hipótese nula quando ela é verdadeira.",
+   "j": "Probabilidade = α (nível de significância). Tipo II = não rejeitar H0 falsa (β)."
+  },
+  {
+   "id": "es-2-02",
+   "t": "2",
+   "g": "E",
+   "q": "O p-valor representa a probabilidade de a hipótese nula ser verdadeira.",
+   "j": "p-valor = probabilidade, supondo H0 verdadeira, de observar resultado tão ou mais extremo que o obtido."
+  },
+  {
+   "id": "es-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "Mantidos os demais fatores, aumentar o tamanho da amostra reduz a amplitude do intervalo de confiança para a média.",
+   "j": "Erro padrão = σ/√n."
+  },
+  {
+   "id": "es-2-04",
+   "t": "2",
+   "g": "E",
+   "q": "Um intervalo de 95% de confiança significa que há 95% de probabilidade de o parâmetro populacional estar contido no intervalo específico já calculado.",
+   "j": "Interpretação frequentista: 95% dos intervalos construídos pelo mesmo procedimento conteriam o parâmetro."
+  },
+  {
+   "id": "es-2-05",
+   "t": "2",
+   "g": "C",
+   "q": "Com amostras muito grandes, um efeito irrelevante do ponto de vista prático pode resultar estatisticamente significativo.",
+   "j": "Significância estatística ≠ relevância prática; olhe o tamanho do efeito."
+  },
+  {
+   "id": "es-2-06",
+   "t": "2",
+   "g": "C",
+   "q": "Se X segue distribuição binomial com n = 10 e p = 0,3, então o valor esperado de X é 3.",
+   "j": "E[X] = n·p = 3; Var = n·p·(1−p) = 2,1."
+  },
+  {
+   "id": "es-3-01",
+   "t": "3",
+   "g": "E",
+   "q": "Coeficiente de correlação de Pearson igual a zero indica ausência de qualquer relação entre as variáveis.",
+   "j": "Indica ausência de relação LINEAR; pode haver relação não linear (ex.: y = x²)."
+  },
+  {
+   "id": "es-3-02",
+   "t": "3",
+   "g": "C",
+   "q": "Na regressão linear simples com intercepto, o coeficiente de determinação R² é igual ao quadrado do coeficiente de correlação de Pearson entre X e Y."
+  },
+  {
+   "id": "es-3-03",
+   "t": "3",
+   "g": "C",
+   "q": "A ANOVA de um fator é utilizada para testar a igualdade das médias de três ou mais grupos.",
+   "j": "H0: todas as médias iguais; estatística F."
+  },
+  {
+   "id": "es-3-04",
+   "t": "3",
+   "g": "E",
+   "q": "Em dados administrativos observacionais, um modelo com alto poder preditivo garante que as variáveis explicativas sejam causas do desfecho.",
+   "j": "Predição ≠ causalidade."
+  },
+  {
+   "id": "es-3-05",
+   "t": "3",
+   "g": "C",
+   "q": "A homocedasticidade dos resíduos é um dos pressupostos do modelo clássico de regressão linear.",
+   "j": "Variância constante dos erros; também independência e normalidade para inferência."
+  },
+  {
+   "id": "es-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "Em Python 3, a expressão 7 // 2 resulta em 3.",
+   "j": "// é divisão inteira (floor); 7 / 2 = 3.5."
+  },
+  {
+   "id": "es-4-02",
+   "t": "4",
+   "g": "E",
+   "q": "Em Python, tuplas são mutáveis, permitindo a alteração de seus elementos após a criação.",
+   "j": "Tuplas são imutáveis; listas são mutáveis."
+  },
+  {
+   "id": "es-4-03",
+   "t": "4",
+   "g": "C",
+   "q": "Em Python, o bloco finally de uma estrutura try é executado independentemente de ter ocorrido exceção."
+  },
+  {
+   "id": "es-4-04",
+   "t": "4",
+   "g": "C",
+   "q": "Em Python, após d = {'a': 1}, a instrução print(d.get('b', 0)) imprime 0.",
+   "j": "get retorna o valor padrão quando a chave não existe (d['b'] lançaria KeyError)."
+  },
+  {
+   "id": "es-4-05",
+   "t": "4",
+   "g": "E",
+   "q": "Em Python, a expressão [x**2 for x in range(3)] produz a lista [1, 4, 9].",
+   "j": "range(3) = 0, 1, 2 → [0, 1, 4]."
+  },
+  {
+   "id": "es-4-06",
+   "t": "4",
+   "g": "C",
+   "q": "Em pandas, df.groupby('uf')['valor'].sum() retorna a soma da coluna valor para cada valor distinto da coluna uf."
+  },
+  {
+   "id": "es-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "Ajustar o padronizador com o conjunto completo de dados, antes da divisão entre treino e teste, pode causar vazamento de informação.",
+   "j": "Ajuste (fit) só no treino; aplique (transform) no teste."
+  },
+  {
+   "id": "es-5-02",
+   "t": "5",
+   "g": "C",
+   "q": "A codificação one-hot é adequada para variáveis categóricas nominais e cria uma coluna binária para cada categoria."
+  },
+  {
+   "id": "es-5-03",
+   "t": "5",
+   "g": "E",
+   "q": "A padronização z-score transforma os dados para o intervalo [0, 1].",
+   "j": "z-score → média 0 e desvio 1 (sem limites). [0, 1] é a normalização min-max."
+  },
+  {
+   "id": "es-5-04",
+   "t": "5",
+   "g": "C",
+   "q": "Em base desbalanceada, a acurácia pode ser enganosa, pois um modelo que sempre prevê a classe majoritária pode obter acurácia elevada."
+  },
+  {
+   "id": "es-5-05",
+   "t": "5",
+   "g": "E",
+   "q": "A imputação de valores ausentes pela média é neutra, não produzindo efeitos sobre a variância da variável.",
+   "j": "Reduz a variância e pode distorcer correlações."
+  }
+ ]
+}

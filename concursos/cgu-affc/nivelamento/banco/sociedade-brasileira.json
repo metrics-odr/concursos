@@ -1,0 +1,116 @@
+{
+ "disciplina": "sociedade-brasileira",
+ "itens": [
+  {
+   "id": "sb-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "Mobilidade social intergeracional refere-se à mudança de posição social de uma pessoa em relação à posição social de seus pais.",
+   "j": "Intrageracional = ao longo da vida da própria pessoa."
+  },
+  {
+   "id": "sb-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "A discriminação institucional só se configura quando há intenção deliberada de agentes individuais de discriminar.",
+   "j": "A discriminação institucional pode operar por regras e práticas aparentemente neutras que produzem desvantagem sistemática para certos grupos."
+  },
+  {
+   "id": "sb-1-03",
+   "t": "1",
+   "g": "C",
+   "q": "Estratificação social designa a distribuição hierárquica de indivíduos e grupos segundo critérios como renda, prestígio e poder.",
+   "j": "Conceito clássico (Weber: classe, status e partido)."
+  },
+  {
+   "id": "sb-2-01",
+   "t": "2",
+   "g": "E",
+   "q": "A abolição da escravidão em 1888 foi acompanhada de políticas estatais amplas de integração da população negra liberta ao mercado de trabalho e ao acesso à terra.",
+   "j": "Não houve políticas de integração; a Lei de Terras (1850) já dificultava o acesso à terra."
+  },
+  {
+   "id": "sb-2-02",
+   "t": "2",
+   "g": "C",
+   "q": "Na interpretação de José Murilo de Carvalho, a sequência de construção dos direitos no Brasil difere do modelo inglês descrito por Marshall, pois os direitos sociais foram ampliados antes da consolidação dos direitos políticos e civis.",
+   "j": "Cidadania no Brasil: o longo caminho — no Brasil a pirâmide foi invertida (sociais na Era Vargas, com direitos políticos restritos).",
+   "f": "Carvalho, Cidadania no Brasil"
+  },
+  {
+   "id": "sb-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "A expressão cidadania regulada, de Wanderley Guilherme dos Santos, refere-se ao acesso a direitos sociais condicionado à inserção em ocupações reconhecidas e regulamentadas pelo Estado.",
+   "j": "A carteira de trabalho era a certidão de nascimento cívica.",
+   "f": "Santos, Cidadania e Justiça (1979)"
+  },
+  {
+   "id": "sb-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "A transição demográfica brasileira, marcada por queda da fecundidade e aumento da expectativa de vida, implica envelhecimento populacional e maior demanda por políticas de cuidado.",
+   "j": "Fecundidade abaixo do nível de reposição desde os anos 2000.",
+   "f": "IBGE"
+  },
+  {
+   "id": "sb-3-02",
+   "t": "3",
+   "g": "E",
+   "q": "A informalidade no mercado de trabalho brasileiro é fenômeno residual, que atinge menos de 10% da população ocupada.",
+   "j": "A taxa de informalidade da PNAD Contínua fica em torno de 38% a 40% dos ocupados.",
+   "f": "IBGE, PNAD Contínua"
+  },
+  {
+   "id": "sb-3-03",
+   "t": "3",
+   "g": "C",
+   "q": "As desigualdades regionais no Brasil se expressam em diferenças de renda, de acesso a serviços e de infraestrutura entre regiões e entre áreas urbanas e rurais.",
+   "j": "Ex.: cobertura de saneamento muito menor no Norte e em áreas rurais."
+  },
+  {
+   "id": "sb-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "Interseccionalidade é a abordagem que analisa como diferentes marcadores sociais, como raça, gênero e classe, se combinam e produzem formas específicas de desigualdade e discriminação.",
+   "j": "Termo de Kimberlé Crenshaw (1989).",
+   "f": "Crenshaw (1989)"
+  },
+  {
+   "id": "sb-4-02",
+   "t": "4",
+   "g": "E",
+   "q": "Barreiras digitais em serviços públicos atingem de forma homogênea toda a população, sem impactos diferenciados por idade, renda ou deficiência.",
+   "j": "Atingem mais idosos, pessoas de baixa renda, com deficiência e em áreas sem conectividade."
+  },
+  {
+   "id": "sb-4-03",
+   "t": "4",
+   "g": "C",
+   "q": "Segundo a Lei Brasileira de Inclusão, pessoa com deficiência é aquela com impedimento de longo prazo que, em interação com uma ou mais barreiras, pode ter obstruída sua participação plena e efetiva na sociedade em igualdade de condições.",
+   "j": "Modelo social/biopsicossocial da deficiência.",
+   "f": "Lei nº 13.146/2015, art. 2º"
+  },
+  {
+   "id": "sb-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "O índice de Gini varia de 0 a 1, sendo 0 a situação de perfeita igualdade e 1 a de máxima desigualdade.",
+   "j": "Também pode ser expresso de 0 a 100."
+  },
+  {
+   "id": "sb-5-02",
+   "t": "5",
+   "g": "E",
+   "q": "A redução da renda média de uma população implica, necessariamente, aumento do índice de Gini.",
+   "j": "O Gini mede distribuição, não nível: se todas as rendas caem na mesma proporção, o Gini não muda."
+  },
+  {
+   "id": "sb-5-03",
+   "t": "5",
+   "g": "C",
+   "q": "A vulnerabilidade climática tende a afetar com mais intensidade populações de menor renda e em moradias precárias, o que relaciona a agenda ambiental à das desigualdades.",
+   "j": "Ex.: áreas de risco de deslizamento e enchente concentram população pobre."
+  }
+ ]
+}
