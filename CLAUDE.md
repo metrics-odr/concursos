@@ -113,7 +113,16 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 - Detalhes de workflows, cron-job.org e Make: `automacoes/README.md`.
 
 ## 🚀 Publicar (regra permanente)
+> [!IMPORTANT]
+> **“Publicar” = o resultado final é o conteúdo MESCLADO NA `main`.** Dar push no branch de trabalho **não** é publicar: o site só atualiza com push na `main`. Nunca encerrar uma rodada de “publicar” com o código apenas no branch ou com PR aberto.
+
 Toda vez que uma alteração for commitada e enviada (push) para o branch de trabalho, **terminar a resposta com o botão “Publicar”**: usar a ferramenta `AskUserQuestion` com a pergunta “Publicar as alterações na Área do Concurseiro?” e as opções **“Publicar”** (primeira, recomendada) e **“Ainda não”**.
-- Se o Eduardo escolher **Publicar**: abrir o PR do branch de trabalho para a `main` e **mesclar na hora** (merge), sem esperar revisão; depois acompanhar o workflow `pages.yml` até ficar verde e responder com o link da página publicada.
+- Vale como “Publicar” qualquer pedido equivalente do Eduardo (clicar no botão, ou dizer “publica”, “envia”, “manda pro site”, “mescla”) — e **também se ele responder por mensagem em vez de clicar**.
+- Ao Publicar, executar **todos** os passos, sem parar no meio e sem esperar revisão:
+  1. garantir commit + push do branch de trabalho;
+  2. abrir o PR do branch para a `main` (`mcp__github__create_pull_request`);
+  3. **mesclar na hora** (`mcp__github__merge_pull_request`, merge normal) — se houver conflito, resolver (merge da `main` no branch) e mesclar;
+  4. acompanhar o workflow `pages.yml` até ficar verde (se falhar, corrigir e repetir);
+  5. responder com o link da página publicada e confirmar “mesclado na main”.
 - Se o PR do branch já tiver sido mesclado antes, recriar o branch a partir da `main` atual antes de novos commits (nunca reaproveitar PR mesclado).
 - Escolher Publicar vale só para aquela rodada de alterações; nas próximas, perguntar de novo.
