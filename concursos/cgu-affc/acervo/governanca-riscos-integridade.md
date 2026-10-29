@@ -1,6 +1,6 @@
 # 🔎 Acervo — Fundamentos de Governança, Riscos e Integridade Pública e Privada
 
-> P2 · Conhecimentos complementares · Pasta de notas: [`disciplinas/governanca-riscos-integridade/`](../../../disciplinas/governanca-riscos-integridade/)
+> P2 · Conhecimentos complementares · Pasta de notas: `disciplinas/governanca-riscos-integridade/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

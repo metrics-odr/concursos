@@ -20,7 +20,7 @@ Checklist do conteúdo programático (edital, item 15.2). Cada item vai apontar 
 ## P1 — Conhecimentos básicos
 
 ### Estado, Democracia, Direitos e Ciência Política
-Pasta: [`disciplinas/ciencia-politica-e-estado/`](../../disciplinas/ciencia-politica-e-estado/) · Acervo: [`acervo/ciencia-politica-e-estado.md`](acervo/ciencia-politica-e-estado.md)
+Pasta: `disciplinas/ciencia-politica-e-estado/` (ainda sem notas) · Acervo: [`acervo/ciencia-politica-e-estado.md`](acervo/ciencia-politica-e-estado.md)
 
 - ✅ **1** Estado e legitimidade
   - ✅ 1.1 Estado, governo e administração; autoridade, legitimidade e poder; interesse público, pluralismo e conflitos distributivos
@@ -49,7 +49,7 @@ Pasta: [`disciplinas/ciencia-politica-e-estado/`](../../disciplinas/ciencia-poli
   - ⬜ 9.4 Fundamentos constitucionais da atuação econômica do Estado e comparação de alternativas institucionais à luz de objetivos, evidências e resultados
 
 ### Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento
-Pasta: [`disciplinas/sociedade-brasileira/`](../../disciplinas/sociedade-brasileira/) · Acervo: [`acervo/sociedade-brasileira.md`](acervo/sociedade-brasileira.md)
+Pasta: `disciplinas/sociedade-brasileira/` (ainda sem notas) · Acervo: [`acervo/sociedade-brasileira.md`](acervo/sociedade-brasileira.md)
 
 - ⬜ **1** Fundamentos sociológicos
   - ⬜ 1.1 Instituições, socialização e ação coletiva; estratificação e mobilidade social; redes, poder, discriminação e reprodução das desigualdades
@@ -63,7 +63,7 @@ Pasta: [`disciplinas/sociedade-brasileira/`](../../disciplinas/sociedade-brasile
   - ⬜ 5.1 Pobreza, renda e proteção social; educação, saúde, saneamento e habitação como problemas públicos; sustentabilidade e vulnerabilidade climática; leitura contextual de indicadores e desigualdades
 
 ### Ética Pública e Responsabilidade Profissional
-Pasta: [`disciplinas/etica-publica/`](../../disciplinas/etica-publica/) · Acervo: [`acervo/etica-publica.md`](acervo/etica-publica.md)
+Pasta: `disciplinas/etica-publica/` (ainda sem notas) · Acervo: [`acervo/etica-publica.md`](acervo/etica-publica.md)
 
 - ⬜ **1** Fundamentos da ética pública
   - ⬜ 1.1 Interesse público, dignidade, justiça e responsabilidade; relações entre deveres, consequências e virtudes profissionais; conflitos entre valores em decisões públicas
@@ -80,7 +80,7 @@ Pasta: [`disciplinas/etica-publica/`](../../disciplinas/etica-publica/) · Acerv
   - ⬜ 5.1 Coerência entre regras e práticas; ambiente organizacional e incentivos; canais de orientação e relato; papel do exemplo, da confiança e da prestação de contas
 
 ### Administração Pública e Fundamentos de Políticas Públicas
-Pasta: [`disciplinas/administracao-publica-e-politicas/`](../../disciplinas/administracao-publica-e-politicas/) · Acervo: [`acervo/administracao-publica-e-politicas.md`](acervo/administracao-publica-e-politicas.md)
+Pasta: `disciplinas/administracao-publica-e-politicas/` (ainda sem notas) · Acervo: [`acervo/administracao-publica-e-politicas.md`](acervo/administracao-publica-e-politicas.md)
 
 - ⬜ **1** Organização administrativa
   - ⬜ 1.1 Administração direta e indireta; descentralização e desconcentração; agentes públicos; funções da administração pública: formulação, execução, regulação e controle de políticas e ações públicas; arranjos de cooperação com entes federativos e entidades não estatais
@@ -96,7 +96,7 @@ Pasta: [`disciplinas/administracao-publica-e-politicas/`](../../disciplinas/admi
 ## P2 — Conhecimentos complementares
 
 ### Fundamentos de Governança, Riscos e Integridade Pública e Privada
-Pasta: [`disciplinas/governanca-riscos-integridade/`](../../disciplinas/governanca-riscos-integridade/) · Acervo: [`acervo/governanca-riscos-integridade.md`](acervo/governanca-riscos-integridade.md)
+Pasta: `disciplinas/governanca-riscos-integridade/` (ainda sem notas) · Acervo: [`acervo/governanca-riscos-integridade.md`](acervo/governanca-riscos-integridade.md)
 
 - ⬜ **1** Governança e responsabilidades
   - ⬜ 1.1 Distinção entre direção, gestão, controle e prestação de contas; papéis, supervisão, transparência e responsabilização. Relação entre decisões organizacionais, finalidade pública e direitos
@@ -115,7 +115,7 @@ Pasta: [`disciplinas/governanca-riscos-integridade/`](../../disciplinas/governan
   - ⬜ 5.3 Distinção entre baixa ocorrência e baixa detecção de problemas; leitura de evidências simples sobre funcionamento e resultados das medidas
 
 ### Fundamentos de Transparência, Ouvidoria e Participação Social
-Pasta: [`disciplinas/transparencia-ouvidoria-participacao/`](../../disciplinas/transparencia-ouvidoria-participacao/) · Acervo: [`acervo/transparencia-ouvidoria-participacao.md`](acervo/transparencia-ouvidoria-participacao.md)
+Pasta: `disciplinas/transparencia-ouvidoria-participacao/` (ainda sem notas) · Acervo: [`acervo/transparencia-ouvidoria-participacao.md`](acervo/transparencia-ouvidoria-participacao.md)
 
 - ⬜ **1** Acesso à informação
   - ⬜ 1.1 Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições
@@ -138,7 +138,7 @@ Pasta: [`disciplinas/transparencia-ouvidoria-participacao/`](../../disciplinas/t
   - ⬜ 5.3 Liberdade de expressão e pluralismo. 5.3.1 Distinção entre crítica legítima e desinformação
 
 ### Fundamentos de Direito Público Aplicado, Controle e Responsabilização
-Pasta: [`disciplinas/direito-publico-controle/`](../../disciplinas/direito-publico-controle/) · Acervo: [`acervo/direito-publico-controle.md`](acervo/direito-publico-controle.md)
+Pasta: `disciplinas/direito-publico-controle/` (ainda sem notas) · Acervo: [`acervo/direito-publico-controle.md`](acervo/direito-publico-controle.md)
 
 - ⬜ **1** Decisão administrativa
   - ⬜ 1.1 Competência, finalidade, motivação, proporcionalidade e segurança jurídica; consideração das consequências e das condições de atuação
@@ -158,7 +158,7 @@ Pasta: [`disciplinas/direito-publico-controle/`](../../disciplinas/direito-publi
   - ⬜ 5.1 Distinção entre acolhimento, medidas de proteção, apuração de fatos e conclusão sancionadora, especialmente diante de assédio e discriminação; finalidades e garantias de cada atuação
 
 ### Fundamentos de Evidências, Dados e Inteligência Artificial
-Pasta: [`disciplinas/evidencias-dados-ia/`](../../disciplinas/evidencias-dados-ia/) · Acervo: [`acervo/evidencias-dados-ia.md`](acervo/evidencias-dados-ia.md)
+Pasta: `disciplinas/evidencias-dados-ia/` (ainda sem notas) · Acervo: [`acervo/evidencias-dados-ia.md`](acervo/evidencias-dados-ia.md)
 
 - ⬜ **1** Perguntas e fontes
   - ⬜ 1.1 Relação entre problema, pergunta e informação necessária; fontes documentais, administrativas, estatísticas e de participação social
@@ -179,7 +179,7 @@ Pasta: [`disciplinas/evidencias-dados-ia/`](../../disciplinas/evidencias-dados-i
   - ⬜ 5.3 Verificação de fontes e limites da automação de decisões que afetam direitos
 
 ### Fundamentos de Auditoria Governamental e Atuação Integrada da CGU
-Pasta: [`disciplinas/auditoria-governamental-cgu/`](../../disciplinas/auditoria-governamental-cgu/) · Acervo: [`acervo/auditoria-governamental-cgu.md`](acervo/auditoria-governamental-cgu.md)
+Pasta: `disciplinas/auditoria-governamental-cgu/` (ainda sem notas) · Acervo: [`acervo/auditoria-governamental-cgu.md`](acervo/auditoria-governamental-cgu.md)
 
 - ⬜ **1** Propósito, serviços e papéis
   - ⬜ 1.1 Contribuição da auditoria para a governança, os riscos, os controles e os resultados
@@ -203,7 +203,7 @@ Pasta: [`disciplinas/auditoria-governamental-cgu/`](../../disciplinas/auditoria-
 ## P3 — Conhecimentos específicos
 
 ### Estatística, Programação e Análise de Dados
-Pasta: [`disciplinas/estatistica-programacao-analise-dados/`](../../disciplinas/estatistica-programacao-analise-dados/) · Acervo: [`acervo/estatistica-programacao-analise-dados.md`](acervo/estatistica-programacao-analise-dados.md)
+Pasta: `disciplinas/estatistica-programacao-analise-dados/` (ainda sem notas) · Acervo: [`acervo/estatistica-programacao-analise-dados.md`](acervo/estatistica-programacao-analise-dados.md)
 
 - ⬜ **1** Exploração e descrição
   - ⬜ 1.1 Tipos de dados e variáveis; distribuições de frequências, medidas de posição e dispersão; exploração e visualização; comparação de grupos e períodos; identificação de padrões, anomalias e limites das fontes
@@ -248,7 +248,7 @@ Pasta: [`disciplinas/engenharia-arquitetura-governanca-dados/`](../../disciplina
   - ⬜ 6.5 Proteção de dados pessoais e equilíbrio entre utilidade analítica, abertura e proteção de pessoas
 
 ### Aprendizado de Máquina e Inteligência Artificial
-Pasta: [`disciplinas/aprendizado-de-maquina-e-ia/`](../../disciplinas/aprendizado-de-maquina-e-ia/) · Acervo: [`acervo/aprendizado-de-maquina-e-ia.md`](acervo/aprendizado-de-maquina-e-ia.md)
+Pasta: `disciplinas/aprendizado-de-maquina-e-ia/` (ainda sem notas) · Acervo: [`acervo/aprendizado-de-maquina-e-ia.md`](acervo/aprendizado-de-maquina-e-ia.md)
 
 - ⬜ **1** Seleção e construção de modelos
   - ⬜ 1.1 Aprendizado supervisionado e não supervisionado; noções e limites de abordagens semissupervisionadas e por reforço
@@ -285,7 +285,7 @@ Pasta: [`disciplinas/aprendizado-de-maquina-e-ia/`](../../disciplinas/aprendizad
   - ⬜ 6.4 Avaliação dos resultados e limites de autonomia
 
 ### Operação, Governança e Gestão de Soluções de Dados e IA
-Pasta: [`disciplinas/operacao-mlops-dados-ia/`](../../disciplinas/operacao-mlops-dados-ia/) · Acervo: [`acervo/operacao-mlops-dados-ia.md`](acervo/operacao-mlops-dados-ia.md)
+Pasta: `disciplinas/operacao-mlops-dados-ia/` (ainda sem notas) · Acervo: [`acervo/operacao-mlops-dados-ia.md`](acervo/operacao-mlops-dados-ia.md)
 
 - ⬜ **1** Ciclo de vida e MLOps
   - ⬜ 1.1 Versionamento de dados, código e modelos

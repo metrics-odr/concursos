@@ -1,6 +1,6 @@
 # 🔎 Acervo — Fundamentos de Auditoria Governamental e Atuação Integrada da CGU
 
-> P2 · Conhecimentos complementares · Pasta de notas: [`disciplinas/auditoria-governamental-cgu/`](../../../disciplinas/auditoria-governamental-cgu/)
+> P2 · Conhecimentos complementares · Pasta de notas: `disciplinas/auditoria-governamental-cgu/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

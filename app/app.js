@@ -1265,7 +1265,7 @@
       "## 🩺 Diagnóstico — onde direcionar o estudo", "");
     diag.dicas.forEach((d) => linhas.push(`> [!TIP]\n> ${d}\n`));
     linhas.push("| # | Disciplina | Prova | Aproveitamento | Pts a recuperar | Situação | Tempo sugerido |", "|:-:|---|:-:|:-:|:-:|---|:-:|");
-    diag.discs.forEach((d, n) => linhas.push(`| ${n + 1} | [${d.nome}](../acervo/${d.slug}.md) | ${d.prova} | ${pct(d.a)} | ${fmt(Math.max(d.perda, 0))} | ${d.faixa.rot} | ${d.tempo >= 0.005 ? pct(d.tempo) : "—"} |`));
+    diag.discs.forEach((d, n) => linhas.push(`| ${n + 1} | [${d.nome}](../../acervo/${d.slug}.md) | ${d.prova} | ${pct(d.a)} | ${fmt(Math.max(d.perda, 0))} | ${d.faixa.rot} | ${d.tempo >= 0.005 ? pct(d.tempo) : "—"} |`));
     linhas.push("", "### 📌 Tópicos a atacar", "");
     diag.discs.filter((d) => d.faixa.cls !== "ok").forEach((d) => {
       const tops = d.topicos.filter((t) => t.er || t.br);

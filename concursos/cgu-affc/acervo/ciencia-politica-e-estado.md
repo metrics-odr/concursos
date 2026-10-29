@@ -1,6 +1,6 @@
 # 🔎 Acervo — Estado, Democracia, Direitos e Ciência Política
 
-> P1 · Conhecimentos básicos · Pasta de notas: [`disciplinas/ciencia-politica-e-estado/`](../../../disciplinas/ciencia-politica-e-estado/)
+> P1 · Conhecimentos básicos · Pasta de notas: `disciplinas/ciencia-politica-e-estado/` (ainda sem notas)
 
 ## 🧭 Como estudar
 

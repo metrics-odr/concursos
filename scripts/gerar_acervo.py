@@ -61,8 +61,11 @@ def main():
 
     for d in topicos["disciplinas"]:
         c = curadoria.get(d["slug"], {"como_estudar": [], "links": []})
+        # só linka a pasta se ela já tem notas (link para pasta inexistente/vazia = página vazia no site)
+        pasta = (f"[`disciplinas/{d['slug']}/`]({rel}disciplinas/{d['slug']}/)"
+                 if any((RAIZ / "disciplinas" / d["slug"]).glob("*.md")) else f"`disciplinas/{d['slug']}/` (ainda sem notas)")
         out = [f"# 🔎 Acervo — {d['disciplina']}", "",
-               f"> {d['prova']} · {d['grupo_nome']} · Pasta de notas: [`disciplinas/{d['slug']}/`]({rel}disciplinas/{d['slug']}/)", "",
+               f"> {d['prova']} · {d['grupo_nome']} · Pasta de notas: {pasta}", "",
                "## 🧭 Como estudar", ""]
         out += [f"- {x}" for x in c["como_estudar"]] or ["- *(a definir)*"]
         out += ["", "## 📚 Fontes curadas", ""]
