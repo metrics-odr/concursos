@@ -96,6 +96,11 @@ input, select, textarea {
 .tree details.raiz > .filhos { margin-left: 8px; }
 .tree .filhos { margin-left: 12px; border-left: 1px solid var(--border); padding-left: 2px; }
 .tree details[open] > summary .seta { transform: rotate(90deg); }
+.tree .item .nome { overflow: hidden; text-overflow: ellipsis; }
+
+/* Páginas do concurso no explorador: só no celular (no computador elas ficam nas abas do topo) */
+.paginas { display: none; }
+
 .seta { display: inline-block; width: 10px; font-size: 10px; color: var(--muted); transition: transform .1s; }
 
 .main { flex: 1; overflow: auto; min-width: 0; }
@@ -286,7 +291,26 @@ textarea.editor { width: 100%; height: 100%; resize: none; font-size: 14px; line
 .aviso { border: 1px solid var(--warn); color: var(--warn); border-radius: 8px; padding: 8px 12px; font-size: 14px; margin: 10px 0; }
 
 @media (max-width: 860px) {
-  .sidebar { position: fixed; top: 49px; bottom: 0; left: 0; z-index: 10; box-shadow: var(--shadow); width: min(320px, 85vw); }
+  .sidebar { position: fixed; top: 49px; bottom: 0; left: 0; z-index: 10; box-shadow: var(--shadow); width: min(370px, 94vw); }
+  /* Celular (referência: Galaxy S24+, 384 px de largura): páginas entre o filtro e os arquivos */
+  .sidebar-head input { font-size: 16px; }
+  .paginas { display: block; padding: 10px 10px 12px; border-bottom: 1px solid var(--border); }
+  .paginas-titulo { font-size: 12px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase; color: var(--muted);
+    margin: 0 2px 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .paginas-grade { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .paginas .pag { display: flex; align-items: center; min-height: 36px; padding: 0 10px; border: 1px solid var(--border); border-radius: 10px;
+    background: var(--bg); color: var(--fg); font-size: 14.5px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .paginas .pag:hover { text-decoration: none; background: var(--bg-3); }
+  .paginas .pag.ativo { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 700; }
+  /* Tudo rola junto (páginas → arquivos → rodapé), para a lista de arquivos não ficar espremida */
+  .sidebar.aberta { overflow-y: auto; overscroll-behavior: contain; }
+  .sidebar-head { position: sticky; top: 0; z-index: 1; background: var(--bg-2); }
+  .tree { flex: none; overflow: visible; padding-top: 12px; font-size: 14px; }
+  .sidebar-foot { padding-bottom: 24px; }
+  .tree .item { padding: 5px 6px; gap: 5px; }
+  .tree .item .ext { display: none; }
+  .tree .filhos { margin-left: 9px; }
+  .tree details.raiz > .filhos { margin-left: 5px; }
   .sidebar:not(.aberta) { display: none; }
   .brand { display: none; }
   .conteudo { padding: 16px 16px 60px; }
