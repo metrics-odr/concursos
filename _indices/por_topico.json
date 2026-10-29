@@ -2599,7 +2599,10 @@
    "CEB-2025-ANM-CD-Q106",
    "CEB-2025-ANM-CD-Q108"
   ],
-  "notas": [],
+  "notas": [
+   "disciplinas/engenharia-arquitetura-governanca-dados/01-normalizacao.md",
+   "disciplinas/engenharia-arquitetura-governanca-dados/README.md"
+  ],
   "acervo": [
    "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
   ],
@@ -2624,7 +2627,10 @@
    "CEB-2025-ANM-CD-Q105",
    "CEB-2025-ANM-CD-Q108"
   ],
-  "notas": [],
+  "notas": [
+   "disciplinas/engenharia-arquitetura-governanca-dados/01-normalizacao.md",
+   "disciplinas/engenharia-arquitetura-governanca-dados/README.md"
+  ],
   "acervo": [
    "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
   ],
