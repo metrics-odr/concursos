@@ -27,6 +27,14 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Banco de questões — índices e validação
+        run: |
+          pip install --quiet pyyaml
+          python3 scripts/build_indices.py --check \
+            || echo "::warning::_indices/ desatualizado no commit — regenerado para o site; rode python3 scripts/build_indices.py e commite."
+          python3 scripts/build_indices.py
+          python3 scripts/validar.py
+
       - name: Validar scripts e dados
         run: |
           python3 scripts/edital_topicos.py

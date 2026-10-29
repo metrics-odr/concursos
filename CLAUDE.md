@@ -3,6 +3,19 @@
 Este repositório é a base de conhecimento do Eduardo para estudar para **vários concursos públicos**.
 O Claude atua como organizador: lê os materiais enviados, escreve notas em Markdown e mantém o contexto de cada concurso (edital, progresso, cronograma).
 
+## 🧭 Para a tarefa X, leia Y
+| Pedido do Eduardo | Ler / usar |
+|---|---|
+| “gere N questões”, “simulado”, “questões de <assunto>”, discursiva, lacunas | skill `gerar-questoes` (`.claude/skills/gerar-questoes/SKILL.md`) |
+| “subi um PDF”, “processa o inbox”, prova nova para o banco | skill `ingerir-material` (`.claude/skills/ingerir-material/SKILL.md`) |
+| Edital, tópicos e IDs (ex.: `ML.3.1`) | `concursos/cgu-affc/edital/topicos.json` (gerado de `edital-cgu-2026-12.md`) |
+| Como a banca cobra | `bancas/cebraspe/perfil.md` · `bancas/cebraspe/discursiva.md` |
+| Questões reais | `questoes/` (formato em `questoes/README.md`) · índice `_indices/questoes.json` |
+| O que falta estudar | `_indices/cobertura.md` + `concursos/cgu-affc/PROGRESSO.md` |
+
+> [!IMPORTANT]
+> **Antes de todo commit** que mexa em `questoes/`, `disciplinas/` ou `bancas/`: `python3 scripts/build_indices.py && python3 scripts/validar.py`. O `validar.py` diz o arquivo e o que corrigir; o site não publica se ele falhar. `_indices/` é gerado — nunca editar à mão.
+
 ## Estrutura
 
 ```
@@ -13,9 +26,14 @@ concursos/                      (raiz do repo)
 ├── conversas/                  → resumos de conversas Eduardo ↔ Claude (AAAA-MM-DD-tema.md)
 ├── ideias/                     → organização de pensamento, estratégia, planejamento
 ├── flashcards/                 → método, banco de cards (CSV por disciplina) e exportação p/ Anki
-├── desafios/                   → desafio diário AAAA-MM-DD.md (gerado por GitHub Actions; o Eduardo só marca)
+├── desafios/                   → desafio diário AAAA-MM-DD.md (gerado por GitHub Actions; o Eduardo só marca) · simulados/
+├── _inbox/                     → onde o Eduardo joga material novo; _revisar/ = o que não deu para classificar
+├── questoes/                   → banco de questões reais: uma por arquivo, frontmatter com tópicos do edital (compartilhado)
+├── bancas/cebraspe/            → perfil da banca e da discursiva (compartilhado)
+├── _indices/                   → GERADO por scripts/build_indices.py: questoes.json, por_topico.json, cobertura.md
+├── .claude/skills/             → gerar-questoes · ingerir-material
 ├── index.html + app/           → Área do Concurseiro (site no GitHub Pages)
-├── scripts/                    → geradores (tópicos do edital, acervo, desafio, índice, verificação de links)
+├── scripts/                    → geradores (tópicos do edital, acervo, desafio, índice, links) + build_indices · validar · extrair_pdf
 ├── automacoes/                 → documentação de workflows, cron-job.org, Make e rotinas
 ├── .github/workflows/          → pages.yml (publica o site) · desafio-diario.yml
 ├── disciplinas/                → notas COMPARTILHADAS entre concursos
@@ -29,7 +47,7 @@ concursos/                      (raiz do repo)
         ├── PROGRESSO.md        → checklist do edital ligando cada item à nota em disciplinas/
         ├── acervo/             → onde/como estudar cada disciplina (curadoria.json → gerar_acervo.py)
         ├── materiais-brutos/   → material enviado ainda não processado
-        └── revisao/            → provas Cebraspe, caderno de erros (questoes.md), resumos de véspera
+        └── revisao/            → lista de provas Cebraspe, caderno de erros (questoes.md), resumos de véspera
 ```
 
 **Por que as disciplinas são compartilhadas:** matérias como Português, Direito Constitucional, Administrativo e Contabilidade se repetem entre concursos. A nota é escrita **uma vez** em `disciplinas/` e cada concurso aponta para ela no seu `PROGRESSO.md`. Particularidades de um concurso (ex.: lei específica do órgão) vão em `disciplinas/` também, mas com a tag do concurso no cabeçalho.
@@ -38,6 +56,8 @@ concursos/                      (raiz do repo)
 - Pastas e arquivos em `kebab-case`, sem acentos: `direito-administrativo/03-atos-administrativos.md`.
 - Concursos: `<orgao>-<cargo>` (ex.: `cgu-affc`, `tcu-auditor`).
 - Prefixo numérico `NN-` segue a ordem do conteúdo programático do edital.
+- **Tópicos do edital têm ID estável** `<SIGLA>.<n>.<m>` (ex.: `ML.3.1`; siglas em `scripts/edital_topicos.py`). Notas em `disciplinas/` levam `topicos: [IDs]` no frontmatter (junto com `titulo`, `tipo`, `atualizado`) para aparecerem no índice por tópico.
+- Questões: `questoes/<ano>-<orgao>-<cargo>/<id-em-minusculas>.md` (ex.: `ceb-2022-petrobras-cd-q051.md`).
 
 ## Estilo das notas
 Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
@@ -59,7 +79,8 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 |---|---|---|
 | ✍️ Manuscrito (PDF do tablet / foto de caderno) | PDF ou imagem | Ler página a página, **transcrever fielmente** para Markdown e depois organizar no modelo de nota. Palavras ilegíveis → `[ilegível: ?palpite]`. Desenhos/esquemas → recriar como tabela ou Mermaid. |
 | 📄 PDF digitado (apostila, lei, slide) | PDF | Extrair só o que é relevante para o edital; resumir e citar a fonte (página). |
-| 🖼️ Foto / print (lousa, questão, tabela) | Imagem | Transcrever o conteúdo; se for questão, ir para `revisao/questoes.md`. |
+| 🖼️ Foto / print (lousa, questão, tabela) | Imagem | Transcrever o conteúdo; questão errada pelo Eduardo → caderno de erros `revisao/questoes.md`; prova inteira → banco `questoes/` (skill `ingerir-material`). |
+| 📝 Prova / gabarito oficial | PDF ou link | Skill `ingerir-material`: uma questão por arquivo em `questoes/`, gabarito definitivo, tópicos do edital. |
 | 🎙️ Áudio / fala | Transcrição em texto (ditado do celular ou transcrição do app) | Limpar vícios de fala, manter as ideias do Eduardo, estruturar em tópicos. |
 | 💬 Conversa com o Claude | Pedido "resume nossa conversa" | Salvar em `conversas/AAAA-MM-DD-<tema>.md`: dúvidas, explicações, conclusões. O conteúdo de estudo também vai para a nota da disciplina. |
 | 🧠 Organização de pensamento | Texto livre / fala | Salvar em `ideias/AAAA-MM-DD-<tema>.md` (estratégia, planejamento, reflexões). Se virar decisão de estudo, refletir no `PROGRESSO.md`. |
@@ -70,10 +91,10 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 - Registrar na nota a origem: `Fonte: manuscrito 2026-10-28, p. 3`.
 
 ## Fluxo ao receber material
-1. Salvar o original em `concursos/<concurso>/materiais-brutos/` (se for adequado versionar; nada de apostila paga com direitos autorais em repo público).
+1. Material solto chega em `_inbox/` (ou anexado na conversa) → skill `ingerir-material`. Originais vão para `concursos/<concurso>/materiais-brutos/` ou `questoes/_pdf/` (se for adequado versionar; nada de apostila paga com direitos autorais em repo público).
 2. Identificar a disciplina e o tópico do edital correspondente.
 3. Criar/atualizar a nota em `disciplinas/<disciplina>/`.
-4. Atualizar o `PROGRESSO.md` do concurso e os índices (`README.md`).
+4. Atualizar o `PROGRESSO.md` do concurso e os índices (`README.md`); rodar `build_indices.py` e `validar.py`.
 5. Commit com mensagem descritiva em português e push.
 
 ## Concursos ativos

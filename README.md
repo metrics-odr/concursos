@@ -20,12 +20,18 @@ As notas ficam em [`disciplinas/`](disciplinas/) e são **compartilhadas entre c
 
 ```mermaid
 flowchart LR
-    A[Material enviado] --> B[materiais-brutos/]
-    B --> C[Nota em disciplinas/]
-    D[Edital] --> E[PROGRESSO.md do concurso]
+    I[_inbox/] -->|ingerir-material| Q[questoes/: uma por arquivo]
+    I --> C[Nota em disciplinas/]
+    D[Edital → topicos.json] --> E[PROGRESSO.md do concurso]
     C --> E
-    C --> F[revisao/: flashcards e pegadinhas]
+    Q --> X[_indices/: por tópico + cobertura]
+    C --> X
+    X -->|gerar-questoes| S[Questões estilo Cebraspe]
 ```
+
+🗂️ [`questoes/`](questoes/README.md) → banco de questões reais (uma por arquivo, com tópicos do edital) · 🎯 [`bancas/cebraspe/`](bancas/cebraspe/perfil.md) → como a banca cobra · 🗺️ [`_indices/cobertura.md`](_indices/cobertura.md) → lacunas do edital
+
+📥 [`_inbox/`](_inbox/README.md) → jogue material novo aqui e peça “processa o inbox” · 💬 numa conversa nova, peça “gere 5 questões da minha prova”
 
 🃏 [`flashcards/`](flashcards/) → banco de flashcards e exportação para o Anki
 
