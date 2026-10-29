@@ -9,9 +9,9 @@ Checklist do conteúdo programático (edital, item 15.2). Cada item vai apontar 
 
 | Prova | Disciplinas | Itens | Peso |
 |---|---|:---:|---|
-| P1 – Básicos | 4 | 40 | 1 ponto/item |
-| P2 – Complementares | 5 | 40 | 1 ponto/item · base da discursiva de 30 linhas |
-| P3 – Específicos | 4 | 90 | **2 pontos/item** · base da situação-problema de 60 linhas |
+| [P1 – Básicos](#p1-conhecimentos-basicos) | 4 | 40 | 1 ponto/item |
+| [P2 – Complementares](#p2-conhecimentos-complementares) | 5 | 40 | 1 ponto/item · base da discursiva de 30 linhas |
+| [P3 – Específicos](#p3-conhecimentos-especificos) | 4 | 90 | **2 pontos/item** · base da situação-problema de 60 linhas |
 
 *Checklist gerado por `python3 scripts/edital_topicos.py --progresso` a partir do edital. Não editar a estrutura entre os marcadores; só os emojis de status.*
 
