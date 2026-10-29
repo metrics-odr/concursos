@@ -14,6 +14,9 @@
     template: "_templates/nota-topico.md",
   };
   const OCULTOS = /^(\.|app\/|index\.html$|indice\.json$|_site\/)|\/\.gitkeep$/;
+  // Infra do site/build: escondida do explorer por padrão (botão 🔧 no rodapé mostra de novo)
+  const TECNICOS = /^(scripts\/|_indices\/|_templates\/|automacoes\/|flashcards\/(scripts|exportados)\/|CLAUDE\.md$|\.)/;
+  const ocultar = (p) => OCULTOS.test(p) || (!store.get("ac:verTecnicos", false) && TECNICOS.test(p));
   const STATUS = ["⬜", "🟨", "✅", "🔁"];
   const STATUS_NOME = { "⬜": "não iniciado", "🟨": "em estudo", "✅": "estudado", "🔁": "revisado" };
   const TASK_RE = /^\s*(?:[-*+]|\d+\.)\s+\[( |x|X)\]/;
@@ -376,7 +379,7 @@
 
   function renderArvore() {
     const filtro = ($("#filtro").value || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
-    const visiveis = estado.arquivos.filter((p) => !OCULTOS.test(p))
+    const visiveis = estado.arquivos.filter((p) => !ocultar(p))
       .filter((p) => !filtro || p.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").includes(filtro));
     const abertas = store.get("ac:pastas", { concursos: true, "concursos/cgu-affc": true, disciplinas: true });
     const atual = rotaAtual().path || "";
@@ -495,7 +498,7 @@
   function telaPasta(main, pasta) {
     const p = pasta.replace(/\/$/, "");
     const filhos = new Set();
-    estado.arquivos.filter((a) => a.startsWith(`${p}/`) && !OCULTOS.test(a)).forEach((a) => {
+    estado.arquivos.filter((a) => a.startsWith(`${p}/`) && !ocultar(a)).forEach((a) => {
       const resto = a.slice(p.length + 1);
       filhos.add(resto.includes("/") ? `${resto.split("/")[0]}/` : resto);
     });
@@ -1336,7 +1339,7 @@
     };
     const desenhar = () => {
       const q = norm(inp.value.trim());
-      res = estado.arquivos.filter((p) => !OCULTOS.test(p)).map((p) => [p, pontuar(p, q)]).filter((x) => x[1] > 0)
+      res = estado.arquivos.filter((p) => !ocultar(p)).map((p) => [p, pontuar(p, q)]).filter((x) => x[1] > 0)
         .sort((a, b) => b[1] - a[1] || a[0].length - b[0].length).slice(0, 40).map((x) => x[0]);
       sel = Math.min(sel, Math.max(0, res.length - 1));
       ul.innerHTML = res.map((p, i) => `<li class="${i === sel ? "sel" : ""}" data-i="${i}">${icone(p)} ${esc(basename(p))}<small>${esc(dirname(p))}</small></li>`).join("");
