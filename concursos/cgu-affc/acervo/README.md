@@ -3,7 +3,7 @@
 Onde e como estudar cada disciplina do edital. Fontes curadas + atalhos de busca por tópico.
 
 > [!TIP]
-> Gerado por `python3 scripts/gerar_acervo.py`. Para incluir uma fonte, edite [`curadoria.json`](curadoria.json) (ou peça ao Claude) — a rotina semanal também faz isso.
+> Gerado por `python3 scripts/gerar_acervo.py`. Para incluir uma fonte, edite [`curadoria.json`](curadoria.json) (ou peça ao Claude) — vídeos por tópico ficam em [`videos.json`](videos.json) — a rotina semanal também faz isso.
 
 ## Como estudar (geral)
 

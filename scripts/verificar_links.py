@@ -9,6 +9,7 @@ import json
 import re
 import sys
 import urllib.request
+from urllib.parse import quote
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -18,6 +19,8 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
 
 def urls_de(arquivo):
     texto = arquivo.read_text(encoding="utf-8")
+    if arquivo.name == "videos.json":
+        return [f"https://www.youtube.com/watch?v={x['id']}" for lista in json.loads(texto).values() for x in lista]
     if arquivo.suffix == ".json":
         dados = json.loads(texto)
         return [l["url"] for k, v in dados.items() if isinstance(v, dict) for l in v.get("links", [])]
@@ -25,6 +28,8 @@ def urls_de(arquivo):
 
 
 def status(url):
+    if "youtube.com/watch" in url:  # a página responde 200 até para vídeo removido; o oEmbed não
+        url = "https://www.youtube.com/oembed?format=json&url=" + quote(url, safe="")
     for metodo in ("HEAD", "GET"):
         try:
             req = urllib.request.Request(url, method=metodo, headers={"User-Agent": UA})
@@ -41,7 +46,7 @@ def status(url):
 
 def main():
     arquivos = [Path(a) for a in sys.argv[1:]] or [
-        *RAIZ.glob("concursos/*/acervo/curadoria.json"), *RAIZ.glob("concursos/*/revisao/provas-cebraspe.md")]
+        *RAIZ.glob("concursos/*/acervo/curadoria.json"), *RAIZ.glob("concursos/*/acervo/videos.json"), *RAIZ.glob("concursos/*/revisao/provas-cebraspe.md")]
     urls = sorted({u for a in arquivos for u in urls_de(a) if u.startswith("http")})
     with ThreadPoolExecutor(8) as ex:
         resultados = list(ex.map(status, urls))
