@@ -166,7 +166,7 @@ Legenda: Q = questões reais válidas · N = notas em `disciplinas/` · 🔴 sem
 
 | | Tópico | Q | N | Texto |
 |:-:|---|:-:|:-:|---|
-| 🟡 | `ED.1.1` | 7 | 0 | Modelos relacional, documental, chave-valor, multidimensional e vetorial; normalização … |
+| 🟢 | `ED.1.1` | 7 | 2 | Modelos relacional, documental, chave-valor, multidimensional e vetorial; normalização … |
 | 🟡 | `ED.1.2` | 2 | 0 | Data warehouse, data mart, data lake e lakehouse; produtos de dados, responsabilidade p… |
 | 🟡 | `ED.2.1` | 4 | 0 | Definição e manipulação de dados, controle de acesso e transações; filtros, junções, ag… |
 | 🔴 | `ED.2.2` | 0 | 0 | Índices, planos de execução e desempenho; valores nulos, duplicações e erros de interpr… |

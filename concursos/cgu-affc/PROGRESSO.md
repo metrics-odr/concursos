@@ -221,8 +221,8 @@ Pasta: [`disciplinas/estatistica-programacao-analise-dados/`](../../disciplinas/
 ### Engenharia, Arquitetura e Governança de Dados
 Pasta: [`disciplinas/engenharia-arquitetura-governanca-dados/`](../../disciplinas/engenharia-arquitetura-governanca-dados/) · Acervo: [`acervo/engenharia-arquitetura-governanca-dados.md`](acervo/engenharia-arquitetura-governanca-dados.md)
 
-- ⬜ **1** Modelagem e arquiteturas
-  - ⬜ 1.1 Modelos relacional, documental, chave-valor, multidimensional e vetorial; normalização e integridade; transações e consistência
+- 🟨 **1** Modelagem e arquiteturas
+  - 🟨 1.1 Modelos relacional, documental, chave-valor, multidimensional e vetorial; normalização e integridade; transações e consistência
   - ⬜ 1.2 Data warehouse, data mart, data lake e lakehouse; produtos de dados, responsabilidade por domínios, autosserviço e governança federada em data mesh
 - ⬜ **2** SQL e consultas analíticas
   - ⬜ 2.1 Definição e manipulação de dados, controle de acesso e transações; filtros, junções, agregações, subconsultas, expressões de tabela comuns e funções de janela
