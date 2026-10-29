@@ -288,7 +288,7 @@ Pasta: `disciplinas/aprendizado-de-maquina-e-ia/` (ainda sem notas) · Acervo: [
 Pasta: `disciplinas/operacao-mlops-dados-ia/` (ainda sem notas) · Acervo: [`acervo/operacao-mlops-dados-ia.md`](acervo/operacao-mlops-dados-ia.md)
 
 - 🟨 **1** Ciclo de vida e MLOps · [📚 acervo](acervo/operacao-mlops-dados-ia.md#1-ciclo-de-vida-e-mlops)
-  - ⬜ 1.1 Versionamento de dados, código e modelos · [📚 acervo](acervo/operacao-mlops-dados-ia.md#1-ciclo-de-vida-e-mlops)
+  - 🟨 1.1 Versionamento de dados, código e modelos · [📚 acervo](acervo/operacao-mlops-dados-ia.md#1-ciclo-de-vida-e-mlops)
   - ⬜ 1.2 Registro de experimentos · [📚 acervo](acervo/operacao-mlops-dados-ia.md#1-ciclo-de-vida-e-mlops)
   - ⬜ 1.3 Pipelines, testes e integração e entrega contínuas · [📚 acervo](acervo/operacao-mlops-dados-ia.md#1-ciclo-de-vida-e-mlops)
   - ⬜ 1.4 Reprodutibilidade · [📚 acervo](acervo/operacao-mlops-dados-ia.md#1-ciclo-de-vida-e-mlops)
