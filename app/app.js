@@ -427,7 +427,7 @@
     const r = rotaAtual();
     marcarAba(r);
     renderArvore();
-    if (matchMedia("(max-width: 860px)").matches) $("#sidebar").classList.remove("aberta");
+    if (matchMedia("(max-width: 860px)").matches) { $("#sidebar").classList.remove("aberta"); $("#seta-arquivos").textContent = "▸"; }
     const main = $("#main");
     main.scrollTop = 0;
     try {
@@ -1428,10 +1428,19 @@
     $("#btn-publicar").addEventListener("click", forcarPublicacao);
     mostrarVersao();
     configurarMarked();
-    $("#btn-sidebar").addEventListener("click", () => {
-      const sb = $("#sidebar");
-      if (matchMedia("(max-width: 860px)").matches) sb.classList.toggle("aberta");
-      else sb.classList.toggle("oculta");
+    const sb = $("#sidebar"), btnSb = $("#btn-sidebar");
+    const mobile = () => matchMedia("(max-width: 860px)").matches;
+    const marcarSb = () => {
+      const aberta = mobile() ? sb.classList.contains("aberta") : !sb.classList.contains("oculta");
+      btnSb.setAttribute("aria-expanded", aberta);
+      $("#seta-arquivos").textContent = aberta ? "▾" : "▸";
+    };
+    if (!mobile() && store.get("ac:sidebarOculta", false)) sb.classList.add("oculta");
+    marcarSb();
+    btnSb.addEventListener("click", () => {
+      if (mobile()) sb.classList.toggle("aberta");
+      else { sb.classList.toggle("oculta"); store.set("ac:sidebarOculta", sb.classList.contains("oculta")); }
+      marcarSb();
     });
     $("#filtro").addEventListener("input", renderArvore);
     $("#btn-busca").addEventListener("click", abrirBusca);
