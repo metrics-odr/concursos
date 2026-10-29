@@ -66,6 +66,8 @@ code, pre, textarea.editor { font-family: ui-monospace, "SFMono-Regular", Menlo,
   font-size: 16px; padding: 4px 8px; cursor: pointer;
 }
 .icon-btn:hover { background: var(--bg-3); }
+.arquivos-btn { font-size: 14px; font-weight: 600; white-space: nowrap; }
+.arquivos-btn .seta { color: var(--muted); }
 .icon-btn.small { font-size: 14px; padding: 2px 8px; border-color: var(--border); }
 
 /* Layout */
