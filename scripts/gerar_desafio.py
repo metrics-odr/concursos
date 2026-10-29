@@ -15,7 +15,6 @@ import re
 import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote_plus
 
 RAIZ = Path(__file__).resolve().parent.parent
 CONCURSO = RAIZ / "concursos" / "cgu-affc"
@@ -59,14 +58,13 @@ def escolher(disciplinas, indice_dia, st, sorteados):
 
 def bloco(d, t, itens):
     rel = f"../concursos/cgu-affc/acervo/{d['slug']}.md"
-    q = quote_plus(f"{t['titulo']} cebraspe")
     subs = "; ".join(s["texto"] for s in t["subitens"])[:400]
     return [
         f"### {d['prova']} · {d['disciplina']}",
         f"**{t['num']} {t['titulo']}**" + (f" — {subs}" if subs else ""),
         "",
         f"- [ ] 📖 Estudar o tópico pelo [acervo]({rel}) e registrar a nota em `disciplinas/{d['slug']}/` <!-- t:{d['slug']}:{t['num']} -->",
-        f"- [ ] 📝 Resolver {itens} itens **[Banca Cebraspe]** do tópico ([buscar questões](https://www.google.com/search?q={q}+site%3Aqconcursos.com)) e anotar os erros em `revisao/questoes.md`",
+        f"- [ ] 📝 Resolver {itens} itens **[Banca Cebraspe]** do tópico (questões reais no [acervo]({rel}) e no banco `questoes/`) e anotar os erros em `revisao/questoes.md`",
         "",
     ]
 
