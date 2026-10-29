@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 """Gera concursos/cgu-affc/acervo/<disciplina>.md a partir do edital (topicos.json) e da curadoria.
 
-Cada arquivo traz: como estudar, fontes curadas e, para CADA tópico do edital, vídeos reais sobre o tema
-(curados em acervo/videos.json, por ID do edital) e atalhos de busca (PDFs, questões Cebraspe e artigos).
+Cada arquivo traz: como estudar, fontes curadas e, para CADA tópico do edital, vídeos (acervo/videos.json), PDFs e artigos reais (acervo/fontes.json, por ID do edital) e questões do banco.
 
 Uso: python3 scripts/gerar_acervo.py
 """
 import json
 from pathlib import Path
-from urllib.parse import quote_plus
 
 RAIZ = Path(__file__).resolve().parent.parent
 CONCURSO = RAIZ / "concursos" / "cgu-affc"
@@ -16,18 +14,26 @@ ACERVO = CONCURSO / "acervo"
 ICONES = {"video": "▶️", "curso": "🎓", "pdf": "📄", "lei": "⚖️", "artigo": "📰", "ferramenta": "🧰", "questoes": "📝"}
 
 
-def termos(texto, limite=9):
-    palavras = [p.strip(",;:()") for p in texto.replace("*", "").split()]
-    return " ".join(p for p in palavras if p)[:120] if len(palavras) <= limite else " ".join(palavras[:limite])
+def fontes_md(f, questoes, recuo):
+    """Uma linha por fonte real: 📄 PDF e 📰 artigo (acervo/fontes.json) e 📝 questões do banco (Banca Cebraspe)."""
+    linhas = []
+    for l in f.get("pdf", []):
+        linhas.append(f"{recuo}- 📄 [{l['titulo']}]({l['url']}) — PDF")
+    for l in f.get("artigo", []):
+        linhas.append(f"{recuo}- 📰 [{l['titulo']}]({l['url']}) — artigo")
+    for q in questoes:
+        linhas.append(f"{recuo}- 📝 [{q[0]}]({q[1]}) — questão real · Banca Cebraspe")
+    return linhas
 
 
-def buscas(assunto):
-    q = quote_plus(assunto)
-    return " · ".join([
-        f"[📄 PDFs](https://www.google.com/search?q={q}+filetype%3Apdf)",
-        f"[📝 Questões Cebraspe](https://www.google.com/search?q={q}+cebraspe+site%3Aqconcursos.com)",
-        f"[📰 Artigos](https://www.google.com/search?q={q}+concurso+resumo)",
-    ])
+def questoes_do_banco(por_topico, sid):
+    """Questões reais do banco (questoes/) ligadas ao tópico: [(id, caminho relativo ao acervo)]."""
+    achadas = []
+    for qid in por_topico.get(sid, {}).get("questoes", [])[:3]:
+        arq = next((RAIZ / "questoes").glob(f"*/{qid.lower()}.md"), None)
+        if arq:
+            achadas.append((qid, "../../../" + str(arq.relative_to(RAIZ))))
+    return achadas
 
 
 def videos_md(videos, recuo):
@@ -49,6 +55,9 @@ def main():
     topicos = json.loads((CONCURSO / "edital" / "topicos.json").read_text(encoding="utf-8"))
     curadoria = json.loads((ACERVO / "curadoria.json").read_text(encoding="utf-8"))
     videos = json.loads((ACERVO / "videos.json").read_text(encoding="utf-8"))
+    fontes = json.loads((ACERVO / "fontes.json").read_text(encoding="utf-8"))
+    pt = RAIZ / "_indices" / "por_topico.json"
+    por_topico = json.loads(pt.read_text(encoding="utf-8")) if pt.exists() else {}
     rel = "../../../"  # de concursos/cgu-affc/acervo/ até a raiz
     indice = ["# 🔎 Acervo de estudo — CGU AFFC · Ciência de Dados", "",
               "Onde e como estudar cada disciplina do edital. Fontes curadas + atalhos de busca por tópico.", "",
@@ -71,13 +80,13 @@ def main():
         out += ["", "## 📚 Fontes curadas", ""]
         out += [link_md(l, rel) for l in c["links"]] or ["*(nenhuma ainda — a rotina semanal vai preencher)*"]
         out += ["", "## 🗂️ Por tópico do edital", "",
-                "Vídeos selecionados sobre cada tópico (YouTube) e atalhos de busca para PDFs, questões e artigos.", ""]
+                "Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fontes.json`) e questões reais do banco.", ""]
         for t in d["topicos"]:
-            out += [f"### {t['num']} {t['titulo']}", "", buscas(t["titulo"]), ""]
+            out += [f"### {t['num']} {t['titulo']}", ""]
             for s in t["subitens"]:
                 out.append(f"- **{s['num']}** {s['texto']}")
                 out += videos_md(videos.get(s["id"], []), "  ")
-                out.append(f"  - {buscas(termos(s['texto']))}")
+                out += fontes_md(fontes.get(s["id"], {}), questoes_do_banco(por_topico, s["id"]), "  ")
             out.append("")
         (ACERVO / f"{d['slug']}.md").write_text("\n".join(out), encoding="utf-8")
         indice.append(f"| {d['prova']} | [{d['disciplina']}]({d['slug']}.md) | {len(c['links'])} |")
