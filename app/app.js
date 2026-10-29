@@ -526,6 +526,65 @@
   }
 
   // ---------- Tela: editor ----------
+  // Live preview: recolhe os marcadores (**, *, ~~, `, #, [texto](url)) de tudo que não está sob o cursor;
+  // ao clicar/navegar para dentro do trecho, o markdown cru reaparece para edição.
+  function ligarLivePreview(cm) {
+    let marcas = [];
+    const tem = (t, c) => t.type && (" " + t.type + " ").includes(" " + c + " ");
+    const esconder = (l, a, b) => marcas.push(cm.markText({ line: l, ch: a }, { line: l, ch: b }, { collapsed: true, inclusiveLeft: false, inclusiveRight: false }));
+    function desenhar() {
+      marcas.forEach((m) => m.clear());
+      marcas = [];
+      const sel = cm.listSelections();
+      const dentro = (l, a, b) => sel.some((r) => {
+        const [x, y] = [r.anchor, r.head].sort((p, q) => p.line - q.line || p.ch - q.ch);
+        return !(y.line < l || x.line > l || (y.line === l && y.ch < a) || (x.line === l && x.ch > b));
+      });
+      const { from, to } = cm.getViewport();
+      for (let l = from; l < to; l++) {
+        const toks = cm.getLineTokens(l);
+        const abertos = {};
+        let link = null;
+        toks.forEach((t) => {
+          const s = t.string;
+          if (tem(t, "formatting-list-ul")) {
+            const n = s.search(/\S/);
+            if (n >= 0 && !dentro(l, t.start, t.start + n + 2)) {
+              const b = document.createElement("span");
+              b.className = "cm-bullet";
+              b.textContent = "•";
+              marcas.push(cm.markText({ line: l, ch: t.start + n }, { line: l, ch: t.start + n + 1 }, { replacedWith: b }));
+            }
+            return;
+          }
+          if (tem(t, "formatting-quote")) { if (!dentro(l, 0, t.end + 1)) esconder(l, t.start, Math.min(t.end + 1, cm.getLine(l).length)); return; }
+          if (tem(t, "formatting-header")) { if (!dentro(l, 0, t.end)) esconder(l, t.start, t.end); return; }
+          for (const k of ["strong", "em", "strikethrough", "code"]) {
+            if (!tem(t, "formatting-" + k)) continue;
+            if (abertos[k]) {
+              const a = abertos[k];
+              if (!dentro(l, a.start, t.end)) { esconder(l, a.start, a.end); esconder(l, t.start, t.end); }
+              abertos[k] = null;
+            } else abertos[k] = t;
+            return;
+          }
+          if (tem(t, "formatting-link") && s === "[" && !link) link = { ini: t, meio: null };
+          else if (link && tem(t, "formatting-link") && s.startsWith("]") && !link.meio) link.meio = t;
+          else if (link && link.meio && tem(t, "formatting-link-string") && s === ")") {
+            if (!dentro(l, link.ini.start, t.end)) { esconder(l, link.ini.start, link.ini.end); esconder(l, link.meio.start, t.end); }
+            link = null;
+          }
+        });
+      }
+    }
+    let raf;
+    const agendar = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => cm.operation(desenhar)); };
+    cm.on("cursorActivity", agendar);
+    cm.on("change", agendar);
+    cm.on("viewportChange", agendar);
+    agendar();
+  }
+
   async function telaEditor(main, path) {
     const existe = estado.arquivos.includes(path);
     const texto = existe ? await lerArquivo(path, { fresco: !!token() }) : (estado.cache[path] ?? "");
@@ -557,7 +616,7 @@
         "Ctrl-S": () => salvar(), "Cmd-S": () => salvar(),
       },
     }) : null;
-    if (cm) $("#ed-wrap").classList.add("live", "so-editor");
+    if (cm) { $("#ed-wrap").classList.add("live", "so-editor"); ligarLivePreview(cm); }
     const valor = () => (cm ? cm.getValue() : ta.value);
     const atualizar = () => prev && renderMarkdown(valor(), path, prev);
     let t;
