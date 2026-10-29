@@ -947,8 +947,64 @@
     if (!j.permissions?.push) throw new Error("O token não tem permissão de escrita (Contents: Read and write).");
   }
 
+  // ---------- Versão publicada / forçar build ----------
+  const fmtData = (iso) => new Date(iso).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" });
+
+  async function mostrarVersao() {
+    const el = $("#versao-site");
+    try {
+      const v = await (await fetch(`${pagesUrl("versao.json")}?t=${Date.now()}`, { cache: "no-store" })).json();
+      let estadoTxt = "";
+      try {
+        const head = await gh(`/commits/${CFG.branch}`);
+        estadoTxt = head.sha === v.commit
+          ? "✅ em dia com a main"
+          : "⚠️ a main tem alterações ainda não publicadas";
+      } catch { /* sem API: mostra só a versão */ }
+      el.innerHTML = `Publicado em ${esc(fmtData(v.data))} · commit <code>${esc(v.curto)}</code>${estadoTxt ? `<br>${estadoTxt}` : ""}`;
+    } catch {
+      el.textContent = "Versão do site indisponível (build anterior a este recurso).";
+    }
+  }
+
+  async function forcarPublicacao() {
+    const btn = $("#btn-publicar");
+    if (!token()) { abrirConfig(); toast("Configure o token (com Actions: Read and write) para disparar a build.", 4500); return; }
+    btn.disabled = true;
+    const inicio = Date.now();
+    try {
+      await gh("/actions/workflows/pages.yml/dispatches", { method: "POST", body: JSON.stringify({ ref: CFG.branch }) });
+    } catch (e) {
+      btn.disabled = false;
+      toast(e.status === 403 || e.status === 404
+        ? "⚠️ Token sem permissão Actions: Read and write. Edite o token no GitHub e salve de novo."
+        : `⚠️ ${e.message}`, 6000);
+      return;
+    }
+    toast("🚀 Build disparada. Acompanhando…", 4000);
+    for (let i = 0; i < 36; i++) {
+      await new Promise((r) => setTimeout(r, 5000));
+      try {
+        const j = await gh(`/actions/workflows/pages.yml/runs?event=workflow_dispatch&per_page=1`);
+        const run = j.workflow_runs?.[0];
+        if (!run || new Date(run.created_at).getTime() < inicio - 60000) { btn.textContent = "⏳ Aguardando início…"; continue; }
+        if (run.status !== "completed") { btn.textContent = `⏳ ${run.status === "queued" ? "Na fila" : "Construindo"}…`; continue; }
+        btn.disabled = false;
+        btn.textContent = "🔄 Forçar atualização do site";
+        if (run.conclusion === "success") { toast("✅ Site publicado. Recarregando…", 3000); setTimeout(() => location.reload(), 2500); }
+        else toast(`❌ Build terminou com "${run.conclusion}". Veja em GitHub → Actions.`, 8000);
+        return;
+      } catch { /* tenta de novo */ }
+    }
+    btn.disabled = false;
+    btn.textContent = "🔄 Forçar atualização do site";
+    toast("A build está demorando; acompanhe em GitHub → Actions.", 6000);
+  }
+
   // ---------- Início ----------
   async function iniciar() {
+    $("#btn-publicar").addEventListener("click", forcarPublicacao);
+    mostrarVersao();
     configurarMarked();
     $("#btn-sidebar").addEventListener("click", () => {
       const sb = $("#sidebar");
