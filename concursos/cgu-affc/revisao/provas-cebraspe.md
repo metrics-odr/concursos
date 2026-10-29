@@ -6,6 +6,9 @@
 > [!IMPORTANT]
 > **Não existe prova anterior "AFFC – Ciência de Dados" do Cebraspe.** O concurso CGU 2026 é o primeiro da carreira com o Cebraspe e com essa especialidade (os anteriores da CGU foram de outras bancas: FGV em 2022, ESAF em 2012 e 2008). Por isso, o treino vem de **provas de Ciência de Dados do Cebraspe em outros órgãos** + **provas de auditoria/controle do Cebraspe**.
 
+> [!TIP]
+> Provas já transcritas no **banco de questões** (uma questão por arquivo, com tópicos do edital): [`questoes/`](../../../questoes/README.md) — ✅ Petrobras 2022 (itens 51–120). Para incluir outra, peça “adiciona a prova X ao banco”.
+
 ## 🎯 Como usar
 1. Comece pelas provas **⭐ mais parecidas** (ciência de dados em órgão de controle/regulação, 2024–2025).
 2. Resolva por **tópico do edital**, não a prova inteira de uma vez → registre erros em [`questoes.md`](questoes.md).
@@ -25,7 +28,7 @@
 | | 2024 | CTI Renato Archer · Tecnologista Pleno 2 – IA e Ciência de Dados | [PCI](https://www.pciconcursos.com.br/provas/download/tecnologista-pleno-2-tecnologias-habilitadoras-inteligencia-artificial-e-ciencia-de-dados-cti-renato-archer-cebraspe-2024) |
 | | 2024 | INMA · Pesquisador – Ciência de Dados Aplicada à Biodiversidade | [PCI](https://www.pciconcursos.com.br/provas/download/pesquisador-adjunto-1-ciencia-de-dados-aplicada-a-biodiversidade-inma-cebraspe-2024) |
 | | 2023 | SEFIN Fortaleza · Analista Fazendário – Ciência da Computação / Processamento de Dados | [PCI](https://www.pciconcursos.com.br/provas/download/analista-fazendario-municipal-ciencia-da-computacao-informatica-e-processamento-de-dados-sefin-prefeitura-fortaleza-ce-cebraspe-2023) |
-| ⭐ | 2022 | Petrobras · Analista – Ciência de Dados | [PCI](https://www.pciconcursos.com.br/provas/download/ciencia-de-dados-petrobras-cebraspe-2022) · [caderno (PDF)](https://arquivos.qconcursos.com/prova/arquivo_prova/86999/cespe-cebraspe-2022-petrobras-ciencia-de-dados-prova.pdf) · [comentada (Gran)](https://questoes.grancursosonline.com.br/prova/petrobras-2022-cespe-cebraspe-analista-area-ciencia-de-dados) |
+| ⭐ | 2022 | Petrobras · Analista – Ciência de Dados ✅ no banco | [PCI](https://www.pciconcursos.com.br/provas/download/ciencia-de-dados-petrobras-cebraspe-2022) · [caderno (PDF)](https://arquivos.qconcursos.com/prova/arquivo_prova/86999/cespe-cebraspe-2022-petrobras-ciencia-de-dados-prova.pdf) · [comentada (Gran)](https://questoes.grancursosonline.com.br/prova/petrobras-2022-cespe-cebraspe-analista-area-ciencia-de-dados) |
 | ⭐ | 2021 | SERPRO · Analista – Ciência de Dados | [QConcursos](https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2021-serpro-analista-especializacao-ciencia-de-dados) · [comentada (Gran)](https://questoes.grancursosonline.com.br/prova/serpro-2021-cespe-cebraspe-analista-area-ciencia-de-dados) |
 | | 2020 | Ministério da Economia · Especialista em Ciência de Dados | [PCI](https://www.pciconcursos.com.br/provas/download/especialista-em-ciencia-de-dados-ministerio-da-economia-cebraspe-2020) |
 

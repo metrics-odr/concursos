@@ -35,6 +35,23 @@ SLUGS = {
     "APRENDIZADO DE MÁQUINA": "aprendizado-de-maquina-e-ia",
     "OPERAÇÃO, GOVERNANÇA E GESTÃO DE SOLUÇÕES": "operacao-mlops-dados-ia",
 }
+# Sigla de cada disciplina → prefixo do ID estável dos tópicos (ex.: ML.3.1).
+# Não renomear: as questões e notas apontam para esses IDs.
+SIGLA = {
+    "ciencia-politica-e-estado": "CP",
+    "sociedade-brasileira": "SB",
+    "etica-publica": "ET",
+    "administracao-publica-e-politicas": "AP",
+    "governanca-riscos-integridade": "GR",
+    "transparencia-ouvidoria-participacao": "TO",
+    "direito-publico-controle": "DP",
+    "evidencias-dados-ia": "EV",
+    "auditoria-governamental-cgu": "AU",
+    "estatistica-programacao-analise-dados": "EP",
+    "engenharia-arquitetura-governanca-dados": "ED",
+    "aprendizado-de-maquina-e-ia": "ML",
+    "operacao-mlops-dados-ia": "OP",
+}
 GRUPOS = {
     "15.2.2": ("basicos", "P1", "Conhecimentos básicos"),
     "15.2.3": ("complementares", "P2", "Conhecimentos complementares"),
@@ -71,16 +88,17 @@ def limpar(texto):
     return re.sub(r"\*|_", "", texto).strip().rstrip(".").strip()
 
 
-def parse_conteudo(texto):
+def parse_conteudo(texto, sigla):
     marcas = list(ITEM.finditer(texto))
     topicos = []
     for i, m in enumerate(marcas):
         fim = marcas[i + 1].start() if i + 1 < len(marcas) else len(texto)
         trecho = limpar(texto[m.end():fim])
         if m.group(2) is None:
-            topicos.append({"num": m.group(1), "titulo": trecho, "subitens": []})
+            topicos.append({"id": f"{sigla}.{m.group(1)}", "num": m.group(1), "titulo": trecho, "subitens": []})
         elif topicos:
-            topicos[-1]["subitens"].append({"num": f"{m.group(1)}.{m.group(2)}", "texto": trecho})
+            num = f"{m.group(1)}.{m.group(2)}"
+            topicos[-1]["subitens"].append({"id": f"{sigla}.{num}", "num": num, "texto": trecho})
     return topicos
 
 
@@ -105,10 +123,11 @@ def extrair():
         if grupo[0] == "especificos" and (not cargo_atual or CARGO not in cargo_atual):
             continue
         nome = m.group(1).strip().rstrip(":")
+        slug = slug_de(nome)
         disciplinas.append({
             "grupo": grupo[0], "prova": grupo[1], "grupo_nome": grupo[2],
-            "disciplina": titulo(nome), "slug": slug_de(nome),
-            "topicos": parse_conteudo(m.group(2)),
+            "disciplina": titulo(nome), "slug": slug, "sigla": SIGLA[slug],
+            "topicos": parse_conteudo(m.group(2), SIGLA[slug]),
         })
     return disciplinas
 

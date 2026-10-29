@@ -1,0 +1,30 @@
+[
+ {
+  "id": "CEB-2022-PETROBRAS-CD",
+  "tipo": "prova",
+  "banca": "Cebraspe",
+  "ano": 2022,
+  "orgao": "Petrobras",
+  "cargo": "Nível Superior – Ênfase 7",
+  "especialidade": "Ciência de Dados",
+  "cargo_alvo": "analogo",
+  "aplicacao": "2022-02-20",
+  "edital": "Edital nº 1 – Petrobras/PSP RH 2021, de 15/12/2021",
+  "caderno": "658007",
+  "itens": "51-120",
+  "fonte_pdf": "questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf",
+  "gabarito_pdf": "questoes/_pdf/2022-petrobras-ciencia-de-dados-gabarito.pdf",
+  "gabarito": "definitivo",
+  "anulados": [
+   65,
+   70,
+   76,
+   79,
+   88,
+   95,
+   111,
+   118
+  ],
+  "caminho": "questoes/2022-petrobras-ciencia-de-dados/prova.md"
+ }
+]
