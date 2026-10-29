@@ -10,6 +10,7 @@ Saída: concursos/cgu-affc/edital/topicos.json
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -136,7 +137,30 @@ BLOCO_INI = "<!-- checklist:inicio -->"
 BLOCO_FIM = "<!-- checklist:fim -->"
 
 
+def ancora(txt):
+    """Mesmo slug que o app usa nos títulos (app.js: slugTitulo)."""
+    t = unicodedata.normalize("NFD", txt.lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return re.sub(r"\s+", "-", re.sub(r"[^\w\s-]", "", t).strip())
+
+
+def status_atuais():
+    """Emojis já marcados no PROGRESSO.md (chave = (disciplina, número do item)), para não perdê-los ao regerar."""
+    if not PROGRESSO.exists():
+        return {}
+    st, disc = {}, None
+    for l in PROGRESSO.read_text(encoding="utf-8").splitlines():
+        if l.startswith("### "):
+            disc = l[4:].strip()
+            continue
+        m = re.match(r"\s*- (⬜|🟨|✅|🔁) (?:\*\*)?(\d+(?:\.\d+)?)", l)
+        if m:
+            st[(disc, m.group(2))] = m.group(1)
+    return st
+
+
 def checklist(disciplinas):
+    st = status_atuais()
     out = [BLOCO_INI, ""]
     grupo = None
     for d in disciplinas:
@@ -151,9 +175,10 @@ def checklist(disciplinas):
                 f"{pasta} · "
                 f"Acervo: [`acervo/{d['slug']}.md`](acervo/{d['slug']}.md)", ""]
         for t in d["topicos"]:
-            out.append(f"- ⬜ **{t['num']}** {t['titulo']}")
+            url = f"acervo/{d['slug']}.md#{ancora(t['num'] + ' ' + t['titulo'])}"
+            out.append(f"- {st.get((d['disciplina'], str(t['num'])), '⬜')} **{t['num']}** {t['titulo']} · [📚 acervo]({url})")
             for s in t["subitens"]:
-                out.append(f"  - ⬜ {s['num']} {s['texto']}")
+                out.append(f"  - {st.get((d['disciplina'], str(s['num'])), '⬜')} {s['num']} {s['texto']} · [📚 acervo]({url})")
         out.append("")
     out.append(BLOCO_FIM)
     return "\n".join(out)
