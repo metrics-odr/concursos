@@ -11,13 +11,44 @@ Questões de provas anteriores, **uma por arquivo**, classificadas pelos tópico
 
 ```
 questoes/
-├── _pdf/                                  → originais intocados: <ano>-<orgao>-<cargo>-prova.pdf / -gabarito.pdf
+├── _pdf/                                  → originais intocados, nomeados pelo padrão abaixo (prova-cebraspe-DD-MM-AAAA-…pdf)
 └── <ano>-<orgao>-<cargo>/                 → ex.: 2022-petrobras-ciencia-de-dados
     ├── prova.md                           → metadados da prova (tipo: prova)
     ├── figuras/                           → figuras recortadas do caderno (png)
     ├── ceb-2022-petrobras-cd-tb01.md      → texto-base / comando compartilhado por vários itens (tipo: texto-base)
     └── ceb-2022-petrobras-cd-q051.md      → UM item por arquivo (nome = id em minúsculas)
 ```
+
+## 📛 Padrão de nome dos arquivos de prova e gabarito
+
+**Todo** arquivo de prova ou gabarito (PDF oficial ou gerado pelo Claude) segue:
+
+```
+<tipo>-<origem>-<DD-MM-AAAA>-<descricao>.<ext>
+```
+
+| Parte | Valores | Observação |
+|---|---|---|
+| `tipo` | `prova` · `gabarito` | o padrão de resposta da discursiva vai junto do gabarito |
+| `origem` | a banca (`cebraspe`, `fgv`, `fcc`…) ou `claude` | `claude` = simulado/prova gerada pelo Claude, não é questão real |
+| `DD-MM-AAAA` | data de **aplicação** da prova (oficial) ou de **criação** (Claude) | dia-mês-ano, com zeros: `16-02-2025` |
+| `descricao` | `<orgao>-<cargo/assunto>` em kebab-case, sem acentos | gabarito oficial termina em `-definitivo` (ou `-preliminar`) |
+
+Exemplos:
+
+| Arquivo | Onde fica |
+|---|---|
+| `prova-cebraspe-16-02-2025-anm-especialista-ti-ciencia-de-dados.pdf` | `questoes/_pdf/` |
+| `gabarito-cebraspe-16-02-2025-anm-todos-os-cargos-definitivo.pdf` | `questoes/_pdf/` |
+| `prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf` | `questoes/_pdf/` |
+| `prova-claude-29-10-2026-ml-metricas-e-validacao.md` | `desafios/simulados/` |
+| `gabarito-claude-29-10-2026-ml-metricas-e-validacao.md` | `desafios/simulados/` |
+
+Regras:
+- O Eduardo pode escrever o nome com espaços (`prova - cebraspe - 16-02-2025 - ANM ciência de dados`); no repositório vira **kebab-case, minúsculas, sem acentos e sem espaços** (o site e os links quebram com espaços/acentos).
+- Mesma prova com nomes diferentes (ex.: baixada duas vezes) → comparar o conteúdo e manter **uma** cópia.
+- Prova e gabarito da mesma aplicação têm **a mesma data e a mesma descrição** (exceto quando o gabarito cobre todos os cargos: `-todos-os-cargos-definitivo`).
+- A pasta das questões continua `questoes/<ano>-<orgao>-<cargo>/` e os IDs `CEB-<ano>-<ORGAO>-<CARGO>-Q<nnn>` (o ano é o da aplicação).
 
 ## Frontmatter de cada questão
 
@@ -35,7 +66,7 @@ topicos: [EP.3.1, EP.5.1]        # IDs do edital; [] se o assunto não cai na CG
 gabarito: C                      # C | E | A–E | null (anulada ou discursiva)
 status: valida                   # valida | anulada | alterada (gabarito mudou do preliminar para o definitivo)
 texto_base: CEB-2022-PETROBRAS-CD-TB01   # opcional: id do texto-base/comando
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
 pagina: 5
 ---
 Enunciado fiel ao original (fórmulas em LaTeX $...$, código em bloco, figura com ![[...]]).

@@ -3,7 +3,7 @@ id: CEB-2022-PETROBRAS-CD-TB10
 tipo: texto-base
 prova: 2022-petrobras-ciencia-de-dados
 itens: [67, 68, 69]
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
 pagina: 6
 ---
 Com respeito a análise de componentes principais, mistura de gaussianas e agrupamento *k-means*, julgue os itens que se seguem.

@@ -29,7 +29,7 @@ Fonte: `concursos/cgu-affc/edital/edital-cgu-2026-12.md`, subitens 8.2, 8.11 (a�
 - Uma frase declarativa, normalmente de **2 a 6 linhas**, às vezes com fórmula, tabela ou trecho de código.
 - O item “certo” costuma ser **definição de livro, longa e bem amarrada**: CEB-2022-PETROBRAS-CD-Q051 (variáveis *dummy*), CEB-2022-PETROBRAS-CD-Q072 (funções de ativação), CEB-2022-PETROBRAS-CD-Q090 (imputação K-NN).
 - O item “errado” costuma ser uma definição correta **com uma única peça trocada**: troca de papéis, de sentido (maximizar/minimizar) ou de nome.
-- Na amostra atual (Petrobras 2022, 62 itens válidos): **35 E × 27 C** (~56% errados). Não usar isso como regra de chute.
+- Na amostra atual: Petrobras 2022 (62 itens válidos) **35 E × 27 C**; ANM 2025 (89 itens válidos no banco) **45 E × 44 C**. Não usar isso como regra de chute.
 
 ## 3. Padrões de “pegadinha” recorrentes
 
@@ -45,7 +45,9 @@ Fonte: `concursos/cgu-affc/edital/edital-cgu-2026-12.md`, subitens 8.2, 8.11 (a�
 | **Cálculo rápido** (contas de cabeça, sem calculadora) | determinante 2×2 com numpy; TF-IDF com termo presente em todos os documentos (idf = 0) | CEB-2022-PETROBRAS-CD-Q108 (C) · CEB-2022-PETROBRAS-CD-Q109 (E) · CEB-2022-PETROBRAS-CD-Q083 (E) |
 | **Leitura de gráfico ou tabela** | quartis no boxplot; decil e assimetria no histograma; atribuição de cluster pela menor distância | CEB-2022-PETROBRAS-CD-Q087 (E) · CEB-2022-PETROBRAS-CD-Q113 (C) · CEB-2022-PETROBRAS-CD-Q115 (C) · CEB-2022-PETROBRAS-CD-Q069 (E) |
 | **Código que “quase” funciona** | `read_csv` sem `header=None` em arquivo sem cabeçalho; `fit()` descrito como avaliação em teste | CEB-2022-PETROBRAS-CD-Q093 (E) · CEB-2022-PETROBRAS-CD-Q094 (E) · CEB-2022-PETROBRAS-CD-Q078 (E) |
-| **SQL com detalhe errado** | junção/filtro que não entrega o pedido | CEB-2022-PETROBRAS-CD-Q097 (E) |
+| **SQL com detalhe errado** | junção/filtro que não entrega o pedido | CEB-2022-PETROBRAS-CD-Q097 (E) · CEB-2025-ANM-CD-Q101 (E: o mínimo é SELECT…FROM) · CEB-2025-ANM-CD-Q114 (E: é DROP TABLE) |
+| **Absoluto falso** (“apenas”, “garante”, “elimina completamente”, “a única maneira”) | segurança, *deep learning* e *overfitting* descritos como infalíveis | CEB-2025-ANM-CD-Q080 (E) · CEB-2025-ANM-CD-Q081 (E) · CEB-2025-ANM-CD-Q117 (E) · CEB-2025-ANM-CD-Q120 (E) |
+| **Instituto ou fase trocados** (legislação) | repactuação descrita como reajuste; fase homologatória no lugar da preparatória | CEB-2025-ANM-CD-Q066 (E) · CEB-2025-ANM-CD-Q067 (E) |
 
 > [!WARNING]
 > **Anulações**: 8 de 70 itens (11%) da Petrobras 2022 foram anulados (os motivos oficiais não estão no banco). O Cebraspe anula itens com mais de uma interpretação ou com erro material, então os itens gerados pelo Claude devem ter **uma única** interpretação.
@@ -58,10 +60,12 @@ Fonte: `concursos/cgu-affc/edital/edital-cgu-2026-12.md`, subitens 8.2, 8.11 (a�
 | `ED` Engenharia, Arquitetura e Governança de Dados | MER + `create table`, consulta SQL, NoSQL, HDFS | CEB-2022-PETROBRAS-CD-Q096, CEB-2022-PETROBRAS-CD-Q098, CEB-2022-PETROBRAS-CD-Q099 |
 | `ML` Aprendizado de Máquina e IA | conceito com uma peça trocada; gráfico viés × variância; métricas | CEB-2022-PETROBRAS-CD-Q054, CEB-2022-PETROBRAS-CD-Q057, CEB-2022-PETROBRAS-CD-Q066 |
 | `OP` Operação, Governança e Gestão (MLOps) | situação hipotética curta (nuvem, container, CI/CD) | CEB-2022-PETROBRAS-CD-Q117, CEB-2022-PETROBRAS-CD-Q119, CEB-2022-PETROBRAS-CD-Q120 |
-| P1/P2 (básicos e complementares) | ainda sem questões no banco | — |
+| `OP.5` Contratação de soluções | literalidade da Lei 14.133 e das INs SGD 94/2022 e SEGES 58/65/81 | CEB-2025-ANM-CD-Q069, CEB-2025-ANM-CD-Q073, CEB-2025-ANM-CD-Q074 |
+| `ML.5` IA generativa e LLMs | definição de livro (GAN, transformer, prompt) | CEB-2025-ANM-CD-Q091, CEB-2025-ANM-CD-Q093, CEB-2025-ANM-CD-Q097 |
+| P1/P2 (básicos e complementares) | só os gerais da ANM 2025 (CF, ética, LAI/LGPD, regulação, probabilidade) | CEB-2025-ANM-CD-Q017, CEB-2025-ANM-CD-Q028, CEB-2025-ANM-CD-Q048 |
 
 > [!NOTE] Verificar:
-> A CGU 2026 é o primeiro concurso da carreira com o Cebraspe (ver `concursos/cgu-affc/revisao/provas-cebraspe.md`). O edital é bem mais voltado a **governança, uso responsável de IA, LLMs e controle** do que a Petrobras 2022. Tópicos como ML.5.3–ML.6.4 (LLMs, agentes), OP.3 (governança) e OP.5 (contratação) **não têm questão real no banco ainda**. Para eles, gerar questões INÉDITAS seguindo os padrões acima e avisar isso.
+> A CGU 2026 é o primeiro concurso da carreira com o Cebraspe (ver `concursos/cgu-affc/revisao/provas-cebraspe.md`). O edital é bem mais voltado a **governança, uso responsável de IA, LLMs e controle** do que a Petrobras 2022. Com a ANM 2025, ML.5.3–ML.5.4 (LLMs, prompts) e OP.5 (contratação) já têm questões reais; ML.5.5–ML.6.4 (avaliação de LLMs, agentes) e OP.3 (governança de modelos) **ainda não têm**. Para eles, gerar questões INÉDITAS seguindo os padrões acima e avisar isso.
 
 ## 5. Checklist para um item gerado parecer Cebraspe
 - [ ] Comando no estilo “Considerando…, julgue os itens a seguir.” / “Acerca de…, julgue o próximo item.”

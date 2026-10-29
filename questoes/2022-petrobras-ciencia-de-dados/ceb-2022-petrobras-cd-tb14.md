@@ -3,7 +3,7 @@ id: CEB-2022-PETROBRAS-CD-TB14
 tipo: texto-base
 prova: 2022-petrobras-ciencia-de-dados
 itens: [86, 87, 88, 89]
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
 pagina: 8
 ---
 ![figura](figuras/fig-boxplot-cargas.png)

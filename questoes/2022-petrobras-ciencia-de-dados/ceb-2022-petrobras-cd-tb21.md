@@ -3,7 +3,7 @@ id: CEB-2022-PETROBRAS-CD-TB21
 tipo: texto-base
 prova: 2022-petrobras-ciencia-de-dados
 itens: [103]
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
 pagina: 9
 ---
 No que concerne à teoria de funções deriváveis de duas variáveis reais, julgue o item seguinte.

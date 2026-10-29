@@ -11,8 +11,8 @@ aplicacao: 2022-02-20
 edital: Edital nº 1 – Petrobras/PSP RH 2021, de 15/12/2021
 caderno: "658007"
 itens: "51-120"
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
-gabarito_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-gabarito.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
+gabarito_pdf: questoes/_pdf/gabarito-cebraspe-20-02-2022-petrobras-ciencia-de-dados-definitivo.pdf
 gabarito: definitivo
 anulados: [65, 70, 76, 79, 88, 95, 111, 118]
 ---
