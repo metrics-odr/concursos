@@ -13,6 +13,7 @@ concursos/                      (raiz do repo)
 ├── conversas/                  → resumos de conversas Eduardo ↔ Claude (AAAA-MM-DD-tema.md)
 ├── ideias/                     → organização de pensamento, estratégia, planejamento
 ├── flashcards/                 → método, banco de cards (CSV por disciplina) e exportação p/ Anki
+├── fundamentos/                → biblioteca de textos de base (contexto institucional, visões panorâmicas)
 ├── disciplinas/                → notas COMPARTILHADAS entre concursos
 │   └── <disciplina>/
 │       ├── README.md           → índice da disciplina

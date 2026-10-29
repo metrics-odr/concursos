@@ -8,6 +8,12 @@ Repositório pessoal de estudos para concursos públicos: editais, notas por dis
 |---|---|---|---|---|
 | [CGU — AFFC](concursos/cgu-affc/README.md) | Cebraspe | 13/12/2026 | 📖 Edital publicado ([ver](concursos/cgu-affc/edital/edital-cgu-2026-12.md)) | [checklist](concursos/cgu-affc/PROGRESSO.md) |
 
+## 🏛️ Fundamentos
+
+Biblioteca de textos de base (contexto institucional e conceitual) em [`fundamentos/`](fundamentos/README.md):
+
+- [01 — A CGU por dentro: o que é, como atua e o papel de cada especialidade](fundamentos/01-cgu-o-que-e-e-como-atua.md)
+
 ## 📖 Disciplinas
 
 As notas ficam em [`disciplinas/`](disciplinas/) e são **compartilhadas entre concursos**: o mesmo tópico de Direito Administrativo serve para a CGU e para qualquer outro concurso.
