@@ -11,7 +11,10 @@ O Claude atua como organizador: lê os materiais enviados, escreve notas em Mark
 | Edital, tópicos e IDs (ex.: `ML.3.1`) | `concursos/cgu-affc/edital/topicos.json` (gerado de `edital-cgu-2026-12.md`) |
 | Como a banca cobra | `bancas/cebraspe/perfil.md` · `bancas/cebraspe/discursiva.md` |
 | Questões reais | `questoes/` (formato em `questoes/README.md`) · índice `_indices/questoes.json` |
-| O que falta estudar | `_indices/cobertura.md` + `concursos/cgu-affc/PROGRESSO.md` |
+| O que falta estudar · plano/cronograma de estudo | `_indices/cobertura.md` + `concursos/cgu-affc/PROGRESSO.md` + `python3 scripts/diagnostico_estudo.py` (nivelamentos + caderno de erros) |
+
+> [!IMPORTANT]
+> **Plano de estudo sempre personalizado.** Ao montar qualquer plano/cronograma/ordem de estudo, primeiro rodar `python3 scripts/diagnostico_estudo.py` e basear a priorização em **todos** os nivelamentos de `concursos/cgu-affc/nivelamento/resultados/` (nunca só o último) **mais** o caderno de erros `revisao/questoes.md`. Dar mais tempo a: (1) disciplinas/tópicos onde ele **errou** (errado subtrai pontos), (2) onde deixou **em branco**, (3) o que pesa mais (P3 = 2 pts/item). O que ele já acerta sempre recebe só revisão. Dizer no plano quantas execuções foram usadas; se houver só uma, avisar que é indício, não medida. Sem links com ID do edital (ex.: `ML.3.1`): usar o nome do assunto.
 
 > [!IMPORTANT]
 > **Antes de todo commit** que mexa em `questoes/`, `disciplinas/` ou `bancas/`: `python3 scripts/build_indices.py && python3 scripts/validar.py`. O `validar.py` diz o arquivo e o que corrigir; o site não publica se ele falhar. `_indices/` é gerado — nunca editar à mão.
