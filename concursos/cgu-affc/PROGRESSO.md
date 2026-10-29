@@ -23,7 +23,7 @@ Checklist do conteúdo programático (edital, item 15.2). Cada item vai apontar 
 Pasta: [`disciplinas/ciencia-politica-e-estado/`](../../disciplinas/ciencia-politica-e-estado/) · Acervo: [`acervo/ciencia-politica-e-estado.md`](acervo/ciencia-politica-e-estado.md)
 
 - 🟨 **1** Estado e legitimidade
-  - ⬜ 1.1 Estado, governo e administração; autoridade, legitimidade e poder; interesse público, pluralismo e conflitos distributivos
+  - 🟨 1.1 Estado, governo e administração; autoridade, legitimidade e poder; interesse público, pluralismo e conflitos distributivos
 - ⬜ **2** Democracia e representação
   - ⬜ 2.1 Representação e participação; responsabilização democrática; relações entre Executivo, Legislativo e Judiciário; governabilidade e controles recíprocos
 - 🟨 **3** Federalismo e capacidades estatais
