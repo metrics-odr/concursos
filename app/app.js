@@ -1339,7 +1339,7 @@
     };
     const desenhar = () => {
       const q = norm(inp.value.trim());
-      res = estado.arquivos.filter((p) => !OCULTOS.test(p)).map((p) => [p, pontuar(p, q)]).filter((x) => x[1] > 0)
+      res = estado.arquivos.filter((p) => !ocultar(p)).map((p) => [p, pontuar(p, q)]).filter((x) => x[1] > 0)
         .sort((a, b) => b[1] - a[1] || a[0].length - b[0].length).slice(0, 40).map((x) => x[0]);
       sel = Math.min(sel, Math.max(0, res.length - 1));
       ul.innerHTML = res.map((p, i) => `<li class="${i === sel ? "sel" : ""}" data-i="${i}">${icone(p)} ${esc(basename(p))}<small>${esc(dirname(p))}</small></li>`).join("");
