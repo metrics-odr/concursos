@@ -52,6 +52,9 @@ jobs:
           python3 scripts/gerar_indice.py _site
           printf '{"commit":"%s","curto":"%s","data":"%s","run":"%s"}\n' \
             "$(git rev-parse HEAD)" "$(git rev-parse --short HEAD)" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "${{ github.run_id }}" > _site/versao.json
+          # cache-bust: o navegador nunca mistura index.html novo com app.js/style.css antigos
+          v="$(git rev-parse --short HEAD)"
+          sed -i "s#app/app.js#app/app.js?v=$v#; s#app/style.css#app/style.css?v=$v#" _site/index.html
           touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
