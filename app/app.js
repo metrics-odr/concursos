@@ -474,7 +474,8 @@
     const nivel = r.nome === "selecao";
     $("#chip-concurso").hidden = nivel;
     document.body.dataset.banca = nivel ? "" : slugBanca(conc().banca);
-    montarAbas();  // abas sempre visíveis (valem para o último concurso aberto)
+    document.body.classList.toggle("tela-selecao", nivel);  // seleção: só o concurso, sem abas/arquivos
+    montarAbas();
     marcarAba(r);
     renderArvore();
     if (matchMedia("(max-width: 860px)").matches) { $("#sidebar").classList.remove("aberta"); $("#seta-arquivos").textContent = "▸"; }

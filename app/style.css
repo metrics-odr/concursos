@@ -340,3 +340,7 @@ body[data-banca="vunesp"] .topbar { border-bottom: 3px solid #b91c1c; }
 .aviso-banca { background: var(--accent-soft); border-radius: 8px; padding: 8px 12px; font-size: 14px; }
 .niv-meta .banca-badge, .fc-meta .banca-badge { margin-right: 4px; }
 @media (max-width: 860px) { .chip-concurso a { display: none; } .conc-card { flex-direction: column; gap: 8px; } }
+
+/* Tela de seleção: só a lista de concursos (sem abas, explorador nem busca) */
+body.tela-selecao #tabs, body.tela-selecao #btn-sidebar, body.tela-selecao #sidebar, body.tela-selecao #btn-busca { display: none !important; }
+body.tela-selecao .layout { display: block; }
