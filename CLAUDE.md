@@ -26,6 +26,7 @@ concursos/                      (raiz do repo)
 ├── conversas/                  → resumos de conversas Eduardo ↔ Claude (AAAA-MM-DD-tema.md)
 ├── ideias/                     → organização de pensamento, estratégia, planejamento
 ├── flashcards/                 → método, banco de cards (CSV por disciplina) e exportação p/ Anki
+├── fundamentos/                → biblioteca de textos de base (contexto institucional, visões panorâmicas)
 ├── desafios/                   → desafio diário AAAA-MM-DD.md (gerado por GitHub Actions; o Eduardo só marca) · simulados/
 ├── _inbox/                     → onde o Eduardo joga material novo; _revisar/ = o que não deu para classificar
 ├── questoes/                   → banco de questões reais: uma por arquivo, frontmatter com tópicos do edital (compartilhado)
