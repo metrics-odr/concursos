@@ -21,6 +21,8 @@ def urls_de(arquivo):
     texto = arquivo.read_text(encoding="utf-8")
     if arquivo.name == "videos.json":
         return [f"https://www.youtube.com/watch?v={x['id']}" for lista in json.loads(texto).values() for x in lista]
+    if arquivo.name == "fontes.json":
+        return [x["url"] for v in json.loads(texto).values() for l in v.values() for x in l]
     if arquivo.suffix == ".json":
         dados = json.loads(texto)
         return [l["url"] for k, v in dados.items() if isinstance(v, dict) for l in v.get("links", [])]
@@ -46,7 +48,7 @@ def status(url):
 
 def main():
     arquivos = [Path(a) for a in sys.argv[1:]] or [
-        *RAIZ.glob("concursos/*/acervo/curadoria.json"), *RAIZ.glob("concursos/*/acervo/videos.json"), *RAIZ.glob("concursos/*/revisao/provas-cebraspe.md")]
+        *RAIZ.glob("concursos/*/acervo/curadoria.json"), *RAIZ.glob("concursos/*/acervo/videos.json"), *RAIZ.glob("concursos/*/acervo/fontes.json"), *RAIZ.glob("concursos/*/revisao/provas-cebraspe.md")]
     urls = sorted({u for a in arquivos for u in urls_de(a) if u.startswith("http")})
     with ThreadPoolExecutor(8) as ex:
         resultados = list(ex.map(status, urls))
