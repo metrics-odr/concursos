@@ -734,9 +734,12 @@
   function lerProgresso(texto) {
     const disc = [];
     let atual = null;
+    let prova = "";
     texto.split("\n").forEach((l) => {
+      const p = l.match(/^## (P\d)\b/);
+      if (p) prova = p[1];
       const h = l.match(/^### (.+)/);
-      if (h) { atual = { nome: h[1].trim(), cont: { "⬜": 0, "🟨": 0, "✅": 0, "🔁": 0 }, total: 0 }; disc.push(atual); return; }
+      if (h) { atual = { prova, nome: h[1].trim(), cont: { "⬜": 0, "🟨": 0, "✅": 0, "🔁": 0 }, total: 0 }; disc.push(atual); return; }
       const m = l.match(STATUS_RE);
       if (m && atual) { atual.cont[m[2]]++; atual.total++; }
     });
@@ -1489,7 +1492,7 @@
       $("#in-prog").textContent = `${tot ? Math.round((100 * feitos) / tot) : 0}%`;
       $("#in-disc").innerHTML = disc.map((d) => {
         const ok = d.cont["✅"] + d.cont["🔁"];
-        return `<div class="disc-linha"><a href="${rotaNota(CFG.progresso)}::${slugTitulo(d.nome)}" title="${esc(d.nome)}">${esc(d.nome)}</a>${barraProgresso(d.cont, d.total)}<span class="muted">${ok}/${d.total}</span></div>`;
+        return `<div class="disc-linha"><a href="${rotaNota(CFG.progresso)}::${slugTitulo(d.nome)}" title="${esc(d.nome)}"><b class="tag-prova">${esc(d.prova)}</b> ${esc(d.nome)}</a>${barraProgresso(d.cont, d.total)}<span class="muted">${ok}/${d.total}</span></div>`;
       }).join("");
     }).catch(() => { $("#in-disc").textContent = "Não consegui ler o PROGRESSO.md."; });
 
