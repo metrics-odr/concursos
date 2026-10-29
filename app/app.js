@@ -440,7 +440,8 @@
     const c = conc(), base = `concursos/${c.slug}`;
     const abas = [["inicio", `#/c/${c.slug}`, "🏠 Início"], ["desafios", "#/desafios", "🎯 Desafios"], ["flashcards", "#/flashcards", "🃏 Flashcards"],
       ["nivelamento", "#/nivelamento", "📊 Nivelamento"], ["progresso", rotaNota(`${base}/PROGRESSO.md`), "✅ Progresso"],
-      ["acervo", rotaNota(`${base}/acervo/README.md`), "🔎 Acervo"], ["provas", rotaNota(`${base}/revisao/provas-cebraspe.md`), "📝 Provas"]];
+      ["acervo", rotaNota(`${base}/acervo/README.md`), "🔎 Acervo"], ["provas", rotaNota(`${base}/revisao/provas-cebraspe.md`), "📝 Provas"],
+      ["cursos", "#/cursos", "🎓 Cursos"]];
     $("#tabs").innerHTML = abas.map(([t, h, r]) => `<a href="${h}" data-tab="${t}">${r}</a>`).join("");
     // No celular, as mesmas páginas aparecem no topo do explorador (entre o filtro e os arquivos)
     $("#paginas").innerHTML = `<a class="voltar-concursos" href="#/" title="Voltar para a lista de concursos">‹ Todos os concursos</a>`
@@ -460,12 +461,13 @@
     if (h.startsWith("/editar/")) return { nome: "editar", path: h.slice(8) };
     if (h.startsWith("/desafios")) return { nome: "desafios" };
     if (h.startsWith("/flashcards")) return { nome: "flashcards" };
+    if (h.startsWith("/cursos")) return { nome: "cursos" };
     if (h.startsWith("/nivelamento")) return { nome: "nivelamento", sub: h.slice(13) };
     return { nome: "selecao" };
   }
 
   function marcarAba(r) {
-    const mapa = { inicio: "inicio", desafios: "desafios", flashcards: "flashcards", nivelamento: "nivelamento" };
+    const mapa = { inicio: "inicio", desafios: "desafios", flashcards: "flashcards", nivelamento: "nivelamento", cursos: "cursos" };
     let aba = mapa[r.nome];
     if (r.path === CFG.progresso) aba = "progresso";
     else if (r.path?.includes("/acervo/")) aba = "acervo";
@@ -494,6 +496,7 @@
       else if (r.nome === "editar") await telaEditor(main, r.path);
       else if (r.nome === "desafios") await telaDesafios(main);
       else if (r.nome === "flashcards") await telaFlashcards(main);
+      else if (r.nome === "cursos") await telaCursos(main);
       else if (r.nome === "nivelamento") await telaNivelamento(main, r.sub);
       else if (r.nome === "inicio") await telaInicio(main);
       else await telaSelecao(main);
@@ -505,7 +508,7 @@
 
   // Celular: a topbar mostra só o nome da página atual (os links ficam no explorador, ☰)
   const NOME_ABA = { inicio: "Início", desafios: "Desafios", flashcards: "Flashcards", nivelamento: "Nivelamento",
-    progresso: "Progresso", acervo: "Acervo", provas: "Provas" };
+    progresso: "Progresso", acervo: "Acervo", provas: "Provas", cursos: "Cursos" };
   function mostrarTitulo(r, aba) {
     const h1 = $("#main h1")?.textContent.replace(/\s+/g, " ").replace(/^[^\p{L}\p{N}]+/u, "").trim();
     // Página de aba → nome da aba; subpáginas (ex.: uma disciplina do acervo) e notas → título da nota
@@ -1439,6 +1442,46 @@
       const feitos = disc.reduce((a, d) => a + d.cont["✅"] + d.cont["🔁"], 0);
       return tot ? `${Math.round((100 * feitos) / tot)}%` : "—";
     } catch { return "—"; }
+  }
+
+  // ---------- Tela: cursos (playlists e vídeos do YouTube, compartilhados entre concursos) ----------
+  async function telaCursos(main) {
+    main.innerHTML = '<div class="conteudo"><h1>🎓 Cursos</h1><p class="muted">Carregando…</p></div>';
+    const itens = JSON.parse(await lerArquivo("cursos/cursos.json", { fresco: true })).itens || [];
+    const vistos = new Set(store.get("ac:cursosVistos", []));
+    const yt = (i, p) => `https://www.youtube.com/watch?v=${i}${p ? `&list=${p}` : ""}`;
+    const player = (id, lista) => `<iframe class="curso-player" src="https://www.youtube-nocookie.com/embed/${lista ? `videoseries?list=${id}` : id}" title="Player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>`;
+    const html = itens.map((c, n) => {
+      const lista = c.tipo === "playlist", vs = c.videos || [];
+      const feitos = vs.filter((v) => vistos.has(v.id)).length;
+      const link = lista ? `https://www.youtube.com/playlist?list=${c.id}` : yt(c.id);
+      return `<details class="card curso" data-n="${n}"><summary><h3>${lista ? "📚" : "▶️"} ${esc(c.titulo)}</h3>
+        <small class="muted">${esc(c.canal || "")}${c.disciplina ? ` · ${esc(c.disciplina)}` : ""}${lista ? ` · ${vs.length} vídeos · <span class="curso-cont">${feitos}</span> assistidos` : ""}</small>
+        ${c.descricao ? `<p>${esc(c.descricao)}</p>` : ""}
+        ${(c.topicos || []).length ? `<small class="muted">Edital: ${c.topicos.map(esc).join(", ")}</small>` : ""}</summary>
+        <div class="curso-corpo"><div class="curso-video">${player(c.id, lista)}</div>
+        ${lista ? `<ol class="curso-lista">${vs.map((v) => `<li><label><input type="checkbox" data-v="${esc(v.id)}" ${vistos.has(v.id) ? "checked" : ""}> </label><a href="${yt(v.id, c.id)}" data-v="${esc(v.id)}" data-l="${esc(c.id)}">${esc(v.titulo)}</a></li>`).join("")}</ol>` : ""}
+        <p><a class="btn ghost" href="${link}" target="_blank" rel="noopener">Abrir no YouTube ↗</a></p></div></details>`;
+    }).join("");
+    main.innerHTML = `<div class="conteudo"><h1>🎓 Cursos</h1>
+      <p class="muted">Playlists e vídeos do YouTube para estudar, compartilhados entre todos os concursos. Para incluir mais, edite <a href="${rotaNota("cursos/cursos.json")}"><code>cursos/cursos.json</code></a>.</p>${html || "<p>Nenhum curso ainda.</p>"}</div>`;
+    $$(".curso", main).forEach((d) => {
+      const c = itens[+d.dataset.n];
+      d.addEventListener("click", (e) => {
+        const a = e.target.closest("a[data-v]");
+        if (!a) return;
+        e.preventDefault();
+        $(".curso-video", d).innerHTML = `<iframe class="curso-player" src="https://www.youtube-nocookie.com/embed/${a.dataset.v}?list=${a.dataset.l}&autoplay=1" title="Player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+        $(".curso-video", d).scrollIntoView({ behavior: "smooth", block: "nearest" });
+      });
+      d.addEventListener("change", (e) => {
+        const i = e.target.closest("input[data-v]");
+        if (!i) return;
+        i.checked ? vistos.add(i.dataset.v) : vistos.delete(i.dataset.v);
+        store.set("ac:cursosVistos", [...vistos]);
+        $(".curso-cont", d).textContent = (c.videos || []).filter((v) => vistos.has(v.id)).length;
+      });
+    });
   }
 
   async function telaSelecao(main) {

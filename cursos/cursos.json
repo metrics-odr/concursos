@@ -1,0 +1,181 @@
+{
+ "itens": [
+  {
+   "tipo": "playlist",
+   "id": "PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD",
+   "titulo": "Curso de Modelagem de Dados",
+   "canal": "Boson Treinamentos",
+   "disciplina": "Banco de Dados",
+   "topicos": [
+    "ED.1.1"
+   ],
+   "descricao": "Modelagem de bancos relacionais: modelo entidade-relacionamento, DER, dicionário de dados, formas normais (1FN a BCNF) e projeto prático completo.",
+   "videos": [
+    {
+     "id": "Q_KTYFgvu1s",
+     "titulo": "Modelagem de Dados - Conceitos de Bancos de Dados"
+    },
+    {
+     "id": "hGstS10kCPM",
+     "titulo": "Modelagem de Dados - O Modelo Relacional - Introdução"
+    },
+    {
+     "id": "ZX7EuRWRdZg",
+     "titulo": "Modelagem de Dados - Modelos Conceitual, Lógico e Físico"
+    },
+    {
+     "id": "W2Z1STnjNJo",
+     "titulo": "Modelagem de Dados - Modelo Entidade-Relacionamento e Diagrama ER"
+    },
+    {
+     "id": "poeUGQl52YI",
+     "titulo": "Modelagem de Dados - O que são Entidades"
+    },
+    {
+     "id": "59TZc_vRpcQ",
+     "titulo": "Modelagem de Dados - O que são Atributos"
+    },
+    {
+     "id": "CdbYZGEClLg",
+     "titulo": "Modelagem de Dados - Comparando Entidades e Relações"
+    },
+    {
+     "id": "KSw0rTGEwPI",
+     "titulo": "Modelagem de Dados - O que são Relacionamentos"
+    },
+    {
+     "id": "sbIT5UXTEg8",
+     "titulo": "Modelagem de Dados - Chave Primária, Estrangeira e outras"
+    },
+    {
+     "id": "OVBFFe4-jSM",
+     "titulo": "Modelagem de Dados - O que são Cardinalidades"
+    },
+    {
+     "id": "BurdDn16ZgE",
+     "titulo": "Modelagem de Dados - Restrições de Integridade"
+    },
+    {
+     "id": "9plIQlzzPHA",
+     "titulo": "Modelagem de Dados - Diagramação - Notações Gráficas"
+    },
+    {
+     "id": "-DESqE_GdEA",
+     "titulo": "Modelagem de Dados - Dicionário de Dados"
+    },
+    {
+     "id": "koe4GVN_83M",
+     "titulo": "Modelagem de Dados - Dependências (Funcional, Multivalorada, Transitiva)"
+    },
+    {
+     "id": "NpG1Xt8LB_c",
+     "titulo": "Modelagem de Dados - Normalização e Anomalias - Conceitos"
+    },
+    {
+     "id": "eRaAMNjCFYw",
+     "titulo": "Modelagem de Dados - Normalização - Primeira Forma Normal"
+    },
+    {
+     "id": "6ER9lWOk-cY",
+     "titulo": "Modelagem de Dados - Normalização - Segunda Forma Normal"
+    },
+    {
+     "id": "usA8QKvEHWw",
+     "titulo": "Modelagem de Dados - Normalização - Terceira Forma Normal"
+    },
+    {
+     "id": "o6mSiTO-vak",
+     "titulo": "Modelagem de Dados - Normalização - Forma Normal de Boyce-Codd"
+    },
+    {
+     "id": "-tiOXEUEA14",
+     "titulo": "Quiz de Modelagem de Dados - Teste seus Conhecimentos"
+    },
+    {
+     "id": "hsQJAdWksMI",
+     "titulo": "Modelagem de Dados - Projeto Prático - Apresentação e Regras do Negócio"
+    },
+    {
+     "id": "Q47k7uS3bIg",
+     "titulo": "Modelagem de Dados - Projeto Prático - Identificando Entidades, Atributos e Relacionamentos"
+    },
+    {
+     "id": "AFZSRj65_hQ",
+     "titulo": "Modelagem de Dados - Projeto Prático - Ferramenta brModelo para criação de DER"
+    },
+    {
+     "id": "eWz0SLgJWxc",
+     "titulo": "Modelagem de Dados - Projeto - Diagrama Entidade-Relacionamento - 01"
+    },
+    {
+     "id": "kTLDf_wdruw",
+     "titulo": "Modelagem de Dados - Projeto Prático - Acrescentando os Atributos ao DER"
+    },
+    {
+     "id": "MXvSHSv6i34",
+     "titulo": "Modelagem de Dados - Projeto Prático - Calculando as Cardinalidades no DER"
+    },
+    {
+     "id": "Ln7MeGiCtkI",
+     "titulo": "Modelagem de Dados - Projeto Prático - Eliminando Relacionamentos Muitos-para-Muitos"
+    },
+    {
+     "id": "4eNpLA34Izo",
+     "titulo": "Modelagem de Dados - Projeto Prático - Criando o Dicionário de Dados"
+    },
+    {
+     "id": "VJCR-MNrOAY",
+     "titulo": "Modelagem de Dados - Projeto Prático - Derivando o Modelo Lógico"
+    },
+    {
+     "id": "AsK2sYhaGMY",
+     "titulo": "Modelagem de Dados - Projeto Prático - Normalização - Primeira Forma Normal"
+    },
+    {
+     "id": "-2xK-fkqagI",
+     "titulo": "Modelagem de Dados - Projeto Prático - Normalização - Segunda Forma Normal"
+    },
+    {
+     "id": "XhLmF3-Ew8c",
+     "titulo": "Modelagem de Dados - Projeto Prático - Normalização - Terceira Forma Normal"
+    },
+    {
+     "id": "6LCus-I0juA",
+     "titulo": "Modelagem de Dados - Projeto Prático - Dicionário de Dados e Ajustes Finais"
+    },
+    {
+     "id": "c7r8t4qYWS0",
+     "titulo": "Modelagem de Dados - Projeto Prático - Implementação do Banco de Dados"
+    },
+    {
+     "id": "XLAEHJg_5YQ",
+     "titulo": "Modelagem de Dados - Projeto Prático - Testes Finais no Banco de Dados"
+    },
+    {
+     "id": "B14xfl5wVrU",
+     "titulo": "Modelagem de Dados - Recursos para Estudo e Finalização do Curso"
+    },
+    {
+     "id": "ppA649f48e8",
+     "titulo": "12 dicas de Boas Práticas em Modelagem de Dados"
+    },
+    {
+     "id": "ByCrVFYwxSY",
+     "titulo": "O que são Surrogate Keys - Chaves Substitutas em Modelagem de Dados"
+    },
+    {
+     "id": "r2JE38rqrxQ",
+     "titulo": "As 12 Regras de Codd para Bancos de Dados Relacionais - Curso de Modelagem de Dados"
+    },
+    {
+     "id": "Kd1yqYjylCg",
+     "titulo": "Curso Completo de Modelagem de Bancos de Dados com Projeto Prático"
+    },
+    {
+     "id": "9Y5GPItDNMo",
+     "titulo": "Diferença entre as declarações DELETE, TRUNCATE e DROP em SQL   Quando usar cada uma?"
+    }
+   ]
+  }
+ ]
+}
