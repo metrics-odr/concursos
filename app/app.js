@@ -443,7 +443,8 @@
       ["acervo", rotaNota(`${base}/acervo/README.md`), "🔎 Acervo"], ["provas", rotaNota(`${base}/revisao/provas-cebraspe.md`), "📝 Provas"]];
     $("#tabs").innerHTML = abas.map(([t, h, r]) => `<a href="${h}" data-tab="${t}">${r}</a>`).join("");
     // No celular, as mesmas páginas aparecem no topo do explorador (entre o filtro e os arquivos)
-    $("#paginas").innerHTML = `<div class="paginas-titulo">📌 Páginas do concurso · ${esc(c.orgao || c.slug)}</div>`
+    $("#paginas").innerHTML = `<a class="voltar-concursos" href="#/" title="Voltar para a lista de concursos">‹ Todos os concursos</a>`
+      + `<div class="paginas-titulo">📌 Páginas do concurso · ${esc(c.orgao || c.slug)}</div>`
       + `<div class="paginas-grade">${abas.map(([t, h, r]) => `<a class="pag" href="${h}" data-tab="${t}">${r}</a>`).join("")}</div>`;
     $("#chip-concurso").innerHTML = `<a href="#/" title="Trocar de concurso">🔄 ${esc(c.orgao)}</a>${bancaBadge(c.banca)}`;
   }
@@ -513,6 +514,7 @@
     if (r.nome === "selecao") nome = "Concursos";
     else if (ehAba) nome = NOME_ABA[aba];
     else nome = h1 || (r.path ? semExt(r.path.replace(/\/$/, "")).replace(/-/g, " ") : "");
+    nome = nome.charAt(0).toUpperCase() + nome.slice(1);
     const el = $("#titulo-pagina");
     el.textContent = nome;
     el.title = nome;
