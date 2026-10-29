@@ -392,7 +392,11 @@
       const arqs = no.arquivos.map((p) => `<a class="item${p === atual ? " ativo" : ""}" href="${rotaNota(p)}" title="${esc(p)}">${icone(p)} ${esc(basename(p))}</a>`).join("");
       return pastas + arqs;
     };
-    $("#tree").innerHTML = visiveis.length ? html(montarArvore(visiveis), "") : '<p class="muted pad">Nada encontrado.</p>';
+    const RAIZ = "__navegar__";
+    const raizAberta = filtro || abertas[RAIZ] !== false;
+    $("#tree").innerHTML = visiveis.length
+      ? `<details class="raiz" data-pasta="${RAIZ}"${raizAberta ? " open" : ""}><summary class="item"><span class="seta">▶</span>🗂️ Navegar em Arquivos</summary><div class="filhos">${html(montarArvore(visiveis), "")}</div></details>`
+      : '<p class="muted pad">Nada encontrado.</p>';
     $$("#tree details").forEach((d) => d.addEventListener("toggle", () => {
       const a = store.get("ac:pastas", {});
       a[d.dataset.pasta] = d.open;
