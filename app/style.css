@@ -236,3 +236,8 @@ textarea.editor { width: 100%; height: 100%; resize: none; font-size: 14px; line
   .disc-linha { grid-template-columns: minmax(0, 1fr) 80px 40px; }
   .fc-card { padding: 18px; font-size: 16px; }
 }
+
+.versao-site { margin-top: 6px; line-height: 1.4; }
+.versao-site code { font-size: 11px; }
+#btn-publicar { margin-top: 8px; width: 100%; }
+#btn-publicar[disabled] { opacity: .6; cursor: progress; }

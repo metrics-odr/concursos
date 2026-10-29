@@ -36,7 +36,11 @@
         <button class="icon-btn small" id="btn-nova" title="Nova nota">＋</button>
       </div>
       <div class="tree" id="tree"><p class="muted pad">Carregando…</p></div>
-      <div class="sidebar-foot" id="status-conexao"></div>
+      <div class="sidebar-foot">
+        <div id="status-conexao"></div>
+        <div id="versao-site" class="versao-site">Versão do site: verificando…</div>
+        <button class="btn small" id="btn-publicar" title="Dispara de novo a build e a publicação do site a partir da main">🔄 Forçar atualização do site</button>
+      </div>
     </aside>
     <main class="main" id="main"></main>
   </div>
@@ -49,7 +53,7 @@
   <dialog id="dlg-config" class="dlg">
     <form method="dialog" class="config">
       <h2>⚙️ Configurações</h2>
-      <p>Para <b>editar</b> notas, marcar desafios e mudar o progresso direto daqui, cole um <b>token do GitHub</b> (fine-grained) com acesso só a <code>metrics-odr/concursos</code> e permissão <b>Contents: Read and write</b>. Ele fica salvo só neste navegador.</p>
+      <p>Para <b>editar</b> notas, marcar desafios e mudar o progresso direto daqui, cole um <b>token do GitHub</b> (fine-grained) com acesso só a <code>metrics-odr/concursos</code> e permissões <b>Contents: Read and write</b> e <b>Actions: Read and write</b> (esta última só para o botão “Forçar atualização do site”). Ele fica salvo só neste navegador.</p>
       <p><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Criar token no GitHub ↗</a></p>
       <label>Token<input type="password" id="cfg-token" placeholder="github_pat_…" autocomplete="off"></label>
       <label>Novos flashcards por dia<input type="number" id="cfg-novos" min="0" max="200" value="20"></label>

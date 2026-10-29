@@ -49,6 +49,8 @@ jobs:
           mkdir _site
           git ls-files | grep -v '^\.github/' | while read -r f; do mkdir -p "_site/$(dirname "$f")"; cp "$f" "_site/$f"; done
           python3 scripts/gerar_indice.py _site
+          printf '{"commit":"%s","curto":"%s","data":"%s","run":"%s"}\n' \
+            "$(git rev-parse HEAD)" "$(git rev-parse --short HEAD)" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "${{ github.run_id }}" > _site/versao.json
           touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
