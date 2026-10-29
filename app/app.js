@@ -410,11 +410,12 @@
     if (h.startsWith("/editar/")) return { nome: "editar", path: h.slice(8) };
     if (h.startsWith("/desafios")) return { nome: "desafios" };
     if (h.startsWith("/flashcards")) return { nome: "flashcards" };
+    if (h.startsWith("/nivelamento")) return { nome: "nivelamento", sub: h.slice(13) };
     return { nome: "inicio" };
   }
 
   function marcarAba(r) {
-    const mapa = { inicio: "inicio", desafios: "desafios", flashcards: "flashcards" };
+    const mapa = { inicio: "inicio", desafios: "desafios", flashcards: "flashcards", nivelamento: "nivelamento" };
     let aba = mapa[r.nome];
     if (r.path === CFG.progresso) aba = "progresso";
     else if (r.path?.includes("/acervo/")) aba = "acervo";
@@ -434,6 +435,7 @@
       else if (r.nome === "editar") await telaEditor(main, r.path);
       else if (r.nome === "desafios") await telaDesafios(main);
       else if (r.nome === "flashcards") await telaFlashcards(main);
+      else if (r.nome === "nivelamento") await telaNivelamento(main, r.sub);
       else await telaInicio(main);
     } catch (e) {
       main.innerHTML = `<div class="conteudo"><h2>⚠️ Não foi possível abrir</h2><p>${esc(e.message)}</p><p><a href="#/">Voltar ao início</a></p></div>`;
@@ -851,6 +853,430 @@
     desenhar();
   }
 
+  // ---------- Nivelamento ----------
+  const NIV_DIR = "concursos/cgu-affc/nivelamento";
+  const NIV_RES = `${NIV_DIR}/resultados`;
+  const NIV_JSON_RE = /<!-- nivelamento:(\{[\s\S]*?\}) -->/;
+  const niv = {
+    andamento: () => store.get("ac:niv:andamento", null),
+    salvarAndamento: (a) => store.set("ac:niv:andamento", a),
+    historico: () => store.get("ac:niv:hist", []),
+    guardar(res) { store.set("ac:niv:hist", [...niv.historico().filter((r) => r.id !== res.id), res]); },
+  };
+
+  async function carregarNivelamento() {
+    const est = JSON.parse(await lerArquivo(`${NIV_DIR}/estrutura.json`));
+    const edital = JSON.parse(await lerArquivo("concursos/cgu-affc/edital/topicos.json"));
+    const disc = Object.fromEntries(edital.disciplinas.map((d) => [d.slug, d]));
+    const bancos = {};
+    await Promise.all(est.disciplinas.map(async (d) => {
+      bancos[d.slug] = JSON.parse(await lerArquivo(`${NIV_DIR}/banco/${d.slug}.json`)).itens;
+    }));
+    const porId = {};
+    Object.values(bancos).flat().forEach((it) => { porId[it.id] = it; });
+    const prova = Object.fromEntries(est.provas.map((p) => [p.id, p]));
+    const itensNiv = {};
+    est.disciplinas.forEach((d) => { itensNiv[d.prova] = (itensNiv[d.prova] || 0) + d.itens; });
+    return { est, disc, bancos, porId, prova, itensNiv };
+  }
+
+  // Resultados: os do navegador + os salvos no repositório (resultados/*.md trazem o JSON num comentário)
+  async function historicoNivelamento() {
+    const todos = Object.fromEntries(niv.historico().map((r) => [r.id, r]));
+    const arqs = estado.arquivos.filter((p) => p.startsWith(`${NIV_RES}/`) && p.endsWith(".md"));
+    await Promise.all(arqs.map(async (p) => {
+      try {
+        const m = (await lerArquivo(p)).match(NIV_JSON_RE);
+        if (!m) return;
+        const r = JSON.parse(m[1]);
+        todos[r.id] = { ...r, ...(todos[r.id] || {}), salvo: p };
+      } catch { /* arquivo ilegível: ignora */ }
+    }));
+    return Object.values(todos).sort((a, b) => a.fim - b.fim);
+  }
+
+  const embaralhar = (a) => {
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+    return a;
+  };
+
+  // Mesma estrutura sempre (cota de itens por disciplina); muda o sorteio: a cada item escolhe-se o tópico
+  // menos visto (histórico + esta prova) e, nele, o item menos visto, equilibrando gabaritos C/E.
+  function montarProva(ctx, vistos) {
+    const itens = [];
+    let nC = 0, nE = 0;
+    for (const d of ctx.est.disciplinas) {
+      const pool = embaralhar(ctx.bancos[d.slug].filter((it) => d.topicos.includes(it.t)));
+      const visTopico = {};
+      pool.forEach((it) => { visTopico[it.t] = (visTopico[it.t] || 0) + (vistos[it.id] || 0); });
+      for (let k = 0; k < d.itens && pool.length; k++) {
+        const topicos = [...new Set(pool.map((it) => it.t))];
+        const menor = Math.min(...topicos.map((t) => visTopico[t]));
+        const t = embaralhar(topicos.filter((x) => visTopico[x] === menor))[0];
+        const cand = pool.filter((it) => it.t === t).sort((x, y) => (vistos[x.id] || 0) - (vistos[y.id] || 0));
+        const min = vistos[cand[0].id] || 0;
+        const quer = nC - nE > 1 ? "E" : nE - nC > 1 ? "C" : null;
+        const it = (quer && cand.find((x) => x.g === quer && (vistos[x.id] || 0) === min)) || cand[0];
+        pool.splice(pool.indexOf(it), 1);
+        visTopico[t] += 1000;
+        if (it.g === "C") nC++; else nE++;
+        itens.push({ id: it.id, d: d.slug, t: it.t, p: d.prova, g: it.g, r: "" });
+      }
+    }
+    return itens;
+  }
+
+  function apurar(res, ctx) {
+    const zero = () => ({ n: 0, ac: 0, er: 0, br: 0, liq: 0, max: 0 });
+    const somar = (o, it) => {
+      const w = ctx.prova[it.p]?.peso || 1;
+      o.n++; o.max += w;
+      if (!it.r) o.br++;
+      else if (it.r === it.g) { o.ac++; o.liq += w; }
+      else { o.er++; o.liq -= w; }
+    };
+    const total = zero(), provas = {}, discs = {}, topicos = {};
+    res.itens.forEach((it) => {
+      somar(total, it);
+      somar(provas[it.p] ||= zero(), it);
+      somar(discs[it.d] ||= zero(), it);
+      somar(topicos[`${it.d}:${it.t}`] ||= zero(), it);
+    });
+    // Projeção para a prova real: mesma proporção de acertos/erros nos itens reais de cada prova
+    let projTotal = 0;
+    const proj = {};
+    for (const [pid, o] of Object.entries(provas)) {
+      const p = ctx.prova[pid];
+      const fator = p.itens_reais / o.n;
+      proj[pid] = { nota: o.liq * fator, max: p.itens_reais * p.peso, minimo: p.minimo_real };
+      projTotal += proj[pid].nota;
+    }
+    return { total, provas, discs, topicos, proj, projTotal, maxReal: ctx.est.provas.reduce((a, p) => a + p.itens_reais * p.peso, 0) };
+  }
+
+  const pct = (x) => `${Math.round(100 * x)}%`;
+  const fmt = (x) => (Math.round(x * 10) / 10).toLocaleString("pt-BR");
+  const aprov = (o) => (o.max ? Math.max(0, o.liq / o.max) : 0); // errar mais que acertar não passa de 0%
+  const faixa = (a) => (a >= 0.7 ? { cls: "ok", rot: "🟢 Manter" } : a >= 0.4 ? { cls: "em", rot: "🟡 Reforçar" } : { cls: "ruim", rot: "🔴 Prioridade" });
+  const duracao = (s) => { const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60); return h ? `${h}h${String(m).padStart(2, "0")}` : `${m} min`; };
+  const relogio = (s) => [Math.floor(s / 3600), Math.floor((s % 3600) / 60), s % 60].map((n) => String(n).padStart(2, "0")).join(":");
+  const dataRes = (r) => new Intl.DateTimeFormat("pt-BR", { timeZone: "America/Sao_Paulo", dateStyle: "short", timeStyle: "short" }).format(new Date(r.fim));
+
+  // Onde está a pontuação perdida: peso da disciplina na prova real × o quanto falta para o aproveitamento máximo
+  function diagnosticar(ap, ctx, statusProg) {
+    const discs = ctx.est.disciplinas.map((d) => {
+      const o = ap.discs[d.slug];
+      if (!o) return null;
+      const p = ctx.prova[d.prova];
+      const emJogo = o.max * (p.itens_reais / ctx.itensNiv[d.prova]);
+      const a = aprov(o);
+      const topicos = ctx.disc[d.slug].topicos.map((t) => {
+        const ot = ap.topicos[`${d.slug}:${t.num}`];
+        return ot ? { ...ot, num: t.num, titulo: t.titulo, status: statusProg[`${ctx.disc[d.slug].disciplina}|${t.num}`] || "⬜" } : null;
+      }).filter(Boolean);
+      return { slug: d.slug, nome: ctx.disc[d.slug].disciplina, prova: d.prova, o, a, emJogo, perda: emJogo * (1 - a), topicos, faixa: faixa(a) };
+    }).filter(Boolean).sort((x, y) => y.perda - x.perda);
+    const somaPerda = discs.reduce((s, d) => s + Math.max(d.perda, 0), 0) || 1;
+    discs.forEach((d) => { d.tempo = Math.max(d.perda, 0) / somaPerda; });
+
+    const t = ap.total;
+    const resp = t.ac + t.er;
+    const dicas = [];
+    if (resp && t.er / resp > 0.35 && t.er >= 5) {
+      dicas.push(`Você errou ${pct(t.er / resp)} dos itens que marcou. No Cebraspe, marcar só compensa com mais de 50% de chance de acerto (ganho esperado = 2p − 1): deixe em branco o que for chute.`);
+    }
+    if (t.br / t.n > 0.3) {
+      dicas.push(`${pct(t.br / t.n)} dos itens ficaram em branco: há conteúdo ainda não visto. A prioridade agora é cobrir o edital, começando pelas disciplinas 🔴 abaixo.`);
+    }
+    if (resp && t.er / resp <= 0.2 && t.br / t.n > 0.15) {
+      dicas.push("Sua taxa de acerto nas marcadas é alta: você pode estar deixando em branco itens que sabe. Arrisque mais quando tiver segurança razoável.");
+    }
+    const p3 = ap.proj.P3;
+    if (p3 && p3.nota < p3.minimo) dicas.push(`A P3 (específicos, peso 2) está abaixo do mínimo eliminatório projetado (${fmt(p3.nota)} de ${p3.minimo}). Ela vale 69% das objetivas: comece por ela.`);
+    return { discs, dicas };
+  }
+
+  async function statusProgresso() {
+    const st = {};
+    try {
+      let disc = null;
+      (await lerArquivo(CFG.progresso)).split("\n").forEach((l) => {
+        const h = l.match(/^### (.+)/);
+        if (h) disc = h[1].trim();
+        const m = l.match(/^- (⬜|🟨|✅|🔁) \*\*(\d+)\*\*/);
+        if (m && disc) st[`${disc}|${m[2]}`] = m[1];
+      });
+    } catch { /* sem progresso: tudo ⬜ */ }
+    return st;
+  }
+
+  function acaoTopico(t) {
+    if (t.er && (t.status === "✅" || t.status === "🔁")) return "revisar — marcado como estudado, mas errou";
+    if (t.status === "🟨") return "continuar o estudo";
+    if (t.status === "⬜") return "estudar (não iniciado)";
+    return "revisar os itens";
+  }
+
+  // ---------- Telas do nivelamento ----------
+  async function telaNivelamento(main, sub) {
+    document.title = "Nivelamento · Área do Concurseiro";
+    main.innerHTML = '<div class="conteudo"><h1>📊 Prova de nivelamento</h1><p class="muted">Carregando banco de questões…</p></div>';
+    const ctx = await carregarNivelamento();
+    if (sub === "prova") return telaNivelamentoProva(main, ctx);
+    if (sub?.startsWith("resultado/")) return telaNivelamentoResultado(main, ctx, sub.slice(10));
+
+    const hist = await historicoNivelamento();
+    const and = niv.andamento();
+    const totalItens = Object.values(ctx.itensNiv).reduce((a, b) => a + b, 0);
+    const totalBanco = Object.values(ctx.bancos).reduce((a, b) => a + b.length, 0);
+    const pendentes = hist.filter((r) => !r.salvo);
+    const linhasProva = ctx.est.provas.map((p) => {
+      const n = ctx.itensNiv[p.id];
+      return `<tr><td><b>${p.id}</b> · ${esc(p.nome)}</td><td>${n}</td><td>${p.peso}</td><td>${n * p.peso}</td><td>${p.itens_reais} itens, mín. ${p.minimo_real}/${p.itens_reais * p.peso}</td></tr>`;
+    }).join("");
+    const linhasDisc = ctx.est.disciplinas.map((d) => {
+      return `<tr><td>${d.prova}</td><td>${esc(ctx.disc[d.slug].disciplina)}</td><td>${d.itens}</td><td>${d.topicos.length}</td><td class="muted">${ctx.bancos[d.slug].length}</td></tr>`;
+    }).join("");
+    const linhasHist = hist.slice().reverse().map((r) => {
+      const ap = apurar(r, ctx);
+      const pp = (pid) => (ap.provas[pid] ? pct(aprov(ap.provas[pid])) : "—");
+      const ok = ap.projTotal >= ctx.est.minimo_total_real && Object.values(ap.proj).every((x) => x.nota >= x.minimo);
+      return `<tr><td><a href="#/nivelamento/resultado/${esc(r.id)}">${dataRes(r)}</a></td><td><b>${fmt(ap.total.liq)}</b>/${ap.total.max}</td><td>${pp("P1")}</td><td>${pp("P2")}</td><td>${pp("P3")}</td><td>${fmt(ap.projTotal)}/${ap.maxReal} ${ok ? "✅" : "❌"}</td><td>${r.salvo ? `<a href="${rotaNota(r.salvo)}" title="Salvo no repositório">📄</a>` : '<span title="Só neste navegador">💾</span>'}</td></tr>`;
+    }).join("");
+
+    main.innerHTML = `<div class="conteudo">
+      <h1>📊 Prova de nivelamento</h1>
+      <p class="muted">Itens Certo/Errado no estilo Cebraspe cobrindo todos os tópicos do edital. A estrutura é sempre a mesma (20 itens, com os pesos da prova real: P1 e P2 valem 1, P3 vale 2); os itens mudam a cada execução — os que você já viu ficam por último.</p>
+      ${and ? `<div class="card niv-andamento"><div><b>Prova em andamento</b><br><small class="muted">${and.itens.filter((i) => i.r).length}/${and.itens.length} respondidos · ${relogio(and.seg || 0)}</small></div><div class="row"><a class="btn primary" href="#/nivelamento/prova">Continuar</a><button class="btn" id="niv-descartar">Descartar</button></div></div>` : ""}
+      <div class="row" style="margin:14px 0">${and ? "" : `<button class="btn primary" id="niv-iniciar">▶️ Iniciar nova prova (${totalItens} itens)</button>`}
+        <span class="muted">Tempo sugerido: ${duracao(ctx.est.tempo_sugerido_min * 60)} · banco com ${totalBanco} itens</span></div>
+      ${pendentes.length ? `<div class="aviso">💾 ${pendentes.length} resultado(s) salvos só neste navegador. <button class="btn" id="niv-sync">Salvar no GitHub</button></div>` : ""}
+      <h2>📈 Histórico</h2>
+      ${hist.length ? `<div class="tabela-rolagem"><table class="niv-tabela"><thead><tr><th>Data</th><th>Nota</th><th>P1</th><th>P2</th><th>P3</th><th>Projeção (prova real)</th><th></th></tr></thead><tbody>${linhasHist}</tbody></table></div>
+        <p class="muted" style="font-size:13px">P1/P2/P3 = aproveitamento líquido (certos − errados) ÷ máximo. Projeção = nota líquida extrapolada para os 170 itens reais; ✅ quando passa em todos os mínimos do edital.</p>` : '<p class="muted">Nenhuma prova feita ainda.</p>'}
+      <h2>🧮 Estrutura e pesos</h2>
+      <p>${esc(ctx.est.regra)}</p>
+      <div class="tabela-rolagem"><table class="niv-tabela"><thead><tr><th>Prova</th><th>Itens</th><th>Peso</th><th>Pontos</th><th>Na prova real</th></tr></thead><tbody>${linhasProva}</tbody></table></div>
+      <details><summary>Itens por disciplina (cota fixa)</summary><div class="tabela-rolagem"><table class="niv-tabela"><thead><tr><th>Prova</th><th>Disciplina</th><th>Itens</th><th>Tópicos no edital</th><th>No banco</th></tr></thead><tbody>${linhasDisc}</tbody></table></div></details>
+      <p class="muted" style="font-size:13px">Banco e estrutura: <a href="${rotaNota(`${NIV_DIR}/README.md`)}">${NIV_DIR}/</a>. Peça ao Claude para incluir itens novos.</p>
+    </div>`;
+
+    $("#niv-iniciar")?.addEventListener("click", () => {
+      const vistos = {};
+      hist.forEach((r) => r.itens.forEach((it) => { vistos[it.id] = (vistos[it.id] || 0) + 1; }));
+      const agora = new Date();
+      const id = new Intl.DateTimeFormat("sv-SE", { timeZone: "America/Sao_Paulo", dateStyle: "short", timeStyle: "short" }).format(agora).replace(" ", "-").replace(":", "");
+      niv.salvarAndamento({ id, inicio: agora.getTime(), seg: 0, itens: montarProva(ctx, vistos) });
+      location.hash = "#/nivelamento/prova";
+    });
+    $("#niv-descartar")?.addEventListener("click", () => {
+      if (!confirm("Descartar a prova em andamento? As respostas serão perdidas.")) return;
+      store.del("ac:niv:andamento");
+      navegar();
+    });
+    $("#niv-sync")?.addEventListener("click", async (ev) => {
+      if (!token()) { abrirConfig(); return; }
+      ev.target.disabled = true;
+      for (const r of pendentes) await salvarResultadoNoRepo(r, ctx).catch((e) => toast(`⚠️ ${e.message}`, 5000));
+      navegar();
+    });
+  }
+
+  let nivTimer = null;
+  function telaNivelamentoProva(main, ctx) {
+    const and = niv.andamento();
+    if (!and) { location.hash = "#/nivelamento"; return; }
+    document.title = "Nivelamento em andamento · Área do Concurseiro";
+    let blocoAtual = "";
+    const html = and.itens.map((it, i) => {
+      const item = ctx.porId[it.id];
+      const d = ctx.disc[it.d];
+      const topico = d.topicos.find((t) => t.num === it.t);
+      let cab = "";
+      if (blocoAtual !== it.p) {
+        blocoAtual = it.p;
+        const p = ctx.prova[it.p];
+        cab = `<h2 class="niv-secao">${p.id} · ${esc(p.nome)} <small class="muted">(peso ${p.peso})</small></h2>`;
+      }
+      return `${cab}<div class="niv-item${it.r ? " respondido" : ""}" data-i="${i}">
+        <div class="niv-meta"><b>${i + 1}</b> · ${esc(d.disciplina)} · ${esc(it.t)} ${esc(topico?.titulo || "")}</div>
+        <p>${esc(item?.q || "(item removido do banco)")}</p>
+        <div class="niv-resp">${["C", "E", ""].map((r) => `<button class="btn${it.r === r && (r || it.r === "") && (r !== "" || it.b) ? " sel" : ""}" data-r="${r}">${r === "C" ? "C · Certo" : r === "E" ? "E · Errado" : "Em branco"}</button>`).join("")}</div>
+      </div>`;
+    }).join("");
+    main.innerHTML = `<div class="conteudo" id="niv-prova">
+      <div class="niv-barra"><span id="niv-relogio">⏱ ${relogio(and.seg || 0)}</span><span id="niv-cont"></span><button class="btn primary" id="niv-fim">Finalizar</button></div>
+      <h1>📊 Nivelamento</h1>
+      <p class="muted">Julgue cada item. Certo soma o peso, errado subtrai, em branco vale zero. As respostas ficam salvas neste navegador enquanto você faz a prova — pode fechar e continuar depois.</p>
+      ${html}
+      <div class="row" style="justify-content:center;margin-top:24px"><button class="btn primary" id="niv-fim2">Finalizar e ver diagnóstico</button></div>
+    </div>`;
+
+    const contar = () => {
+      const c = and.itens.filter((i) => i.r === "C").length, e = and.itens.filter((i) => i.r === "E").length;
+      $("#niv-cont").textContent = `${c + e}/${and.itens.length} marcados · C ${c} · E ${e}`;
+    };
+    contar();
+    $$(".niv-item").forEach((el) => el.addEventListener("click", (ev) => {
+      const b = ev.target.closest("[data-r]");
+      if (!b) return;
+      const it = and.itens[+el.dataset.i];
+      it.r = b.dataset.r;
+      it.b = it.r === "";
+      $$("[data-r]", el).forEach((x) => x.classList.toggle("sel", x === b));
+      el.classList.toggle("respondido", true);
+      niv.salvarAndamento(and);
+      contar();
+    }));
+
+    clearInterval(nivTimer);
+    nivTimer = setInterval(() => {
+      if (!document.getElementById("niv-prova")) { clearInterval(nivTimer); return; }
+      if (document.hidden) return;
+      and.seg = (and.seg || 0) + 1;
+      $("#niv-relogio").textContent = `⏱ ${relogio(and.seg)}`;
+      if (and.seg % 10 === 0) niv.salvarAndamento(and);
+    }, 1000);
+
+    const finalizar = async () => {
+      const brancos = and.itens.filter((i) => !i.r).length;
+      if (!confirm(brancos ? `${brancos} item(ns) sem marcação (valem zero). Finalizar a prova?` : "Finalizar a prova?")) return;
+      clearInterval(nivTimer);
+      const res = { id: and.id, inicio: and.inicio, fim: Date.now(), seg: and.seg || 0, itens: and.itens.map(({ id, d, t, p, g, r }) => ({ id, d, t, p, g, r })) };
+      niv.guardar(res);
+      store.del("ac:niv:andamento");
+      if (token()) {
+        toast("Salvando resultado no GitHub…");
+        await salvarResultadoNoRepo(res, ctx).catch((e) => toast(`⚠️ Salvo só neste navegador: ${e.message}`, 6000));
+      }
+      location.hash = `#/nivelamento/resultado/${res.id}`;
+    };
+    $("#niv-fim").addEventListener("click", finalizar);
+    $("#niv-fim2").addEventListener("click", finalizar);
+  }
+
+  async function telaNivelamentoResultado(main, ctx, id) {
+    const hist = await historicoNivelamento();
+    const i = hist.findIndex((r) => r.id === id);
+    const res = hist[i];
+    if (!res) throw new Error(`Resultado ${id} não encontrado.`);
+    const anterior = hist[i - 1];
+    const ap = apurar(res, ctx);
+    const diag = diagnosticar(ap, ctx, await statusProgresso());
+    document.title = `Nivelamento ${dataRes(res)} · Área do Concurseiro`;
+
+    const apAnt = anterior ? apurar(anterior, ctx) : null;
+    const delta = apAnt ? ap.projTotal - apAnt.projTotal : null;
+    const okTotal = ap.projTotal >= ctx.est.minimo_total_real;
+    const cardsProva = ctx.est.provas.map((p) => {
+      const o = ap.provas[p.id], pj = ap.proj[p.id];
+      if (!o) return "";
+      const ok = pj.nota >= pj.minimo;
+      return `<div class="card"><h3>${p.id} · ${esc(p.nome)}</h3><div class="big">${fmt(o.liq)}<small class="muted">/${o.max}</small></div>
+        <div class="muted">✔ ${o.ac} · ✘ ${o.er} · ○ ${o.br}</div>
+        <div>Projeção: <b>${fmt(pj.nota)}</b>/${pj.max} ${ok ? "✅" : "❌"} <small class="muted">mín. ${pj.minimo}</small></div></div>`;
+    }).join("");
+
+    const linhasDisc = diag.discs.map((d, n) => `<tr>
+      <td>${n + 1}</td><td><a href="${rotaNota(`concursos/cgu-affc/acervo/${d.slug}.md`)}" title="Abrir o acervo da disciplina">${esc(d.nome)}</a> <small class="muted">${d.prova}</small></td>
+      <td><div class="niv-aprov"><span class="${d.faixa.cls}" style="width:${Math.max(0, Math.round(100 * d.a))}%"></span></div><small>${pct(d.a)} · ✔${d.o.ac} ✘${d.o.er} ○${d.o.br}</small></td>
+      <td>${fmt(d.emJogo)}</td><td><b>${fmt(Math.max(d.perda, 0))}</b></td><td>${d.faixa.rot}</td><td>${d.tempo >= 0.005 ? pct(d.tempo) : "—"}</td></tr>`).join("");
+
+    const focos = diag.discs.filter((d) => d.faixa.cls !== "ok").slice(0, 6).map((d) => {
+      const tops = d.topicos.filter((t) => t.er || t.br).sort((a, b) => (b.er * 2 + b.br) - (a.er * 2 + a.br));
+      if (!tops.length) return "";
+      return `<li><b>${esc(d.nome)}</b> <small class="muted">(${d.prova}, ${fmt(Math.max(d.perda, 0))} pts em jogo)</small><ul>${tops.map((t) =>
+        `<li>${t.status} <b>${esc(t.num)}</b> ${esc(t.titulo)} — <small>✔${t.ac} ✘${t.er} ○${t.br}</small> → ${acaoTopico(t)}</li>`).join("")}</ul></li>`;
+    }).join("");
+
+    const correcao = ctx.est.disciplinas.map((d) => {
+      const its = res.itens.map((it, k) => ({ ...it, k })).filter((it) => it.d === d.slug);
+      if (!its.length) return "";
+      const o = ap.discs[d.slug];
+      return `<details><summary><b>${esc(ctx.disc[d.slug].disciplina)}</b> <small class="muted">✔${o.ac} ✘${o.er} ○${o.br}</small></summary>${its.map((it) => {
+        const item = ctx.porId[it.id] || {};
+        const cls = !it.r ? "branco" : it.r === it.g ? "certo" : "errado";
+        const sinal = !it.r ? "○ em branco" : it.r === it.g ? "✔ acertou" : "✘ errou";
+        return `<div class="niv-corr ${cls}"><div class="niv-meta"><b>${it.k + 1}</b> · tópico ${esc(it.t)} · ${sinal} · você: ${it.r || "—"} · gabarito: <b>${it.g}</b></div>
+          <p>${esc(item.q || "(item removido do banco)")}</p>${item.j ? `<p class="muted">💡 ${esc(item.j)}</p>` : ""}${item.f ? `<p class="muted"><small>Fonte: ${esc(item.f)}</small></p>` : ""}</div>`;
+      }).join("")}</details>`;
+    }).join("");
+
+    main.innerHTML = `<div class="conteudo">
+      <p><a href="#/nivelamento">← Nivelamento</a></p>
+      <h1>📊 Resultado · ${dataRes(res)}</h1>
+      <p class="muted">${res.itens.length} itens · ${duracao(res.seg || 0)} · ${res.salvo ? `salvo em <a href="${rotaNota(res.salvo)}">${esc(basename(res.salvo))}</a>` : `💾 salvo só neste navegador <button class="btn" id="niv-salvar">Salvar no GitHub</button>`}</p>
+      <div class="grid">
+        <div class="card"><h3>🧮 Nota líquida</h3><div class="big">${fmt(ap.total.liq)}<small class="muted">/${ap.total.max}</small></div><div class="muted">${pct(aprov(ap.total))} de aproveitamento</div></div>
+        <div class="card"><h3>🎯 Projeção na prova real</h3><div class="big">${fmt(ap.projTotal)}<small class="muted">/${ap.maxReal}</small></div>
+          <div>${okTotal ? "✅" : "❌"} mínimo ${ctx.est.minimo_total_real} ${delta !== null ? `· ${delta >= 0 ? "▲" : "▼"} ${fmt(Math.abs(delta))} vs. anterior` : ""}</div></div>
+        ${cardsProva}
+      </div>
+      <h2>🩺 Diagnóstico — onde direcionar o estudo</h2>
+      ${diag.dicas.length ? `<ul class="niv-dicas">${diag.dicas.map((d) => `<li>${esc(d)}</li>`).join("")}</ul>` : ""}
+      <p class="muted" style="font-size:13px">Ordenado pelos <b>pontos da prova real que você está deixando na mesa</b> = pontos da disciplina na prova real × (1 − aproveitamento). A coluna “Tempo” sugere como dividir as horas de estudo. Com só 20 itens, P1/P2 têm 1 item por disciplina e a P3 de 2 a 3: leia o resultado como indício e refaça a prova de tempos em tempos (os itens mudam).</p>
+      <div class="tabela-rolagem"><table class="niv-tabela"><thead><tr><th>#</th><th>Disciplina</th><th>Aproveitamento</th><th>Pts reais</th><th>Pts a recuperar</th><th>Situação</th><th>Tempo</th></tr></thead><tbody>${linhasDisc}</tbody></table></div>
+      ${focos ? `<h3>📌 Tópicos a atacar primeiro</h3><ul class="niv-focos">${focos}</ul>
+        <p class="muted" style="font-size:13px">Status ao lado de cada tópico = seu <a href="${rotaNota(CFG.progresso)}">checklist do edital</a>. Os links das disciplinas abrem o acervo (onde estudar).</p>` : '<p>🎉 Nenhuma disciplina em 🟡/🔴. Mantenha a revisão espaçada e faça provas Cebraspe completas.</p>'}
+      <h2>📝 Correção item a item</h2>
+      ${correcao}
+    </div>`;
+
+    $("#niv-salvar")?.addEventListener("click", async (ev) => {
+      if (!token()) { abrirConfig(); return; }
+      ev.target.disabled = true;
+      try { await salvarResultadoNoRepo(res, ctx); navegar(); }
+      catch (e) { ev.target.disabled = false; toast(`⚠️ ${e.message}`, 5000); }
+    });
+  }
+
+  function resultadoMarkdown(res, ctx, ap, diag) {
+    const linhas = [];
+    const data = dataRes(res);
+    linhas.push("---", "tipo: nivelamento", `data: ${data}`, `nota: ${fmt(ap.total.liq)} de ${ap.total.max} (${pct(aprov(ap.total))})`,
+      `projecao: ${fmt(ap.projTotal)} de ${ap.maxReal}`, `duracao: ${duracao(res.seg || 0)}`, "---", "",
+      `# 📊 Nivelamento — ${data}`, "",
+      `> Gerado pela [Área do Concurseiro](https://metrics-odr.github.io/concursos/#/nivelamento/resultado/${res.id}). Certo soma o peso, errado subtrai, branco vale zero.`, "",
+      "| Prova | ✔ | ✘ | ○ | Nota líquida | Projeção na prova real | Mínimo |", "|---|:-:|:-:|:-:|:-:|:-:|:-:|");
+    ctx.est.provas.forEach((p) => {
+      const o = ap.provas[p.id], pj = ap.proj[p.id];
+      if (o) linhas.push(`| ${p.id} · ${p.nome} (peso ${p.peso}) | ${o.ac} | ${o.er} | ${o.br} | ${fmt(o.liq)}/${o.max} | ${fmt(pj.nota)}/${pj.max} ${pj.nota >= pj.minimo ? "✅" : "❌"} | ${pj.minimo} |`);
+    });
+    linhas.push(`| **Total** | ${ap.total.ac} | ${ap.total.er} | ${ap.total.br} | **${fmt(ap.total.liq)}/${ap.total.max}** | **${fmt(ap.projTotal)}/${ap.maxReal}** ${ap.projTotal >= ctx.est.minimo_total_real ? "✅" : "❌"} | ${ctx.est.minimo_total_real} |`, "",
+      "## 🩺 Diagnóstico — onde direcionar o estudo", "");
+    diag.dicas.forEach((d) => linhas.push(`> [!TIP]\n> ${d}\n`));
+    linhas.push("| # | Disciplina | Prova | Aproveitamento | Pts a recuperar | Situação | Tempo sugerido |", "|:-:|---|:-:|:-:|:-:|---|:-:|");
+    diag.discs.forEach((d, n) => linhas.push(`| ${n + 1} | [${d.nome}](../acervo/${d.slug}.md) | ${d.prova} | ${pct(d.a)} | ${fmt(Math.max(d.perda, 0))} | ${d.faixa.rot} | ${d.tempo >= 0.005 ? pct(d.tempo) : "—"} |`));
+    linhas.push("", "### 📌 Tópicos a atacar", "");
+    diag.discs.filter((d) => d.faixa.cls !== "ok").forEach((d) => {
+      const tops = d.topicos.filter((t) => t.er || t.br);
+      if (!tops.length) return;
+      linhas.push(`- **${d.nome}** (${d.prova})`);
+      tops.forEach((t) => linhas.push(`  - ${t.status} **${t.num}** ${t.titulo} — ✔${t.ac} ✘${t.er} ○${t.br} → ${acaoTopico(t)}`));
+    });
+    const errados = res.itens.map((it, k) => ({ ...it, k })).filter((it) => it.r && it.r !== it.g);
+    if (errados.length) {
+      linhas.push("", "## ❌ Itens errados", "");
+      errados.forEach((it) => {
+        const item = ctx.porId[it.id] || {};
+        linhas.push(`${it.k + 1}. *${ctx.disc[it.d]?.disciplina} · tópico ${it.t}* — ${item.q || it.id}`,
+          `   → Gabarito **${it.g}** (você marcou ${it.r}).${item.j ? ` ${item.j}` : ""}${item.f ? ` _Fonte: ${item.f}_` : ""}`);
+      });
+    }
+    const dados = { id: res.id, inicio: res.inicio, fim: res.fim, seg: res.seg, itens: res.itens };
+    linhas.push("", `<!-- nivelamento:${JSON.stringify(dados)} -->`, "");
+    return linhas.join("\n");
+  }
+
+  async function salvarResultadoNoRepo(res, ctx) {
+    const ap = apurar(res, ctx);
+    const diag = diagnosticar(ap, ctx, await statusProgresso());
+    const path = `${NIV_RES}/${res.id}.md`;
+    await salvarArquivo(path, resultadoMarkdown(res, ctx, ap, diag), `Nivelamento: resultado de ${dataRes(res)} (${fmt(ap.total.liq)}/${ap.total.max})`);
+    niv.guardar({ ...res, salvo: path });
+    toast("✅ Resultado salvo no GitHub");
+  }
+
   // ---------- Tela: início ----------
   async function telaInicio(main) {
     document.title = "Área do Concurseiro";
@@ -867,6 +1293,7 @@
       <div class="card"><h3>📊 Progresso por disciplina</h3><div id="in-disc"><p class="muted">Carregando…</p></div>
         <div class="legenda"><span><i style="background:var(--accent)"></i>revisado</span><span><i style="background:var(--ok)"></i>estudado</span><span><i style="background:var(--warn)"></i>em estudo</span></div></div>
       <div class="grid">
+        <a class="card" href="#/nivelamento"><h3>📊 Nivelamento</h3>Prova de 20 itens C/E com peso e diagnóstico de onde estudar</a>
         <a class="card" href="${rotaNota("concursos/cgu-affc/acervo/README.md")}"><h3>🔎 Acervo</h3>Onde e como estudar cada tópico do edital</a>
         <a class="card" href="${rotaNota("concursos/cgu-affc/revisao/provas-cebraspe.md")}"><h3>📝 Provas Cebraspe</h3>Ciência de Dados + discursivas</a>
         <a class="card" href="${rotaNota("concursos/cgu-affc/README.md")}"><h3>📄 Ficha do concurso</h3>Datas, vagas, pesos</a>

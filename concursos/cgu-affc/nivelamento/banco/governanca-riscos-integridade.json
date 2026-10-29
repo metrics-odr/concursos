@@ -1,0 +1,104 @@
+{
+ "disciplina": "governanca-riscos-integridade",
+ "itens": [
+  {
+   "id": "gr-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "Segundo o Decreto nº 9.203/2017, governança pública compreende o conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.",
+   "j": "Definição legal.",
+   "f": "Decreto nº 9.203/2017, art. 2º, I"
+  },
+  {
+   "id": "gr-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "Na distinção entre governança e gestão, cabe à gestão avaliar, direcionar e monitorar, ao passo que à governança compete planejar e executar as atividades operacionais.",
+   "j": "Invertido: governança → avaliar, direcionar, monitorar; gestão → planejar, executar, controlar.",
+   "f": "TCU, Referencial Básico de Governança"
+  },
+  {
+   "id": "gr-1-03",
+   "t": "1",
+   "g": "C",
+   "q": "Accountability envolve a obrigação de prestar contas e a possibilidade de responsabilização pelas decisões e pelos resultados."
+  },
+  {
+   "id": "gr-2-01",
+   "t": "2",
+   "g": "E",
+   "q": "Risco residual é o risco a que uma organização está exposta antes da adoção de qualquer medida de controle.",
+   "j": "Esse é o risco inerente. Residual = o que sobra depois das respostas/controles.",
+   "f": "IN Conjunta MP/CGU nº 1/2016"
+  },
+  {
+   "id": "gr-2-02",
+   "t": "2",
+   "g": "C",
+   "q": "A segregação de funções é controle preventivo que busca evitar que um mesmo agente concentre etapas críticas de um processo, como autorizar, executar e conferir uma operação."
+  },
+  {
+   "id": "gr-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "Os controles devem ser proporcionais aos riscos, de modo que, em regra, o custo de um controle não supere o benefício esperado com sua implementação.",
+   "f": "IN Conjunta MP/CGU nº 1/2016"
+  },
+  {
+   "id": "gr-2-04",
+   "t": "2",
+   "g": "E",
+   "q": "A conciliação periódica entre os registros contábeis e o extrato bancário é exemplo típico de controle preventivo.",
+   "j": "É controle detectivo: identifica divergências depois que ocorreram."
+  },
+  {
+   "id": "gr-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "Programa de integridade consiste no conjunto de mecanismos e procedimentos internos de integridade, auditoria e incentivo à denúncia de irregularidades e na aplicação efetiva de códigos de ética e de conduta, com o objetivo de prevenir, detectar e sanar desvios, fraudes, irregularidades e atos ilícitos.",
+   "j": "Definição do regulamento da Lei Anticorrupção.",
+   "f": "Decreto nº 11.129/2022, art. 56"
+  },
+  {
+   "id": "gr-3-02",
+   "t": "3",
+   "g": "C",
+   "q": "O compromisso da alta administração é considerado elemento central dos programas de integridade, tanto no setor público quanto no privado.",
+   "j": "Tone at the top.",
+   "f": "Decreto nº 11.129/2022, art. 57, I"
+  },
+  {
+   "id": "gr-4-01",
+   "t": "4",
+   "g": "E",
+   "q": "A mera existência formal de um programa de integridade, com código de conduta publicado, é suficiente para que ele seja considerado efetivo.",
+   "j": "Existência documental ≠ implementação ≠ efetividade; a avaliação verifica funcionamento e resultados."
+  },
+  {
+   "id": "gr-4-02",
+   "t": "4",
+   "g": "C",
+   "q": "A diligência sobre terceiros deve ser proporcional aos riscos, considerando fatores como o tipo de relacionamento e a interação do terceiro com agentes públicos.",
+   "f": "Decreto nº 11.129/2022, art. 57, XIII"
+  },
+  {
+   "id": "gr-5-01",
+   "t": "5",
+   "g": "E",
+   "q": "A baixa quantidade de denúncias recebidas por um órgão permite concluir que nele há baixa ocorrência de irregularidades.",
+   "j": "Baixa detecção ≠ baixa ocorrência: pode haver subnotificação por medo de retaliação ou desconfiança no canal."
+  },
+  {
+   "id": "gr-5-02",
+   "t": "5",
+   "g": "C",
+   "q": "Resultados de auditorias e informações de denúncias podem ser utilizados como insumos para aperfeiçoar controles e programas de integridade."
+  },
+  {
+   "id": "gr-5-03",
+   "t": "5",
+   "g": "C",
+   "q": "Medidas de integridade devem ser proporcionais ao porte, aos riscos e às capacidades da organização."
+  }
+ ]
+}

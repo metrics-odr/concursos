@@ -1,0 +1,121 @@
+{
+ "disciplina": "direito-publico-controle",
+ "itens": [
+  {
+   "id": "dp-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "Segundo a LINDB, nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão.",
+   "f": "Decreto-Lei nº 4.657/1942, art. 20"
+  },
+  {
+   "id": "dp-1-02",
+   "t": "1",
+   "g": "C",
+   "q": "Na interpretação de normas sobre gestão pública, devem ser considerados os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo.",
+   "f": "Decreto-Lei nº 4.657/1942, art. 22"
+  },
+  {
+   "id": "dp-1-03",
+   "t": "1",
+   "g": "E",
+   "q": "Conforme a Lei nº 9.784/1999, a motivação é dispensável nos atos administrativos que neguem, limitem ou afetem direitos ou interesses.",
+   "j": "Art. 50, I: esses atos DEVEM ser motivados.",
+   "f": "Lei nº 9.784/1999, art. 50"
+  },
+  {
+   "id": "dp-1-04",
+   "t": "1",
+   "g": "C",
+   "q": "Competência, finalidade e forma são, em regra, elementos vinculados do ato administrativo, enquanto motivo e objeto podem comportar discricionariedade.",
+   "j": "Doutrina majoritária (mérito administrativo = motivo + objeto)."
+  },
+  {
+   "id": "dp-2-01",
+   "t": "2",
+   "g": "C",
+   "q": "Em procedimentos de natureza meramente investigativa, que não resultam diretamente em sanção, em regra não se exige contraditório, o qual deve ser assegurado no processo sancionador subsequente.",
+   "j": "Ex.: sindicância investigativa (inquisitorial) prepara eventual PAD."
+  },
+  {
+   "id": "dp-2-02",
+   "t": "2",
+   "g": "C",
+   "q": "No processo administrativo federal, o administrado tem direito de formular alegações e apresentar documentos antes da decisão, os quais serão objeto de consideração pelo órgão competente.",
+   "f": "Lei nº 9.784/1999, art. 3º, III"
+  },
+  {
+   "id": "dp-2-03",
+   "t": "2",
+   "g": "E",
+   "q": "A administração não pode revogar os próprios atos por motivo de conveniência ou oportunidade, dependendo, para tanto, de decisão judicial.",
+   "j": "Autotutela: anula atos ilegais e pode revogar os inconvenientes, respeitados os direitos adquiridos.",
+   "f": "Lei nº 9.784/1999, art. 53; STF, Súmula 473"
+  },
+  {
+   "id": "dp-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "O controle externo, a cargo do Congresso Nacional, é exercido com o auxílio do Tribunal de Contas da União.",
+   "f": "CF/1988, art. 71"
+  },
+  {
+   "id": "dp-3-02",
+   "t": "3",
+   "g": "C",
+   "q": "Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao TCU, sob pena de responsabilidade solidária.",
+   "f": "CF/1988, art. 74, § 1º"
+  },
+  {
+   "id": "dp-3-03",
+   "t": "3",
+   "g": "E",
+   "q": "A CGU é órgão do Poder Legislativo responsável pelo controle externo da administração pública federal.",
+   "j": "A CGU integra o Poder Executivo federal (órgão central do Sistema de Controle Interno).",
+   "f": "Lei nº 14.600/2023"
+  },
+  {
+   "id": "dp-3-04",
+   "t": "3",
+   "g": "E",
+   "q": "A atuação do controle interno substitui a responsabilidade do gestor pelas decisões de gestão que tenham sido objeto de recomendação.",
+   "j": "O controle recomenda; a decisão e a execução continuam com o gestor (autonomia e responsabilidade)."
+  },
+  {
+   "id": "dp-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "Segundo a Lei Anticorrupção, as pessoas jurídicas são responsabilizadas objetivamente, nos âmbitos administrativo e civil, pelos atos lesivos contra a administração pública praticados em seu interesse ou benefício.",
+   "f": "Lei nº 12.846/2013, art. 2º"
+  },
+  {
+   "id": "dp-4-02",
+   "t": "4",
+   "g": "E",
+   "q": "A celebração do acordo de leniência isenta a pessoa jurídica da obrigação de reparar integralmente o dano causado.",
+   "j": "Art. 16, § 3º: o acordo não exime da reparação integral.",
+   "f": "Lei nº 12.846/2013, art. 16, § 3º"
+  },
+  {
+   "id": "dp-4-03",
+   "t": "4",
+   "g": "C",
+   "q": "No âmbito do Poder Executivo federal, a CGU é o órgão competente para celebrar os acordos de leniência previstos na Lei nº 12.846/2013.",
+   "f": "Lei nº 12.846/2013, art. 16, § 10"
+  },
+  {
+   "id": "dp-4-04",
+   "t": "4",
+   "g": "E",
+   "q": "A existência de indício de irregularidade é suficiente, por si só, para a aplicação de sanção ao agente público.",
+   "j": "Indício → apuração; sanção exige processo, prova e defesa."
+  },
+  {
+   "id": "dp-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "Medidas de proteção à pessoa que relata assédio podem ser adotadas antes da conclusão da apuração, sem que isso implique juízo sobre a responsabilidade do acusado.",
+   "j": "Acolhimento e proteção ≠ conclusão sancionadora."
+  }
+ ]
+}

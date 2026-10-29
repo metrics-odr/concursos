@@ -1,0 +1,219 @@
+{
+ "disciplina": "engenharia-arquitetura-governanca-dados",
+ "itens": [
+  {
+   "id": "en-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "Para estar na segunda forma normal, a relação deve estar na primeira forma normal e não apresentar dependências parciais de atributos não chave em relação a uma chave candidata composta."
+  },
+  {
+   "id": "en-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "Nas transações ACID, a propriedade de isolamento garante que, uma vez confirmada, a transação persistirá mesmo em caso de falha do sistema.",
+   "j": "Isso é durabilidade. Isolamento = transações concorrentes não interferem entre si."
+  },
+  {
+   "id": "en-1-03",
+   "t": "1",
+   "g": "C",
+   "q": "No esquema estrela de um data warehouse, uma tabela fato central se relaciona com tabelas de dimensão.",
+   "f": "Kimball"
+  },
+  {
+   "id": "en-1-04",
+   "t": "1",
+   "g": "C",
+   "q": "Um data lake armazena dados em formato bruto, inclusive não estruturados, aplicando-se o esquema, em regra, no momento da leitura.",
+   "j": "Schema-on-read."
+  },
+  {
+   "id": "en-1-05",
+   "t": "1",
+   "g": "E",
+   "q": "No data mesh, a responsabilidade pelos dados é centralizada em uma única equipe de engenharia, que atende a todos os domínios.",
+   "j": "Data mesh = propriedade por domínio, dados como produto, plataforma de autosserviço e governança federada.",
+   "f": "Dehghani"
+  },
+  {
+   "id": "en-1-06",
+   "t": "1",
+   "g": "C",
+   "q": "Bancos de dados vetoriais são otimizados para busca por similaridade entre representações vetoriais, como embeddings."
+  },
+  {
+   "id": "en-2-01",
+   "t": "2",
+   "g": "C",
+   "q": "A cláusula HAVING filtra grupos após a agregação, ao passo que WHERE filtra linhas antes do agrupamento."
+  },
+  {
+   "id": "en-2-02",
+   "t": "2",
+   "g": "E",
+   "q": "Em SQL, a condição coluna = NULL retorna verdadeiro para as linhas em que a coluna é nula.",
+   "j": "Comparação com NULL resulta em UNKNOWN; use IS NULL."
+  },
+  {
+   "id": "en-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "COUNT(*) conta todas as linhas, enquanto COUNT(coluna) desconsidera as linhas em que a coluna é nula."
+  },
+  {
+   "id": "en-2-04",
+   "t": "2",
+   "g": "E",
+   "q": "Funções de janela, como ROW_NUMBER() OVER (PARTITION BY ...), reduzem o número de linhas do resultado, de modo semelhante ao GROUP BY.",
+   "j": "Funções de janela preservam as linhas, apenas acrescentam colunas calculadas."
+  },
+  {
+   "id": "en-2-05",
+   "t": "2",
+   "g": "C",
+   "q": "Um LEFT JOIN entre A e B retorna todas as linhas de A, preenchendo com nulos as colunas de B quando não houver correspondência."
+  },
+  {
+   "id": "en-2-06",
+   "t": "2",
+   "g": "C",
+   "q": "Índices podem acelerar consultas de leitura, mas tendem a aumentar o custo das operações de escrita.",
+   "j": "Cada INSERT/UPDATE precisa manter os índices."
+  },
+  {
+   "id": "en-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "No ELT, os dados são carregados no destino antes de serem transformados, aproveitando a capacidade de processamento do repositório analítico."
+  },
+  {
+   "id": "en-3-02",
+   "t": "3",
+   "g": "E",
+   "q": "Parquet é um formato orientado a linhas, o que o torna ineficiente para consultas analíticas que leem poucas colunas.",
+   "j": "Parquet é colunar: ótimo para ler poucas colunas, com compressão eficiente."
+  },
+  {
+   "id": "en-3-03",
+   "t": "3",
+   "g": "C",
+   "q": "Um processamento idempotente permite reexecutar uma carga sem gerar duplicações ou efeitos indesejados."
+  },
+  {
+   "id": "en-3-04",
+   "t": "3",
+   "g": "C",
+   "q": "A carga incremental processa apenas os dados novos ou alterados desde a última execução."
+  },
+  {
+   "id": "en-3-05",
+   "t": "3",
+   "g": "E",
+   "q": "O formato JSON exige esquema fixo, de modo que todos os registros de um arquivo devem conter exatamente os mesmos campos.",
+   "j": "JSON é semiestruturado e flexível; esquemas podem ser impostos por contratos (ex.: JSON Schema)."
+  },
+  {
+   "id": "en-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "No Apache Spark, as transformações são avaliadas de forma preguiçosa, sendo executadas apenas quando uma ação é disparada.",
+   "j": "Lazy evaluation; o otimizador monta o plano antes de executar."
+  },
+  {
+   "id": "en-4-02",
+   "t": "4",
+   "g": "C",
+   "q": "A assimetria de dados ocorre quando algumas partições concentram volume muito maior de dados que as demais, gerando gargalos no processamento distribuído.",
+   "j": "Data skew."
+  },
+  {
+   "id": "en-4-03",
+   "t": "4",
+   "g": "E",
+   "q": "Em junções distribuídas, a estratégia de broadcast é a mais adequada quando ambas as tabelas são muito grandes.",
+   "j": "Broadcast é para quando uma das tabelas é pequena e cabe na memória de cada nó."
+  },
+  {
+   "id": "en-4-04",
+   "t": "4",
+   "g": "C",
+   "q": "Operações que exigem shuffle, como agrupamentos por chave, envolvem movimentação de dados entre os nós do cluster."
+  },
+  {
+   "id": "en-4-05",
+   "t": "4",
+   "g": "E",
+   "q": "Aumentar indefinidamente o número de partições sempre reduz o tempo de processamento, sem custos adicionais.",
+   "j": "Partições demais geram overhead de agendamento e arquivos pequenos."
+  },
+  {
+   "id": "en-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "A linhagem de dados descreve a origem dos dados e as transformações por que passaram até o destino."
+  },
+  {
+   "id": "en-5-02",
+   "t": "5",
+   "g": "C",
+   "q": "A dimensão de qualidade unicidade refere-se à ausência de registros duplicados para uma mesma entidade.",
+   "f": "DAMA-DMBOK"
+  },
+  {
+   "id": "en-5-03",
+   "t": "5",
+   "g": "E",
+   "q": "A dimensão de qualidade atualidade diz respeito ao grau em que os dados respeitam o formato e o domínio de valores permitidos.",
+   "j": "Isso é validade. Atualidade = o dado está suficientemente recente para o uso.",
+   "f": "DAMA-DMBOK"
+  },
+  {
+   "id": "en-5-04",
+   "t": "5",
+   "g": "C",
+   "q": "Na vinculação probabilística de registros, falsos positivos podem atribuir a uma pessoa fatos relativos a outra, com risco de dano a direitos."
+  },
+  {
+   "id": "en-5-05",
+   "t": "5",
+   "g": "E",
+   "q": "Vincular registros exclusivamente pelo nome completo é estratégia segura, pois homônimos são raros em bases nacionais.",
+   "j": "Homônimos são frequentes; use identificadores e múltiplos atributos."
+  },
+  {
+   "id": "en-6-01",
+   "t": "6",
+   "g": "C",
+   "q": "Na LGPD, pseudonimização é o tratamento por meio do qual um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente controlado e seguro.",
+   "f": "Lei nº 13.709/2018, art. 13, § 4º"
+  },
+  {
+   "id": "en-6-02",
+   "t": "6",
+   "g": "E",
+   "q": "Dados pseudonimizados equiparam-se a dados anonimizados e, por isso, não se sujeitam à LGPD.",
+   "j": "Pseudonimização é reversível com a informação adicional; os dados continuam pessoais.",
+   "f": "Lei nº 13.709/2018, arts. 12 e 13"
+  },
+  {
+   "id": "en-6-03",
+   "t": "6",
+   "g": "C",
+   "q": "O princípio do menor privilégio determina que usuários e sistemas tenham apenas os acessos necessários ao desempenho de suas funções."
+  },
+  {
+   "id": "en-6-04",
+   "t": "6",
+   "g": "C",
+   "q": "A segregação entre ambientes de desenvolvimento e de produção reduz o risco de exposição de dados reais durante testes."
+  },
+  {
+   "id": "en-6-05",
+   "t": "6",
+   "g": "C",
+   "q": "Segundo a LGPD, os dados pessoais devem ser eliminados após o término do tratamento, autorizada a conservação, entre outras hipóteses, para cumprimento de obrigação legal ou regulatória pelo controlador.",
+   "f": "Lei nº 13.709/2018, art. 16, I"
+  }
+ ]
+}

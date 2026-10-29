@@ -46,6 +46,7 @@ concursos/                      (raiz do repo)
         ├── edital/             → edital original (PDF) + edital-resumo.md + conteudo-programatico.md
         ├── PROGRESSO.md        → checklist do edital ligando cada item à nota em disciplinas/
         ├── acervo/             → onde/como estudar cada disciplina (curadoria.json → gerar_acervo.py)
+        ├── nivelamento/        → prova de nivelamento (20 itens C/E): estrutura.json, banco/*.json, resultados/
         ├── materiais-brutos/   → material enviado ainda não processado
         └── revisao/            → lista de provas Cebraspe, caderno de erros (questoes.md), resumos de véspera
 ```
@@ -107,6 +108,7 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 - O app lê o repositório inteiro: qualquer `.md` novo aparece no explorer sem mexer no app. Ao criar notas, use links relativos ou `[[wikilinks]]`.
 - `PROGRESSO.md`: o checklist entre `<!-- checklist:inicio -->` e `<!-- checklist:fim -->` é gerado por `scripts/edital_topicos.py --progresso`; só os emojis ⬜🟨✅🔁 mudam (o Eduardo marca pelo app).
 - Acervo: para incluir fontes, editar `concursos/cgu-affc/acervo/curadoria.json`, rodar `python3 scripts/gerar_acervo.py` e `python3 scripts/verificar_links.py`. Só incluir links verificados.
+- Nivelamento (aba 📊): `concursos/cgu-affc/nivelamento/` — banco de itens C/E por disciplina; validar com `python3 scripts/validar_nivelamento.py` ao mexer no banco/estrutura. Detalhes em `nivelamento/README.md`.
 - Detalhes de workflows, cron-job.org e Make: `automacoes/README.md`.
 
 ## 🚀 Publicar (regra permanente)
