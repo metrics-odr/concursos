@@ -70,7 +70,8 @@
     return r.status === 204 ? null : r.json();
   }
 
-  const estado = { arquivos: [], shas: {}, cache: {}, fonteArvore: "" };
+  const estado = { arquivos: [], shas: {}, cache: {}, fonteArvore: "", raizMobile: false };
+  const celular = () => matchMedia("(max-width: 860px)").matches;
 
   async function carregarArvore() {
     try {
@@ -394,11 +395,13 @@
       return pastas + arqs;
     };
     const RAIZ = "__navegar__";
-    const raizAberta = filtro || abertas[RAIZ] !== false;
+    // No celular a árvore começa recolhida a cada visita (as páginas do concurso ficam em primeiro plano)
+    const raizAberta = filtro || (celular() ? estado.raizMobile : abertas[RAIZ] !== false);
     $("#tree").innerHTML = visiveis.length
       ? `<details class="raiz" data-pasta="${RAIZ}"${raizAberta ? " open" : ""}><summary class="item"><span class="seta">▶</span>🗂️ Navegar em Arquivos</summary><div class="filhos">${html(montarArvore(visiveis), "")}</div></details>`
       : '<p class="muted pad">Nada encontrado.</p>';
     $$("#tree details").forEach((d) => d.addEventListener("toggle", () => {
+      if (d.dataset.pasta === RAIZ && celular()) { if (!filtro) estado.raizMobile = d.open; return; }
       const a = store.get("ac:pastas", {});
       a[d.dataset.pasta] = d.open;
       store.set("ac:pastas", a);
@@ -467,6 +470,7 @@
     else if (r.path?.includes("/acervo/")) aba = "acervo";
     else if (r.path?.includes("provas-cebraspe")) aba = "provas";
     $$("#tabs a, #paginas a").forEach((a) => a.classList.toggle("ativo", a.dataset.tab === aba));
+    return aba;
   }
 
   async function navegar() {
@@ -479,7 +483,7 @@
     document.body.dataset.banca = nivel ? "" : slugBanca(conc().banca);
     document.body.classList.toggle("tela-selecao", nivel);  // seleção: só o concurso, sem abas/arquivos
     montarAbas();
-    marcarAba(r);
+    const aba = marcarAba(r);
     renderArvore();
     if (matchMedia("(max-width: 860px)").matches) { $("#sidebar").classList.remove("aberta"); $("#seta-arquivos").textContent = "▸"; }
     const main = $("#main");
@@ -495,6 +499,24 @@
     } catch (e) {
       main.innerHTML = `<div class="conteudo"><h2>⚠️ Não foi possível abrir</h2><p>${esc(e.message)}</p><p><a href="#/">Voltar ao início</a></p></div>`;
     }
+    mostrarTitulo(r, aba);
+  }
+
+  // Celular: a topbar mostra só o nome da página atual (os links ficam no explorador, ☰)
+  const NOME_ABA = { inicio: "Início", desafios: "Desafios", flashcards: "Flashcards", nivelamento: "Nivelamento",
+    progresso: "Progresso", acervo: "Acervo", provas: "Provas" };
+  function mostrarTitulo(r, aba) {
+    const h1 = $("#main h1")?.textContent.replace(/\s+/g, " ").replace(/^[^\p{L}\p{N}]+/u, "").trim();
+    // Página de aba → nome da aba; subpáginas (ex.: uma disciplina do acervo) e notas → título da nota
+    const ehAba = aba && (aba !== "acervo" || r.path?.endsWith("/acervo/README.md"));
+    let nome;
+    if (r.nome === "selecao") nome = "Concursos";
+    else if (ehAba) nome = NOME_ABA[aba];
+    else nome = h1 || (r.path ? semExt(r.path.replace(/\/$/, "")).replace(/-/g, " ") : "");
+    const el = $("#titulo-pagina");
+    el.textContent = nome;
+    el.title = nome;
+    if (nome) document.title = `${nome} · Área do Concurseiro`;
   }
 
   // ---------- Tela: nota ----------
