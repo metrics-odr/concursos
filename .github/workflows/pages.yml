@@ -32,6 +32,7 @@ jobs:
           python3 scripts/edital_topicos.py
           python3 scripts/gerar_acervo.py
           python3 flashcards/scripts/exportar_anki.py
+          python3 scripts/validar_nivelamento.py
           git diff --stat --exit-code -- concursos/cgu-affc/edital/topicos.json concursos/cgu-affc/acervo \
             || echo "::warning::Acervo/tópicos regenerados diferem do commit — rode os scripts localmente."
           node --check app/app.js

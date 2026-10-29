@@ -1,0 +1,116 @@
+{
+ "disciplina": "etica-publica",
+ "itens": [
+  {
+   "id": "ep-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "Na ética das virtudes, o foco da avaliação moral recai sobre o caráter do agente e sobre as disposições que ele cultiva, e não apenas sobre regras ou consequências.",
+   "j": "Tradição aristotélica."
+  },
+  {
+   "id": "ep-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "A abordagem consequencialista avalia a correção de uma decisão pública exclusivamente pela conformidade a deveres, independentemente de seus resultados.",
+   "j": "Isso descreve a deontologia (Kant). O consequencialismo julga pelos resultados."
+  },
+  {
+   "id": "ep-1-03",
+   "t": "1",
+   "g": "C",
+   "q": "Conflitos entre valores, como transparência e proteção de dados pessoais, exigem do agente público ponderação fundamentada, e não a aplicação mecânica de um único valor."
+  },
+  {
+   "id": "ep-2-01",
+   "t": "2",
+   "g": "C",
+   "q": "Segundo o Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, a pena aplicável ao servidor pela Comissão de Ética é a de censura.",
+   "j": "Decreto nº 1.171/1994, Anexo, inciso XXII.",
+   "f": "Decreto nº 1.171/1994"
+  },
+  {
+   "id": "ep-2-02",
+   "t": "2",
+   "g": "E",
+   "q": "O dever de obediência hierárquica impõe ao servidor o cumprimento de quaisquer ordens superiores, inclusive as manifestamente ilegais.",
+   "j": "Lei nº 8.112/1990, art. 116, IV: cumprir as ordens superiores, exceto quando manifestamente ilegais.",
+   "f": "Lei nº 8.112/1990, art. 116, IV"
+  },
+  {
+   "id": "ep-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "É dever do servidor público federal guardar sigilo sobre assunto da repartição.",
+   "j": "Lei nº 8.112/1990, art. 116, VIII.",
+   "f": "Lei nº 8.112/1990, art. 116, VIII"
+  },
+  {
+   "id": "ep-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "Nos termos da Lei nº 12.813/2013, conflito de interesses é a situação gerada pelo confronto entre interesses públicos e privados que possa comprometer o interesse coletivo ou influenciar, de maneira imprópria, o desempenho da função pública.",
+   "j": "Definição legal.",
+   "f": "Lei nº 12.813/2013, art. 3º, I"
+  },
+  {
+   "id": "ep-3-02",
+   "t": "3",
+   "g": "E",
+   "q": "Conforme a Lei nº 12.813/2013, a configuração do conflito de interesses depende da ocorrência de lesão ao patrimônio público ou do recebimento de vantagem pelo agente.",
+   "j": "Art. 4º, § 2º: a ocorrência de conflito de interesses independe de lesão ao patrimônio público e do recebimento de qualquer vantagem.",
+   "f": "Lei nº 12.813/2013, art. 4º, § 2º"
+  },
+  {
+   "id": "ep-3-03",
+   "t": "3",
+   "g": "C",
+   "q": "Segundo a Lei nº 9.784/1999, está impedido de atuar em processo administrativo o servidor ou a autoridade que tenha interesse direto ou indireto na matéria.",
+   "j": "Art. 18, I.",
+   "f": "Lei nº 9.784/1999, art. 18"
+  },
+  {
+   "id": "ep-3-04",
+   "t": "3",
+   "g": "E",
+   "q": "Na Lei nº 9.784/1999, a amizade íntima ou a inimizade notória com algum dos interessados é hipótese de impedimento.",
+   "j": "É hipótese de suspeição (art. 20). Impedimento (art. 18): interesse na matéria, participação como perito/testemunha/representante, litígio com o interessado.",
+   "f": "Lei nº 9.784/1999, arts. 18 e 20"
+  },
+  {
+   "id": "ep-3-05",
+   "t": "3",
+   "g": "C",
+   "q": "Conforme a Lei nº 9.784/1999, a omissão do dever de comunicar o impedimento à autoridade competente constitui falta grave, para efeitos disciplinares.",
+   "j": "Art. 19, parágrafo único.",
+   "f": "Lei nº 9.784/1999, art. 19"
+  },
+  {
+   "id": "ep-4-01",
+   "t": "4",
+   "g": "E",
+   "q": "Diante de relato de assédio, acolher a pessoa que relata equivale a reconhecer, de imediato, a responsabilidade do agente apontado.",
+   "j": "Acolher ≠ verificar fatos ≠ atribuir responsabilidade; a responsabilização exige apuração com contraditório."
+  },
+  {
+   "id": "ep-4-02",
+   "t": "4",
+   "g": "C",
+   "q": "O assédio moral pode ocorrer em relações hierárquicas descendentes, entre colegas de mesmo nível e também de subordinados em relação à chefia.",
+   "j": "Assédio vertical descendente, horizontal e vertical ascendente."
+  },
+  {
+   "id": "ep-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "A garantia de não retaliação contra quem relata, de boa-fé, condutas inadequadas é elemento essencial para a confiança nos canais de relato."
+  },
+  {
+   "id": "ep-5-02",
+   "t": "5",
+   "g": "E",
+   "q": "A integridade de uma organização depende apenas da existência de códigos de conduta formais, sendo irrelevantes o exemplo da liderança e os incentivos do ambiente organizacional.",
+   "j": "Coerência entre regras e práticas, exemplo da liderança (tone at the top) e incentivos são centrais."
+  }
+ ]
+}

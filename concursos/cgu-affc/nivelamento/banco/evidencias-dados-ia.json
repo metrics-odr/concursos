@@ -1,0 +1,105 @@
+{
+ "disciplina": "evidencias-dados-ia",
+ "itens": [
+  {
+   "id": "ev-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "O confronto de fontes independentes tende a aumentar a confiabilidade de uma informação.",
+   "j": "Triangulação."
+  },
+  {
+   "id": "ev-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "Ao formular uma pergunta de avaliação, a escolha das fontes de informação deve preceder a definição do problema, pois são os dados disponíveis que determinam a pergunta.",
+   "j": "Problema → pergunta → informação necessária → fontes."
+  },
+  {
+   "id": "ev-2-01",
+   "t": "2",
+   "g": "C",
+   "q": "Comparar o número absoluto de ocorrências entre municípios de populações muito diferentes, sem considerar taxas, pode levar a conclusões equivocadas.",
+   "j": "Atenção ao denominador."
+  },
+  {
+   "id": "ev-2-02",
+   "t": "2",
+   "g": "E",
+   "q": "O aumento do número de sanções aplicadas por corrupção em determinado período indica, necessariamente, aumento da ocorrência de corrupção.",
+   "j": "Pode refletir maior capacidade de detecção e de responsabilização."
+  },
+  {
+   "id": "ev-3-01",
+   "t": "3",
+   "g": "E",
+   "q": "Correlação forte entre duas variáveis comprova relação de causa e efeito entre elas.",
+   "j": "Há confundidores, causalidade reversa e coincidência."
+  },
+  {
+   "id": "ev-3-02",
+   "t": "3",
+   "g": "C",
+   "q": "A falácia ecológica consiste em inferir características de indivíduos a partir de dados agregados de grupos."
+  },
+  {
+   "id": "ev-3-03",
+   "t": "3",
+   "g": "C",
+   "q": "Viés de confirmação é a tendência de buscar e valorizar informações que confirmam crenças prévias."
+  },
+  {
+   "id": "ev-3-04",
+   "t": "3",
+   "g": "E",
+   "q": "Em um teste de triagem de fraudes, falso positivo ocorre quando um caso fraudulento deixa de ser sinalizado.",
+   "j": "Isso é falso negativo. Falso positivo = caso regular sinalizado como fraude."
+  },
+  {
+   "id": "ev-4-01",
+   "t": "4",
+   "g": "E",
+   "q": "Em entrevistas de auditoria, perguntas indutivas, que sugerem a resposta esperada, aumentam a confiabilidade da informação obtida.",
+   "j": "Escuta sem indução: perguntas abertas e neutras."
+  },
+  {
+   "id": "ev-4-02",
+   "t": "4",
+   "g": "C",
+   "q": "Mesmo após a remoção de nomes, a combinação de atributos como cargo, lotação e data de um evento pode permitir a identificação indireta de uma pessoa.",
+   "j": "Risco de identificação indireta / reidentificação."
+  },
+  {
+   "id": "ev-4-03",
+   "t": "4",
+   "g": "C",
+   "q": "A rastreabilidade da informação permite que terceiros verifiquem a origem e o tratamento dos dados que sustentam uma conclusão."
+  },
+  {
+   "id": "ev-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "Conteúdos gerados por modelos de linguagem podem conter afirmações não sustentadas pelas fontes, o que exige verificação humana antes de seu uso como evidência."
+  },
+  {
+   "id": "ev-5-02",
+   "t": "5",
+   "g": "E",
+   "q": "Decisões automatizadas que afetam direitos dispensam mecanismos de contestação quando o modelo apresenta alta acurácia global.",
+   "j": "Alta acurácia global convive com erros individuais e por grupo; contestação e revisão continuam necessárias."
+  },
+  {
+   "id": "ev-5-03",
+   "t": "5",
+   "g": "C",
+   "q": "Para tarefas simples e bem delimitadas, uma regra determinística pode ser preferível a uma solução de IA, por ser mais transparente e de menor custo."
+  },
+  {
+   "id": "ev-5-04",
+   "t": "5",
+   "g": "C",
+   "q": "A LGPD assegura ao titular o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses.",
+   "f": "Lei nº 13.709/2018, art. 20"
+  }
+ ]
+}

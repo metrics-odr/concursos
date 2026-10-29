@@ -1,0 +1,98 @@
+{
+ "disciplina": "auditoria-governamental-cgu",
+ "itens": [
+  {
+   "id": "ag-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "No Modelo das Três Linhas do IIA, a auditoria interna atua como terceira linha, fornecendo avaliação e assessoria independentes e objetivas.",
+   "f": "IIA, Modelo das Três Linhas (2020)"
+  },
+  {
+   "id": "ag-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "Nos serviços de consultoria, o auditor interno governamental assume responsabilidades de gestão relativas às soluções que propõe.",
+   "j": "A consultoria tem salvaguardas: o auditor não assume responsabilidades gerenciais.",
+   "f": "IN SFC nº 3/2017"
+  },
+  {
+   "id": "ag-1-03",
+   "t": "1",
+   "g": "C",
+   "q": "Segundo o Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, a auditoria interna governamental compreende serviços de avaliação e de consultoria.",
+   "f": "IN SFC nº 3/2017"
+  },
+  {
+   "id": "ag-1-04",
+   "t": "1",
+   "g": "E",
+   "q": "Ceticismo profissional significa presumir que o gestor auditado age de má-fé.",
+   "j": "Ceticismo = atitude questionadora e avaliação crítica da evidência, sem presumir desonestidade nem honestidade absoluta."
+  },
+  {
+   "id": "ag-2-01",
+   "t": "2",
+   "g": "C",
+   "q": "Na priorização de trabalhos de auditoria baseada em risco, consideram-se critérios como materialidade, relevância e criticidade."
+  },
+  {
+   "id": "ag-2-02",
+   "t": "2",
+   "g": "E",
+   "q": "A definição dos critérios de auditoria é dispensável no planejamento, pois eles surgem naturalmente durante a execução dos testes.",
+   "j": "Objetivos, escopo, critérios e questões são definidos no planejamento (matriz de planejamento)."
+  },
+  {
+   "id": "ag-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "As recomendações de auditoria devem preservar a autonomia do gestor, a quem cabe decidir sobre as medidas a adotar e executá-las."
+  },
+  {
+   "id": "ag-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "Suficiência refere-se à quantidade de evidência, ao passo que adequação diz respeito à sua qualidade, isto é, relevância e confiabilidade."
+  },
+  {
+   "id": "ag-3-02",
+   "t": "3",
+   "g": "C",
+   "q": "Os atributos do achado de auditoria incluem critério, condição, causa e efeito.",
+   "j": "Critério = o que deveria ser; condição = o que é."
+  },
+  {
+   "id": "ag-3-03",
+   "t": "3",
+   "g": "E",
+   "q": "Um sinal de risco identificado em análise de dados constitui, por si só, evidência suficiente para concluir pela ocorrência de irregularidade.",
+   "j": "Sinal de risco → exige aprofundamento; a conclusão deve ser proporcional à evidência."
+  },
+  {
+   "id": "ag-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "Recomendações eficazes devem atacar as causas dos problemas identificados, e não apenas seus sintomas."
+  },
+  {
+   "id": "ag-4-02",
+   "t": "4",
+   "g": "E",
+   "q": "A apresentação de um plano de ação pelo gestor equivale à comprovação do benefício decorrente da recomendação.",
+   "j": "Plano de ação ≠ implementação ≠ resultado ≠ benefício."
+  },
+  {
+   "id": "ag-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "Denúncias recebidas pela ouvidoria podem ser utilizadas como insumo para o planejamento baseado em riscos da auditoria."
+  },
+  {
+   "id": "ag-5-02",
+   "t": "5",
+   "g": "C",
+   "q": "Achados de auditoria podem subsidiar o juízo de admissibilidade correcional e processos de responsabilização de entes privados."
+  }
+ ]
+}

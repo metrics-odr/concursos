@@ -1,0 +1,254 @@
+{
+ "disciplina": "aprendizado-de-maquina-e-ia",
+ "itens": [
+  {
+   "id": "ml-1-01",
+   "t": "1",
+   "g": "C",
+   "q": "O agrupamento (clustering) é tarefa típica de aprendizado não supervisionado."
+  },
+  {
+   "id": "ml-1-02",
+   "t": "1",
+   "g": "E",
+   "q": "A regressão logística é utilizada para prever variáveis contínuas não limitadas.",
+   "j": "É modelo de classificação: estima probabilidade (0 a 1) de uma classe."
+  },
+  {
+   "id": "ml-1-03",
+   "t": "1",
+   "g": "C",
+   "q": "Random forest é um método de ensemble baseado em bagging de árvores de decisão, com seleção aleatória de atributos em cada divisão."
+  },
+  {
+   "id": "ml-1-04",
+   "t": "1",
+   "g": "C",
+   "q": "A regularização L1 (lasso) pode levar coeficientes exatamente a zero, atuando como seleção de atributos.",
+   "j": "L2 (ridge) encolhe, mas não zera."
+  },
+  {
+   "id": "ml-1-05",
+   "t": "1",
+   "g": "E",
+   "q": "A análise de componentes principais (PCA) é técnica supervisionada de redução de dimensionalidade, que utiliza o rótulo para definir os componentes.",
+   "j": "PCA é não supervisionada: maximiza a variância explicada sem usar o rótulo."
+  },
+  {
+   "id": "ml-1-06",
+   "t": "1",
+   "g": "C",
+   "q": "Sobreajuste ocorre quando o modelo apresenta bom desempenho nos dados de treino e desempenho ruim em dados novos."
+  },
+  {
+   "id": "ml-2-01",
+   "t": "2",
+   "g": "E",
+   "q": "O conjunto de teste deve ser usado repetidamente para ajustar hiperparâmetros, garantindo um modelo mais bem calibrado.",
+   "j": "Ajuste no conjunto de validação (ou validação cruzada); o teste é usado uma vez, para estimar a generalização."
+  },
+  {
+   "id": "ml-2-02",
+   "t": "2",
+   "g": "E",
+   "q": "Em séries temporais, a validação cruzada k-fold com embaralhamento aleatório é preferível à validação com janelas temporais.",
+   "j": "Embaralhar usa o futuro para prever o passado (vazamento). Use validação temporal (rolling/expanding window)."
+  },
+  {
+   "id": "ml-2-03",
+   "t": "2",
+   "g": "C",
+   "q": "Usar como atributo uma variável que só é conhecida após a ocorrência do desfecho caracteriza vazamento de informação."
+  },
+  {
+   "id": "ml-2-04",
+   "t": "2",
+   "g": "C",
+   "q": "Modelos de alta complexidade tendem a apresentar baixo viés e alta variância."
+  },
+  {
+   "id": "ml-2-05",
+   "t": "2",
+   "g": "C",
+   "q": "Na validação cruzada k-fold, cada observação é usada exatamente uma vez no conjunto de validação."
+  },
+  {
+   "id": "ml-3-01",
+   "t": "3",
+   "g": "C",
+   "q": "Sensibilidade (recall) é a proporção de positivos reais corretamente identificados pelo modelo.",
+   "j": "VP / (VP + FN)."
+  },
+  {
+   "id": "ml-3-02",
+   "t": "3",
+   "g": "E",
+   "q": "Precisão é a proporção de negativos reais corretamente identificados como negativos.",
+   "j": "Isso é especificidade: VN / (VN + FP). Precisão = VP / (VP + FP)."
+  },
+  {
+   "id": "ml-3-03",
+   "t": "3",
+   "g": "C",
+   "q": "Em uma matriz de confusão com VP = 40, FP = 10, FN = 20 e VN = 30, a precisão é igual a 0,8.",
+   "j": "40 / (40 + 10) = 0,8."
+  },
+  {
+   "id": "ml-3-04",
+   "t": "3",
+   "g": "E",
+   "q": "Em uma matriz de confusão com VP = 40, FP = 10, FN = 20 e VN = 30, a sensibilidade é igual a 0,8.",
+   "j": "40 / (40 + 20) ≈ 0,67."
+  },
+  {
+   "id": "ml-3-05",
+   "t": "3",
+   "g": "C",
+   "q": "Na triagem de casos para auditoria com capacidade limitada de análise, falsos positivos consomem recursos de fiscalização, o que pode justificar priorizar a precisão.",
+   "j": "O custo de cada tipo de erro define a métrica e o limiar."
+  },
+  {
+   "id": "ml-3-06",
+   "t": "3",
+   "g": "C",
+   "q": "Um classificador bem calibrado produz probabilidades que correspondem às frequências observadas; por exemplo, entre os casos com escore 0,7, cerca de 70% são positivos."
+  },
+  {
+   "id": "ml-3-07",
+   "t": "3",
+   "g": "E",
+   "q": "Acurácia global elevada assegura desempenho equivalente entre diferentes grupos populacionais.",
+   "j": "É preciso avaliar métricas por grupo (equidade)."
+  },
+  {
+   "id": "ml-3-08",
+   "t": "3",
+   "g": "C",
+   "q": "Valores SHAP são utilizados para explicar a contribuição de cada atributo para as previsões de um modelo."
+  },
+  {
+   "id": "ml-3-09",
+   "t": "3",
+   "g": "C",
+   "q": "O RMSE penaliza erros grandes mais fortemente que o MAE.",
+   "j": "Os erros são elevados ao quadrado antes da média."
+  },
+  {
+   "id": "ml-4-01",
+   "t": "4",
+   "g": "C",
+   "q": "Um perceptron de camada única não é capaz de resolver o problema XOR, pois este não é linearmente separável.",
+   "j": "Exige ao menos uma camada oculta."
+  },
+  {
+   "id": "ml-4-02",
+   "t": "4",
+   "g": "C",
+   "q": "A função de ativação ReLU retorna o máximo entre zero e a entrada."
+  },
+  {
+   "id": "ml-4-03",
+   "t": "4",
+   "g": "C",
+   "q": "A retropropagação calcula os gradientes da função de perda em relação aos pesos por meio da regra da cadeia."
+  },
+  {
+   "id": "ml-4-04",
+   "t": "4",
+   "g": "E",
+   "q": "Redes neurais convolucionais são a escolha mais adequada para dados tabulares de baixa dimensionalidade, superando sempre os modelos baseados em árvores nesse tipo de dado.",
+   "j": "CNNs exploram estrutura espacial (imagens). Em dados tabulares, árvores com boosting costumam ser fortes e mais baratas."
+  },
+  {
+   "id": "ml-4-05",
+   "t": "4",
+   "g": "C",
+   "q": "Os transformers baseiam-se em mecanismos de atenção e dispensam a recorrência no processamento de sequências.",
+   "j": "Attention is all you need (2017).",
+   "f": "Vaswani et al. (2017)"
+  },
+  {
+   "id": "ml-4-06",
+   "t": "4",
+   "g": "C",
+   "q": "Dropout é técnica de regularização que desativa aleatoriamente neurônios durante o treinamento."
+  },
+  {
+   "id": "ml-4-07",
+   "t": "4",
+   "g": "E",
+   "q": "Na transferência de aprendizado, o modelo é treinado do zero, sem aproveitamento de pesos aprendidos em outra tarefa.",
+   "j": "A ideia é justamente reaproveitar pesos pré-treinados e ajustar (fine-tuning)."
+  },
+  {
+   "id": "ml-5-01",
+   "t": "5",
+   "g": "C",
+   "q": "No TF-IDF, termos frequentes em um documento, mas raros na coleção, recebem pesos maiores."
+  },
+  {
+   "id": "ml-5-02",
+   "t": "5",
+   "g": "C",
+   "q": "A similaridade do cosseno entre embeddings depende da orientação dos vetores, e não de sua magnitude."
+  },
+  {
+   "id": "ml-5-03",
+   "t": "5",
+   "g": "E",
+   "q": "Na geração aumentada por recuperação (RAG), o modelo usa documentos recuperados para fundamentar a resposta, o que elimina por completo o risco de alucinação.",
+   "j": "Reduz, mas não elimina: a recuperação pode falhar e o modelo pode extrapolar."
+  },
+  {
+   "id": "ml-5-04",
+   "t": "5",
+   "g": "C",
+   "q": "Stemming e lematização são técnicas de normalização de palavras empregadas no pré-processamento de textos."
+  },
+  {
+   "id": "ml-5-05",
+   "t": "5",
+   "g": "C",
+   "q": "Alucinação, em modelos de linguagem, refere-se à geração de conteúdo plausível, mas falso ou não sustentado pelas fontes."
+  },
+  {
+   "id": "ml-5-06",
+   "t": "5",
+   "g": "C",
+   "q": "O ajuste fino (fine-tuning) altera parâmetros do modelo, ao passo que a engenharia de prompts não modifica seus pesos."
+  },
+  {
+   "id": "ml-6-01",
+   "t": "6",
+   "g": "C",
+   "q": "A injeção indireta de prompt ocorre quando instruções maliciosas são inseridas em conteúdo externo, como páginas ou documentos, processado por um agente de IA.",
+   "f": "OWASP Top 10 para aplicações LLM"
+  },
+  {
+   "id": "ml-6-02",
+   "t": "6",
+   "g": "E",
+   "q": "Conceder a um agente de IA acesso amplo a todas as ferramentas e dados disponíveis é prática recomendada, por ampliar sua autonomia.",
+   "j": "Menor privilégio: dar só as ferramentas e permissões necessárias."
+  },
+  {
+   "id": "ml-6-03",
+   "t": "6",
+   "g": "C",
+   "q": "O registro das ações executadas por um agente de IA favorece a rastreabilidade e a supervisão humana."
+  },
+  {
+   "id": "ml-6-04",
+   "t": "6",
+   "g": "C",
+   "q": "Ações de alto impacto executadas por agentes de IA, como o envio de comunicações oficiais, devem estar sujeitas a confirmação humana."
+  },
+  {
+   "id": "ml-6-05",
+   "t": "6",
+   "g": "E",
+   "q": "Instruções contidas em documentos recuperados por um agente de IA devem ser tratadas com a mesma autoridade das instruções do usuário.",
+   "j": "Conteúdo externo é dado, não comando."
+  }
+ ]
+}
