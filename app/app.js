@@ -390,7 +390,7 @@
         const aberto = filtro || abertas[caminho] || atual.startsWith(`${caminho}/`);
         return `<details data-pasta="${esc(caminho)}"${aberto ? " open" : ""}><summary class="item"><span class="seta">▶</span>📁 ${esc(nome)}</summary><div class="filhos">${html(no.pastas[nome], caminho)}</div></details>`;
       }).join("");
-      const arqs = no.arquivos.map((p) => `<a class="item${p === atual ? " ativo" : ""}" href="${rotaNota(p)}" title="${esc(p)}">${icone(p)} ${esc(basename(p))}</a>`).join("");
+      const arqs = no.arquivos.map((p) => `<a class="item${p === atual ? " ativo" : ""}" href="${rotaNota(p)}" title="${esc(p)}">${icone(p)} <span class="nome">${esc(semExt(p))}<span class="ext">${esc(basename(p).slice(semExt(p).length))}</span></span></a>`).join("");
       return pastas + arqs;
     };
     const RAIZ = "__navegar__";
@@ -439,6 +439,9 @@
       ["nivelamento", "#/nivelamento", "📊 Nivelamento"], ["progresso", rotaNota(`${base}/PROGRESSO.md`), "✅ Progresso"],
       ["acervo", rotaNota(`${base}/acervo/README.md`), "🔎 Acervo"], ["provas", rotaNota(`${base}/revisao/provas-cebraspe.md`), "📝 Provas"]];
     $("#tabs").innerHTML = abas.map(([t, h, r]) => `<a href="${h}" data-tab="${t}">${r}</a>`).join("");
+    // No celular, as mesmas páginas aparecem no topo do explorador (entre o filtro e os arquivos)
+    $("#paginas").innerHTML = `<div class="paginas-titulo">📌 Páginas do concurso · ${esc(c.orgao || c.slug)}</div>`
+      + `<div class="paginas-grade">${abas.map(([t, h, r]) => `<a class="pag" href="${h}" data-tab="${t}">${r}</a>`).join("")}</div>`;
     $("#chip-concurso").innerHTML = `<a href="#/" title="Trocar de concurso">🔄 ${esc(c.orgao)}</a>${bancaBadge(c.banca)}`;
   }
 
@@ -463,7 +466,7 @@
     if (r.path === CFG.progresso) aba = "progresso";
     else if (r.path?.includes("/acervo/")) aba = "acervo";
     else if (r.path?.includes("provas-cebraspe")) aba = "provas";
-    $$("#tabs a").forEach((a) => a.classList.toggle("ativo", a.dataset.tab === aba));
+    $$("#tabs a, #paginas a").forEach((a) => a.classList.toggle("ativo", a.dataset.tab === aba));
   }
 
   async function navegar() {
