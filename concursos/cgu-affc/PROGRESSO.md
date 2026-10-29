@@ -26,7 +26,7 @@ Pasta: [`disciplinas/ciencia-politica-e-estado/`](../../disciplinas/ciencia-poli
   - ✅ 1.1 Estado, governo e administração; autoridade, legitimidade e poder; interesse público, pluralismo e conflitos distributivos
 - ⬜ **2** Democracia e representação
   - ⬜ 2.1 Representação e participação; responsabilização democrática; relações entre Executivo, Legislativo e Judiciário; governabilidade e controles recíprocos
-- ✅ **3** Federalismo e capacidades estatais
+- 🔁 **3** Federalismo e capacidades estatais
   - ⬜ 3.1 Autonomia, coordenação e cooperação federativa; capacidades administrativas e políticas; burocracia, discricionariedade e implementação de direitos
 - ⬜ **4** Ordem constitucional e direitos
   - ⬜ 4.1 Fundamentos e objetivos da República; direitos fundamentais, sociais e políticos; igualdade, devido processo e limites ao exercício do poder; princípios da administração pública
