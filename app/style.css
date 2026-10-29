@@ -153,6 +153,41 @@ input, select, textarea {
 .painel-lateral h4 { margin: 0 0 6px; color: var(--muted); font-weight: 600; }
 
 /* Editor */
+/* Live preview (CodeMirror): marcadores somem fora da linha ativa, como no Obsidian */
+.editor-wrap.live .CodeMirror { height: 100%; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-2); color: var(--fg); font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 6px 0; }
+.editor-wrap.live .CodeMirror-lines { padding: 8px 0; }
+.editor-wrap.live .CodeMirror pre.CodeMirror-line, .editor-wrap.live .CodeMirror pre.CodeMirror-line-like { padding: 0 24px 0 8px; }
+.editor-wrap.live .CodeMirror-cursor { border-left-color: var(--fg); }
+.editor-wrap.live .CodeMirror-selected { background: var(--accent-soft); }
+.editor-wrap.live .CodeMirror-gutters { background: transparent; border-right: 0; }
+.editor-wrap.live .CodeMirror-foldgutter { width: 20px; }
+.editor-wrap.live .CodeMirror-foldgutter-open, .editor-wrap.live .CodeMirror-foldgutter-folded { color: var(--muted); opacity: 0; cursor: pointer; transition: opacity .12s; }
+.editor-wrap.live .CodeMirror-foldgutter-folded { opacity: .9; }
+.editor-wrap.live .CodeMirror:hover .CodeMirror-foldgutter-open { opacity: .7; }
+.editor-wrap.live .CodeMirror-foldgutter-open:after { content: "\25BE"; }
+.editor-wrap.live .CodeMirror-foldgutter-folded:after { content: "\25B8"; }
+.editor-wrap.live .CodeMirror-foldmarker { color: var(--muted); text-shadow: none; font-family: inherit; }
+.editor-wrap.live .cm-header { font-weight: 700; color: var(--fg); }
+.editor-wrap.live .cm-header-1 { font-size: 1.8em; line-height: 1.3; }
+.editor-wrap.live .cm-header-2 { font-size: 1.5em; line-height: 1.3; }
+.editor-wrap.live .cm-header-3 { font-size: 1.25em; }
+.editor-wrap.live .cm-header-4 { font-size: 1.1em; }
+.editor-wrap.live .cm-header-5, .editor-wrap.live .cm-header-6 { font-size: 1em; color: var(--muted); }
+.editor-wrap.live .cm-strong { font-weight: 700; }
+.editor-wrap.live .cm-em { font-style: italic; }
+.editor-wrap.live .cm-strikethrough { text-decoration: line-through; }
+.editor-wrap.live .cm-link, .editor-wrap.live .cm-url { color: var(--accent); }
+.editor-wrap.live .cm-quote { color: var(--muted); font-style: italic; }
+.editor-wrap.live .cm-comment, .editor-wrap.live .cm-variable-2, .editor-wrap.live .cm-tag { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .92em; }
+.editor-wrap.live .cm-comment { background: var(--code-bg); color: var(--fg); }
+.editor-wrap.live .cm-formatting-list, .editor-wrap.live .cm-formatting-quote { color: var(--accent); }
+.editor-wrap.live .cm-formatting { color: var(--muted); }
+.editor-wrap.live .CodeMirror-line .cm-formatting-header, .editor-wrap.live .CodeMirror-line .cm-formatting-strong,
+.editor-wrap.live .CodeMirror-line .cm-formatting-em, .editor-wrap.live .CodeMirror-line .cm-formatting-strikethrough { font-weight: 400; font-size: .75em; }
+.editor-wrap.live .CodeMirror-code > div:not(.CodeMirror-activeline) .cm-formatting-header,
+.editor-wrap.live .CodeMirror-code > div:not(.CodeMirror-activeline) .cm-formatting-strong,
+.editor-wrap.live .CodeMirror-code > div:not(.CodeMirror-activeline) .cm-formatting-em,
+.editor-wrap.live .CodeMirror-code > div:not(.CodeMirror-activeline) .cm-formatting-strikethrough { display: none; }
 .editor-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; height: calc(100vh - 170px); }
 .editor-wrap.so-editor { grid-template-columns: 1fr; }
 textarea.editor { width: 100%; height: 100%; resize: none; font-size: 14px; line-height: 1.55; padding: 14px; background: var(--bg-2); }
@@ -257,6 +292,7 @@ textarea.editor { width: 100%; height: 100%; resize: none; font-size: 14px; line
   .editor-wrap { grid-template-columns: 1fr; height: auto; }
   .editor-wrap .preview { display: none; }
   textarea.editor { height: 65vh; }
+  .editor-wrap.live .CodeMirror { height: 65vh; }
   .disc-linha { grid-template-columns: minmax(0, 1fr) 80px 40px; }
   .fc-card { padding: 18px; font-size: 16px; }
 }
@@ -265,3 +301,6 @@ textarea.editor { width: 100%; height: 100%; resize: none; font-size: 14px; line
 .versao-site code { font-size: 11px; }
 #btn-publicar { margin-top: 8px; width: 100%; }
 #btn-publicar[disabled] { opacity: .6; cursor: progress; }
+.editor-wrap.so-editor .preview { display: none; }
+.editor-wrap.live .CodeMirror-activeline-background { background: var(--bg-3); }
+.editor-wrap.live .cm-variable-2, .editor-wrap.live .cm-variable-3, .editor-wrap.live .cm-string, .editor-wrap.live .cm-tag { color: var(--fg); }
