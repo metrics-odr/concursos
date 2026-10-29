@@ -705,62 +705,147 @@
 
   const renderCloze = (t, revelar) => esc(t).replace(/\{\{c\d+::(.*?)(?:::(.*?))?\}\}/g, (_, r, dica) => (revelar ? `<span class="cloze">${r}</span>` : `<span class="cloze">[${dica || "…"}]</span>`));
 
-  async function telaFlashcards(main) {
-    main.innerHTML = '<div class="conteudo"><h1>🃏 Flashcards</h1><p class="muted">Carregando…</p></div>';
-    const todos = await carregarCards();
-    const limiteNovos = store.get("ac:novosDia", 20);
-    const reais = todos.filter((c) => !c.exemplo);
-    const decks = {};
-    (reais.length ? reais : todos).forEach((c) => { (decks[c.disciplina] ||= []).push(c); });
-    const resumo = (cs) => ({ devidos: cs.filter(srs.devido).length, novos: cs.filter(srs.novo).length, total: cs.length });
-    const novosRest = Math.max(0, limiteNovos - srs.novosHoje());
+  // Itens Cebraspe (Certo/Errado): o gabarito é a primeira palavra do verso ("Certo." / "Errado.").
+  const GAB_RE = /^\s*\**\s*(certo|errado)\b\**[\s.:;,—–-]*/i;
+  const ehCE = (c) => (c.tipo === "ce" || c.tipo === "vf") && GAB_RE.test(c.verso);
+  const gabarito = (c) => GAB_RE.exec(c.verso)[1][0].toUpperCase();
+  const justificativa = (c) => c.verso.replace(GAB_RE, "");
+  const semPrefixoCE = (t) => t.replace(/^\s*\(C\/E\)\s*/i, "");
+  const embaralhar = (a) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
-    main.innerHTML = `<div class="conteudo"><h1>🃏 Flashcards</h1>
-      ${reais.length ? "" : '<div class="aviso">Ainda não há cards reais — mostrando o baralho de <b>exemplo</b>. Peça ao Claude para criar cards de um tópico (eles vão para <code>flashcards/banco/</code>).</div>'}
-      <p class="muted">Revisão espaçada neste navegador (o Anki continua sendo o principal — <a href="${rotaNota("flashcards/primeiros-passos-anki.md")}">guia</a>). Novos hoje: ${srs.novosHoje()}/${limiteNovos}.</p>
-      <div class="decks">${Object.entries(decks).map(([d, cs]) => {
-        const r = resumo(cs);
-        return `<div class="card deck"><div><b>${esc(d)}</b><br><small class="muted">${r.total} cards · ${r.devidos} para revisar · ${r.novos} novos</small></div><button class="btn primary" data-deck="${esc(d)}">Estudar</button></div>`;
-      }).join("")}
-      <div class="card deck"><div><b>Tudo</b><br><small class="muted">todas as disciplinas</small></div><button class="btn" data-deck="*">Estudar tudo</button></div></div>
-      <div class="fc-area" id="fc-sessao"></div></div>`;
-    $$("[data-deck]").forEach((b) => b.addEventListener("click", () => {
-      const cs = b.dataset.deck === "*" ? Object.values(decks).flat() : decks[b.dataset.deck];
-      const fila = [...cs.filter(srs.devido), ...cs.filter(srs.novo).slice(0, novosRest)];
-      sessao(fila);
-    }));
+  async function materiasEdital() {
+    try {
+      const j = JSON.parse(await lerArquivo(`concursos/${CFG.concurso}/edital/topicos.json`));
+      return j.disciplinas.map((d) => ({ slug: d.slug, nome: d.disciplina, prova: d.prova, grupo: d.grupo_nome }));
+    } catch { return []; }
   }
 
-  function sessao(fila) {
+  async function telaFlashcards(main) {
+    main.innerHTML = '<div class="conteudo"><h1>🃏 Flashcards</h1><p class="muted">Carregando…</p></div>';
+    const [todos, materias] = await Promise.all([carregarCards(), materiasEdital()]);
+    const limiteNovos = store.get("ac:novosDia", 20);
+    const reais = todos.filter((c) => !c.exemplo);
+    const base = reais.length ? reais : todos;
+    const porMateria = {};
+    base.forEach((c) => { (porMateria[c.disciplina] ||= []).push(c); });
+    const extras = Object.keys(porMateria).filter((d) => !materias.some((m) => m.slug === d));
+    const novosRest = Math.max(0, limiteNovos - srs.novosHoje());
+    const provas = [...new Set(materias.map((m) => m.prova))];
+    const n = (slug) => (porMateria[slug] || []).length;
+    let escolha = store.get("ac:fc:materia", "*");
+    if (escolha !== "*" && !n(escolha) && !provas.includes(escolha)) escolha = "*";
+
+    const opcao = (valor, rotulo, qtd) => `<option value="${esc(valor)}"${qtd ? "" : " disabled"}${valor === escolha ? " selected" : ""}>${esc(rotulo)} (${qtd})</option>`;
+    main.innerHTML = `<div class="conteudo"><h1>🃏 Flashcards · Certo ou Errado</h1>
+      ${reais.length ? "" : '<div class="aviso">Ainda não há cards reais — mostrando o baralho de <b>exemplo</b>. Peça ao Claude para criar cards de um tópico (eles vão para <code>flashcards/banco/</code>).</div>'}
+      <p class="muted">Modelo Cebraspe: julgue o item como <b>Certo</b> ou <b>Errado</b>. Cada erro anula um acerto (+1 / −1); em branco vale 0. Revisão espaçada neste navegador (o Anki continua sendo o principal — <a href="${rotaNota("flashcards/primeiros-passos-anki.md")}">guia</a>). Novos hoje: ${srs.novosHoje()}/${limiteNovos}.</p>
+      <div class="decks">
+        <label class="fc-filtro"><span>Matéria</span>
+          <select id="fc-materia">
+            ${opcao("*", "Todas as matérias", base.length)}
+            ${provas.map((p) => {
+              const ms = materias.filter((m) => m.prova === p);
+              return `<optgroup label="${esc(p)} · ${esc(ms[0].grupo)}">${opcao(p, `${p} · todas de ${p}`, ms.reduce((s, m) => s + n(m.slug), 0))}${ms.map((m) => opcao(m.slug, `${m.prova} · ${m.nome}`, n(m.slug))).join("")}</optgroup>`;
+            }).join("")}
+            ${extras.length ? `<optgroup label="Fora do edital">${extras.map((d) => opcao(d, d, n(d))).join("")}</optgroup>` : ""}
+          </select></label>
+        <div class="card deck"><div><b id="fc-nome"></b><br><small class="muted" id="fc-resumo"></small></div>
+          <div class="fc-acoes"><button class="btn primary" id="fc-estudar">Estudar</button><button class="btn" id="fc-simulado" title="Todos os itens da matéria, em ordem aleatória, sem mexer na revisão espaçada">Simulado</button></div></div>
+      </div>
+      <div class="fc-area" id="fc-sessao"></div></div>`;
+
+    const selecionados = () => {
+      const v = $("#fc-materia").value;
+      if (v === "*") return base;
+      if (provas.includes(v)) return materias.filter((m) => m.prova === v).flatMap((m) => porMateria[m.slug] || []);
+      return porMateria[v] || [];
+    };
+    const atualizar = () => {
+      const cs = selecionados();
+      const devidos = cs.filter(srs.devido).length, novos = cs.filter(srs.novo).length;
+      $("#fc-nome").textContent = $("#fc-materia").selectedOptions[0].textContent.replace(/ \(\d+\)$/, "");
+      $("#fc-resumo").textContent = `${cs.length} itens · ${devidos} para revisar · ${novos} novos`;
+      $("#fc-estudar").disabled = !(devidos || (novos && novosRest));
+      $("#fc-simulado").disabled = !cs.length;
+    };
+    $("#fc-materia").addEventListener("change", () => { store.set("ac:fc:materia", $("#fc-materia").value); atualizar(); });
+    $("#fc-estudar").addEventListener("click", () => {
+      const cs = selecionados();
+      sessao([...cs.filter(srs.devido), ...cs.filter(srs.novo).slice(0, novosRest)], { srs: true });
+    });
+    $("#fc-simulado").addEventListener("click", () => sessao(embaralhar([...selecionados()]), { srs: false }));
+    atualizar();
+  }
+
+  function sessao(fila, { srs: usarSrs }) {
     const box = $("#fc-sessao");
     $(".decks").style.display = "none";
-    let i = 0, virado = false;
-    const tipoNome = { basico: "Básico", invertido: "Invertido", cloze: "Lacuna", vf: "Certo ou Errado", comparacao: "Comparação" };
+    let i = 0, virado = false, resposta = null;
+    const placar = { C: 0, E: 0, B: 0 }, erros = [];
+    const tipoNome = { basico: "Básico", invertido: "Invertido", cloze: "Lacuna", vf: "Certo ou Errado", ce: "Certo ou Errado", comparacao: "Comparação" };
+    const liquida = () => placar.C - placar.E;
+    const barraPlacar = () => `<div class="fc-placar"><span class="ok">✔ ${placar.C} certos</span><span class="bad">✘ ${placar.E} errados</span><span>○ ${placar.B} em branco</span><b>Nota líquida: ${liquida()}</b></div>`;
     const desenhar = () => {
       if (i >= fila.length) {
-        box.innerHTML = `<div class="fc-card" style="text-align:center"><div class="big">🎉</div><p>Sessão concluída! ${fila.length} card(s).</p><p><a class="btn" href="#/flashcards" onclick="location.reload()">Voltar aos baralhos</a></p></div>`;
+        const julgados = placar.C + placar.E + placar.B;
+        box.innerHTML = `${barraPlacar()}<div class="fc-card" style="text-align:center"><div class="big">${liquida() > 0 ? "🎉" : "📚"}</div>
+          <p>Sessão concluída! ${fila.length} item(ns)${julgados ? ` · nota líquida <b>${liquida()}</b> de ${julgados} (${Math.round((100 * liquida()) / julgados)}%)` : ""}.</p>
+          ${erros.length ? `<div class="fc-erros"><b>Revise os itens que você errou:</b><ul>${erros.map((c) => `<li>${esc(semPrefixoCE(c.frente))}<br><small>Gabarito: ${gabarito(c) === "C" ? "Certo" : "Errado"} — ${esc(justificativa(c))}</small></li>`).join("")}</ul></div>` : ""}
+          <p><a class="btn" href="#/flashcards" onclick="location.reload()">Voltar às matérias</a></p></div>`;
         return;
       }
       const c = fila[i];
+      const meta = `<div class="fc-meta"><span>${esc(c.disciplina)} · ${esc(c.topico)} · ${tipoNome[c.tipo] || c.tipo}</span><span>${i + 1}/${fila.length}</span></div>`;
+      const fonte = c.fonte ? `<br><small>Fonte: ${esc(c.fonte)}</small>` : "";
+      if (ehCE(c)) {
+        const g = gabarito(c);
+        let resultado = "";
+        if (resposta) {
+          const r = resposta === "B" ? ["", "○ Em branco (0)"] : resposta === g ? ["ok", "✔ Acertou (+1)"] : ["bad", "✘ Errou (−1)"];
+          resultado = `<div class="fc-verso"><div class="fc-res ${r[0]}">${r[1]} · Gabarito: <b>${g === "C" ? "CERTO" : "ERRADO"}</b></div>${esc(justificativa(c))}${fonte}</div>`;
+        }
+        box.innerHTML = `${barraPlacar()}<div class="fc-card">${meta}<div>${esc(semPrefixoCE(c.frente))}</div>${resultado}</div>
+          ${resposta
+            ? '<div class="fc-botoes" style="grid-template-columns:1fr"><button class="btn primary" id="fc-prox">Próximo (espaço)</button></div>'
+            : '<div class="fc-botoes ce"><button class="btn b-certo" data-ce="C">C · Certo</button><button class="btn b-errado" data-ce="E">E · Errado</button><button class="btn" data-ce="B">B · Em branco</button></div>'}`;
+        $$("[data-ce]", box).forEach((b) => b.addEventListener("click", () => julgar(b.dataset.ce)));
+        $("#fc-prox")?.addEventListener("click", proximo);
+        return;
+      }
       const frente = c.tipo === "cloze" ? renderCloze(c.frente, false) : esc(c.frente);
       const verso = c.tipo === "cloze" ? `${renderCloze(c.frente, true)}${c.verso ? `<br><small>${esc(c.verso)}</small>` : ""}` : esc(c.verso);
-      box.innerHTML = `<div class="fc-card"><div class="fc-meta"><span>${esc(c.disciplina)} · ${esc(c.topico)} · ${tipoNome[c.tipo] || c.tipo}</span><span>${i + 1}/${fila.length}</span></div>
+      box.innerHTML = `${barraPlacar()}<div class="fc-card">${meta}
         <div>${frente}</div>
-        ${virado ? `<div class="fc-verso">${verso}${c.fonte ? `<br><small>Fonte: ${esc(c.fonte)}</small>` : ""}</div>` : ""}</div>
+        ${virado ? `<div class="fc-verso">${verso}${fonte}</div>` : ""}</div>
         ${virado
           ? `<div class="fc-botoes"><button class="btn b-errei" data-n="0">1 · Errei</button><button class="btn" data-n="1">2 · Difícil</button><button class="btn" data-n="2">3 · Bom</button><button class="btn b-facil" data-n="3">4 · Fácil</button></div>`
           : '<div class="fc-botoes" style="grid-template-columns:1fr"><button class="btn primary" id="fc-virar">Mostrar resposta (espaço)</button></div>'}`;
       $("#fc-virar")?.addEventListener("click", () => { virado = true; desenhar(); });
       $$("[data-n]", box).forEach((b) => b.addEventListener("click", () => responder(+b.dataset.n)));
     };
+    const julgar = (r) => {
+      const c = fila[i];
+      resposta = r;
+      if (r === "B") placar.B++;
+      else if (r === gabarito(c)) placar.C++;
+      else { placar.E++; erros.push(c); }
+      // Acerto → "Bom"; erro ou branco → volta em 10 min
+      if (usarSrs) srs.responder(c, r === gabarito(c) ? 2 : 0);
+      desenhar();
+    };
+    const proximo = () => { i++; resposta = null; desenhar(); };
     const responder = (n) => {
-      srs.responder(fila[i], n);
+      if (usarSrs) srs.responder(fila[i], n);
       if (n === 0) fila.push(fila[i]);
       i++; virado = false; desenhar();
     };
     document.onkeydown = (e) => {
-      if (!$("#fc-sessao") || e.target.matches("input,textarea")) return;
-      if (e.key === " " && !virado) { e.preventDefault(); virado = true; desenhar(); }
+      if (!$("#fc-sessao") || e.target.matches("input,textarea,select") || i >= fila.length) return;
+      const k = e.key.toUpperCase();
+      if (ehCE(fila[i])) {
+        if (!resposta && "CEB".includes(k) && k.length === 1) julgar(k);
+        else if (resposta && (e.key === " " || e.key === "Enter")) { e.preventDefault(); proximo(); }
+      } else if (e.key === " " && !virado) { e.preventDefault(); virado = true; desenhar(); }
       else if (virado && "1234".includes(e.key)) responder(+e.key - 1);
     };
     desenhar();

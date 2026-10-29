@@ -1,0 +1,4 @@
+id,tipo,frente,verso,topico,concursos,fonte,criado
+agc-0001,ce,"No modelo das três linhas do IIA, a auditoria interna atua como terceira linha, fornecendo avaliação e assessoria independentes e objetivas.",Certo. 1ª linha → gestão operacional; 2ª → apoio/riscos/conformidade; 3ª → auditoria interna.,tres-linhas,cgu-affc,"IIA, Modelo das Três Linhas (2020)",2026-10-29
+agc-0002,ce,Atividades de consultoria da auditoria interna governamental transferem ao auditor a responsabilidade pelas decisões de gestão sobre o objeto da consultoria.,Errado. A responsabilidade continua com o gestor; o auditor não assume responsabilidades de gestão.,consultoria,cgu-affc,IN SFC/CGU 3/2017 (Referencial Técnico),2026-10-29
+agc-0003,ce,"Evidências de auditoria devem ser suficientes, adequadas e confiáveis para sustentar achados e conclusões.",Certo. Sinal de risco ≠ evidência ≠ conclusão.,evidencias,cgu-affc,Edital P2 — Auditoria 3.1,2026-10-29

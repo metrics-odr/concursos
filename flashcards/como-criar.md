@@ -15,6 +15,19 @@
 > [!TIP]
 > Se você erra o mesmo card várias vezes, o problema geralmente é o **card**, não a memória → reescrever, quebrar ou adicionar contexto.
 
+## ⚖️ Padrão do repositório: item Cebraspe (Certo/Errado)
+
+Todo card novo é, por padrão, um **item `ce`**: uma afirmação para julgar como **Certo** ou **Errado**, como na prova.
+- **Pontuação** (igual à prova): acerto +1 · erro −1 · em branco 0 → **um erro anula um acerto**. Na dúvida real, deixar em branco também é estratégia.
+- **Frente:** uma afirmação só, redigida como a banca redige (troca de conceitos parecidos, generalizações com “sempre/necessariamente/apenas”, inversões de exceção e regra).
+- **Verso:** `Certo.` ou `Errado.` + **por quê** em uma linha (e qual seria a versão certa).
+- **Equilíbrio:** misturar itens certos e errados (≈ metade cada) para não viciar o chute.
+
+| Exemplo de item | Gabarito |
+|---|---|
+| A segunda forma normal (2FN) exige a eliminação das dependências transitivas. | **Errado.** Transitiva → 3FN; a 2FN elimina dependência parcial. |
+| Data drift é mudança na distribuição das entradas; concept drift, na relação entre entradas e alvo. | **Certo.** |
+
 ## 🧩 Tipos de card
 
 ### 1. Básico (pergunta → resposta)
@@ -29,7 +42,7 @@ Bom para **sigla ↔ significado**, **lei ↔ assunto**, **termo ↔ definição
 Bom para **texto de lei** e **prazos**. A lacuna é marcada com `{{c1::...}}`.
 - "Os princípios expressos da Administração Pública estão no art. {{c1::37}} da CF."
 
-### 4. Verdadeiro ou falso (estilo banca)
+### 4. Verdadeiro ou falso (estilo banca) — legado; preferir `ce`
 Bom para **pegadinhas**. A frente é uma afirmação; o verso diz C/E e **por quê**.
 - **Frente:** (C/E) A improbidade administrativa admite a modalidade culposa.
 - **Verso:** **Errado.** Desde a Lei 14.230/2021 exige-se **dolo**.
