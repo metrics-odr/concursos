@@ -343,4 +343,3 @@ body[data-banca="vunesp"] .topbar { border-bottom: 3px solid #b91c1c; }
 
 /* Tela de seleção: só a lista de concursos (sem abas, explorador nem busca) */
 body.tela-selecao #tabs, body.tela-selecao #btn-sidebar, body.tela-selecao #sidebar, body.tela-selecao #btn-busca { display: none !important; }
-body.tela-selecao .layout { display: block; }
