@@ -92,6 +92,8 @@ input, select, textarea {
 }
 .tree .item:hover { background: var(--bg-3); text-decoration: none; }
 .tree .item.ativo { background: var(--accent-soft); color: var(--accent); }
+.tree details.raiz > summary { font-weight: 600; }
+.tree details.raiz > .filhos { margin-left: 8px; }
 .tree .filhos { margin-left: 12px; border-left: 1px solid var(--border); padding-left: 2px; }
 .tree details[open] > summary .seta { transform: rotate(90deg); }
 .seta { display: inline-block; width: 10px; font-size: 10px; color: var(--muted); transition: transform .1s; }
