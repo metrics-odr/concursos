@@ -118,7 +118,7 @@ Pasta: `disciplinas/governanca-riscos-integridade/` (ainda sem notas) · Acervo:
 Pasta: `disciplinas/transparencia-ouvidoria-participacao/` (ainda sem notas) · Acervo: [`acervo/transparencia-ouvidoria-participacao.md`](acervo/transparencia-ouvidoria-participacao.md)
 
 - 🟨 **1** Acesso à informação · [📚 acervo](acervo/transparencia-ouvidoria-participacao.md#1-acesso-a-informacao)
-  - 🟨 1.1 Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições · [📚 acervo](acervo/transparencia-ouvidoria-participacao.md#1-acesso-a-informacao)
+  - ✅ 1.1 Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições · [📚 acervo](acervo/transparencia-ouvidoria-participacao.md#1-acesso-a-informacao)
   - ⬜ 1.2 Distinção conceitual entre informação classificada, sigilos previstos em lei, informação pessoal e documento preparatório; acesso parcial e comunicação clara da decisão · [📚 acervo](acervo/transparencia-ouvidoria-participacao.md#1-acesso-a-informacao)
 - ⬜ **2** Transparência e proteção de dados · [📚 acervo](acervo/transparencia-ouvidoria-participacao.md#2-transparencia-e-protecao-de-dados)
   - ⬜ 2.1 Compatibilização entre acesso à informação e proteção de dados pessoais; finalidade, necessidade e salvaguardas · [📚 acervo](acervo/transparencia-ouvidoria-participacao.md#2-transparencia-e-protecao-de-dados)
