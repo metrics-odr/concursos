@@ -8,7 +8,7 @@
 | Cargo | Auditor Federal de Finanças e Controle (AFFC) |
 | Banca | **Cebraspe** — itens **Certo/Errado**, um errado anula um certo |
 | Especialidades | Cargo 1: **Auditoria** · Cargo 2: TI – Ciência de Dados · Cargo 3: TI – Infraestrutura de TI · Cargo 4: TI – Desenvolvimento de Sistemas |
-| Especialidade do Eduardo | ⏳ a confirmar (provavelmente **Cargo 1 – Auditoria**) |
+| Especialidade do Eduardo | ✅ **Cargo 2 – TI – Ciência de Dados** (10 vagas, Órgão Central – DF) |
 | Requisito | Nível superior em **qualquer área** |
 | Subsídio inicial | **R$ 20.000,00** · 40 h semanais |
 | Taxa de inscrição | R$ 170,00 |
@@ -48,6 +48,9 @@
 → A **P3 (específicos)** pesa 180 dos 260 pontos das objetivas, ou seja, **~69%**.
 
 ## Links
-- 📄 [Edital completo em Markdown](edital/edital-cgu-2026-12.md)
+- 🖥️ [Área do Concurseiro](https://metrics-odr.github.io/concursos/) — notas, desafios diários e flashcards
+- 📄 [Edital completo em Markdown](edital/edital-cgu-2026-12.md) · [tópicos em JSON](edital/topicos.json)
 - ✅ [Progresso / checklist](PROGRESSO.md)
-- 🔁 [Revisão](revisao/)
+- 🔎 [Acervo: onde e como estudar cada tópico](acervo/README.md)
+- 📝 [Provas anteriores Cebraspe (Ciência de Dados + discursivas)](revisao/provas-cebraspe.md)
+- ❌ [Caderno de erros](revisao/questoes.md)

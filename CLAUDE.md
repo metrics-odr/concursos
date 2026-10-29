@@ -13,6 +13,11 @@ concursos/                      (raiz do repo)
 ├── conversas/                  → resumos de conversas Eduardo ↔ Claude (AAAA-MM-DD-tema.md)
 ├── ideias/                     → organização de pensamento, estratégia, planejamento
 ├── flashcards/                 → método, banco de cards (CSV por disciplina) e exportação p/ Anki
+├── desafios/                   → desafio diário AAAA-MM-DD.md (gerado por GitHub Actions; o Eduardo só marca)
+├── index.html + app/           → Área do Concurseiro (site no GitHub Pages)
+├── scripts/                    → geradores (tópicos do edital, acervo, desafio, índice, verificação de links)
+├── automacoes/                 → documentação de workflows, cron-job.org, Make e rotinas
+├── .github/workflows/          → pages.yml (publica o site) · desafio-diario.yml
 ├── disciplinas/                → notas COMPARTILHADAS entre concursos
 │   └── <disciplina>/
 │       ├── README.md           → índice da disciplina
@@ -22,8 +27,9 @@ concursos/                      (raiz do repo)
         ├── README.md           → ficha do concurso (banca, data, vagas, salário, status)
         ├── edital/             → edital original (PDF) + edital-resumo.md + conteudo-programatico.md
         ├── PROGRESSO.md        → checklist do edital ligando cada item à nota em disciplinas/
+        ├── acervo/             → onde/como estudar cada disciplina (curadoria.json → gerar_acervo.py)
         ├── materiais-brutos/   → material enviado ainda não processado
-        └── revisao/            → flashcards, pegadinhas, questões da banca, resumos de véspera
+        └── revisao/            → provas Cebraspe, caderno de erros (questoes.md), resumos de véspera
 ```
 
 **Por que as disciplinas são compartilhadas:** matérias como Português, Direito Constitucional, Administrativo e Contabilidade se repetem entre concursos. A nota é escrita **uma vez** em `disciplinas/` e cada concurso aponta para ela no seu `PROGRESSO.md`. Particularidades de um concurso (ex.: lei específica do órgão) vão em `disciplinas/` também, mas com a tag do concurso no cabeçalho.
@@ -73,4 +79,17 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 ## Concursos ativos
 | Concurso | Pasta | Status |
 |---|---|---|
-| CGU — Auditor Federal de Finanças e Controle (Cebraspe; especialidade a confirmar, provável Cargo 1 – Auditoria) | `concursos/cgu-affc/` | Edital transcrito em `edital/edital-cgu-2026-12.md` · prova 13/12/2026 |
+| CGU — Auditor Federal de Finanças e Controle (Cebraspe) · **Cargo 2 – TI – Ciência de Dados** | `concursos/cgu-affc/` | Edital transcrito · checklist, acervo e provas prontos · prova 13/12/2026 |
+
+## 🖥️ Área do Concurseiro (site)
+- URL: <https://metrics-odr.github.io/concursos/> — publicada pelo workflow `pages.yml` a cada push na `main`.
+- O app lê o repositório inteiro: qualquer `.md` novo aparece no explorer sem mexer no app. Ao criar notas, use links relativos ou `[[wikilinks]]`.
+- `PROGRESSO.md`: o checklist entre `<!-- checklist:inicio -->` e `<!-- checklist:fim -->` é gerado por `scripts/edital_topicos.py --progresso`; só os emojis ⬜🟨✅🔁 mudam (o Eduardo marca pelo app).
+- Acervo: para incluir fontes, editar `concursos/cgu-affc/acervo/curadoria.json`, rodar `python3 scripts/gerar_acervo.py` e `python3 scripts/verificar_links.py`. Só incluir links verificados.
+- Detalhes de workflows, cron-job.org e Make: `automacoes/README.md`.
+
+## 🚀 Publicar (regra permanente)
+Toda vez que uma alteração for commitada e enviada (push) para o branch de trabalho, **terminar a resposta com o botão “Publicar”**: usar a ferramenta `AskUserQuestion` com a pergunta “Publicar as alterações na Área do Concurseiro?” e as opções **“Publicar”** (primeira, recomendada) e **“Ainda não”**.
+- Se o Eduardo escolher **Publicar**: abrir o PR do branch de trabalho para a `main` e **mesclar na hora** (merge), sem esperar revisão; depois acompanhar o workflow `pages.yml` até ficar verde e responder com o link da página publicada.
+- Se o PR do branch já tiver sido mesclado antes, recriar o branch a partir da `main` atual antes de novos commits (nunca reaproveitar PR mesclado).
+- Escolher Publicar vale só para aquela rodada de alterações; nas próximas, perguntar de novo.

@@ -1,0 +1,67 @@
+name: Desafio diário
+
+# Disparado pelo cron-job.org (workflow_dispatch via API) às 05:30 BRT.
+# O schedule abaixo é só um plano B (o cron do GitHub pode atrasar); o script é idempotente.
+on:
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Data AAAA-MM-DD (vazio = hoje em Brasília)"
+        required: false
+  schedule:
+    - cron: "17 10 * * *" # 07:17 BRT
+
+permissions:
+  contents: write
+
+concurrency:
+  group: desafio-diario
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    outputs:
+      criado: ${{ steps.gerar.outputs.criado }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerar desafio
+        id: gerar
+        env:
+          DATA: ${{ inputs.data }}
+        run: |
+          python3 scripts/gerar_desafio.py $DATA --json "$RUNNER_TEMP/desafio.json"
+          if [ -f "$RUNNER_TEMP/desafio.json" ]; then echo "criado=true" >> "$GITHUB_OUTPUT"; else echo "criado=false" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Commit e push
+        if: steps.gerar.outputs.criado == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add desafios/
+          git commit -m "Desafio diário: $(jq -r .data "$RUNNER_TEMP/desafio.json")"
+          for i in 1 2 3 4; do git pull --rebase origin main && git push origin HEAD:main && break; sleep $((i * 5)); done
+
+      - name: Avisar o Make (opcional)
+        if: steps.gerar.outputs.criado == 'true'
+        env:
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+        run: |
+          if [ -z "$MAKE_WEBHOOK_URL" ]; then echo "Secret MAKE_WEBHOOK_URL não configurado — pulando."; exit 0; fi
+          curl -fsS -X POST -H "Content-Type: application/json" --data @"$RUNNER_TEMP/desafio.json" "$MAKE_WEBHOOK_URL"
+
+  publicar:
+    needs: gerar
+    if: needs.gerar.outputs.criado == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

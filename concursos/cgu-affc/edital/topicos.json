@@ -1,0 +1,1250 @@
+{
+ "concurso": "cgu-affc",
+ "cargo": "Cargo 2 – TI – Ciência de Dados",
+ "prova": "2026-12-13",
+ "disciplinas": [
+  {
+   "grupo": "basicos",
+   "prova": "P1",
+   "grupo_nome": "Conhecimentos básicos",
+   "disciplina": "Estado, Democracia, Direitos e Ciência Política",
+   "slug": "ciencia-politica-e-estado",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Estado e legitimidade",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Estado, governo e administração; autoridade, legitimidade e poder; interesse público, pluralismo e conflitos distributivos"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Democracia e representação",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Representação e participação; responsabilização democrática; relações entre Executivo, Legislativo e Judiciário; governabilidade e controles recíprocos"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Federalismo e capacidades estatais",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Autonomia, coordenação e cooperação federativa; capacidades administrativas e políticas; burocracia, discricionariedade e implementação de direitos"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Ordem constitucional e direitos",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Fundamentos e objetivos da República; direitos fundamentais, sociais e políticos; igualdade, devido processo e limites ao exercício do poder; princípios da administração pública"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Valor público e controle",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Resultados socialmente relevantes; legitimidade, confiança e direitos; controle interno, externo e social em perspectiva institucional; tensões entre eficiência, equidade e garantias"
+      }
+     ]
+    },
+    {
+     "num": "6",
+     "titulo": "Corrupção como fenômeno político e social",
+     "subitens": [
+      {
+       "num": "6.1",
+       "texto": "Abuso do poder confiado e apropriação de decisões públicas em benefício particular; dimensões política, administrativa e público-privada"
+      },
+      {
+       "num": "6.2",
+       "texto": "Distinções entre corrupção, falha de gestão, conflito de interesses e ilícitos específicos; relações e diferenças entre clientelismo, patronagem, nepotismo e captura"
+      }
+     ]
+    },
+    {
+     "num": "7",
+     "titulo": "Mecanismos de reprodução e captura",
+     "subitens": [
+      {
+       "num": "7.1",
+       "texto": "Assimetrias de poder e informação, incentivos e oportunidades; relações principal-agente e problemas de ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento"
+      },
+      {
+       "num": "7.2",
+       "texto": "Captura de políticas e influência indevida; distinção entre representação legítima de interesses e favorecimento"
+      }
+     ]
+    },
+    {
+     "num": "8",
+     "titulo": "Consequências e respostas à corrupção",
+     "subitens": [
+      {
+       "num": "8.1",
+       "texto": "Efeitos sobre direitos, desigualdades, competição, alocação de recursos, qualidade dos serviços e confiança institucional"
+      },
+      {
+       "num": "8.2",
+       "texto": "Relações entre prevenção, detecção, responsabilização e reparação; controles democráticos, participação e capacidades estatais"
+      },
+      {
+       "num": "8.3",
+       "texto": "Avaliação crítica das respostas e de seus efeitos não pretendidos, preservados o devido processo e a continuidade de serviços essenciais"
+      }
+     ]
+    },
+    {
+     "num": "9",
+     "titulo": "Estado e modelos de desenvolvimento econômico",
+     "subitens": [
+      {
+       "num": "9.1",
+       "texto": "Arranjos de desenvolvimento com diferentes combinações de mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado; industrialização, inovação e transformação produtiva"
+      },
+      {
+       "num": "9.2",
+       "texto": "Papel das empresas estatais no investimento de longo prazo, na infraestrutura, no financiamento e na prestação de serviços públicos"
+      },
+      {
+       "num": "9.3",
+       "texto": "Relações entre finalidade pública, concorrência, universalização, sustentabilidade fiscal e socioambiental; capacidades estatais, riscos de captura e efeitos distributivos"
+      },
+      {
+       "num": "9.4",
+       "texto": "Fundamentos constitucionais da atuação econômica do Estado e comparação de alternativas institucionais à luz de objetivos, evidências e resultados"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "basicos",
+   "prova": "P1",
+   "grupo_nome": "Conhecimentos básicos",
+   "disciplina": "Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento",
+   "slug": "sociedade-brasileira",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Fundamentos sociológicos",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Instituições, socialização e ação coletiva; estratificação e mobilidade social; redes, poder, discriminação e reprodução das desigualdades"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Formação social e cidadania no Brasil",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Heranças da escravidão, hierarquias sociais e construção da cidadania; transformações nas relações entre Estado e sociedade; mecanismos de inclusão e exclusão institucional"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "População, território e trabalho",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Transição demográfica, envelhecimento e cuidado; desigualdades regionais, urbanas e rurais; estrutura produtiva, informalidade e mudanças tecnológicas no trabalho"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Diversidade e acesso a direitos",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Relações étnico-raciais, gênero e sexualidade; pessoas com deficiência; idade; povos indígenas e comunidades tradicionais. Interseccionalidade, acessibilidade e barreiras administrativas e digitais"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Desenvolvimento e realidade brasileira",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Pobreza, renda e proteção social; educação, saúde, saneamento e habitação como problemas públicos; sustentabilidade e vulnerabilidade climática; leitura contextual de indicadores e desigualdades"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "basicos",
+   "prova": "P1",
+   "grupo_nome": "Conhecimentos básicos",
+   "disciplina": "Ética Pública e Responsabilidade Profissional",
+   "slug": "etica-publica",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Fundamentos da ética pública",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Interesse público, dignidade, justiça e responsabilidade; relações entre deveres, consequências e virtudes profissionais; conflitos entre valores em decisões públicas"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Deveres profissionais",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Imparcialidade, probidade, diligência e respeito; autonomia técnica e responsabilidade; limites da obediência hierárquica; uso adequado de informação e recursos públicos"
+      },
+      {
+       "num": "2.2",
+       "texto": "Aplicação dos valores e deveres de conduta ética da CGU a situações de trabalho"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Conflitos de interesses e imparcialidade",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Identificação de interesses privados em conflito com a função pública e medidas de prevenção, consulta e encaminhamento, nos termos dos arts. 3º a 5º, 8º e 10 da Lei nº 12.813/2013"
+      },
+      {
+       "num": "3.2",
+       "texto": "Impedimento e suspeição no processo administrativo federal, nos termos dos arts. 18 a 21 da Lei nº 9.784/1999; comunicação e abstenção quando exigidas"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Relações de trabalho e atendimento",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Dignidade, diversidade e relações de poder; reconhecimento e prevenção de assédio e discriminação; respeito, escuta e não retaliação"
+      },
+      {
+       "num": "4.2",
+       "texto": "Distinção entre acolher uma pessoa, verificar fatos e atribuir responsabilidade"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Integridade como responsabilidade institucional",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Coerência entre regras e práticas; ambiente organizacional e incentivos; canais de orientação e relato; papel do exemplo, da confiança e da prestação de contas"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "basicos",
+   "prova": "P1",
+   "grupo_nome": "Conhecimentos básicos",
+   "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
+   "slug": "administracao-publica-e-politicas",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Organização administrativa",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Administração direta e indireta; descentralização e desconcentração; agentes públicos; funções da administração pública: formulação, execução, regulação e controle de políticas e ações públicas; arranjos de cooperação com entes federativos e entidades não estatais"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Modelos de administração",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Burocracia e profissionalização; gestão orientada a resultados; participação e governança; limites e contribuições de diferentes modelos na realidade brasileira"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Políticas públicas",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Problema público, agenda e formulação; instrumentos de ação estatal; implementação, monitoramento e avaliação; intersetorialidade e atores governamentais e sociais"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Planejamento e recursos",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Serviços e transformação digital",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Orientação ao usuário; simplificação e acessibilidade; coordenação de serviços; oportunidades e riscos da automação e da inteligência artificial na administração"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "complementares",
+   "prova": "P2",
+   "grupo_nome": "Conhecimentos complementares",
+   "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
+   "slug": "governanca-riscos-integridade",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Governança e responsabilidades",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Distinção entre direção, gestão, controle e prestação de contas; papéis, supervisão, transparência e responsabilização. Relação entre decisões organizacionais, finalidade pública e direitos"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Riscos e controles essenciais",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Risco, causa, consequência e controle; prevenção e detecção; proporcionalidade dos controles, segregação de funções e risco residual"
+      },
+      {
+       "num": "2.2",
+       "texto": "Identificação de vulnerabilidades e de controles compatíveis com situações usuais, a partir dos dados fornecidos"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Integridade pública",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações"
+      },
+      {
+       "num": "3.2",
+       "texto": "Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Integridade privada",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação"
+      },
+      {
+       "num": "4.2",
+       "texto": "Diferença entre existência documental, implementação e efetividade dos mecanismos"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Prevenção e melhoria institucional",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais"
+      },
+      {
+       "num": "5.2",
+       "texto": "Denúncias e resultados de controle como insumos de melhoria"
+      },
+      {
+       "num": "5.3",
+       "texto": "Distinção entre baixa ocorrência e baixa detecção de problemas; leitura de evidências simples sobre funcionamento e resultados das medidas"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "complementares",
+   "prova": "P2",
+   "grupo_nome": "Conhecimentos complementares",
+   "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
+   "slug": "transparencia-ouvidoria-participacao",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Acesso à informação",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições"
+      },
+      {
+       "num": "1.2",
+       "texto": "Distinção conceitual entre informação classificada, sigilos previstos em lei, informação pessoal e documento preparatório; acesso parcial e comunicação clara da decisão"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Transparência e proteção de dados",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Compatibilização entre acesso à informação e proteção de dados pessoais; finalidade, necessidade e salvaguardas"
+      },
+      {
+       "num": "2.2",
+       "texto": "Diferença entre dados pessoais e dados pessoais sensíveis; noções de tarjamento, anonimização e risco de reidentificação"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Ouvidoria e proteção das pessoas",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Finalidades das manifestações; acolhimento, encaminhamento e resposta ao usuário; acessibilidade e linguagem cidadã"
+      },
+      {
+       "num": "3.2",
+       "texto": "Proteção da identidade e prevenção de retaliação"
+      },
+      {
+       "num": "3.3",
+       "texto": "Distinção entre receber um relato, apurar fatos e decidir sobre responsabilidade"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Participação e melhoria de serviços",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Participação e controle social; conselhos, consultas e escuta de usuários; representatividade e barreiras à participação"
+      },
+      {
+       "num": "4.2",
+       "texto": "Recorrências em manifestações como sinais de problemas. 4.2.1 Subnotificação"
+      },
+      {
+       "num": "4.3",
+       "texto": "Transparência ativa, dados abertos e Portal da Transparência como meios de acesso e controle; qualidade, atualização, cobertura e limites da informação"
+      },
+      {
+       "num": "4.4",
+       "texto": "Papel da CGU na orientação e no monitoramento da transparência e do acesso à informação, em nível de finalidade institucional"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Integridade da informação e comunicação",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Confiabilidade e contexto das fontes; distinção entre fato, alegação e interpretação"
+      },
+      {
+       "num": "5.2",
+       "texto": "Desinformação e efeitos sobre políticas públicas; comunicação de incertezas e correção de erros"
+      },
+      {
+       "num": "5.3",
+       "texto": "Liberdade de expressão e pluralismo. 5.3.1 Distinção entre crítica legítima e desinformação"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "complementares",
+   "prova": "P2",
+   "grupo_nome": "Conhecimentos complementares",
+   "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
+   "slug": "direito-publico-controle",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Decisão administrativa",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Competência, finalidade, motivação, proporcionalidade e segurança jurídica; consideração das consequências e das condições de atuação"
+      },
+      {
+       "num": "1.2",
+       "texto": "Dever de fundamentação e limites ao exercício do poder e à revisão de decisões"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Processo e garantias",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Devido processo, contraditório, defesa e imparcialidade; finalidade da instrução e da prova"
+      },
+      {
+       "num": "2.2",
+       "texto": "Distinção entre procedimento investigativo e processo sancionador; proteção de direitos e necessidade de fundamentar conclusões"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Funções de controle e melhoria da gestão",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Finalidades do controle interno, externo e social; inserção institucional da CGU no Poder Executivo federal"
+      },
+      {
+       "num": "3.2",
+       "texto": "Avaliação da ação governamental e apoio ao aprimoramento da gestão, da governança, dos controles e dos resultados das políticas públicas; prevenção, detecção e correção de irregularidades"
+      },
+      {
+       "num": "3.3",
+       "texto": "Autonomia técnica e responsabilidades dos gestores; diferenças de competências e complementaridade com o controle externo exercido pelo Congresso Nacional com o auxílio do TCU"
+      },
+      {
+       "num": "3.4",
+       "texto": "Distinção entre avaliar a gestão, apurar fatos e aplicar sanções; cooperação e compartilhamento lícito de informações"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Responsabilização em nível introdutório",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Distinção entre indício, falha de gestão, irregularidade e responsabilidade"
+      },
+      {
+       "num": "4.2",
+       "texto": "Finalidades e diferenças entre responsabilização de agentes públicos e de pessoas jurídicas; noções de admissibilidade, processo disciplinar, processo administrativo de responsabilização e acordo de leniência"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Proteção e encaminhamento",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Distinção entre acolhimento, medidas de proteção, apuração de fatos e conclusão sancionadora, especialmente diante de assédio e discriminação; finalidades e garantias de cada atuação"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "complementares",
+   "prova": "P2",
+   "grupo_nome": "Conhecimentos complementares",
+   "disciplina": "Fundamentos de Evidências, Dados e Inteligência Artificial",
+   "slug": "evidencias-dados-ia",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Perguntas e fontes",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Relação entre problema, pergunta e informação necessária; fontes documentais, administrativas, estatísticas e de participação social"
+      },
+      {
+       "num": "1.2",
+       "texto": "Distinção entre dado, evidência, interpretação e juízo de valor; verificação de origem e confronto de fontes"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Leitura de dados e indicadores",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Interpretação de tabelas, gráficos, proporções, taxas e medidas descritivas; denominadores, qualidade e comparabilidade"
+      },
+      {
+       "num": "2.2",
+       "texto": "Distinção entre indicadores de percepção, experiência, denúncias, detecção e sanções na análise da corrupção; subnotificação e limites de inferência sobre sua ocorrência"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Inferências e erros de raciocínio",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Associação e causalidade; seleção e representatividade; explicações alternativas e incerteza"
+      },
+      {
+       "num": "3.2",
+       "texto": "Generalizações indevidas, falácia ecológica e viés de confirmação; falsos positivos e falsos negativos"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Integridade da evidência e proteção",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Rastreabilidade e verificação de informações; comunicação proporcional dos resultados e limites"
+      },
+      {
+       "num": "4.2",
+       "texto": "Escuta sem indução, confidencialidade e risco de identificação indireta"
+      },
+      {
+       "num": "4.3",
+       "texto": "Distinção entre as condições e os regimes de proteção de entrevistados em auditoria, participantes de pesquisa e denunciantes"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Uso responsável de inteligência artificial",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Possibilidades de classificação, busca, síntese e apoio à análise; escolha entre IA, solução simples e revisão humana"
+      },
+      {
+       "num": "5.2",
+       "texto": "Erros, conteúdo não sustentado, vieses e efeitos sobre grupos; proteção de informações, supervisão, rastreabilidade e contestação"
+      },
+      {
+       "num": "5.3",
+       "texto": "Verificação de fontes e limites da automação de decisões que afetam direitos"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "complementares",
+   "prova": "P2",
+   "grupo_nome": "Conhecimentos complementares",
+   "disciplina": "Fundamentos de Auditoria Governamental e Atuação Integrada da CGU",
+   "slug": "auditoria-governamental-cgu",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Propósito, serviços e papéis",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Contribuição da auditoria para a governança, os riscos, os controles e os resultados"
+      },
+      {
+       "num": "1.2",
+       "texto": "Avaliação e consultoria como serviços de auditoria interna governamental; apuração de atos e fatos com indícios de ilegalidade ou irregularidade na utilização de recursos públicos federais como competência do sistema de controle interno"
+      },
+      {
+       "num": "1.3",
+       "texto": "Finalidades e diferenças entre as três formas de atuação da SFC; relação com a gestão, correição e avaliação de políticas"
+      },
+      {
+       "num": "1.4",
+       "texto": "Independência, objetividade, diligência e ceticismo; papéis de gestão, supervisão e auditoria no modelo das três linhas"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Ciclo do trabalho",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Planejamento, execução, comunicação e monitoramento; finalidade de objetivos, escopo, critérios e perguntas"
+      },
+      {
+       "num": "2.2",
+       "texto": "Priorização por risco, materialidade e relevância social em nível conceitual; adequação do trabalho às finalidades de avaliação, consultoria ou apuração"
+      },
+      {
+       "num": "2.3",
+       "texto": "Apoio à melhoria da gestão com preservação da autonomia técnica e das responsabilidades de decisão e execução dos gestores"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Evidência e conclusão",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Suficiência, adequação e confiabilidade; noção de achado e de limitações"
+      },
+      {
+       "num": "3.2",
+       "texto": "Distinção entre sinal de risco, evidência e conclusão; necessidade de aprofundamento e proporcionalidade da afirmação"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Comunicação e acompanhamento",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Clareza, contexto e utilidade dos resultados; publicidade e proteção de pessoas e informações"
+      },
+      {
+       "num": "4.2",
+       "texto": "Recomendações relacionadas a causas e riscos; distinção entre plano de ação, implementação, resultado e benefício"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Integração entre funções da CGU",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Denúncias e informações de ouvidoria e transparência como insumos de risco; achados como subsídios para admissibilidade correcional e responsabilização de entes privados"
+      },
+      {
+       "num": "5.2",
+       "texto": "Resultados do controle como insumos de integridade e melhoria de serviços; compartilhamento lícito, devolutivas e proteção"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "especificos",
+   "prova": "P3",
+   "grupo_nome": "Conhecimentos específicos",
+   "disciplina": "Estatística, Programação e Análise de Dados",
+   "slug": "estatistica-programacao-analise-dados",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Exploração e descrição",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Tipos de dados e variáveis; distribuições de frequências, medidas de posição e dispersão; exploração e visualização; comparação de grupos e períodos; identificação de padrões, anomalias e limites das fontes"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Probabilidade e inferência",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Probabilidade e distribuições em aplicações; amostragem, estimação, intervalos de confiança e testes de hipóteses"
+      },
+      {
+       "num": "2.2",
+       "texto": "Pressupostos, incerteza e erros de inferência; significância estatística e relevância prática"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Relações entre variáveis",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Correlação, regressão e análise de variância; pressupostos, tamanho de efeito e interpretação de resultados"
+      },
+      {
+       "num": "3.2",
+       "texto": "Associação, predição e causalidade; seleção, representatividade e explicações alternativas em dados administrativos"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Programação para análise",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Python 3: estruturas de dados, controle de fluxo, funções, módulos, arquivos e exceções; leitura, análise e depuração de rotinas de manipulação de dados; organização modular, testes e reprodutibilidade de análises"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Preparação e transformação",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Valores ausentes, inconsistências, duplicações, outliers e desbalanceamento; transformação, codificação, normalização e padronização; engenharia e seleção de atributos; prevenção de vazamento de informação na preparação dos dados"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "especificos",
+   "prova": "P3",
+   "grupo_nome": "Conhecimentos específicos",
+   "disciplina": "Engenharia, Arquitetura e Governança de Dados",
+   "slug": "engenharia-arquitetura-governanca-dados",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Modelagem e arquiteturas",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Modelos relacional, documental, chave-valor, multidimensional e vetorial; normalização e integridade; transações e consistência"
+      },
+      {
+       "num": "1.2",
+       "texto": "Data warehouse, data mart, data lake e lakehouse; produtos de dados, responsabilidade por domínios, autosserviço e governança federada em data mesh"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "SQL e consultas analíticas",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Definição e manipulação de dados, controle de acesso e transações; filtros, junções, agregações, subconsultas, expressões de tabela comuns e funções de janela"
+      },
+      {
+       "num": "2.2",
+       "texto": "Índices, planos de execução e desempenho; valores nulos, duplicações e erros de interpretação em consultas"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Ingestão e integração",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "ETL e ELT; processamento em lote e fluxo, completo e incremental; APIs e contratos de dados; formatos CSV, JSON, XML e Parquet; interoperabilidade semântica e técnica; falhas, repetição de processamento e consistência"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Processamento distribuído",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Particionamento, paralelismo, movimentação de dados e execução distribuída de transformações e junções"
+      },
+      {
+       "num": "4.2",
+       "texto": "Escalabilidade, tolerância a falhas e custo"
+      },
+      {
+       "num": "4.3",
+       "texto": "Planos de execução"
+      },
+      {
+       "num": "4.4",
+       "texto": "Assimetria entre partições e resultados inconsistentes"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Qualidade e rastreabilidade",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Metadados, catálogo e linhagem"
+      },
+      {
+       "num": "5.2",
+       "texto": "Completude, consistência, validade, unicidade, acurácia e atualidade"
+      },
+      {
+       "num": "5.3",
+       "texto": "Perfilamento, deduplicação, vinculação de registros e enriquecimento"
+      },
+      {
+       "num": "5.4",
+       "texto": "Conciliação de fontes"
+      },
+      {
+       "num": "5.5",
+       "texto": "Riscos de correspondências incorretas entre pessoas ou entidades"
+      }
+     ]
+    },
+    {
+     "num": "6",
+     "titulo": "Compartilhamento e proteção",
+     "subitens": [
+      {
+       "num": "6.1",
+       "texto": "Minimização, segregação de ambientes e privilégios"
+      },
+      {
+       "num": "6.2",
+       "texto": "Retenção e descarte"
+      },
+      {
+       "num": "6.3",
+       "texto": "Anonimização, pseudonimização e reidentificação"
+      },
+      {
+       "num": "6.4",
+       "texto": "Publicação, reutilização e compartilhamento controlados"
+      },
+      {
+       "num": "6.5",
+       "texto": "Proteção de dados pessoais e equilíbrio entre utilidade analítica, abertura e proteção de pessoas"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "especificos",
+   "prova": "P3",
+   "grupo_nome": "Conhecimentos específicos",
+   "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
+   "slug": "aprendizado-de-maquina-e-ia",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Seleção e construção de modelos",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Aprendizado supervisionado e não supervisionado; noções e limites de abordagens semissupervisionadas e por reforço"
+      },
+      {
+       "num": "1.2",
+       "texto": "Regressão, classificação, agrupamento, redução de dimensionalidade e detecção de anomalias; regularização, ensembles, sobreajuste e subajuste; comparação com soluções simples"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Validação e generalização",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Separação de treino, validação e teste"
+      },
+      {
+       "num": "2.2",
+       "texto": "Validação cruzada e temporal"
+      },
+      {
+       "num": "2.3",
+       "texto": "Vazamento de informação"
+      },
+      {
+       "num": "2.4",
+       "texto": "Viés e variância"
+      },
+      {
+       "num": "2.5",
+       "texto": "Generalização e estabilidade dos resultados"
+      },
+      {
+       "num": "2.6",
+       "texto": "Comparação de modelos e adequação ao uso pretendido"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Métricas e efeitos das decisões",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Precisão, sensibilidade, especificidade, calibração e métricas de regressão"
+      },
+      {
+       "num": "3.2",
+       "texto": "Custos dos falsos positivos e falsos negativos"
+      },
+      {
+       "num": "3.3",
+       "texto": "Desempenho por grupos, discriminação e incerteza"
+      },
+      {
+       "num": "3.4",
+       "texto": "Explicabilidade e interpretabilidade"
+      },
+      {
+       "num": "3.5",
+       "texto": "Limites do uso de escores para priorização e tomada de decisão"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Redes neurais",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Perceptron e redes multicamadas"
+      },
+      {
+       "num": "4.2",
+       "texto": "Funções de ativação e perda, otimização, retropropagação e regularização em nível conceitual e de interpretação de resultados"
+      },
+      {
+       "num": "4.3",
+       "texto": "Redes convolucionais, recorrentes e transformers"
+      },
+      {
+       "num": "4.4",
+       "texto": "Adequação ao tipo de dado, custo, limitações e alternativas"
+      },
+      {
+       "num": "4.5",
+       "texto": "Transferência de aprendizado e ajuste de modelos"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Linguagem natural e modelos generativos",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Pré-processamento e classificação de textos"
+      },
+      {
+       "num": "5.2",
+       "texto": "Representações vetoriais, embeddings e similaridade semântica"
+      },
+      {
+       "num": "5.3",
+       "texto": "Modelos de linguagem e LLMs"
+      },
+      {
+       "num": "5.4",
+       "texto": "Prompts, recuperação de informação para geração de respostas e ajuste de modelos"
+      },
+      {
+       "num": "5.5",
+       "texto": "Avaliação de respostas, fontes, alucinações e limitações"
+      }
+     ]
+    },
+    {
+     "num": "6",
+     "titulo": "Agentes e uso seguro de ferramentas",
+     "subitens": [
+      {
+       "num": "6.1",
+       "texto": "Agentes de IA e integração com ferramentas e fontes"
+      },
+      {
+       "num": "6.2",
+       "texto": "Autorização, rastreabilidade e supervisão"
+      },
+      {
+       "num": "6.3",
+       "texto": "Proteção contra instruções maliciosas em conteúdo externo, exposição de dados e uso indevido de ferramentas"
+      },
+      {
+       "num": "6.4",
+       "texto": "Avaliação dos resultados e limites de autonomia"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "especificos",
+   "prova": "P3",
+   "grupo_nome": "Conhecimentos específicos",
+   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
+   "slug": "operacao-mlops-dados-ia",
+   "topicos": [
+    {
+     "num": "1",
+     "titulo": "Ciclo de vida e MLOps",
+     "subitens": [
+      {
+       "num": "1.1",
+       "texto": "Versionamento de dados, código e modelos"
+      },
+      {
+       "num": "1.2",
+       "texto": "Registro de experimentos"
+      },
+      {
+       "num": "1.3",
+       "texto": "Pipelines, testes e integração e entrega contínuas"
+      },
+      {
+       "num": "1.4",
+       "texto": "Reprodutibilidade"
+      },
+      {
+       "num": "1.5",
+       "texto": "Disponibilização por APIs, implantação e reversão"
+      },
+      {
+       "num": "1.6",
+       "texto": "Monitoramento de mudanças nas distribuições, nas relações e no desempenho"
+      }
+     ]
+    },
+    {
+     "num": "2",
+     "titulo": "Sustentação de soluções analíticas",
+     "subitens": [
+      {
+       "num": "2.1",
+       "texto": "Serviços gerenciados e operação própria"
+      },
+      {
+       "num": "2.2",
+       "texto": "Requisitos de processamento, memória, armazenamento e aceleradores"
+      },
+      {
+       "num": "2.3",
+       "texto": "Custo, latência, disponibilidade e observabilidade de pipelines e inferência"
+      },
+      {
+       "num": "2.4",
+       "texto": "Controle de acesso, proteção de segredos e continuidade das soluções"
+      }
+     ]
+    },
+    {
+     "num": "3",
+     "titulo": "Governança e responsabilidade",
+     "subitens": [
+      {
+       "num": "3.1",
+       "texto": "Papéis, riscos e evidências sobre dados, modelos e decisões"
+      },
+      {
+       "num": "3.2",
+       "texto": "Rastreabilidade, avaliação de impacto, revisão humana e contestação"
+      },
+      {
+       "num": "3.3",
+       "texto": "Proteção de dados pessoais e informações sensíveis"
+      },
+      {
+       "num": "3.4",
+       "texto": "Prevenção e tratamento de discriminação e de uso fora da finalidade"
+      },
+      {
+       "num": "3.5",
+       "texto": "Avaliação de resultados e limites da automação"
+      }
+     ]
+    },
+    {
+     "num": "4",
+     "titulo": "Gestão de produtos de dados",
+     "subitens": [
+      {
+       "num": "4.1",
+       "texto": "Alinhamento entre problema público, produto e resultado"
+      },
+      {
+       "num": "4.2",
+       "texto": "Priorização, critérios de aceitação e indicadores"
+      },
+      {
+       "num": "4.3",
+       "texto": "Descoberta de necessidades, entrega e ciclo de vida"
+      },
+      {
+       "num": "4.4",
+       "texto": "Scrum e Kanban"
+      },
+      {
+       "num": "4.5",
+       "texto": "Articulação com PDTIC, plano de transformação digital e plano de dados abertos"
+      },
+      {
+       "num": "4.6",
+       "texto": "Comunicação dos resultados e das incertezas aos usuários"
+      }
+     ]
+    },
+    {
+     "num": "5",
+     "titulo": "Contratação e controle de soluções",
+     "subitens": [
+      {
+       "num": "5.1",
+       "texto": "Estudo técnico preliminar e termo de referência"
+      },
+      {
+       "num": "5.2",
+       "texto": "Viabilidade, dimensionamento e custo total de propriedade"
+      },
+      {
+       "num": "5.3",
+       "texto": "Comparação entre desenvolvimento próprio, contratação e serviços de nuvem"
+      },
+      {
+       "num": "5.4",
+       "texto": "Pesquisa de preços"
+      },
+      {
+       "num": "5.5",
+       "texto": "Requisitos de qualidade, proteção e desempenho"
+      },
+      {
+       "num": "5.6",
+       "texto": "Fiscalização e pagamento por entregas verificáveis"
+      },
+      {
+       "num": "5.7",
+       "texto": "Propriedade intelectual, portabilidade, acesso a dados e modelos, dependência tecnológica e plano de saída"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
