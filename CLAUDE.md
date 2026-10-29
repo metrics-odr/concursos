@@ -59,6 +59,7 @@ concursos/                      (raiz do repo)
 - Prefixo numérico `NN-` segue a ordem do conteúdo programático do edital.
 - **Tópicos do edital têm ID estável** `<SIGLA>.<n>.<m>` (ex.: `ML.3.1`; siglas em `scripts/edital_topicos.py`). Notas em `disciplinas/` levam `topicos: [IDs]` no frontmatter (junto com `titulo`, `tipo`, `atualizado`) para aparecerem no índice por tópico.
 - Questões: `questoes/<ano>-<orgao>-<cargo>/<id-em-minusculas>.md` (ex.: `ceb-2022-petrobras-cd-q051.md`).
+- **Arquivos de prova e gabarito** (oficiais ou gerados pelo Claude): `<tipo>-<origem>-<DD-MM-AAAA>-<descricao>` → `prova-cebraspe-16-02-2025-anm-especialista-ti-ciencia-de-dados.pdf`, `gabarito-cebraspe-16-02-2025-anm-todos-os-cargos-definitivo.pdf`, `prova-claude-29-10-2026-ml-metricas.md`, `gabarito-claude-29-10-2026-ml-metricas.md`. Oficiais em `questoes/_pdf/`; do Claude em `desafios/simulados/`. Data = aplicação (oficial) ou criação (Claude). Regras completas: `questoes/README.md` → “Padrão de nome”.
 
 ## Estilo das notas
 Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:

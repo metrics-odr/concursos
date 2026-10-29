@@ -67,7 +67,10 @@
   "texto": "Federalismo e capacidades estatais",
   "disciplina": "Estado, Democracia, Direitos e Ciência Política",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q018",
+   "CEB-2025-ANM-CD-Q019"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
@@ -83,7 +86,10 @@
   "texto": "Autonomia, coordenação e cooperação federativa; capacidades administrativas e políticas; burocracia, discricionariedade e implementação de direitos",
   "disciplina": "Estado, Democracia, Direitos e Ciência Política",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q018",
+   "CEB-2025-ANM-CD-Q019"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
@@ -323,7 +329,14 @@
   "texto": "Estado e modelos de desenvolvimento econômico",
   "disciplina": "Estado, Democracia, Direitos e Ciência Política",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q016",
+   "CEB-2025-ANM-CD-Q017",
+   "CEB-2025-ANM-CD-Q029",
+   "CEB-2025-ANM-CD-Q030",
+   "CEB-2025-ANM-CD-Q031",
+   "CEB-2025-ANM-CD-Q033"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
@@ -339,7 +352,10 @@
   "texto": "Arranjos de desenvolvimento com diferentes combinações de mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado; industrialização, inovação e transformação produtiva",
   "disciplina": "Estado, Democracia, Direitos e Ciência Política",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q029",
+   "CEB-2025-ANM-CD-Q030"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
@@ -371,7 +387,10 @@
   "texto": "Relações entre finalidade pública, concorrência, universalização, sustentabilidade fiscal e socioambiental; capacidades estatais, riscos de captura e efeitos distributivos",
   "disciplina": "Estado, Democracia, Direitos e Ciência Política",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q031",
+   "CEB-2025-ANM-CD-Q033"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
@@ -387,7 +406,10 @@
   "texto": "Fundamentos constitucionais da atuação econômica do Estado e comparação de alternativas institucionais à luz de objetivos, evidências e resultados",
   "disciplina": "Estado, Democracia, Direitos e Ciência Política",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q016",
+   "CEB-2025-ANM-CD-Q017"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/ciencia-politica-e-estado.md"
@@ -545,7 +567,11 @@
   "texto": "Deveres profissionais",
   "disciplina": "Ética Pública e Responsabilidade Profissional",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q024",
+   "CEB-2025-ANM-CD-Q025",
+   "CEB-2025-ANM-CD-Q026"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/etica-publica.md"
@@ -561,7 +587,11 @@
   "texto": "Imparcialidade, probidade, diligência e respeito; autonomia técnica e responsabilidade; limites da obediência hierárquica; uso adequado de informação e recursos públicos",
   "disciplina": "Ética Pública e Responsabilidade Profissional",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q024",
+   "CEB-2025-ANM-CD-Q025",
+   "CEB-2025-ANM-CD-Q026"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/etica-publica.md"
@@ -721,7 +751,11 @@
   "texto": "Organização administrativa",
   "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q020",
+   "CEB-2025-ANM-CD-Q023",
+   "CEB-2025-ANM-CD-Q032"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
@@ -737,7 +771,11 @@
   "texto": "Administração direta e indireta; descentralização e desconcentração; agentes públicos; funções da administração pública: formulação, execução, regulação e controle de políticas e ações públicas; arranjos de cooperação com entes federativos e entidades não estatais",
   "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q020",
+   "CEB-2025-ANM-CD-Q023",
+   "CEB-2025-ANM-CD-Q032"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
@@ -817,7 +855,10 @@
   "texto": "Planejamento e recursos",
   "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q064",
+   "CEB-2025-ANM-CD-Q066"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
@@ -833,7 +874,10 @@
   "texto": "Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações",
   "disciplina": "Administração Pública e Fundamentos de Políticas Públicas",
   "prova": "P1",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q064",
+   "CEB-2025-ANM-CD-Q066"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/administracao-publica-e-politicas.md"
@@ -881,7 +925,9 @@
   "texto": "Governança e responsabilidades",
   "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q064"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
@@ -897,7 +943,9 @@
   "texto": "Distinção entre direção, gestão, controle e prestação de contas; papéis, supervisão, transparência e responsabilização. Relação entre decisões organizacionais, finalidade pública e direitos",
   "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q064"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
@@ -913,7 +961,12 @@
   "texto": "Riscos e controles essenciais",
   "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q076",
+   "CEB-2025-ANM-CD-Q077",
+   "CEB-2025-ANM-CD-Q078",
+   "CEB-2025-ANM-CD-Q083"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
@@ -929,7 +982,12 @@
   "texto": "Risco, causa, consequência e controle; prevenção e detecção; proporcionalidade dos controles, segregação de funções e risco residual",
   "disciplina": "Fundamentos de Governança, Riscos e Integridade Pública e Privada",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q076",
+   "CEB-2025-ANM-CD-Q077",
+   "CEB-2025-ANM-CD-Q078",
+   "CEB-2025-ANM-CD-Q083"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/governanca-riscos-integridade.md"
@@ -1121,7 +1179,10 @@
   "texto": "Acesso à informação",
   "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q028",
+   "CEB-2025-ANM-CD-Q075"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
@@ -1137,7 +1198,9 @@
   "texto": "Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições",
   "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q028"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
@@ -1153,7 +1216,9 @@
   "texto": "Distinção conceitual entre informação classificada, sigilos previstos em lei, informação pessoal e documento preparatório; acesso parcial e comunicação clara da decisão",
   "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q075"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
@@ -1169,7 +1234,9 @@
   "texto": "Transparência e proteção de dados",
   "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q027"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
@@ -1185,7 +1252,9 @@
   "texto": "Compatibilização entre acesso à informação e proteção de dados pessoais; finalidade, necessidade e salvaguardas",
   "disciplina": "Fundamentos de Transparência, Ouvidoria e Participação Social",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q027"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/transparencia-ouvidoria-participacao.md"
@@ -1425,7 +1494,9 @@
   "texto": "Decisão administrativa",
   "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q022"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/direito-publico-controle.md"
@@ -1457,7 +1528,9 @@
   "texto": "Dever de fundamentação e limites ao exercício do poder e à revisão de decisões",
   "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q022"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/direito-publico-controle.md"
@@ -1601,7 +1674,10 @@
   "texto": "Responsabilização em nível introdutório",
   "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q021",
+   "CEB-2025-ANM-CD-Q023"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/direito-publico-controle.md"
@@ -1633,7 +1709,10 @@
   "texto": "Finalidades e diferenças entre responsabilização de agentes públicos e de pessoas jurídicas; noções de admissibilidade, processo disciplinar, processo administrativo de responsabilização e acordo de leniência",
   "disciplina": "Fundamentos de Direito Público Aplicado, Controle e Responsabilização",
   "prova": "P2",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q021",
+   "CEB-2025-ANM-CD-Q023"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/direito-publico-controle.md"
@@ -2292,7 +2371,10 @@
    "CEB-2022-PETROBRAS-CD-Q110",
    "CEB-2022-PETROBRAS-CD-Q111",
    "CEB-2022-PETROBRAS-CD-Q112",
-   "CEB-2022-PETROBRAS-CD-Q114"
+   "CEB-2022-PETROBRAS-CD-Q114",
+   "CEB-2025-ANM-CD-Q048",
+   "CEB-2025-ANM-CD-Q049",
+   "CEB-2025-ANM-CD-Q050"
   ],
   "notas": [],
   "acervo": [
@@ -2314,7 +2396,10 @@
    "CEB-2022-PETROBRAS-CD-Q110",
    "CEB-2022-PETROBRAS-CD-Q111",
    "CEB-2022-PETROBRAS-CD-Q112",
-   "CEB-2022-PETROBRAS-CD-Q114"
+   "CEB-2022-PETROBRAS-CD-Q114",
+   "CEB-2025-ANM-CD-Q048",
+   "CEB-2025-ANM-CD-Q049",
+   "CEB-2025-ANM-CD-Q050"
   ],
   "notas": [],
   "acervo": [
@@ -2457,7 +2542,10 @@
    "CEB-2022-PETROBRAS-CD-Q089",
    "CEB-2022-PETROBRAS-CD-Q090",
    "CEB-2022-PETROBRAS-CD-Q091",
-   "CEB-2022-PETROBRAS-CD-Q092"
+   "CEB-2022-PETROBRAS-CD-Q092",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q109",
+   "CEB-2025-ANM-CD-Q120"
   ],
   "notas": [],
   "acervo": [
@@ -2480,7 +2568,10 @@
    "CEB-2022-PETROBRAS-CD-Q089",
    "CEB-2022-PETROBRAS-CD-Q090",
    "CEB-2022-PETROBRAS-CD-Q091",
-   "CEB-2022-PETROBRAS-CD-Q092"
+   "CEB-2022-PETROBRAS-CD-Q092",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q109",
+   "CEB-2025-ANM-CD-Q120"
   ],
   "notas": [],
   "acervo": [
@@ -2500,7 +2591,13 @@
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q095",
    "CEB-2022-PETROBRAS-CD-Q096",
-   "CEB-2022-PETROBRAS-CD-Q098"
+   "CEB-2022-PETROBRAS-CD-Q098",
+   "CEB-2025-ANM-CD-Q102",
+   "CEB-2025-ANM-CD-Q103",
+   "CEB-2025-ANM-CD-Q104",
+   "CEB-2025-ANM-CD-Q105",
+   "CEB-2025-ANM-CD-Q106",
+   "CEB-2025-ANM-CD-Q108"
   ],
   "notas": [],
   "acervo": [
@@ -2520,7 +2617,12 @@
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q095",
    "CEB-2022-PETROBRAS-CD-Q096",
-   "CEB-2022-PETROBRAS-CD-Q098"
+   "CEB-2022-PETROBRAS-CD-Q098",
+   "CEB-2025-ANM-CD-Q102",
+   "CEB-2025-ANM-CD-Q103",
+   "CEB-2025-ANM-CD-Q104",
+   "CEB-2025-ANM-CD-Q105",
+   "CEB-2025-ANM-CD-Q108"
   ],
   "notas": [],
   "acervo": [
@@ -2537,7 +2639,10 @@
   "texto": "Data warehouse, data mart, data lake e lakehouse; produtos de dados, responsabilidade por domínios, autosserviço e governança federada em data mesh",
   "disciplina": "Engenharia, Arquitetura e Governança de Dados",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q106",
+   "CEB-2025-ANM-CD-Q108"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
@@ -2555,7 +2660,10 @@
   "prova": "P3",
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q095",
-   "CEB-2022-PETROBRAS-CD-Q097"
+   "CEB-2022-PETROBRAS-CD-Q097",
+   "CEB-2025-ANM-CD-Q101",
+   "CEB-2025-ANM-CD-Q113",
+   "CEB-2025-ANM-CD-Q114"
   ],
   "notas": [],
   "acervo": [
@@ -2574,7 +2682,10 @@
   "prova": "P3",
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q095",
-   "CEB-2022-PETROBRAS-CD-Q097"
+   "CEB-2022-PETROBRAS-CD-Q097",
+   "CEB-2025-ANM-CD-Q101",
+   "CEB-2025-ANM-CD-Q113",
+   "CEB-2025-ANM-CD-Q114"
   ],
   "notas": [],
   "acervo": [
@@ -2609,7 +2720,10 @@
   "prova": "P3",
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q093",
-   "CEB-2022-PETROBRAS-CD-Q094"
+   "CEB-2022-PETROBRAS-CD-Q094",
+   "CEB-2025-ANM-CD-Q107",
+   "CEB-2025-ANM-CD-Q110",
+   "CEB-2025-ANM-CD-Q111"
   ],
   "notas": [],
   "acervo": [
@@ -2628,7 +2742,10 @@
   "prova": "P3",
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q093",
-   "CEB-2022-PETROBRAS-CD-Q094"
+   "CEB-2022-PETROBRAS-CD-Q094",
+   "CEB-2025-ANM-CD-Q107",
+   "CEB-2025-ANM-CD-Q110",
+   "CEB-2025-ANM-CD-Q111"
   ],
   "notas": [],
   "acervo": [
@@ -2731,7 +2848,9 @@
   "texto": "Qualidade e rastreabilidade",
   "disciplina": "Engenharia, Arquitetura e Governança de Dados",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q107"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
@@ -2779,7 +2898,9 @@
   "texto": "Perfilamento, deduplicação, vinculação de registros e enriquecimento",
   "disciplina": "Engenharia, Arquitetura e Governança de Dados",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q107"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
@@ -2827,7 +2948,12 @@
   "texto": "Compartilhamento e proteção",
   "disciplina": "Engenharia, Arquitetura e Governança de Dados",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q027",
+   "CEB-2025-ANM-CD-Q055",
+   "CEB-2025-ANM-CD-Q056",
+   "CEB-2025-ANM-CD-Q086"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
@@ -2843,7 +2969,9 @@
   "texto": "Minimização, segregação de ambientes e privilégios",
   "disciplina": "Engenharia, Arquitetura e Governança de Dados",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q086"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
@@ -2859,7 +2987,9 @@
   "texto": "Retenção e descarte",
   "disciplina": "Engenharia, Arquitetura e Governança de Dados",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q086"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
@@ -2907,7 +3037,11 @@
   "texto": "Proteção de dados pessoais e equilíbrio entre utilidade analítica, abertura e proteção de pessoas",
   "disciplina": "Engenharia, Arquitetura e Governança de Dados",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q027",
+   "CEB-2025-ANM-CD-Q055",
+   "CEB-2025-ANM-CD-Q056"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/engenharia-arquitetura-governanca-dados.md"
@@ -2937,7 +3071,13 @@
    "CEB-2022-PETROBRAS-CD-Q067",
    "CEB-2022-PETROBRAS-CD-Q068",
    "CEB-2022-PETROBRAS-CD-Q069",
-   "CEB-2022-PETROBRAS-CD-Q079"
+   "CEB-2022-PETROBRAS-CD-Q079",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q092",
+   "CEB-2025-ANM-CD-Q093",
+   "CEB-2025-ANM-CD-Q094",
+   "CEB-2025-ANM-CD-Q115",
+   "CEB-2025-ANM-CD-Q119"
   ],
   "notas": [],
   "acervo": [
@@ -2955,7 +3095,9 @@
   "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
   "prova": "P3",
   "questoes": [
-   "CEB-2022-PETROBRAS-CD-Q079"
+   "CEB-2022-PETROBRAS-CD-Q079",
+   "CEB-2025-ANM-CD-Q092",
+   "CEB-2025-ANM-CD-Q093"
   ],
   "notas": [],
   "acervo": [
@@ -2985,7 +3127,11 @@
    "CEB-2022-PETROBRAS-CD-Q066",
    "CEB-2022-PETROBRAS-CD-Q067",
    "CEB-2022-PETROBRAS-CD-Q068",
-   "CEB-2022-PETROBRAS-CD-Q069"
+   "CEB-2022-PETROBRAS-CD-Q069",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q094",
+   "CEB-2025-ANM-CD-Q115",
+   "CEB-2025-ANM-CD-Q119"
   ],
   "notas": [],
   "acervo": [
@@ -3009,7 +3155,11 @@
    "CEB-2022-PETROBRAS-CD-Q057",
    "CEB-2022-PETROBRAS-CD-Q063",
    "CEB-2022-PETROBRAS-CD-Q066",
-   "CEB-2022-PETROBRAS-CD-Q075"
+   "CEB-2022-PETROBRAS-CD-Q075",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q112",
+   "CEB-2025-ANM-CD-Q116",
+   "CEB-2025-ANM-CD-Q117"
   ],
   "notas": [],
   "acervo": [
@@ -3081,7 +3231,9 @@
    "CEB-2022-PETROBRAS-CD-Q056",
    "CEB-2022-PETROBRAS-CD-Q057",
    "CEB-2022-PETROBRAS-CD-Q063",
-   "CEB-2022-PETROBRAS-CD-Q075"
+   "CEB-2022-PETROBRAS-CD-Q075",
+   "CEB-2025-ANM-CD-Q116",
+   "CEB-2025-ANM-CD-Q117"
   ],
   "notas": [],
   "acervo": [
@@ -3099,7 +3251,8 @@
   "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
   "prova": "P3",
   "questoes": [
-   "CEB-2022-PETROBRAS-CD-Q054"
+   "CEB-2022-PETROBRAS-CD-Q054",
+   "CEB-2025-ANM-CD-Q116"
   ],
   "notas": [],
   "acervo": [
@@ -3117,7 +3270,9 @@
   "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
   "prova": "P3",
   "questoes": [
-   "CEB-2022-PETROBRAS-CD-Q066"
+   "CEB-2022-PETROBRAS-CD-Q066",
+   "CEB-2025-ANM-CD-DISC01",
+   "CEB-2025-ANM-CD-Q112"
   ],
   "notas": [],
   "acervo": [
@@ -3136,7 +3291,8 @@
   "prova": "P3",
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q052",
-   "CEB-2022-PETROBRAS-CD-Q053"
+   "CEB-2022-PETROBRAS-CD-Q053",
+   "CEB-2025-ANM-CD-DISC01"
   ],
   "notas": [],
   "acervo": [
@@ -3155,7 +3311,8 @@
   "prova": "P3",
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q052",
-   "CEB-2022-PETROBRAS-CD-Q053"
+   "CEB-2022-PETROBRAS-CD-Q053",
+   "CEB-2025-ANM-CD-DISC01"
   ],
   "notas": [],
   "acervo": [
@@ -3247,7 +3404,14 @@
    "CEB-2022-PETROBRAS-CD-Q077",
    "CEB-2022-PETROBRAS-CD-Q078",
    "CEB-2022-PETROBRAS-CD-Q079",
-   "CEB-2022-PETROBRAS-CD-Q080"
+   "CEB-2022-PETROBRAS-CD-Q080",
+   "CEB-2025-ANM-CD-Q087",
+   "CEB-2025-ANM-CD-Q088",
+   "CEB-2025-ANM-CD-Q089",
+   "CEB-2025-ANM-CD-Q096",
+   "CEB-2025-ANM-CD-Q097",
+   "CEB-2025-ANM-CD-Q118",
+   "CEB-2025-ANM-CD-Q120"
   ],
   "notas": [],
   "acervo": [
@@ -3266,7 +3430,10 @@
   "prova": "P3",
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q070",
-   "CEB-2022-PETROBRAS-CD-Q071"
+   "CEB-2022-PETROBRAS-CD-Q071",
+   "CEB-2025-ANM-CD-Q087",
+   "CEB-2025-ANM-CD-Q088",
+   "CEB-2025-ANM-CD-Q089"
   ],
   "notas": [],
   "acervo": [
@@ -3288,7 +3455,8 @@
    "CEB-2022-PETROBRAS-CD-Q072",
    "CEB-2022-PETROBRAS-CD-Q073",
    "CEB-2022-PETROBRAS-CD-Q075",
-   "CEB-2022-PETROBRAS-CD-Q078"
+   "CEB-2022-PETROBRAS-CD-Q078",
+   "CEB-2025-ANM-CD-Q118"
   ],
   "notas": [],
   "acervo": [
@@ -3309,7 +3477,9 @@
    "CEB-2022-PETROBRAS-CD-Q074",
    "CEB-2022-PETROBRAS-CD-Q076",
    "CEB-2022-PETROBRAS-CD-Q077",
-   "CEB-2022-PETROBRAS-CD-Q080"
+   "CEB-2022-PETROBRAS-CD-Q080",
+   "CEB-2025-ANM-CD-Q096",
+   "CEB-2025-ANM-CD-Q097"
   ],
   "notas": [],
   "acervo": [
@@ -3327,7 +3497,9 @@
   "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
   "prova": "P3",
   "questoes": [
-   "CEB-2022-PETROBRAS-CD-Q079"
+   "CEB-2022-PETROBRAS-CD-Q079",
+   "CEB-2025-ANM-CD-Q087",
+   "CEB-2025-ANM-CD-Q120"
   ],
   "notas": [],
   "acervo": [
@@ -3363,7 +3535,12 @@
   "questoes": [
    "CEB-2022-PETROBRAS-CD-Q081",
    "CEB-2022-PETROBRAS-CD-Q082",
-   "CEB-2022-PETROBRAS-CD-Q083"
+   "CEB-2022-PETROBRAS-CD-Q083",
+   "CEB-2025-ANM-CD-Q090",
+   "CEB-2025-ANM-CD-Q091",
+   "CEB-2025-ANM-CD-Q093",
+   "CEB-2025-ANM-CD-Q095",
+   "CEB-2025-ANM-CD-Q097"
   ],
   "notas": [],
   "acervo": [
@@ -3418,7 +3595,12 @@
   "texto": "Modelos de linguagem e LLMs",
   "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q090",
+   "CEB-2025-ANM-CD-Q093",
+   "CEB-2025-ANM-CD-Q095",
+   "CEB-2025-ANM-CD-Q097"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
@@ -3434,7 +3616,9 @@
   "texto": "Prompts, recuperação de informação para geração de respostas e ajuste de modelos",
   "disciplina": "Aprendizado de Máquina e Inteligência Artificial",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q091"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/aprendizado-de-maquina-e-ia.md"
@@ -3669,7 +3853,17 @@
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
   "questoes": [
-   "CEB-2022-PETROBRAS-CD-Q117"
+   "CEB-2022-PETROBRAS-CD-Q117",
+   "CEB-2025-ANM-CD-Q079",
+   "CEB-2025-ANM-CD-Q080",
+   "CEB-2025-ANM-CD-Q081",
+   "CEB-2025-ANM-CD-Q083",
+   "CEB-2025-ANM-CD-Q084",
+   "CEB-2025-ANM-CD-Q085",
+   "CEB-2025-ANM-CD-Q098",
+   "CEB-2025-ANM-CD-Q099",
+   "CEB-2025-ANM-CD-Q100",
+   "CEB-2025-ANM-CD-Q118"
   ],
   "notas": [],
   "acervo": [
@@ -3687,7 +3881,10 @@
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
   "questoes": [
-   "CEB-2022-PETROBRAS-CD-Q117"
+   "CEB-2022-PETROBRAS-CD-Q117",
+   "CEB-2025-ANM-CD-Q098",
+   "CEB-2025-ANM-CD-Q099",
+   "CEB-2025-ANM-CD-Q100"
   ],
   "notas": [],
   "acervo": [
@@ -3704,7 +3901,9 @@
   "texto": "Requisitos de processamento, memória, armazenamento e aceleradores",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q118"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -3736,7 +3935,14 @@
   "texto": "Controle de acesso, proteção de segredos e continuidade das soluções",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q079",
+   "CEB-2025-ANM-CD-Q080",
+   "CEB-2025-ANM-CD-Q081",
+   "CEB-2025-ANM-CD-Q083",
+   "CEB-2025-ANM-CD-Q084",
+   "CEB-2025-ANM-CD-Q085"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -3752,7 +3958,9 @@
   "texto": "Governança e responsabilidade",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q055"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -3800,7 +4008,9 @@
   "texto": "Proteção de dados pessoais e informações sensíveis",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q055"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -3848,7 +4058,14 @@
   "texto": "Gestão de produtos de dados",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q057",
+   "CEB-2025-ANM-CD-Q058",
+   "CEB-2025-ANM-CD-Q059",
+   "CEB-2025-ANM-CD-Q060",
+   "CEB-2025-ANM-CD-Q061",
+   "CEB-2025-ANM-CD-Q062"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -3896,7 +4113,12 @@
   "texto": "Descoberta de necessidades, entrega e ciclo de vida",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q059",
+   "CEB-2025-ANM-CD-Q060",
+   "CEB-2025-ANM-CD-Q061",
+   "CEB-2025-ANM-CD-Q062"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -3928,7 +4150,10 @@
   "texto": "Articulação com PDTIC, plano de transformação digital e plano de dados abertos",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q057",
+   "CEB-2025-ANM-CD-Q058"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -3961,7 +4186,19 @@
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
   "questoes": [
-   "CEB-2022-PETROBRAS-CD-Q117"
+   "CEB-2022-PETROBRAS-CD-Q117",
+   "CEB-2025-ANM-CD-Q063",
+   "CEB-2025-ANM-CD-Q065",
+   "CEB-2025-ANM-CD-Q067",
+   "CEB-2025-ANM-CD-Q068",
+   "CEB-2025-ANM-CD-Q069",
+   "CEB-2025-ANM-CD-Q070",
+   "CEB-2025-ANM-CD-Q071",
+   "CEB-2025-ANM-CD-Q072",
+   "CEB-2025-ANM-CD-Q073",
+   "CEB-2025-ANM-CD-Q074",
+   "CEB-2025-ANM-CD-Q099",
+   "CEB-2025-ANM-CD-Q100"
   ],
   "notas": [],
   "acervo": [
@@ -3978,7 +4215,11 @@
   "texto": "Estudo técnico preliminar e termo de referência",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q069",
+   "CEB-2025-ANM-CD-Q072",
+   "CEB-2025-ANM-CD-Q073"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -4011,7 +4252,10 @@
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
   "questoes": [
-   "CEB-2022-PETROBRAS-CD-Q117"
+   "CEB-2022-PETROBRAS-CD-Q117",
+   "CEB-2025-ANM-CD-Q068",
+   "CEB-2025-ANM-CD-Q099",
+   "CEB-2025-ANM-CD-Q100"
   ],
   "notas": [],
   "acervo": [
@@ -4028,7 +4272,9 @@
   "texto": "Pesquisa de preços",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q074"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -4044,7 +4290,10 @@
   "texto": "Requisitos de qualidade, proteção e desempenho",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q065",
+   "CEB-2025-ANM-CD-Q070"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -4060,7 +4309,10 @@
   "texto": "Fiscalização e pagamento por entregas verificáveis",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q067",
+   "CEB-2025-ANM-CD-Q071"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"
@@ -4076,7 +4328,9 @@
   "texto": "Propriedade intelectual, portabilidade, acesso a dados e modelos, dependência tecnológica e plano de saída",
   "disciplina": "Operação, Governança e Gestão de Soluções de Dados e IA",
   "prova": "P3",
-  "questoes": [],
+  "questoes": [
+   "CEB-2025-ANM-CD-Q063"
+  ],
   "notas": [],
   "acervo": [
    "concursos/cgu-affc/acervo/operacao-mlops-dados-ia.md"

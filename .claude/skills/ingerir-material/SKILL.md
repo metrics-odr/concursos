@@ -16,8 +16,10 @@ Formato do banco de questões: `questoes/README.md` (leia antes de criar arquivo
 ## 2. Classificar cada arquivo
 | É… | Vai para |
 |---|---|
-| Caderno de prova (com ou sem gabarito) | `questoes/_pdf/<ano>-<orgao>-<cargo>-prova.pdf` + pasta `questoes/<ano>-<orgao>-<cargo>/` |
-| Gabarito oficial | `questoes/_pdf/<ano>-<orgao>-<cargo>-gabarito.pdf` |
+| Caderno de prova (com ou sem gabarito) | `questoes/_pdf/prova-<banca>-<DD-MM-AAAA>-<orgao>-<cargo>.pdf` + pasta `questoes/<ano>-<orgao>-<cargo>/` |
+| Gabarito oficial | `questoes/_pdf/gabarito-<banca>-<DD-MM-AAAA>-<orgao>-<cargo>-definitivo.pdf` |
+
+Nome dos PDFs: padrão `<tipo>-<origem>-<DD-MM-AAAA>-<descricao>` (data de aplicação) — detalhes em `questoes/README.md` → “Padrão de nome”. Arquivos repetidos (mesmo conteúdo, nomes diferentes) → comparar o texto (`pdftotext` + `diff`) e manter uma cópia.
 | Edital | `concursos/<concurso>/edital/` |
 | Resumo/nota de conteúdo, manuscrito, áudio transcrito | `disciplinas/<disciplina>/NN-<topico>.md` (modelo `_templates/nota-topico.md`, com `topicos: [IDs]` no frontmatter) |
 | Material bruto do concurso | `concursos/<concurso>/materiais-brutos/` |

@@ -3,7 +3,7 @@ id: CEB-2022-PETROBRAS-CD-TB25
 tipo: texto-base
 prova: 2022-petrobras-ciencia-de-dados
 itens: [113, 114, 115]
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
 pagina: 10
 ---
 A figura seguinte mostra o histograma como uma estimativa da função de densidade de uma distribuição *X*, juntamente com o diagrama *boxplot* correspondente a esse conjunto de dados.

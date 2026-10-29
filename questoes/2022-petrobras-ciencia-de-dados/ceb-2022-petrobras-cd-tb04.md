@@ -3,7 +3,7 @@ id: CEB-2022-PETROBRAS-CD-TB04
 tipo: texto-base
 prova: 2022-petrobras-ciencia-de-dados
 itens: [58, 59]
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
 pagina: 5
 ---
 Uma determinada repartição pública fez um levantamento do tempo *y*, em minutos, que os cinco funcionários de uma sessão gastam para chegar ao trabalho em função da distância *x*, em quilômetros, de suas residências. O resultado da pesquisa realizada com cada um deles é apresentado na tabela a seguir, em que x̄ e ȳ são, respectivamente, as médias amostrais das variáveis *x* e *y*.

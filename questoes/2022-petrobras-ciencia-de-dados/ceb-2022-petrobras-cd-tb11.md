@@ -3,7 +3,7 @@ id: CEB-2022-PETROBRAS-CD-TB11
 tipo: texto-base
 prova: 2022-petrobras-ciencia-de-dados
 itens: [70, 71, 72, 73, 74, 75, 76, 77, 78]
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
 pagina: 7
 ---
 Julgue os próximos itens, relativos a redes neurais artificiais (RNA).

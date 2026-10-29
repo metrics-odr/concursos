@@ -11,7 +11,7 @@ topicos: [ED.1.1]
 gabarito: E
 status: valida
 texto_base: CEB-2022-PETROBRAS-CD-TB18
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
 pagina: 9
 ---
 > Texto-base / comando: [[ceb-2022-petrobras-cd-tb18]]

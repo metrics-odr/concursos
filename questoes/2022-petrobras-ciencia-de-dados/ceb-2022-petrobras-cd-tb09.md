@@ -3,7 +3,7 @@ id: CEB-2022-PETROBRAS-CD-TB09
 tipo: texto-base
 prova: 2022-petrobras-ciencia-de-dados
 itens: [66]
-fonte_pdf: questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf
+fonte_pdf: questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf
 pagina: 6
 ---
 Os hiperparâmetros de um modelo são todos os parâmetros que podem ser definidos antes do início do treinamento, diferentemente dos parâmetros do modelo, que são aprendidos durante o treino do modelo. A busca por hiperparâmetros de determinado algoritmo de aprendizado de máquina que retorne o melhor desempenho medido em um conjunto de validação deu origem ao conceito de otimização de hiperparâmetros.

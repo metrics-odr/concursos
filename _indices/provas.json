@@ -12,8 +12,8 @@
   "edital": "Edital nº 1 – Petrobras/PSP RH 2021, de 15/12/2021",
   "caderno": "658007",
   "itens": "51-120",
-  "fonte_pdf": "questoes/_pdf/2022-petrobras-ciencia-de-dados-prova.pdf",
-  "gabarito_pdf": "questoes/_pdf/2022-petrobras-ciencia-de-dados-gabarito.pdf",
+  "fonte_pdf": "questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf",
+  "gabarito_pdf": "questoes/_pdf/gabarito-cebraspe-20-02-2022-petrobras-ciencia-de-dados-definitivo.pdf",
   "gabarito": "definitivo",
   "anulados": [
    65,
@@ -26,5 +26,30 @@
    118
   ],
   "caminho": "questoes/2022-petrobras-ciencia-de-dados/prova.md"
+ },
+ {
+  "id": "CEB-2025-ANM-CD",
+  "tipo": "prova",
+  "banca": "Cebraspe",
+  "ano": 2025,
+  "orgao": "ANM",
+  "cargo": "Especialista em Recursos Minerais – Cargo 24",
+  "especialidade": "Tecnologia da Informação – Ciência de Dados",
+  "cargo_alvo": "analogo",
+  "aplicacao": "2025-02-16",
+  "edital": "Concurso ANM – Edital 2024 (Analista Administrativo e Especialista em Recursos Minerais)",
+  "caderno": "038_ANM_024_01 (específicos) · 038_ANM_CG9_01 (gerais, cargos 24 a 26)",
+  "itens": "16-33, 45-120 + discursiva",
+  "fonte_pdf": "questoes/_pdf/prova-cebraspe-16-02-2025-anm-especialista-ti-ciencia-de-dados.pdf",
+  "gabarito_pdf": "questoes/_pdf/gabarito-cebraspe-16-02-2025-anm-todos-os-cargos-definitivo.pdf",
+  "gabarito": "definitivo",
+  "anulados": [
+   49,
+   92,
+   94,
+   95,
+   96
+  ],
+  "caminho": "questoes/2025-anm-ciencia-de-dados/prova.md"
  }
 ]
