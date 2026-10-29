@@ -108,7 +108,7 @@ Usar o modelo em `_templates/nota-topico.md`. Sempre que fizer sentido:
 - URL: <https://metrics-odr.github.io/concursos/> — publicada pelo workflow `pages.yml` a cada push na `main`.
 - O app lê o repositório inteiro: qualquer `.md` novo aparece no explorer sem mexer no app. Ao criar notas, use links relativos ou `[[wikilinks]]`.
 - `PROGRESSO.md`: o checklist entre `<!-- checklist:inicio -->` e `<!-- checklist:fim -->` é gerado por `scripts/edital_topicos.py --progresso`; só os emojis ⬜🟨✅🔁 mudam (o Eduardo marca pelo app).
-- Acervo: para incluir fontes, editar `concursos/cgu-affc/acervo/curadoria.json`, rodar `python3 scripts/gerar_acervo.py` e `python3 scripts/verificar_links.py`. Só incluir links verificados.
+- Acervo: para incluir fontes, editar `concursos/cgu-affc/acervo/curadoria.json`, rodar `python3 scripts/gerar_acervo.py` e `python3 scripts/verificar_links.py`. Vídeos por tópico do edital ficam em `acervo/videos.json` (ID → lista de `{id, titulo, canal}` do YouTube); só vídeos que realmente tratam do tema, verificados com `verificar_links.py`. Só incluir links verificados.
 - Nivelamento (aba 📊): `concursos/cgu-affc/nivelamento/` — banco de itens C/E por disciplina; validar com `python3 scripts/validar_nivelamento.py` ao mexer no banco/estrutura. Detalhes em `nivelamento/README.md`.
 - Detalhes de workflows, cron-job.org e Make: `automacoes/README.md`.
 
