@@ -11,6 +11,7 @@
     concurso: "cgu-affc",
     dataProva: "2026-12-13T08:00:00-03:00",
     progresso: "concursos/cgu-affc/PROGRESSO.md",
+    registro: "concursos/concursos.json",
     template: "_templates/nota-topico.md",
   };
   const OCULTOS = /^(\.|app\/|index\.html$|indice\.json$|_site\/)|\/\.gitkeep$/;
@@ -381,7 +382,7 @@
     const filtro = ($("#filtro").value || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
     const visiveis = estado.arquivos.filter((p) => !ocultar(p))
       .filter((p) => !filtro || p.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").includes(filtro));
-    const abertas = store.get("ac:pastas", { concursos: true, "concursos/cgu-affc": true, disciplinas: true });
+    const abertas = store.get("ac:pastas", { concursos: true, [`concursos/${CFG.concurso}`]: true, disciplinas: true });
     const atual = rotaAtual().path || "";
     const html = (no, prefixo) => {
       const pastas = Object.keys(no.pastas).sort((a, b) => a.localeCompare(b, "pt-BR")).map((nome) => {
@@ -407,6 +408,40 @@
       : `👀 Somente leitura · ${estado.arquivos.length} arquivos · ⚙️ para editar`;
   }
 
+  // ---------- Concursos e bancas ----------
+  // Registro em concursos/concursos.json. Toda tela de questões mostra o selo da banca (bancaBadge).
+  let CONCURSOS = [];
+  const slugBanca = (b) => String(b || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const bancaBadge = (banca, extra = "") => `<span class="banca-badge b-${slugBanca(banca)}" title="Banca organizadora">🏛️ ${esc(banca)}${extra ? ` · ${esc(extra)}` : ""}</span>`;
+  const conc = () => CONCURSOS.find((c) => c.slug === CFG.concurso) || CONCURSOS[0]
+    || { slug: CFG.concurso, codigo: CFG.concurso, banca: "Cebraspe", formato: "Certo/Errado", dataProva: "2026-12-13", cargo: "", orgao: "", status: "ativo" };
+  const fmtDataISO = (iso) => iso.split("-").reverse().join("/");
+
+  async function carregarConcursos() {
+    try { CONCURSOS = JSON.parse(await lerArquivo(CFG.registro, { fresco: true })).concursos; } catch { CONCURSOS = []; }
+  }
+
+  function ativarConcurso(slug) {
+    const c = CONCURSOS.find((x) => x.slug === slug);
+    if (!c) return false;
+    CFG.concurso = slug;
+    CFG.dataProva = `${c.dataProva}T08:00:00-03:00`;
+    CFG.progresso = `concursos/${slug}/PROGRESSO.md`;
+    NIV_DIR = `concursos/${slug}/nivelamento`;
+    NIV_RES = `${NIV_DIR}/resultados`;
+    store.set("ac:concurso", slug);
+    return true;
+  }
+
+  function montarAbas() {
+    const c = conc(), base = `concursos/${c.slug}`;
+    const abas = [["inicio", `#/c/${c.slug}`, "🏠 Início"], ["desafios", "#/desafios", "🎯 Desafios"], ["flashcards", "#/flashcards", "🃏 Flashcards"],
+      ["nivelamento", "#/nivelamento", "📊 Nivelamento"], ["progresso", rotaNota(`${base}/PROGRESSO.md`), "✅ Progresso"],
+      ["acervo", rotaNota(`${base}/acervo/README.md`), "🔎 Acervo"], ["provas", rotaNota(`${base}/revisao/provas-cebraspe.md`), "📝 Provas"]];
+    $("#tabs").innerHTML = abas.map(([t, h, r]) => `<a href="${h}" data-tab="${t}">${r}</a>`).join("");
+    $("#chip-concurso").innerHTML = `<a href="#/" title="Trocar de concurso">🔄 ${esc(c.orgao)}</a>${bancaBadge(c.banca)}`;
+  }
+
   // ---------- Rotas ----------
   function rotaAtual() {
     const h = decodeURI(location.hash.slice(1) || "/");
@@ -414,11 +449,12 @@
       const [path, ancora] = h.slice(6).split("::");
       return { nome: "nota", path, ancora };
     }
+    if (h.startsWith("/c/")) return { nome: "inicio", slug: h.slice(3).replace(/\/$/, "") };
     if (h.startsWith("/editar/")) return { nome: "editar", path: h.slice(8) };
     if (h.startsWith("/desafios")) return { nome: "desafios" };
     if (h.startsWith("/flashcards")) return { nome: "flashcards" };
     if (h.startsWith("/nivelamento")) return { nome: "nivelamento", sub: h.slice(13) };
-    return { nome: "inicio" };
+    return { nome: "selecao" };
   }
 
   function marcarAba(r) {
@@ -432,6 +468,14 @@
 
   async function navegar() {
     const r = rotaAtual();
+    if (!CONCURSOS.length) await carregarConcursos();
+    if (r.nome === "inicio" && !ativarConcurso(r.slug)) { location.hash = "#/"; return; }
+    if (r.nome !== "inicio" && r.nome !== "selecao") ativarConcurso(store.get("ac:concurso", CFG.concurso)) || ativarConcurso(CONCURSOS[0]?.slug);
+    const nivel = r.nome === "selecao";
+    $("#tabs").hidden = nivel;
+    $("#chip-concurso").hidden = nivel;
+    document.body.dataset.banca = nivel ? "" : slugBanca(conc().banca);
+    if (!nivel) montarAbas();
     marcarAba(r);
     renderArvore();
     if (matchMedia("(max-width: 860px)").matches) { $("#sidebar").classList.remove("aberta"); $("#seta-arquivos").textContent = "▸"; }
@@ -443,7 +487,8 @@
       else if (r.nome === "desafios") await telaDesafios(main);
       else if (r.nome === "flashcards") await telaFlashcards(main);
       else if (r.nome === "nivelamento") await telaNivelamento(main, r.sub);
-      else await telaInicio(main);
+      else if (r.nome === "inicio") await telaInicio(main);
+      else await telaSelecao(main);
     } catch (e) {
       main.innerHTML = `<div class="conteudo"><h2>⚠️ Não foi possível abrir</h2><p>${esc(e.message)}</p><p><a href="#/">Voltar ao início</a></p></div>`;
     }
@@ -875,12 +920,13 @@
         const julgados = placar.C + placar.E + placar.B;
         box.innerHTML = `${barraPlacar()}<div class="fc-card" style="text-align:center"><div class="big">${liquida() > 0 ? "🎉" : "📚"}</div>
           <p>Sessão concluída! ${fila.length} item(ns)${julgados ? ` · nota líquida <b>${liquida()}</b> de ${julgados} (${Math.round((100 * liquida()) / julgados)}%)` : ""}.</p>
-          ${erros.length ? `<div class="fc-erros"><b>Revise os itens que você errou:</b><ul>${erros.map((c) => `<li>${esc(semPrefixoCE(c.frente))}<br><small>Gabarito: ${gabarito(c) === "C" ? "Certo" : "Errado"} — ${esc(justificativa(c))}</small></li>`).join("")}</ul></div>` : ""}
+          ${erros.length ? `<div class="fc-erros"><b>Revise os itens que você errou:</b><ul>${erros.map((c) => `<li>${bancaBadge(conc().banca)} ${esc(semPrefixoCE(c.frente))}<br><small>Gabarito: ${gabarito(c) === "C" ? "Certo" : "Errado"} — ${esc(justificativa(c))}</small></li>`).join("")}</ul></div>` : ""}
           <p><a class="btn" href="#/flashcards" onclick="location.reload()">Voltar às matérias</a></p></div>`;
         return;
       }
       const c = fila[i];
-      const meta = `<div class="fc-meta"><span>${esc(c.disciplina)} · ${esc(c.topico)} · ${tipoNome[c.tipo] || c.tipo}</span><span>${i + 1}/${fila.length}</span></div>`;
+      const selo = ehCE(c) ? `${bancaBadge(conc().banca, "Certo/Errado")} ` : "";
+      const meta = `<div class="fc-meta"><span>${selo}${esc(c.disciplina)} · ${esc(c.topico)} · ${tipoNome[c.tipo] || c.tipo}</span><span>${i + 1}/${fila.length}</span></div>`;
       const fonte = c.fonte ? `<br><small>Fonte: ${esc(c.fonte)}</small>` : "";
       if (ehCE(c)) {
         const g = gabarito(c);
@@ -937,8 +983,8 @@
   }
 
   // ---------- Nivelamento ----------
-  const NIV_DIR = "concursos/cgu-affc/nivelamento";
-  const NIV_RES = `${NIV_DIR}/resultados`;
+  let NIV_DIR = "concursos/cgu-affc/nivelamento";
+  let NIV_RES = `${NIV_DIR}/resultados`;
   const NIV_JSON_RE = /<!-- nivelamento:(\{[\s\S]*?\}) -->/;
   const niv = {
     andamento: () => store.get("ac:niv:andamento", null),
@@ -949,7 +995,7 @@
 
   async function carregarNivelamento() {
     const est = JSON.parse(await lerArquivo(`${NIV_DIR}/estrutura.json`));
-    const edital = JSON.parse(await lerArquivo("concursos/cgu-affc/edital/topicos.json"));
+    const edital = JSON.parse(await lerArquivo(`concursos/${CFG.concurso}/edital/topicos.json`));
     const disc = Object.fromEntries(edital.disciplinas.map((d) => [d.slug, d]));
     const bancos = {};
     await Promise.all(est.disciplinas.map(async (d) => {
@@ -1177,7 +1223,7 @@
         cab = `<h2 class="niv-secao">${p.id} · ${esc(p.nome)} <small class="muted">(peso ${p.peso})</small></h2>`;
       }
       return `${cab}<div class="niv-item${it.r ? " respondido" : ""}" data-i="${i}">
-        <div class="niv-meta"><b>${i + 1}</b> · ${esc(d.disciplina)} · ${esc(it.t)} ${esc(topico?.titulo || "")}</div>
+        <div class="niv-meta">${bancaBadge(conc().banca, "Certo/Errado")} <b>${i + 1}</b> · ${esc(d.disciplina)} · ${esc(it.t)} ${esc(topico?.titulo || "")}</div>
         <p>${esc(item?.q || "(item removido do banco)")}</p>
         <div class="niv-resp">${["C", "E", ""].map((r) => `<button class="btn${it.r === r && (r || it.r === "") && (r !== "" || it.b) ? " sel" : ""}" data-r="${r}">${r === "C" ? "C · Certo" : r === "E" ? "E · Errado" : "Em branco"}</button>`).join("")}</div>
       </div>`;
@@ -1256,7 +1302,7 @@
     }).join("");
 
     const linhasDisc = diag.discs.map((d, n) => `<tr>
-      <td>${n + 1}</td><td><a href="${rotaNota(`concursos/cgu-affc/acervo/${d.slug}.md`)}" title="Abrir o acervo da disciplina">${esc(d.nome)}</a> <small class="muted">${d.prova}</small></td>
+      <td>${n + 1}</td><td><a href="${rotaNota(`concursos/${CFG.concurso}/acervo/${d.slug}.md`)}" title="Abrir o acervo da disciplina">${esc(d.nome)}</a> <small class="muted">${d.prova}</small></td>
       <td><div class="niv-aprov"><span class="${d.faixa.cls}" style="width:${Math.max(0, Math.round(100 * d.a))}%"></span></div><small>${pct(d.a)} · ✔${d.o.ac} ✘${d.o.er} ○${d.o.br}</small></td>
       <td>${fmt(d.emJogo)}</td><td><b>${fmt(Math.max(d.perda, 0))}</b></td><td>${d.faixa.rot}</td><td>${d.tempo >= 0.005 ? pct(d.tempo) : "—"}</td></tr>`).join("");
 
@@ -1355,15 +1401,46 @@
     toast("✅ Resultado salvo no GitHub");
   }
 
-  // ---------- Tela: início ----------
+  // ---------- Tela: seleção de concurso (home) ----------
+  async function percentualEstudo(slug) {
+    try {
+      const disc = lerProgresso(await lerArquivo(`concursos/${slug}/PROGRESSO.md`, { fresco: true }));
+      const tot = disc.reduce((a, d) => a + d.total, 0);
+      const feitos = disc.reduce((a, d) => a + d.cont["✅"] + d.cont["🔁"], 0);
+      return tot ? `${Math.round((100 * feitos) / tot)}%` : "—";
+    } catch { return "—"; }
+  }
+
+  async function telaSelecao(main) {
+    document.title = "Selecionar concurso · Área do Concurseiro";
+    const card = (c) => `<a class="conc-card ${c.status}" href="#/c/${esc(c.slug)}">
+        <div class="conc-radio"><span class="radio${c.status === "ativo" ? " on" : ""}"></span>${c.status === "ativo" ? "Ativo" : "Passado"}</div>
+        <div class="conc-corpo">
+          <div class="conc-codigo">${esc(c.codigo)}</div>
+          <div class="conc-linha"><span class="muted">Banca:</span> ${bancaBadge(c.banca, c.formato)}</div>
+          <div class="conc-linha"><span class="muted">Data da prova:</span> <b>${fmtDataISO(c.dataProva)}</b></div>
+          <div class="conc-linha"><span class="muted">Percentual de estudo:</span> <b class="conc-pct" data-slug="${esc(c.slug)}">…</b></div>
+        </div></a>`;
+    const ativos = CONCURSOS.filter((c) => c.status === "ativo").sort((a, b) => a.dataProva.localeCompare(b.dataProva));
+    const passados = CONCURSOS.filter((c) => c.status !== "ativo").sort((a, b) => b.dataProva.localeCompare(a.dataProva));
+    main.innerHTML = `<div class="conteudo"><h1>🎓 Selecionar concurso</h1>
+      <h2 class="conc-secao">Ativos</h2>${ativos.map(card).join("") || '<p class="muted">Nenhum concurso ativo.</p>'}
+      <h2 class="conc-secao">Passados</h2>${passados.map(card).join("") || '<p class="muted">Nenhum concurso passado ainda.</p>'}</div>`;
+    $$(".conc-pct", main).forEach((el) => percentualEstudo(el.dataset.slug).then((p) => { el.textContent = p; }));
+  }
+
+  // ---------- Tela: home do concurso ----------
   async function telaInicio(main) {
-    document.title = "Área do Concurseiro";
+    const c = conc();
+    document.title = `${c.orgao} · Área do Concurseiro`;
     const dias = Math.ceil((new Date(CFG.dataProva) - new Date()) / 86400000);
     main.innerHTML = `<div class="conteudo">
-      <h1>📚 Área do Concurseiro</h1>
-      <p class="muted">CGU · Auditor Federal de Finanças e Controle · <b>TI – Ciência de Dados</b> · Cebraspe</p>
+      <div class="conc-cab"><a href="#/" class="muted">← Selecionar outro concurso</a>
+        <h1>📚 ${esc(c.orgao)} — ${esc(c.cargo)}</h1>
+        <p class="muted">${esc(c.codigo)} · ${bancaBadge(c.banca, c.formato)}</p>
+        <p class="aviso-banca">Todas as questões deste concurso são no estilo da banca <b>${esc(c.banca)}</b> (${esc(c.formato)}) e vêm identificadas com o nome dela.</p></div>
       <div class="grid">
-        <div class="card"><h3>⏳ Prova (13/12/2026)</h3><div class="big">${dias > 0 ? dias : 0}</div><div class="muted">dias restantes</div></div>
+        <div class="card"><h3>⏳ Prova (${fmtDataISO(c.dataProva)})</h3><div class="big">${dias > 0 ? dias : 0}</div><div class="muted">dias restantes</div></div>
         <div class="card"><h3>🎯 Desafio de hoje</h3><div id="in-desafio" class="big">…</div><a href="#/desafios">abrir →</a></div>
         <div class="card"><h3>🃏 Flashcards</h3><div id="in-fc" class="big">…</div><a href="#/flashcards">estudar →</a></div>
         <div class="card"><h3>✅ Edital</h3><div id="in-prog" class="big">…</div><a href="${rotaNota(CFG.progresso)}">checklist →</a></div>
@@ -1371,11 +1448,11 @@
       <div class="card"><h3>📊 Progresso por disciplina</h3><div id="in-disc"><p class="muted">Carregando…</p></div>
         <div class="legenda"><span><i style="background:var(--accent)"></i>revisado</span><span><i style="background:var(--ok)"></i>estudado</span><span><i style="background:var(--warn)"></i>em estudo</span></div></div>
       <div class="grid">
-        <a class="card" href="#/nivelamento"><h3>📊 Nivelamento</h3>Prova de 20 itens C/E com peso e diagnóstico de onde estudar</a>
-        <a class="card" href="${rotaNota("concursos/cgu-affc/acervo/README.md")}"><h3>🔎 Acervo</h3>Onde e como estudar cada tópico do edital</a>
-        <a class="card" href="${rotaNota("concursos/cgu-affc/revisao/provas-cebraspe.md")}"><h3>📝 Provas Cebraspe</h3>Ciência de Dados + discursivas</a>
-        <a class="card" href="${rotaNota("concursos/cgu-affc/README.md")}"><h3>📄 Ficha do concurso</h3>Datas, vagas, pesos</a>
-        <a class="card" href="${rotaNota("concursos/cgu-affc/edital/edital-cgu-2026-12.md")}"><h3>📜 Edital</h3>Texto completo em Markdown</a>
+        <a class="card" href="#/nivelamento"><h3>📊 Nivelamento</h3>Prova de 20 itens C/E com peso e diagnóstico de onde estudar <div>${bancaBadge(c.banca)}</div></a>
+        <a class="card" href="${rotaNota(`concursos/${c.slug}/acervo/README.md`)}"><h3>🔎 Acervo</h3>Onde e como estudar cada tópico do edital</a>
+        <a class="card" href="${rotaNota(`concursos/${c.slug}/revisao/provas-cebraspe.md`)}"><h3>📝 Provas ${esc(c.banca)}</h3>Ciência de Dados + discursivas <div>${bancaBadge(c.banca)}</div></a>
+        <a class="card" href="${rotaNota(`concursos/${c.slug}/README.md`)}"><h3>📄 Ficha do concurso</h3>Datas, vagas, pesos</a>
+        <a class="card" href="${rotaNota(`concursos/${c.slug}/edital/edital-cgu-2026-12.md`)}"><h3>📜 Edital</h3>Texto completo em Markdown</a>
       </div></div>`;
 
     lerArquivo(CFG.progresso, { fresco: true }).then((t) => {

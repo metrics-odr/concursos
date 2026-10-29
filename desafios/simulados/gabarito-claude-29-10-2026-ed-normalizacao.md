@@ -1,10 +1,13 @@
 ---
 titulo: Gabarito — Simulado Normalização (ED.1.1)
 tipo: simulado
+banca: Cebraspe
 topicos: [ED.1.1]
 atualizado: 2026-10-29
 ---
 # Gabarito comentado — Normalização (ED.1.1)
+
+🏛️ **Banca: Cebraspe**
 
 | # | Gab. | Comentário |
 |---|:---:|---|

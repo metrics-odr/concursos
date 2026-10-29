@@ -66,7 +66,7 @@ def bloco(d, t, itens):
         f"**{t['num']} {t['titulo']}**" + (f" — {subs}" if subs else ""),
         "",
         f"- [ ] 📖 Estudar o tópico pelo [acervo]({rel}) e registrar a nota em `disciplinas/{d['slug']}/` <!-- t:{d['slug']}:{t['num']} -->",
-        f"- [ ] 📝 Resolver {itens} itens Cebraspe do tópico ([buscar questões](https://www.google.com/search?q={q}+site%3Aqconcursos.com)) e anotar os erros em `revisao/questoes.md`",
+        f"- [ ] 📝 Resolver {itens} itens **[Banca Cebraspe]** do tópico ([buscar questões](https://www.google.com/search?q={q}+site%3Aqconcursos.com)) e anotar os erros em `revisao/questoes.md`",
         "",
     ]
 
@@ -84,7 +84,7 @@ def gerar(dia):
     semana = dia.weekday()
 
     out = [f"# 🎯 Desafio — {dia.strftime('%d/%m/%Y')} ({DIAS[semana]})", "",
-           f"> ⏳ **{faltam} dias** para a prova (13/12/2026) · marque cada item ao concluir.", ""]
+           f"> ⏳ **{faltam} dias** para a prova (13/12/2026) · 🏛️ **Banca: Cebraspe** (itens Certo/Errado) · marque cada item ao concluir.", ""]
     tarefas = []
     if semana == 6:
         out += ["## 🔁 Domingo: revisão e simulado", "",

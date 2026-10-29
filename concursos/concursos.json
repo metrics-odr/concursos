@@ -1,0 +1,14 @@
+{
+ "concursos": [
+  {
+   "slug": "cgu-affc",
+   "codigo": "2026-12-CGU-AFFC-AUDITOR-CIENCIA DE DADOS",
+   "orgao": "CGU",
+   "cargo": "Auditor Federal de Finanças e Controle · TI – Ciência de Dados",
+   "banca": "Cebraspe",
+   "formato": "Certo/Errado",
+   "dataProva": "2026-12-13",
+   "status": "ativo"
+  }
+ ]
+}

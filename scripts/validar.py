@@ -4,6 +4,7 @@
 Verifica:
   - questoes/: frontmatter obrigatório, valores permitidos, ID único, nome do arquivo = id,
     tópicos existentes no edital, texto-base e PDF de origem existentes
+  - desafios/simulados/: frontmatter com `banca`
   - disciplinas/: tópicos do frontmatter existem no edital
   - [[wikilinks]] em questoes/, disciplinas/, bancas/ e _indices/ apontam para arquivos que existem
   - links Markdown relativos [texto](caminho) em TODO .md do repositório apontam para arquivo existente
@@ -111,6 +112,11 @@ def main():
         for tid in como_lista((fm or {}).get("topicos")):
             if tid not in topicos:
                 erro(rel, f"tópico {tid!r} não existe em concursos/cgu-affc/edital/topicos.json")
+
+    for p in sorted((RAIZ / "desafios" / "simulados").glob("*.md")):
+        fm, _ = ler_md(p)
+        if fm and fm.get("tipo") == "simulado" and not fm.get("banca"):
+            erro(str(p.relative_to(RAIZ)), "simulado sem `banca:` no frontmatter (ex.: banca: Cebraspe) — toda questão precisa mostrar a banca")
 
     for pasta in PASTAS_LINKS:
         for p in sorted((RAIZ / pasta).rglob("*.md")) if (RAIZ / pasta).exists() else []:
