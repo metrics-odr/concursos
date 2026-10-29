@@ -472,10 +472,9 @@
     if (r.nome === "inicio" && !ativarConcurso(r.slug)) { location.hash = "#/"; return; }
     if (r.nome !== "inicio" && r.nome !== "selecao") ativarConcurso(store.get("ac:concurso", CFG.concurso)) || ativarConcurso(CONCURSOS[0]?.slug);
     const nivel = r.nome === "selecao";
-    $("#tabs").hidden = nivel;
     $("#chip-concurso").hidden = nivel;
     document.body.dataset.banca = nivel ? "" : slugBanca(conc().banca);
-    if (!nivel) montarAbas();
+    montarAbas();  // abas sempre visíveis (valem para o último concurso aberto)
     marcarAba(r);
     renderArvore();
     if (matchMedia("(max-width: 860px)").matches) { $("#sidebar").classList.remove("aberta"); $("#seta-arquivos").textContent = "▸"; }
