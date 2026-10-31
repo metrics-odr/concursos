@@ -24,6 +24,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [GOVERNANÇA,GOVERNABILIDADE E ACCOUNTABILITY](https://www.youtube.com/watch?v=NeO1OKmRBj8) — Carranza Cursos
   - ▶️ [Governança Pública || Conceito, Princípios, Mecanismos e Diretrizes || CNU – Bloco 5](https://www.youtube.com/watch?v=vkhZbfEVJ1s) — Treine Seu Cérebro
   - ▶️ [RECEITA FEDERAL - Governança, Governabilidade e Accountability](https://www.youtube.com/watch?v=NzODBMtRwj0) — Carranza Cursos
+  - ▶️ [Governança Pública: Comunicação (comunicação formal/informal, fluxos) — Live PF Adminis…](https://www.youtube.com/watch?v=pZAEUY1Dzdk) — Petronio Castro
   - 📄 [Governança pública: uma revisão conceitual (RSP/ENAP)](https://revista.enap.gov.br/index.php/RSP/article/download/3089/2325/12787) — PDF
   - 📰 [Referencial Básico de Governança (TCU, 2ª ed.)](https://portal.tcu.gov.br/data/files/FA/B6/EA/85/1CD4671023455957E18818A8/Referencial_basico_governanca_2_edicao.PDF) — artigo
   - 📰 [Governança (CGU — Integridade Pública)](https://www.gov.br/cgu/pt-br/centrais-de-conteudo/campanhas/integridade-publica/governanca) — artigo
