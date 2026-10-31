@@ -223,7 +223,7 @@ Pasta: [`disciplinas/engenharia-arquitetura-governanca-dados/`](../../disciplina
 
 - 🟨 **1** Modelagem e arquiteturas · [📚 acervo](acervo/engenharia-arquitetura-governanca-dados.md#1-modelagem-e-arquiteturas)
   - 🟨 1.1 Modelos relacional, documental, chave-valor, multidimensional e vetorial; normalização e integridade; transações e consistência · [📚 acervo](acervo/engenharia-arquitetura-governanca-dados.md#1-modelagem-e-arquiteturas)
-  - ⬜ 1.2 Data warehouse, data mart, data lake e lakehouse; produtos de dados, responsabilidade por domínios, autosserviço e governança federada em data mesh · [📚 acervo](acervo/engenharia-arquitetura-governanca-dados.md#1-modelagem-e-arquiteturas)
+  - 🟨 1.2 Data warehouse, data mart, data lake e lakehouse; produtos de dados, responsabilidade por domínios, autosserviço e governança federada em data mesh · [📚 acervo](acervo/engenharia-arquitetura-governanca-dados.md#1-modelagem-e-arquiteturas)
 - ⬜ **2** SQL e consultas analíticas · [📚 acervo](acervo/engenharia-arquitetura-governanca-dados.md#2-sql-e-consultas-analiticas)
   - ⬜ 2.1 Definição e manipulação de dados, controle de acesso e transações; filtros, junções, agregações, subconsultas, expressões de tabela comuns e funções de janela · [📚 acervo](acervo/engenharia-arquitetura-governanca-dados.md#2-sql-e-consultas-analiticas)
   - ⬜ 2.2 Índices, planos de execução e desempenho; valores nulos, duplicações e erros de interpretação em consultas · [📚 acervo](acervo/engenharia-arquitetura-governanca-dados.md#2-sql-e-consultas-analiticas)
