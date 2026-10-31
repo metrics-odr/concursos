@@ -558,9 +558,57 @@
       ligarInterativos(el, path);
     };
     redesenhar();
+    anexarContextoQuestao(path, el);
     if (ancora) setTimeout(() => rolarPara(ancora), 50);
     document.title = `${semExt(path)} · Área do Concurseiro`;
     mostrarBacklinks(path);
+  }
+
+  // Questões reais ficam em arquivos separados (texto-base + um arquivo por item).
+  // Na tela, junta tudo: o texto-base lista os itens (enunciado, sem gabarito) e cada item mostra o texto-base acima.
+  async function anexarContextoQuestao(path, el) {
+    if (!/^questoes\/[^/]+\/ceb-.*\.md$/i.test(path)) return;
+    const prop = (txt, k) => (frontmatter(txt).props || []).find(([n]) => n === k)?.[1]?.trim();
+    const semGabarito = (txt) => frontmatter(txt).corpo.split(/\n## Coment/)[0]
+      .replace(/^>\s*Texto-base \/ comando:.*\n?/m, "").trim();
+    const dir = path.slice(0, path.lastIndexOf("/") + 1);
+    const achar = (re) => estado.arquivos.find((a) => a.startsWith(dir) && re.test(a.slice(dir.length)));
+    try {
+      const txt = await lerArquivo(path);
+      if (prop(txt, "tipo") === "texto-base") {
+        const nums = (prop(txt, "itens") || "").replace(/[\[\]]/g, "").split(",").map((x) => x.trim()).filter(Boolean);
+        const partes = [];
+        for (const n of nums) {
+          const arq = achar(new RegExp(`-q0*${n}\\.md$`, "i"));
+          if (!arq) continue;
+          partes.push([arq, semGabarito(await lerArquivo(arq))]);
+        }
+        if (!partes.length || !document.body.contains(el)) return;
+        const box = document.createElement("section");
+        box.className = "questao-itens";
+        box.innerHTML = "<h2>Itens</h2>";
+        partes.forEach(([arq, corpo]) => {
+          const d = document.createElement("div");
+          d.className = "questao-item";
+          box.append(d);
+          renderMarkdown(corpo, arq, d);
+          d.insertAdjacentHTML("beforeend", `<p class="muted"><a href="${rotaNota(arq)}">Ver gabarito e comentário →</a></p>`);
+        });
+        el.append(box);
+      } else {
+        const tb = prop(txt, "texto_base");
+        if (!tb) return;
+        const arq = achar(new RegExp(`^${tb.replace(/[^\w-]/g, "")}\\.md$`, "i"));
+        if (!arq || !document.body.contains(el)) return;
+        const corpo = frontmatter(await lerArquivo(arq)).corpo.split(/\n---\n/)[0].trim();
+        if (!corpo) return;
+        const box = document.createElement("section");
+        box.className = "questao-contexto";
+        renderMarkdown(corpo, arq, box);
+        box.insertAdjacentHTML("afterbegin", `<div class="muted">Texto-base / comando · <a href="${rotaNota(arq)}">ver todos os itens</a></div>`);
+        el.insertBefore(box, el.querySelector(".props")?.nextSibling || el.firstChild);
+      }
+    } catch { /* sem contexto extra: a página continua utilizável */ }
   }
 
   const editarBtn = (path) => `<a class="btn primary" href="#/editar/${encodeURI(path)}">✏️ Editar</a>`;
