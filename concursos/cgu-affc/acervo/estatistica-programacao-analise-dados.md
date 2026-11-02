@@ -85,10 +85,16 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
 - **4.1** Python 3: estruturas de dados, controle de fluxo, funções, módulos, arquivos e exceções; leitura, análise e depuração de rotinas de manipulação de dados; organização modular, testes e reprodutibilidade de análises
   - ▶️ [Te ensino TUDO sobre Pandas para análise de dados com Python](https://www.youtube.com/watch?v=1JpYOqvDJNU) — Asimov Academy
   - ▶️ [PANDAS NO PYTHON DO ZERO | Guia Completo de DataFrames e Análise de Dados](https://www.youtube.com/watch?v=sRE0UQuXF88) — Engenharia de Dados | Data Engineer Help
+  - ▶️ [Curso Python #23 - Tratamento de Erros e Exceções](https://www.youtube.com/watch?v=xz2B3bfNjEk) — Curso em Vídeo
+  - ▶️ [Curso Python #22 - Módulos e Pacotes](https://www.youtube.com/watch?v=s3r8_Aug4y8) — Curso em Vídeo
+  - 📚 [Curso de Python 3 — Mundo 3 (estruturas compostas, funções, módulos, erros)](https://www.youtube.com/playlist?list=PLUZAyAs5RW6vpExUIWp-TC8ZjYu9T5uiH) — Curso em Vídeo — playlist
+  - 📚 [Manipulação de Arquivos em Python (txt, csv, json)](https://www.youtube.com/playlist?list=PLGFzROSPU9oVRqeQ-WxEYf0npA-NTFhnF) — playlist
+  - ▶️ [Pytest: Uma introdução - Live de Python #167](https://www.youtube.com/watch?v=MjQCvJmc31A) — Live de Python
   - 📄 [Apostila de Python (PET-Elétrica UFF)](https://peteletrica.uff.br/wp-content/uploads/sites/509/2021/09/Apostila-de-Python.pdf) — PDF
   - 📄 [Introdução à programação com Python (PET-ADS/IFSP)](http://antigo.scl.ifsp.edu.br/portal/arquivos/2016.05.04_Apostila_Python_-_PET_ADS_S%C3%A3o_Carlos.pdf) — PDF
   - 📰 [Análise de dados com Pandas: guia (Python.dev.br)](https://python.dev.br/guias/analise-dados-pandas/) — artigo
   - 📰 [Pandas Python: como usar a ferramenta #1 de análise de dados (Asimov)](https://hub.asimov.academy/blog/pandas-python/) — artigo
+  - 📰 [Tutorial oficial do Python: erros e exceções (pt-BR)](https://docs.python.org/pt-br/3/tutorial/errors.html) — artigo
   - 📝 [CEB-2022-PETROBRAS-CD-Q064](../../../questoes/2022-petrobras-ciencia-de-dados/ceb-2022-petrobras-cd-q064.md) — questão real · Banca Cebraspe
   - 📝 [CEB-2022-PETROBRAS-CD-Q065](../../../questoes/2022-petrobras-ciencia-de-dados/ceb-2022-petrobras-cd-q065.md) — questão real · Banca Cebraspe
   - 📝 [CEB-2022-PETROBRAS-CD-Q078](../../../questoes/2022-petrobras-ciencia-de-dados/ceb-2022-petrobras-cd-q078.md) — questão real · Banca Cebraspe

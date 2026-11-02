@@ -23,6 +23,9 @@ O Claude atua como organizador: lê os materiais enviados, escreve notas em Mark
 > **Links nunca podem quebrar.** Ao criar, mover, renomear ou apagar QUALQUER arquivo/pasta, atualizar **todos** os links que apontam para ele (`grep -rn "<nome-antigo>"` no repo inteiro, inclusive `app/app.js`, `scripts/` geradores e `nivelamento/resultados/`) e regenerar o que for gerado. Nunca linkar pasta vazia/inexistente (abre página vazia no site). Links gerados pelo app em `.md` são relativos ao local do arquivo gerado. O `validar.py` confere todos os links Markdown relativos do repo; rode antes de todo commit (qualquer pasta).
 
 > [!IMPORTANT]
+> **Acervo só com o que o edital pede.** Antes de incluir QUALQUER fonte (vídeo, playlist, PDF, artigo) no acervo: (1) ler o texto do subitem do edital (`topicos.json`); (2) identificar o que a fonte realmente ensina; (3) só incluir se ela cobrir esse subitem. Frameworks/normas que o edital **não nomeia** (ex.: COSO, ISO 31000, NIST) ficam de fora — cobrir só o conceito. Só links diretos e reais (vídeo, playlist, PDF, artigo), nunca página de busca. Playlist: `{"id": "", "lista": "<ID>", "titulo": ..., "canal": ...}` em `acervo/videos.json`.
+
+> [!IMPORTANT]
 > **Banca sempre identificada.** Cada concurso tem uma banca (`concursos/concursos.json`) e os questionários de bancas diferentes nunca se misturam. Toda questão apresentada (simulado, desafio, flashcard C/E, nivelamento, prova) leva o nome da banca visível — no app é o selo 🏛️ (`bancaBadge`); em Markdown, `🏛️ **Banca: X**` no topo e `· Banca X` no rótulo de cada item; simulados têm `banca:` no frontmatter (o `validar.py` exige). Ao criar um concurso novo, registrá-lo em `concursos/concursos.json` (status `ativo`/`passado`).
 
 ## Estrutura

@@ -713,6 +713,10 @@
    {
     "url": "https://revista.enap.gov.br/index.php/RSP/article/download/3089/2325/12787",
     "titulo": "Governança pública: uma revisão conceitual (RSP/ENAP)"
+   },
+   {
+    "url": "https://repositorio.cgu.gov.br/bitstream/1/74047/1/decreto_%20n_9203_22_novembro_2017.pdf",
+    "titulo": "Decreto nº 9.203/2017 — Política de Governança (PDF, repositório CGU)"
    }
   ],
   "artigo": [
@@ -727,6 +731,10 @@
    {
     "url": "https://jus.com.br/artigos/62993/decreto-9-203-2017-politica-de-governanca-da-administracao-publica-federal-direta-autarquica-e-fundacional",
     "titulo": "Decreto 9.203/2017 — política de governança (Jus.com.br)"
+   },
+   {
+    "url": "https://www.gov.br/casacivil/pt-br/assuntos/downloads/guia-da-politica-de-governanca-publica",
+    "titulo": "Guia da Política de Governança Pública (Casa Civil)"
    }
   ],
   "questoes": []
@@ -736,16 +744,16 @@
    {
     "url": "https://www.gov.br/mj/pt-br/acesso-a-informacao/governanca/Gestao-de-Riscos/biblioteca/Manual/manual-de-gerenciamento-de-riscos-mjsp-2021.pdf",
     "titulo": "Manual de Gerenciamento de Riscos e Controles Internos (MJSP)"
+   },
+   {
+    "url": "https://revista.tcu.gov.br/ojs/index.php/RTCU/article/download/68/71",
+    "titulo": "Segregação de funções no controle das despesas (Revista do TCU)"
    }
   ],
   "artigo": [
    {
     "url": "https://portal.tcu.gov.br/data/files/21/96/61/6E/05A1F6107AD96FE6F18818A8/Referencial_basico_gestao_riscos.pdf",
     "titulo": "Referencial Básico de Gestão de Riscos (TCU)"
-   },
-   {
-    "url": "https://www.scielo.br/j/rdbci/a/dvzbMbKqPFNXppFVpGQJyZQ/?lang=pt",
-    "titulo": "Gestão de riscos: o método do COSO aplicado a uma unidade de informação (SciELO)"
    }
   ],
   "questoes": []
@@ -759,6 +767,10 @@
    {
     "url": "https://www.tjdft.jus.br/institucional/governanca/gestao-de-riscos/guia-de-gestao-de-riscos_1a-versao.pdf",
     "titulo": "Guia de Gestão de Riscos e Controles (TJDFT)"
+   },
+   {
+    "url": "https://revista.tcu.gov.br/ojs/index.php/RTCU/article/download/68/71",
+    "titulo": "Segregação de funções no controle das despesas (Revista do TCU)"
    }
   ],
   "artigo": [
@@ -808,6 +820,14 @@
    {
     "url": "https://www.migalhas.com.br/arquivos/2022/7/8BED251D1C0D63_Artigo-NOVAREG.LAC-PROGRAMASDE.pdf",
     "titulo": "Programas de integridade no novo regulamento da Lei Anticorrupção"
+   },
+   {
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/noticias/2024/10/cgu-publica-novo-guia-de-diretrizes-para-empresas-privadas/GuiaDiretrizes_v14out1.pdf",
+    "titulo": "Programa de Integridade: Diretrizes para Empresas Privadas — Vol. II (CGU, 2024)"
+   },
+   {
+    "url": "https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/integridade/arquivos/programa-de-integridade-diretrizes-para-empresas-privadas.pdf",
+    "titulo": "Programa de Integridade: Diretrizes para Empresas Privadas — Vol. I (CGU, 2015)"
    }
   ],
   "artigo": [
@@ -827,6 +847,10 @@
    {
     "url": "https://ojs.uel.br/revistas/uel/index.php/iuris/article/download/53382/53234/303999",
     "titulo": "Implementação e efetividade de programas de integridade (Revista Iuris/UEL)"
+   },
+   {
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/noticias/2024/10/cgu-publica-novo-guia-de-diretrizes-para-empresas-privadas/GuiaDiretrizes_v14out1.pdf",
+    "titulo": "Programa de Integridade: Diretrizes para Empresas Privadas — Vol. II (CGU, 2024)"
    }
   ],
   "artigo": [
@@ -1913,6 +1937,10 @@
    {
     "url": "https://hub.asimov.academy/blog/pandas-python/",
     "titulo": "Pandas Python: como usar a ferramenta #1 de análise de dados (Asimov)"
+   },
+   {
+    "url": "https://docs.python.org/pt-br/3/tutorial/errors.html",
+    "titulo": "Tutorial oficial do Python: erros e exceções (pt-BR)"
    }
   ],
   "questoes": []
@@ -2615,10 +2643,6 @@
   ],
   "artigo": [
    {
-    "url": "https://pt.wikipedia.org/wiki/Rede_neural_recorrente",
-    "titulo": "Rede neural recorrente (Wikipédia)"
-   },
-   {
     "url": "https://www.deeplearningbook.com.br/transformadores-o-estado-da-arte-em-processamento-de-linguagem-natural/",
     "titulo": "Transformadores (Deep Learning Book)"
    }
@@ -2827,6 +2851,10 @@
    {
     "url": "https://arxiv.org/pdf/2512.11541",
     "titulo": "Pipeline MLOps automatizado (arXiv)"
+   },
+   {
+    "url": "https://arxiv.org/pdf/2302.12691",
+    "titulo": "Reproducibility of Machine Learning: Terminology, Recommendations and Open Issues (arXiv)"
    }
   ],
   "artigo": [

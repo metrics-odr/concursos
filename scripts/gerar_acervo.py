@@ -41,7 +41,11 @@ def videos_md(videos, recuo):
     linhas = []
     for v in videos:
         titulo = v["titulo"] if len(v["titulo"]) <= 90 else v["titulo"][:87].rstrip() + "…"
-        linhas.append(f"{recuo}- ▶️ [{titulo}](https://www.youtube.com/watch?v={v['id']}) — {v['canal']}")
+        canal = f" — {v['canal']}" if v.get("canal") else ""
+        if v.get("lista"):  # playlist: {"lista": "<ID da playlist>", "titulo": ..., "canal": ...}
+            linhas.append(f"{recuo}- 📚 [{titulo}](https://www.youtube.com/playlist?list={v['lista']}){canal} — playlist")
+        else:
+            linhas.append(f"{recuo}- ▶️ [{titulo}](https://www.youtube.com/watch?v={v['id']}){canal}")
     return linhas
 
 

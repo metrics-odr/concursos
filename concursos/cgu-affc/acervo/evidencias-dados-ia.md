@@ -5,12 +5,11 @@
 ## 🧭 Como estudar
 
 - Sobrepõe-se à P3: aproveite o estudo de estatística/ML, focando em interpretação (viés, correlação × causalidade, representatividade).
-- Uso responsável de IA: guia da CGU + princípios da OCDE.
+- Uso responsável de IA: guia da CGU.
 
 ## 📚 Fontes curadas
 
 - 📄 [CGU — Guia de uso responsável de IA](https://repositorio.cgu.gov.br/bitstream/1/94718/2/Guia_de_uso_respons%c3%a1vel_de_IA_v5_publicacao.pdf)
-- 📰 [OCDE — Princípios de IA](https://oecd.ai/en/ai-principles)
 - 📄 [OpenIntro Statistics (livro gratuito)](https://www.openintro.org/book/os/)
 - 🧰 [Portal Brasileiro de Dados Abertos](https://dados.gov.br/)
 
@@ -42,9 +41,6 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - 📄 [Análise descritiva de dados: tabelas e gráficos (UFMG)](https://www.est.ufmg.br/portal/wp-content/uploads/2023/01/RTE-04-2001.pdf) — PDF
   - 📰 [Estatística aplicada à educação — razões, proporções, taxas (MEC)](https://portal.mec.gov.br/seb/arquivos/pdf/profunc/estatistica.pdf) — artigo
 - **2.2** Distinção entre indicadores de percepção, experiência, denúncias, detecção e sanções na análise da corrupção; subnotificação e limites de inferência sobre sua ocorrência
-  - ▶️ [Indicadores de Desempenho: Tipos e Exemplos de Indicadores de Desempenho](https://www.youtube.com/watch?v=I2BfvSGc5t4) — Instituto Montanari
-  - ▶️ [09.08. Aula de Indicadores de Desempenho (Administração)](https://www.youtube.com/watch?v=yNaqTfjnwwc) — TecConcursos
-  - ▶️ [Administração - Aula 44 (Indicadores de Desempenho - Resultados)](https://www.youtube.com/watch?v=ogbi003EaVA) — Marco Ferrari
   - 📄 [Corrupção: conceitos, tipos e mensuração (Veredas, 2024)](https://periodicos.unisa.br/index.php/veredas/article/download/591/597/3767) — PDF
   - 📰 [Metodologia do IPC (Transparência Internacional)](https://transparenciainternacional.org.br/ipc/metodologia/) — artigo
   - 📰 [Como se mede a corrupção de um país? (Questão de Ciência)](https://www.revistaquestaodeciencia.com.br/artigo/2019/10/16/como-se-mede-corrupcao-de-um-pais) — artigo
@@ -68,8 +64,6 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
 ### 4 Integridade da evidência e proteção
 
 - **4.1** Rastreabilidade e verificação de informações; comunicação proporcional dos resultados e limites
-  - ▶️ [Cadeia de Custódia da Prova: o que é? | PROVAS EM PROCESSO PENAL | Pacote Anticrime | A…](https://www.youtube.com/watch?v=Kqx5vYQ3OMY) — Ana Carolina Aidar
-  - ▶️ [Você sabe o que é Cadeia de Custódia e quais são suas etapas?](https://www.youtube.com/watch?v=3LK1B2e9uOU) — Local Preservado
   - 📄 [O relatório de auditoria — elaboração (ENAP)](https://repositorio.enap.gov.br/bitstream/1/5172/1/Mod1_O%20relat%C3%B3rio%20de%20auditoria.pdf) — PDF
   - 📄 [Orientação Prática: Relatório de Auditoria (CGU)](https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/auditoria-e-fiscalizacao/arquivos/orientacao-pratica-relatorio-de-auditoria-2019.pdf) — PDF
   - 📰 [Normas de Auditoria do TCU (NAT)](https://btcu.apps.tcu.gov.br/api/obterDocumentoPdf/66513656) — artigo

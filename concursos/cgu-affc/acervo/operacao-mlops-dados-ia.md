@@ -5,7 +5,7 @@
 ## 🧭 Como estudar
 
 - MLOps: versionamento (dados, código, modelo), registro de experimentos, CI/CD/CT, monitoramento de drift.
-- Governança de IA: NIST AI RMF, documentação (model cards), contratação de soluções e plano de saída.
+- Governança de IA: documentação (model cards), contratação de soluções e plano de saída.
 
 ## 📚 Fontes curadas
 
@@ -15,7 +15,6 @@
 - 📄 [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
 - 🎓 [MLflow — documentação (tracking, registry)](https://mlflow.org/docs/latest/index.html)
 - 🎓 [DVC — versionamento de dados e modelos](https://dvc.org/doc)
-- 📰 [NIST — AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - ⚖️ [Lei 14.133/2021 — Licitações e contratos (contratação de soluções)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm)
 
 ## 🗂️ Por tópico do edital
@@ -48,6 +47,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
 - **1.4** Reprodutibilidade
   - ▶️ [Como montar seu ambiente de Ciência de Dados - Container Docker](https://www.youtube.com/watch?v=H6n9jQuExH0) — Diego Nogare
   - 📄 [Pipeline MLOps automatizado (arXiv)](https://arxiv.org/pdf/2512.11541) — PDF
+  - 📄 [Reproducibility of Machine Learning: Terminology, Recommendations and Open Issues (arXiv)](https://arxiv.org/pdf/2302.12691) — PDF
   - 📰 [Arquitetura de MLOps em 2026 (Bix)](https://www.bixtecnologia.com.br/arquitetura-de-mlops-2026/) — artigo
 - **1.5** Disponibilização por APIs, implantação e reversão
   - ▶️ [How to Deploy a Machine Learning Model as a REST API with FastAPI in Python](https://www.youtube.com/watch?v=25ahE8RSQ60) — Onur Baltaci
@@ -191,7 +191,6 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - 📝 [CEB-2025-ANM-CD-Q073](../../../questoes/2025-anm-ciencia-de-dados/ceb-2025-anm-cd-q073.md) — questão real · Banca Cebraspe
 - **5.2** Viabilidade, dimensionamento e custo total de propriedade
   - ▶️ [Entenda o que é TCO: Custo Total de Propriedade](https://www.youtube.com/watch?v=wpoGABku51k) — FriendsLab
-  - ▶️ [O passo a passo para fazer um estudo de viabilidade de uma obra](https://www.youtube.com/watch?v=-IEaf9Q5eCw) — Eng. Mariele
   - ▶️ [TCO (Custo Total de Propriedade) - Versão Português](https://www.youtube.com/watch?v=uJWNo2C5rvc) — Júlio Abud - Procurement/ Compras 360
   - 📄 [Estudo Técnico Preliminar (ETP) — principais pontos (TCE-RN)](https://www.tce.rn.gov.br/as/EscolaContas/ArquivosCurso/73/Estudo_T%C3%A9cnico_Preliminar_(ETP)__Vanessa_Ubarana.pdf) — PDF
   - 📰 [Estudo técnico preliminar (TCE-SC)](https://www.tcesc.tc.br/sites/default/files/2024-04/RTCESC_02_Artigo_Estudo%20t%C3%A9cnico%20preliminar.pdf) — artigo

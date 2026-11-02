@@ -35,6 +35,8 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - 📰 [IN nº 3/2017 (Wiki CGU)](https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_3,_de_9_de_junho_de_2017) — artigo
 - **1.3** Finalidades e diferenças entre as três formas de atuação da SFC; relação com a gestão, correição e avaliação de políticas
   - ▶️ [Concurso CGU - Auditoria e Fiscalização - Auditor Federal de Finanças e Controle](https://www.youtube.com/watch?v=lhuq5vD8m0w) — Renato Chaves | Contabilidade e Auditoria
+  - ▶️ [Auditoria Governamental - Concurso CGU 2026: Serviço de consultoria no MOT](https://www.youtube.com/watch?v=WRt0oGSQCbI)
+  - ▶️ [Gabaritando Auditoria - MOT 2017: Consultoria e Avaliação](https://www.youtube.com/watch?v=klNDiK9WurA)
   - 📄 [IN SFC 3/2017 — Referencial Técnico (cópia)](https://assets.marinha.mil.br/egn/sites/www.marinha.mil.br.egn/files/in-sfc-03-2017-referencial-tecnico.pdf) — PDF
   - 📄 [Manual de implantação de unidades de correição (CGU)](https://www.ufabc.edu.br/images/corregedoria/1_manual_implantacaodeunidadesdecorregedorias_poderexecutivofederal.pdf) — PDF
   - 📰 [Normas de Auditoria Interna (CGU)](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna) — artigo
@@ -42,6 +44,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [A Independência do Auditor e os Princípios Fundamentais de Ética Profissional na Auditoria](https://www.youtube.com/watch?v=z8Pm_LS7tOM) — CEC AUDITORES INDEPENDENTES
   - ▶️ [Você sabe o que é Julgamento Profissional e Ceticismo Profissional? Vem para o Café com…](https://www.youtube.com/watch?v=Dn5Rzh7fIG4) — CEC AUDITORES INDEPENDENTES
   - ▶️ [Independência e Objetividade da Auditoria Interna](https://www.youtube.com/watch?v=ZYFIdeSPmpU) — Diocesio Sant'Anna
+  - ▶️ [O modelo das Três Linhas, uma visão prática](https://www.youtube.com/watch?v=f_NpYSzPsy8)
   - 📄 [Modelo das Três Linhas do IIA 2020 (versão em português)](https://www.theiia.org/globalassets/documents/resources/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense-july-2020/three-lines-model-updated-portuguese.pdf) — PDF
   - 📄 [Modelo das Três Linhas — declaração de posicionamento (IIA/MPU)](https://auditoria.mpu.mp.br/pgmq/MODELODASTRESLINHASDECLARACAODEPOSICIONAMENTO.pdf/@@download/file/MODELO-DAS-TRES-LINHAS-DECLARACAO-DE-POSICIONAMENTO.pdf) — PDF
   - 📰 [Modelo das Três Linhas 2020 (IIA Brasil)](https://iiabrasil.org.br/cursos/novo-modelo-das-Tr%C3%AAs-Linhas) — artigo
@@ -58,7 +61,6 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - 📰 [Normas de Auditoria do TCU (NAT)](https://btcu.apps.tcu.gov.br/api/obterDocumentoPdf/66513656) — artigo
 - **2.2** Priorização por risco, materialidade e relevância social em nível conceitual; adequação do trabalho às finalidades de avaliação, consultoria ou apuração
   - ▶️ [02.03. Materialidade, Relevância e Risco em Auditoria (Auditoria Privada) - Prof. Eugên…](https://www.youtube.com/watch?v=vHYohteDIvM) — TecConcursos
-  - ▶️ [Auditoría interna basada en riesgos: cómo planificar, priorizar y ejecutar una auditoría](https://www.youtube.com/watch?v=FUbQMeOYjkU) — Pirani
   - ▶️ [📢 AUDITORIA BASEADA EM RISCOS [MANUAL] - Procedimentos de Auditoria](https://www.youtube.com/watch?v=3kJgwYLUdAE) — Auditoria sem Grilo
   - 📄 [Manual de Auditoria (CNMP) — materialidade, relevância e risco](https://www.cnmp.mp.br/portal/images/Audin/Manual_de_Auditoria_SEI.pdf) — PDF
   - 📄 [Manual de Auditoria Interna Governamental (CGE-AM)](https://www.cge.am.gov.br/wp-content/uploads/2019/10/Manual_de_Auditoria_Interna_Governamental.pdf) — PDF
@@ -89,8 +91,6 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
 
 - **4.1** Clareza, contexto e utilidade dos resultados; publicidade e proteção de pessoas e informações
   - ▶️ [Aula 04 - Fundamentos de Auditoria Governamental: Comunicação e acompanhamento - CGU](https://www.youtube.com/watch?v=NKmhWMr7nBU) — Renato Chaves | Contabilidade e Auditoria
-  - ▶️ [LGPD Webinar - Como conduzir uma auditoria de privacidade e proteção de dados?](https://www.youtube.com/watch?v=_bgyQjWZBGQ) — ECOMPLY GmbH - Brasil
-  - ▶️ [Relatório de Impacto à Proteção de Dados Pessoais (RIPD/ PIA) na LGPD](https://www.youtube.com/watch?v=xBpJhYLIFRI) — Maria Godoy
   - 📄 [Orientação Prática: Relatório de Auditoria (CGU)](https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/auditoria-e-fiscalizacao/arquivos/orientacao-pratica-relatorio-de-auditoria-2019.pdf) — PDF
   - 📄 [Relatórios de auditoria: comunicando resultados (IIA Brasil)](https://iiabrasil.org.br/korbilload/upl/ippf/downloads/relatoriosdeaud-ippf-00000001-23012018144321.pdf) — PDF
   - 📰 [O relatório de auditoria (ENAP)](https://repositorio.enap.gov.br/bitstream/1/5172/1/Mod1_O%20relat%C3%B3rio%20de%20auditoria.pdf) — artigo

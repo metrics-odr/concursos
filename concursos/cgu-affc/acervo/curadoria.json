@@ -23,8 +23,7 @@
   "links": [
    {"tipo": "lei", "titulo": "Constituição Federal de 1988", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},
    {"tipo": "lei", "titulo": "Lei 12.846/2013 — Lei Anticorrupção", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm"},
-   {"tipo": "artigo", "titulo": "Transparency International — Índice de Percepção da Corrupção", "url": "https://www.transparency.org/en/cpi"},
-   {"tipo": "pdf", "titulo": "TCU — Referencial Básico de Governança Organizacional (3ª ed.)", "url": "https://portal.tcu.gov.br/referencial-basico-de-governanca-organizacional.htm"}
+   {"tipo": "artigo", "titulo": "Transparency International — Índice de Percepção da Corrupção", "url": "https://www.transparency.org/en/cpi"}
   ]
  },
  "sociedade-brasileira": {
@@ -52,12 +51,11 @@
   ]
  },
  "governanca-riscos-integridade": {
-  "como_estudar": ["Governança (TCU: liderança, estratégia, controle) × gestão; modelo das Três Linhas (IIA); COSO para riscos e controles.", "Integridade privada: programa de integridade do Decreto 11.129/2022."],
+  "como_estudar": ["Governança (TCU: liderança, estratégia, controle) × gestão; modelo das Três Linhas (IIA); risco, causa, consequência, controle preventivo × detectivo, segregação de funções e risco residual (conceitos — o edital não nomeia frameworks como COSO ou ISO 31000).", "Integridade privada: programa de integridade do Decreto 11.129/2022."],
   "links": [
    {"tipo": "pdf", "titulo": "TCU — Referencial Básico de Governança Organizacional (3ª ed.)", "url": "https://portal.tcu.gov.br/referencial-basico-de-governanca-organizacional.htm"},
    {"tipo": "lei", "titulo": "Decreto 9.203/2017 — Governança pública", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm"},
-   {"tipo": "lei", "titulo": "Decreto 11.129/2022 — Regulamenta a Lei Anticorrupção (programa de integridade)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11129.htm"},
-   {"tipo": "artigo", "titulo": "COSO — frameworks de controle interno e gestão de riscos", "url": "https://www.coso.org/"}
+   {"tipo": "lei", "titulo": "Decreto 11.129/2022 — Regulamenta a Lei Anticorrupção (programa de integridade)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11129.htm"}
   ]
  },
  "transparencia-ouvidoria-participacao": {
@@ -82,10 +80,9 @@
   ]
  },
  "evidencias-dados-ia": {
-  "como_estudar": ["Sobrepõe-se à P3: aproveite o estudo de estatística/ML, focando em interpretação (viés, correlação × causalidade, representatividade).", "Uso responsável de IA: guia da CGU + princípios da OCDE."],
+  "como_estudar": ["Sobrepõe-se à P3: aproveite o estudo de estatística/ML, focando em interpretação (viés, correlação × causalidade, representatividade).", "Uso responsável de IA: guia da CGU."],
   "links": [
    {"tipo": "pdf", "titulo": "CGU — Guia de uso responsável de IA", "url": "https://repositorio.cgu.gov.br/bitstream/1/94718/2/Guia_de_uso_respons%c3%a1vel_de_IA_v5_publicacao.pdf"},
-   {"tipo": "artigo", "titulo": "OCDE — Princípios de IA", "url": "https://oecd.ai/en/ai-principles"},
    {"tipo": "pdf", "titulo": "OpenIntro Statistics (livro gratuito)", "url": "https://www.openintro.org/book/os/"},
    {"tipo": "ferramenta", "titulo": "Portal Brasileiro de Dados Abertos", "url": "https://dados.gov.br/"}
   ]
@@ -140,7 +137,7 @@
   ]
  },
  "operacao-mlops-dados-ia": {
-  "como_estudar": ["MLOps: versionamento (dados, código, modelo), registro de experimentos, CI/CD/CT, monitoramento de drift.", "Governança de IA: NIST AI RMF, documentação (model cards), contratação de soluções e plano de saída."],
+  "como_estudar": ["MLOps: versionamento (dados, código, modelo), registro de experimentos, CI/CD/CT, monitoramento de drift.", "Governança de IA: documentação (model cards), contratação de soluções e plano de saída."],
   "links": [
    {"tipo": "artigo", "titulo": "Google Cloud — MLOps: pipelines de entrega contínua e automação (pt-BR)", "url": "https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning?hl=pt-br"},
    {"tipo": "artigo", "titulo": "Google — Rules of Machine Learning", "url": "https://developers.google.com/machine-learning/guides/rules-of-ml"},
@@ -148,7 +145,6 @@
    {"tipo": "pdf", "titulo": "Model Cards for Model Reporting", "url": "https://arxiv.org/abs/1810.03993"},
    {"tipo": "curso", "titulo": "MLflow — documentação (tracking, registry)", "url": "https://mlflow.org/docs/latest/index.html"},
    {"tipo": "curso", "titulo": "DVC — versionamento de dados e modelos", "url": "https://dvc.org/doc"},
-   {"tipo": "artigo", "titulo": "NIST — AI Risk Management Framework", "url": "https://www.nist.gov/itl/ai-risk-management-framework"},
    {"tipo": "lei", "titulo": "Lei 14.133/2021 — Licitações e contratos (contratação de soluções)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"}
   ]
  }

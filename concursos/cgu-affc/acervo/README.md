@@ -27,19 +27,19 @@ Onde e como estudar cada disciplina do edital. Fontes curadas + atalhos de busca
 
 | Prova | Disciplina | Fontes curadas |
 |---|---|:---:|
-| P1 | [Estado, Democracia, Direitos e Ciência Política](ciencia-politica-e-estado.md) | 4 |
+| P1 | [Estado, Democracia, Direitos e Ciência Política](ciencia-politica-e-estado.md) | 3 |
 | P1 | [Sociedade Brasileira, Desigualdades, Diversidade e Desenvolvimento](sociedade-brasileira.md) | 3 |
 | P1 | [Ética Pública e Responsabilidade Profissional](etica-publica.md) | 3 |
 | P1 | [Administração Pública e Fundamentos de Políticas Públicas](administracao-publica-e-politicas.md) | 3 |
-| P2 | [Fundamentos de Governança, Riscos e Integridade Pública e Privada](governanca-riscos-integridade.md) | 4 |
+| P2 | [Fundamentos de Governança, Riscos e Integridade Pública e Privada](governanca-riscos-integridade.md) | 3 |
 | P2 | [Fundamentos de Transparência, Ouvidoria e Participação Social](transparencia-ouvidoria-participacao.md) | 7 |
 | P2 | [Fundamentos de Direito Público Aplicado, Controle e Responsabilização](direito-publico-controle.md) | 4 |
-| P2 | [Fundamentos de Evidências, Dados e Inteligência Artificial](evidencias-dados-ia.md) | 4 |
+| P2 | [Fundamentos de Evidências, Dados e Inteligência Artificial](evidencias-dados-ia.md) | 3 |
 | P2 | [Fundamentos de Auditoria Governamental e Atuação Integrada da CGU](auditoria-governamental-cgu.md) | 4 |
 | P3 | [Estatística, Programação e Análise de Dados](estatistica-programacao-analise-dados.md) | 8 |
 | P3 | [Engenharia, Arquitetura e Governança de Dados](engenharia-arquitetura-governanca-dados.md) | 7 |
 | P3 | [Aprendizado de Máquina e Inteligência Artificial](aprendizado-de-maquina-e-ia.md) | 10 |
-| P3 | [Operação, Governança e Gestão de Soluções de Dados e IA](operacao-mlops-dados-ia.md) | 8 |
+| P3 | [Operação, Governança e Gestão de Soluções de Dados e IA](operacao-mlops-dados-ia.md) | 7 |
 
 ## 📝 Provas anteriores
 

@@ -24,6 +24,8 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [PRINCÍPIOS DA ADMINISTRAÇÃO PÚBLICA - Resumo para Concursos (Art. 37 da Constituição)](https://www.youtube.com/watch?v=Y_m2s4TXPyM) — Me Julga - Cíntia Brunelli
   - ▶️ [Princípio da Segurança Jurídica. Direito Administrativo e Constitucional. Concursos Púb…](https://www.youtube.com/watch?v=BG2UzvBjimg) — Jorge Gustavo
   - ▶️ [Direito Administrativo - Aula 92 (Atos Administrativos - Finalidade)](https://www.youtube.com/watch?v=747F9xBz93o) — Prof. Eduardo Tanaka
+  - ▶️ [LINDB - art 20 ao 30](https://www.youtube.com/watch?v=tiAhXMJqcKk)
+  - ▶️ [Art. 20 da LINDB - Interpretação da norma de Direito Público](https://www.youtube.com/watch?v=sC_IuXuPg4M)
   - 📄 [Direito administrativo: princípios explícitos e implícitos](https://repositorio.pgsscogna.com.br/bitstream/123456789/64905/1/Direito%20Administrativo%20Princ%C3%ADpios%20Expl%C3%ADcitos%20e%20Impl%C3%ADcitos.pdf) — PDF
   - 📰 [Consequencialismo jurídico e o artigo 20 da LINDB (ConJur)](https://www.conjur.com.br/2019-jun-07/opiniao-consequencialismo-juridico-artigo-20-lindb/) — artigo
   - 📰 [Princípio da motivação no direito administrativo (Enciclopédia Jurídica PUC-SP)](https://enciclopediajuridica.pucsp.br/verbetes/principio-da-motivacao-no-direito-administrativo/) — artigo
@@ -31,6 +33,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [Desvendando Anulação, Revogação e Convalidação de Atos Administrativos | Direito Admini…](https://www.youtube.com/watch?v=lWkhy5gABLs) — Prof. Ival Heckert
   - ▶️ [Atos Administrativos VINCULADOS e DISCRICIONÁRIOS - Diferenças, Limites, Controle e Leg…](https://www.youtube.com/watch?v=gQznubysQso) — Me Julga - Cíntia Brunelli
   - ▶️ [Lei 9784/99 - Processo Administrativo Federal - Art. 48 a 50 - Dever de decidir e Motiv…](https://www.youtube.com/watch?v=hV-YaDJscLI) — Cursos Bruno Oliveira
+  - ▶️ [Motivação do ato administrativo: novos contornos com a LINDB](https://www.youtube.com/watch?v=l2ZztN_rwAY)
   - 📄 [Direito administrativo: princípios explícitos e implícitos](https://repositorio.pgsscogna.com.br/bitstream/123456789/64905/1/Direito%20Administrativo%20Princ%C3%ADpios%20Expl%C3%ADcitos%20e%20Impl%C3%ADcitos.pdf) — PDF
   - 📰 [O dever de motivação dos atos e decisões administrativas e as alterações da LINDB](https://www.conteudojuridico.com.br/consulta/artigo/58650/o-dever-de-motivao-dos-atos-e-das-decises-administrativas-e-as-alteraes-da-lindb) — artigo
   - 📰 [Obrigatoriedade de motivação dos atos administrativos (Âmbito Jurídico)](https://ambitojuridico.com.br/cadernos/direito-administrativo/obrigatoriedade-de-motivacao-dos-atos-administrativos/) — artigo
@@ -58,6 +61,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [Controle Externo e Controle Interno na Administração Pública (Prof. Gustavo Muzy)](https://www.youtube.com/watch?v=yyQDvfHS2o4) — Qualis Concursos
   - ▶️ [Concurso CGU: Sistema de Controle Interno do Poder Executivo Federal com o Prof. Marcel…](https://www.youtube.com/watch?v=axJMcxWocic) — 7Fontes Concursos
   - ▶️ [Controle Externo do Congresso Nacional com o TCU - Direito Constitucional | NEAF Questões](https://www.youtube.com/watch?v=WHzeMU9-0tc) — NEAF Concursos
+  - ▶️ [O que é controle interno na administração pública? Programa Alcance do MPSC - Bloco 1](https://www.youtube.com/watch?v=_k8L0R56aVg) — MPSC
   - 📄 [Art. 74 da CF/88 comentado (Câmara)](https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/38116/art74_CF88.pdf?sequence=1) — PDF
   - 📄 [O Sistema de Controle Interno do Executivo Federal brasileiro (CONSAD)](https://consad.org.br/wp-content/uploads/2013/02/O-SISTEMA-DE-CONTROLE-INTERNO-DO-EXECUTIVO-FEDERAL-BRASILEIRO-A-CONSTRU%C3%87%C3%83O-INSTITUCIONAL-DO-CONTROLE-POL%C3%8DTICO-DA-BUROCRACIA.pdf) — PDF
   - 📰 [Lei nº 13.844/2019 — organização da Presidência e ministérios; CGU (Câmara)](https://www2.camara.leg.br/legin/fed/lei/2019/lei-13844-18-junho-2019-788400-publicacaooriginal-158253-pl.html) — artigo
