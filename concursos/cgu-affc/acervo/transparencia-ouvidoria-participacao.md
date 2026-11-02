@@ -85,6 +85,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [Política Nacional de Participação Social](https://www.youtube.com/watch?v=JN7e0v8iM1s) — Regiane Lucas
   - ▶️ [Políticas Sociais em Rede: Conselhos de Participação Social](https://www.youtube.com/watch?v=ENNHdmwl9Gc) — ANDEPS
   - ▶️ [O que é participação e controle social?](https://www.youtube.com/watch?v=ohdci9yNlco) — CeMAIS
+  - ▶️ [Transparência em Foco: Controle e Participação Social](https://www.youtube.com/watch?v=PtWmqOxVj9A)
   - 📄 [Controle Social e Cidadania — Módulo 3 (ENAP)](https://repositorio.enap.gov.br/bitstream/1/2719/4/MODULO%203_CONTROLE_SOCIAL.pdf) — PDF
   - 📄 [Participação social na administração pública federal (IPEA)](https://www.ipea.gov.br/participacao/images/pdfs/participacao/participacao%20social%20na%20administracao%20publica%20federal.pdf) — PDF
   - 📰 [Conselhos gestores: potencial de controle social democrático (Cadernos EBAPE)](https://www.scielo.br/j/cebape/a/Y5zqFPmXGsY4xvLVnttbXBg/?lang=pt) — artigo
@@ -96,6 +97,9 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - 📰 [Como se mede a corrupção de um país? — subnotificação (Questão de Ciência)](https://www.revistaquestaodeciencia.com.br/artigo/2019/10/16/como-se-mede-corrupcao-de-um-pais) — artigo
 - **4.3** Transparência ativa, dados abertos e Portal da Transparência como meios de acesso e controle; qualidade, atualização, cobertura e limites da informação
   - ▶️ [EP.35 - DADOS ABERTOS: TRANSPARÊNCIA E CONTROLE SOCIAL](https://www.youtube.com/watch?v=PMl_UQtsAwM) — Escola de Gestão e Contas
+  - ▶️ [O que você encontra no Portal da Transparência](https://www.youtube.com/watch?v=3aDwEfyV2_o)
+  - ▶️ [Transparência Ativa: Aspectos Gerais da Avaliação e do Monitoramento](https://www.youtube.com/watch?v=YhEdioQVH-8)
+  - ▶️ [Live - Portal Brasileiro de Dados Abertos: Conhecer, Usar e Catalogar](https://www.youtube.com/watch?v=7aObSndHiEE)
   - 📄 [Guia de Transparência Ativa para órgãos e entidades (CGU)](https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/4a282490-47b7-42d2-a2e4-df936e66fce7/content) — PDF
   - 📰 [Portal da Transparência — o que é e como funciona](https://portaldatransparencia.gov.br/sobre/o-que-e-e-como-funciona) — artigo
   - 📰 [Portal da Transparência — controle social](https://portaldatransparencia.gov.br/controle-social) — artigo

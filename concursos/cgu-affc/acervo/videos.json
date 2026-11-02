@@ -403,23 +403,7 @@
    "canal": "Suelia Souza | Defesa Estratégica para Servidores"
   }
  ],
- "ET.4.2": [
-  {
-   "id": "agd3z5_mx9U",
-   "titulo": "Ética e função pública. Ética no setor público (Ética no Serviço Público)",
-   "canal": "Felipe Medeiros"
-  },
-  {
-   "id": "ETtAvAcLEFA",
-   "titulo": "AULA 01 - ÉTICA no SERVIÇO PÚBLICO (para QUALQUER CONCURSO)",
-   "canal": "FAZ QUESTÃO CONCURSOS PÚBLICOS"
-  },
-  {
-   "id": "fuAZJgk7XAE",
-   "titulo": "Ética no Setor Público/ Ética no Serviço Público",
-   "canal": "Matérias para concursos"
-  }
- ],
+ "ET.4.2": [],
  "ET.5.1": [
   {
    "id": "CSfpEr4YIM4",
@@ -532,28 +516,18 @@
    "id": "NzODBMtRwj0",
    "titulo": "RECEITA FEDERAL - Governança, Governabilidade e Accountability",
    "canal": "Carranza Cursos"
-  },
-  {
-   "id": "pZAEUY1Dzdk",
-   "titulo": "Governança Pública: Comunicação (comunicação formal/informal, fluxos) — Live PF Administrativo",
-   "canal": "Petronio Castro"
   }
  ],
  "GR.2.1": [
   {
-   "id": "bnov9nv9zGU",
-   "titulo": "Tudo Sobre o COSO: Controles Internos (COSO ICF) e Gestão de Riscos (COSO ERM)!",
-   "canal": "Auditoria sem Grilo"
-  },
-  {
-   "id": "foZ-exUfV3w",
-   "titulo": "O que é gestão de riscos, Conceito e Objetivos segundo a ISO 31000:2018",
-   "canal": "Mundo da Administração // Tudo sobre ADM está aqui"
-  },
-  {
    "id": "X6HS7QGjdgo",
    "titulo": "Episódio 4 - Identificando riscos, causas e consequências",
    "canal": "Unesp Oficial"
+  },
+  {
+   "id": "0rN0lyvp2_0",
+   "titulo": "Curso Preparatório CNU - Gestão de riscos e medidas mitigatórias na Administração Pública",
+   "canal": ""
   }
  ],
  "GR.2.2": [
@@ -622,11 +596,6 @@
   }
  ],
  "GR.5.1": [
-  {
-   "id": "qUeYnJlUFJw",
-   "titulo": "O QUE É CULTURA ORGANIZACIONAL? (6 Principais Tipos e Como Aplicar na Sua Empresa)",
-   "canal": "Blog Abri Minha Empresa"
-  },
   {
    "id": "CSfpEr4YIM4",
    "titulo": "Programa de Integridade: Construindo uma cultura de ética e confiança no serviço público",
@@ -766,6 +735,11 @@
    "id": "ohdci9yNlco",
    "titulo": "O que é participação e controle social?",
    "canal": "CeMAIS"
+  },
+  {
+   "id": "PtWmqOxVj9A",
+   "titulo": "Transparência em Foco: Controle e Participação Social",
+   "canal": ""
   }
  ],
  "TO.4.2": [
@@ -785,6 +759,21 @@
    "id": "PMl_UQtsAwM",
    "titulo": "EP.35 - DADOS ABERTOS: TRANSPARÊNCIA E CONTROLE SOCIAL",
    "canal": "Escola de Gestão e Contas"
+  },
+  {
+   "id": "3aDwEfyV2_o",
+   "titulo": "O que você encontra no Portal da Transparência",
+   "canal": ""
+  },
+  {
+   "id": "YhEdioQVH-8",
+   "titulo": "Transparência Ativa: Aspectos Gerais da Avaliação e do Monitoramento",
+   "canal": ""
+  },
+  {
+   "id": "7aObSndHiEE",
+   "titulo": "Live - Portal Brasileiro de Dados Abertos: Conhecer, Usar e Catalogar",
+   "canal": ""
   }
  ],
  "TO.4.4": [
@@ -865,6 +854,16 @@
    "id": "747F9xBz93o",
    "titulo": "Direito Administrativo - Aula 92 (Atos Administrativos - Finalidade)",
    "canal": "Prof. Eduardo Tanaka"
+  },
+  {
+   "id": "tiAhXMJqcKk",
+   "titulo": "LINDB - art 20 ao 30",
+   "canal": ""
+  },
+  {
+   "id": "sC_IuXuPg4M",
+   "titulo": "Art. 20 da LINDB - Interpretação da norma de Direito Público",
+   "canal": ""
   }
  ],
  "DP.1.2": [
@@ -882,6 +881,11 @@
    "id": "hV-YaDJscLI",
    "titulo": "Lei 9784/99 - Processo Administrativo Federal - Art. 48 a 50 - Dever de decidir e Motivação",
    "canal": "Cursos Bruno Oliveira"
+  },
+  {
+   "id": "l2ZztN_rwAY",
+   "titulo": "Motivação do ato administrativo: novos contornos com a LINDB",
+   "canal": ""
   }
  ],
  "DP.2.1": [
@@ -928,6 +932,11 @@
    "id": "WHzeMU9-0tc",
    "titulo": "Controle Externo do Congresso Nacional com o TCU - Direito Constitucional | NEAF Questões",
    "canal": "NEAF Concursos"
+  },
+  {
+   "id": "_k8L0R56aVg",
+   "titulo": "O que é controle interno na administração pública? Programa Alcance do MPSC - Bloco 1",
+   "canal": "MPSC"
   }
  ],
  "DP.3.2": [
@@ -1068,23 +1077,7 @@
    "canal": "Professor em Casa - Felipe Cardoso"
   }
  ],
- "EV.2.2": [
-  {
-   "id": "I2BfvSGc5t4",
-   "titulo": "Indicadores de Desempenho: Tipos e Exemplos de Indicadores de Desempenho",
-   "canal": "Instituto Montanari"
-  },
-  {
-   "id": "yNaqTfjnwwc",
-   "titulo": "09.08. Aula de Indicadores de Desempenho (Administração)",
-   "canal": "TecConcursos"
-  },
-  {
-   "id": "ogbi003EaVA",
-   "titulo": "Administração - Aula 44 (Indicadores de Desempenho - Resultados)",
-   "canal": "Marco Ferrari"
-  }
- ],
+ "EV.2.2": [],
  "EV.3.1": [
   {
    "id": "4vldPf95f8c",
@@ -1119,18 +1112,7 @@
    "canal": "Milagros Gonzalez Giorgi"
   }
  ],
- "EV.4.1": [
-  {
-   "id": "Kqx5vYQ3OMY",
-   "titulo": "Cadeia de Custódia da Prova: o que é? | PROVAS EM PROCESSO PENAL | Pacote Anticrime | Aula 05",
-   "canal": "Ana Carolina Aidar"
-  },
-  {
-   "id": "3LK1B2e9uOU",
-   "titulo": "Você sabe o que é Cadeia de Custódia e quais são suas etapas?",
-   "canal": "Local Preservado"
-  }
- ],
+ "EV.4.1": [],
  "EV.4.2": [
   {
    "id": "mNpteN-i0Jo",
@@ -1240,6 +1222,16 @@
    "id": "lhuq5vD8m0w",
    "titulo": "Concurso CGU - Auditoria e Fiscalização - Auditor Federal de Finanças e Controle",
    "canal": "Renato Chaves | Contabilidade e Auditoria"
+  },
+  {
+   "id": "WRt0oGSQCbI",
+   "titulo": "Auditoria Governamental - Concurso CGU 2026: Serviço de consultoria no MOT",
+   "canal": ""
+  },
+  {
+   "id": "klNDiK9WurA",
+   "titulo": "Gabaritando Auditoria - MOT 2017: Consultoria e Avaliação",
+   "canal": ""
   }
  ],
  "AU.1.4": [
@@ -1257,6 +1249,11 @@
    "id": "ZYFIdeSPmpU",
    "titulo": "Independência e Objetividade da Auditoria Interna",
    "canal": "Diocesio Sant'Anna"
+  },
+  {
+   "id": "f_NpYSzPsy8",
+   "titulo": "O modelo das Três Linhas, uma visão prática",
+   "canal": ""
   }
  ],
  "AU.2.1": [
@@ -1281,11 +1278,6 @@
    "id": "vHYohteDIvM",
    "titulo": "02.03. Materialidade, Relevância e Risco em Auditoria (Auditoria Privada) - Prof. Eugênio Montoto",
    "canal": "TecConcursos"
-  },
-  {
-   "id": "FUbQMeOYjkU",
-   "titulo": "Auditoría interna basada en riesgos: cómo planificar, priorizar y ejecutar una auditoría",
-   "canal": "Pirani"
   },
   {
    "id": "3kJgwYLUdAE",
@@ -1349,16 +1341,6 @@
    "id": "NKmhWMr7nBU",
    "titulo": "Aula 04 - Fundamentos de Auditoria Governamental: Comunicação e acompanhamento - CGU",
    "canal": "Renato Chaves | Contabilidade e Auditoria"
-  },
-  {
-   "id": "_bgyQjWZBGQ",
-   "titulo": "LGPD Webinar - Como conduzir uma auditoria de privacidade e proteção de dados?",
-   "canal": "ECOMPLY GmbH - Brasil"
-  },
-  {
-   "id": "xBpJhYLIFRI",
-   "titulo": "Relatório de Impacto à Proteção de Dados Pessoais (RIPD/ PIA) na LGPD",
-   "canal": "Maria Godoy"
   }
  ],
  "AU.4.2": [
@@ -1487,6 +1469,33 @@
    "id": "sRE0UQuXF88",
    "titulo": "PANDAS NO PYTHON DO ZERO | Guia Completo de DataFrames e Análise de Dados",
    "canal": "Engenharia de Dados | Data Engineer Help"
+  },
+  {
+   "id": "xz2B3bfNjEk",
+   "titulo": "Curso Python #23 - Tratamento de Erros e Exceções",
+   "canal": "Curso em Vídeo"
+  },
+  {
+   "id": "s3r8_Aug4y8",
+   "titulo": "Curso Python #22 - Módulos e Pacotes",
+   "canal": "Curso em Vídeo"
+  },
+  {
+   "id": "",
+   "lista": "PLUZAyAs5RW6vpExUIWp-TC8ZjYu9T5uiH",
+   "titulo": "Curso de Python 3 — Mundo 3 (estruturas compostas, funções, módulos, erros)",
+   "canal": "Curso em Vídeo"
+  },
+  {
+   "id": "",
+   "lista": "PLGFzROSPU9oVRqeQ-WxEYf0npA-NTFhnF",
+   "titulo": "Manipulação de Arquivos em Python (txt, csv, json)",
+   "canal": ""
+  },
+  {
+   "id": "MjQCvJmc31A",
+   "titulo": "Pytest: Uma introdução - Live de Python #167",
+   "canal": "Live de Python"
   }
  ],
  "EP.5.1": [
@@ -1555,6 +1564,11 @@
    "id": "8VzRZ18lhxU",
    "titulo": "O que São Comandos DDL, DCL, DML e TCL no SQL",
    "canal": "Hashtag Programação"
+  },
+  {
+   "id": "3MJWozm60Ig",
+   "titulo": "SQL Server Intermediário (Aula 6) - Usando Over (funções de janela)",
+   "canal": ""
   }
  ],
  "ED.2.2": [
@@ -1629,11 +1643,6 @@
  ],
  "ED.4.4": [
   {
-   "id": "t5WPGMXOtds",
-   "titulo": "CAP Theorem - Consistency, Availability and Partition Tolerance - System Design",
-   "canal": "Caleb Curry"
-  },
-  {
    "id": "RArOLJm_5Us",
    "titulo": "Spark Data Skew",
    "canal": "Data Engineering "
@@ -1644,6 +1653,16 @@
    "id": "EmeeCfa9iRk",
    "titulo": "Curso de TI para área fiscal e controle - Aula 01 - I - 1.4 - Metadados e catálogo de dados",
    "canal": "Prof. Ramon Souza"
+  },
+  {
+   "id": "T5JvLbv1IaA",
+   "titulo": "Governança de Dados - Gestão de Metadados",
+   "canal": ""
+  },
+  {
+   "id": "nounQ8SGjRU",
+   "titulo": "Catálogo de Dados: um novo olhar na busca de dados",
+   "canal": ""
   }
  ],
  "ED.5.2": [
@@ -1933,13 +1952,7 @@
    "canal": "Eduardo | Ciência dos Dados"
   }
  ],
- "ML.3.5": [
-  {
-   "id": "qBv78M_fU9M",
-   "titulo": "Credit Scoring Models : example and explanation of an expert score card model in Excel",
-   "canal": "Stachanov Holding B.V."
-  }
- ],
+ "ML.3.5": [],
  "ML.4.1": [
   {
    "id": "e5nC31i7nVY",
@@ -2507,11 +2520,6 @@
    "id": "wpoGABku51k",
    "titulo": "Entenda o que é TCO: Custo Total de Propriedade",
    "canal": "FriendsLab"
-  },
-  {
-   "id": "-IEaf9Q5eCw",
-   "titulo": "O passo a passo para fazer um estudo de viabilidade de uma obra",
-   "canal": "Eng. Mariele"
   },
   {
    "id": "uJWNo2C5rvc",

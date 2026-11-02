@@ -12,7 +12,6 @@
 - ⚖️ [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)
 - ⚖️ [Lei 12.846/2013 — Lei Anticorrupção](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm)
 - 📰 [Transparency International — Índice de Percepção da Corrupção](https://www.transparency.org/en/cpi)
-- 📄 [TCU — Referencial Básico de Governança Organizacional (3ª ed.)](https://portal.tcu.gov.br/referencial-basico-de-governanca-organizacional.htm)
 
 ## 🗂️ Por tópico do edital
 

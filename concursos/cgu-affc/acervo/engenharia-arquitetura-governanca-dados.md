@@ -51,6 +51,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [Types of SQL Commands (DDL, DQL, DML, DCL, TCL) - SQL Tutorial #5](https://www.youtube.com/watch?v=BxZOqy3Bnl0) — Data with Baraa
   - ▶️ [Banco de Dados para Iniciantes | O que é? Transações ACID](https://www.youtube.com/watch?v=ZdW7VC2ex3o) — Canal TI
   - ▶️ [O que São Comandos DDL, DCL, DML e TCL no SQL](https://www.youtube.com/watch?v=8VzRZ18lhxU) — Hashtag Programação
+  - ▶️ [SQL Server Intermediário (Aula 6) - Usando Over (funções de janela)](https://www.youtube.com/watch?v=3MJWozm60Ig)
   - 📄 [Structured Query Language — apostila (UTFPR)](https://coens.dv.utfpr.edu.br/will/wp-content/uploads/2022/03/Apostila_SQL.pdf) — PDF
   - 📰 [Roadmap SQL 2026: do SELECT ao desempenho de queries](https://casado.dev/banco-de-dados/roadmap-sql-2026-do-select-ao-desempenho) — artigo
   - 📰 [Window Functions no SQL Server](https://sqlcrespi.com/2016/05/14/window-functions-no-sql-server/) — artigo
@@ -102,7 +103,6 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - 📄 [Planos de execução — otimização de consultas PostgreSQL (AWS)](https://docs.aws.amazon.com/pt_br/prescriptive-guidance/latest/postgresql-query-tuning/postgresql-query-tuning.pdf) — PDF
   - 📰 [O plano de execução perfeito (Porto SQL)](https://portosql.wordpress.com/2018/11/21/o-plano-perfeito/) — artigo
 - **4.4** Assimetria entre partições e resultados inconsistentes
-  - ▶️ [CAP Theorem - Consistency, Availability and Partition Tolerance - System Design](https://www.youtube.com/watch?v=t5WPGMXOtds) — Caleb Curry
   - ▶️ [Spark Data Skew](https://www.youtube.com/watch?v=RArOLJm_5Us) — Data Engineering 
   - 📄 [Skew in Parallel Query Processing (arXiv)](https://arxiv.org/pdf/1401.1872) — PDF
   - 📰 [Spark Data Skew Problem](https://www.dataengi.com/post/2019/02/06/spark-data-skew-problem) — artigo
@@ -112,6 +112,8 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
 
 - **5.1** Metadados, catálogo e linhagem
   - ▶️ [Curso de TI para área fiscal e controle - Aula 01 - I - 1.4 - Metadados e catálogo de d…](https://www.youtube.com/watch?v=EmeeCfa9iRk) — Prof. Ramon Souza
+  - ▶️ [Governança de Dados - Gestão de Metadados](https://www.youtube.com/watch?v=T5JvLbv1IaA)
+  - ▶️ [Catálogo de Dados: um novo olhar na busca de dados](https://www.youtube.com/watch?v=nounQ8SGjRU)
   - 📄 [Gerenciamento de metadados e da qualidade de dados — Módulo 4 (ENAP)](https://repositorio.enap.gov.br/bitstream/1/7092/4/M%C3%B3dulo%20-4%20Gerenciamento%20de%20Metadados%20e%20da%20qualidade%20de%20Dados%2003-2021.pdf) — PDF
   - 📄 [Gestão da linhagem de dados heterogêneos (SBBD)](https://sol.sbc.org.br/index.php/sbbd/article/download/37270/37053/) — PDF
   - 📰 [O que é linhagem de dados? (Databricks)](https://www.databricks.com/blog/what-is-data-lineage) — artigo

@@ -129,7 +129,6 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - 📰 [Interpretabilidade de modelos de ML e IA (Data Science Academy)](https://blog.dsacademy.com.br/interpretabilidade-de-modelos-de-machine-learning-e-ia/) — artigo
   - 📰 [Explicabilidade em modelos de IA: LIME e SHAP (Gran Cursos)](https://blog.grancursosonline.com.br/explicabilidade-em-modelos-de-ia-fundamentos-tecnicos-lime-shap-e-praticas-de-implementacao/) — artigo
 - **3.5** Limites do uso de escores para priorização e tomada de decisão
-  - ▶️ [Credit Scoring Models : example and explanation of an expert score card model in Excel](https://www.youtube.com/watch?v=qBv78M_fU9M) — Stachanov Holding B.V.
   - 📄 [Modelos preditivos para priorização em auditoria financeira (TCU, 2025)](https://sites.tcu.gov.br/recursos/trabalhos-pos-graduacao/pdfs/CGAF_CandiceEscorcio_TCC_2025.pdf) — PDF
   - 📄 [Detecção de anomalias fiscais no setor de combustíveis (UFPE)](https://repositorio.ufpe.br/bitstream/123456789/71260/1/DISSERTA%C3%87%C3%83O%20Joao%20Alexandre%20Beltrao%20Alves.pdf) — PDF
   - 📰 [Modelagem preditiva para priorização de inconsistências fiscais (E&S Journal)](https://revistaes.com.br/artigos/modelagem-preditiva-para-priorizacao-de-inconsistencias-fiscais-a-partir-do-balancete-da-ecd?lang=en) — artigo
@@ -170,7 +169,6 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [What is Deep Learning? (DL 01)](https://www.youtube.com/watch?v=DrhJLHiia7g) — Professor Bryce
   - ▶️ [Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Le…](https://www.youtube.com/watch?v=ccZ2pyr3YDw) — Filipe Deschamps
   - 📄 [A Nova Eletricidade: aplicações, riscos e tendências da IA moderna](https://arxiv.org/pdf/2310.18324) — PDF
-  - 📰 [Rede neural recorrente (Wikipédia)](https://pt.wikipedia.org/wiki/Rede_neural_recorrente) — artigo
   - 📰 [Transformadores (Deep Learning Book)](https://www.deeplearningbook.com.br/transformadores-o-estado-da-arte-em-processamento-de-linguagem-natural/) — artigo
   - 📝 [CEB-2022-PETROBRAS-CD-Q079](../../../questoes/2022-petrobras-ciencia-de-dados/ceb-2022-petrobras-cd-q079.md) — questão real · Banca Cebraspe
   - 📝 [CEB-2025-ANM-CD-Q087](../../../questoes/2025-anm-ciencia-de-dados/ceb-2025-anm-cd-q087.md) — questão real · Banca Cebraspe

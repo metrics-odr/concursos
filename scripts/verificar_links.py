@@ -20,7 +20,7 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
 def urls_de(arquivo):
     texto = arquivo.read_text(encoding="utf-8")
     if arquivo.name == "videos.json":
-        return [f"https://www.youtube.com/watch?v={x['id']}" for lista in json.loads(texto).values() for x in lista]
+        return [f"https://www.youtube.com/playlist?list={x['lista']}" if x.get("lista") else f"https://www.youtube.com/watch?v={x['id']}" for lista in json.loads(texto).values() for x in lista]
     if arquivo.name == "fontes.json":
         return [x["url"] for v in json.loads(texto).values() for l in v.values() for x in l]
     if arquivo.suffix == ".json":
@@ -30,7 +30,7 @@ def urls_de(arquivo):
 
 
 def status(url):
-    if "youtube.com/watch" in url:  # a página responde 200 até para vídeo removido; o oEmbed não
+    if "youtube.com/watch" in url or "youtube.com/playlist" in url:  # a página responde 200 até para vídeo removido; o oEmbed não
         url = "https://www.youtube.com/oembed?format=json&url=" + quote(url, safe="")
     for metodo in ("HEAD", "GET"):
         try:
