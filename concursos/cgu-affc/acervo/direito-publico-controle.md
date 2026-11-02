@@ -107,5 +107,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [10.06.13. Aula Do Processo Administrativo Disciplinar (Direito Administrativo) - Parte 1](https://www.youtube.com/watch?v=I3SrAG_1_jY) — TecConcursos
   - ▶️ [Sindicância investigativa, punitiva e PAD - Processo Administrativo Disciplinar](https://www.youtube.com/watch?v=J-yrmO3C4yg) — Carlos Mazzaferro Advogado
   - ▶️ [Lei 8.112/90 | Aula 13 | Estatuto dos Servidores Federais |  Processo Administrativo Di…](https://www.youtube.com/watch?v=Btf44V2RRT8) — Professor Alê
+  - ▶️ [Agosto Lilás: Como apurar assédio e discriminação no serviço público](https://www.youtube.com/watch?v=0k3BWtF2pz8)
+  - ▶️ [Guia Lilás na Prática: Papel das Ouvidorias e Corregedorias nas Denúncias de Assédio Se…](https://www.youtube.com/watch?v=RmSkdAS1hcM)
   - 📄 [Guia Lilás — 2ª edição (CGU)](https://www.gov.br/cgu/pt-br/assuntos/noticias/2024/12/cgu-lanca-versao-atualizada-do-guia-lilas-contra-assedios-e-discriminacao-no-governo/22nov24-vfinal_cgu-guialilas2024.pdf) — PDF
   - 📰 [CGU disponibiliza Guia Lilás (Agência Gov)](https://agenciagov.ebc.com.br/noticias/202308/cgu-disponibiliza-guia-lilas-sobre-assedio-moral-sexual-e-discriminacao-no-servico-publico-federal) — artigo

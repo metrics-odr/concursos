@@ -2189,6 +2189,10 @@
    {
     "url": "https://www.scielo.br/j/ress/a/zH4GSZzP9DNZRxwGz3wpMTL/?lang=pt&format=pdf",
     "titulo": "Conquistas e desafios do record linkage (Epidemiol. Serv. Saúde/SciELO)"
+   },
+   {
+    "url": "https://arxiv.org/pdf/2107.12884",
+    "titulo": "SimCleaner: padronização de bases com funções de similaridade (Levenshtein, Jaro-Winkler)"
    }
   ],
   "artigo": [

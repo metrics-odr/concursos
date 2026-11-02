@@ -76,6 +76,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
 - **3.3** Distinção entre receber um relato, apurar fatos e decidir sobre responsabilidade
   - ▶️ [Qual a diferença entre Canal de Denúncias e Canal de Ouvidoria?](https://www.youtube.com/watch?v=1rTm95FQQp4) — NDM Advogados
   - ▶️ [Fundamentos de uma Ouvidoria com Canal de Denúncias](https://www.youtube.com/watch?v=64u2DAcEN6E) — Academia Target de Ensino
+  - ▶️ [Webinário "Proteção ao denunciante: Do relato à apuração segura"](https://www.youtube.com/watch?v=MZDXtS2hq7o) — Ouvidoria-Geral da União (CGU)
   - 📄 [Decreto 9.492/2018 — Sistema de Ouvidoria do Poder Executivo Federal](https://ouvidoria.mcti.gov.br/images/9492.pdf) — PDF
   - 📰 [Proteção ao Denunciante (AGU)](https://www.gov.br/agu/pt-br/composicao/ouvidoria/ouvidoria-geral/protecao-ao-denunciante) — artigo
 
@@ -106,6 +107,9 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
 - **4.4** Papel da CGU na orientação e no monitoramento da transparência e do acesso à informação, em nível de finalidade institucional
   - ▶️ [O QUE É A CONTROLADORIA GERAL DA UNIÃO? AUDITOR FEDERAL EXPLICA TUDO!](https://www.youtube.com/watch?v=4pEXRqjal6w) — DDD 53
   - ▶️ [02.02.01. Aula da Controladoria Geral da União (Auditoria Governamental e Controle)](https://www.youtube.com/watch?v=IIOdBe47HwQ) — TecConcursos
+  - ▶️ [Capacitação - Transparência Ativa: Diretrizes e Boas Práticas](https://www.youtube.com/watch?v=Z1sUB-JCFiM)
+  - ▶️ [CGU divulga resultado da segunda edição da Escala Brasil Transparente](https://www.youtube.com/watch?v=IBHSnA9WCcw)
+  - ▶️ [Transparência Ativa: Aspectos Gerais da Avaliação e do Monitoramento](https://www.youtube.com/watch?v=YhEdioQVH-8)
   - 📰 [Transparência Pública (CGU)](https://www.gov.br/cgu/pt-br/centrais-de-conteudo/campanhas/integridade-publica/transparencia-publica) — artigo
   - 📰 [Informa.BR — Plataforma de Transparência e Acesso à Informação (CGU)](https://informabr.cgu.gov.br/) — artigo
 
