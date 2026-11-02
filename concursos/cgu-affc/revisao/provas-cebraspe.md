@@ -11,7 +11,18 @@
 
 > [!TIP]
 > **Garimpo por tema** (itens reais dos 4 blocos específicos, com gabarito oficial): [`garimpo-por-tema.md`](garimpo-por-tema.md)
-> **Provas novas garimpadas** (TCU AUFC-TI 2026, SEFAZ-SE 2025, Funpresp 2024; gabarito resolvido por mim, não oficial): [`garimpo-novas-provas.md`](garimpo-novas-provas.md)
+> **Provas novas garimpadas** (TCU AUFC-TI 2026, SEFAZ-SE 2025, Funpresp 2024; gabarito resolvido por mim, não oficial): [`garimpo-novas-provas.md`](garimpo-novas-provas.md) · [`gabaritos-nao-oficiais.md`](gabaritos-nao-oficiais.md)
+
+## 📋 Tabela de provas com prova e gabarito
+🏛️ **Banca: Cebraspe.** **Itens a responder** = os que caem nos temas do edital (os demais são de outras matérias ou anulados; lista por tema em [garimpo-por-tema.md](garimpo-por-tema.md) e [garimpo-novas-provas.md](garimpo-novas-provas.md)). Gabarito **oficial** = PDF definitivo guardado no repositório. Onde não achei o oficial, o gabarito é **não oficial** (resolvido por mim) na página [gabaritos-nao-oficiais.md](gabaritos-nao-oficiais.md).
+
+| Ano | Banca | Concurso/Cargo | Itens a responder | Link Prova | Link Gabarito |
+|:--:|---|---|---|---|---|
+| 2026 | Cebraspe | TCU · Auditor Federal de Controle Externo – Auditoria de TI | 101–181, 183, 189–195, 198, 200 (fora: 182, 184–188 licitações e sanções; 196, 197, 199 engenharia de software) | [PDF](https://arquivos.qconcursos.com/prova/arquivo_prova/146630/cespe-cebraspe-2026-tcu-auditor-federal-de-controle-externo-area-de-controle-externo-orientacao-auditoria-de-tecnologia-da-informacao-prova.pdf) | ⚠️ [não oficial](gabaritos-nao-oficiais.md) |
+| 2025 | Cebraspe | SEFAZ-SE · Auditor – Análise de Dados | 91–108 | [PDF](https://cdn.cebraspe.org.br/concursos/sefaz_se_25_auditor/arquivos/624881901E6864718BBE688CD40C2860CE6B13F1EE789221EFF7404DDB66E40C.pdf) | ⚠️ [não oficial](gabaritos-nao-oficiais.md) |
+| 2025 | Cebraspe | ANM · Especialista em Recursos Minerais – TI – Ciência de Dados | 48, 50, 55–63, 65, 67–74, 79–81, 84–91, 93, 97–120 (56 itens; anuladas já excluídas) | [PDF](../../../questoes/_pdf/prova-cebraspe-16-02-2025-anm-especialista-ti-ciencia-de-dados.pdf) | ✅ [oficial](../../../questoes/_pdf/gabarito-cebraspe-16-02-2025-anm-todos-os-cargos-definitivo.pdf) |
+| 2024 | Cebraspe | Funpresp-Exe · Analista (conhecimentos específicos) | 56–63, 68–90 | [PDF](https://cdn.cebraspe.org.br/concursos/funpresp_24_exe/arquivos/040_FUNPRESPEXE_008_01.PDF) | ⚠️ [não oficial](gabaritos-nao-oficiais.md) |
+| 2022 | Cebraspe | Petrobras · Nível Superior, Ênfase 7 – Ciência de Dados | 51–64, 66–69, 71–75, 77–78, 80–83, 86–87, 89–94, 96–99, 108–110, 112–115, 117, 119–120 (51 itens; anuladas já excluídas) | [PDF](../../../questoes/_pdf/prova-cebraspe-20-02-2022-petrobras-ciencia-de-dados.pdf) | ✅ [oficial](../../../questoes/_pdf/gabarito-cebraspe-20-02-2022-petrobras-ciencia-de-dados-definitivo.pdf) |
 
 ## 🎯 Como usar
 1. Comece pelas provas **⭐ mais parecidas** (ciência de dados em órgão de controle/regulação, 2024–2025).
