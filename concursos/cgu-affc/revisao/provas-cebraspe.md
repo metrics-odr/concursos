@@ -9,6 +9,10 @@
 > [!TIP]
 > Provas já transcritas no **banco de questões** (uma questão por arquivo, com tópicos do edital): [`questoes/`](../../../questoes/README.md) — ✅ Petrobras 2022 (itens 51–120) · ✅ ANM 2025 – TI – Ciência de Dados (específicos 51–120, gerais aproveitáveis e discursiva). Para incluir outra, peça “adiciona a prova X ao banco”.
 
+> [!TIP]
+> **Garimpo por tema** (itens reais dos 4 blocos específicos, com gabarito oficial): [`garimpo-por-tema.md`](garimpo-por-tema.md)
+> **Provas novas garimpadas** (TCU AUFC-TI 2026, SEFAZ-SE 2025, Funpresp 2024; gabarito resolvido por mim, não oficial): [`garimpo-novas-provas.md`](garimpo-novas-provas.md)
+
 ## 🎯 Como usar
 1. Comece pelas provas **⭐ mais parecidas** (ciência de dados em órgão de controle/regulação, 2024–2025).
 2. Resolva por **tópico do edital**, não a prova inteira de uma vez → registre erros em [`questoes.md`](questoes.md).
