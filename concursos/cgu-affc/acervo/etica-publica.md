@@ -71,6 +71,8 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - 📄 [Guia para Prevenção e Enfrentamento do Assédio e da Discriminação (AGU)](https://www.gov.br/agu/pt-br/assuntos-1/agu-sem-assedio-e-sem-discriminacao/publicacoes/cartilha-agu-sem-assedio-e-sem-discriminacao.pdf) — PDF
   - 📰 [CGU disponibiliza Guia Lilás (Agência Gov)](https://agenciagov.ebc.com.br/noticias/202308/cgu-disponibiliza-guia-lilas-sobre-assedio-moral-sexual-e-discriminacao-no-servico-publico-federal) — artigo
 - **4.2** Distinção entre acolher uma pessoa, verificar fatos e atribuir responsabilidade
+  - ▶️ [Agosto Lilás: Como apurar assédio e discriminação no serviço público](https://www.youtube.com/watch?v=0k3BWtF2pz8)
+  - ▶️ [Guia Lilás na Prática: Papel das Ouvidorias e Corregedorias nas Denúncias de Assédio Se…](https://www.youtube.com/watch?v=RmSkdAS1hcM)
   - 📄 [Guia Lilás — 1ª edição (CGU)](https://www.ufrn.br/resources/documentos/enfrentamentoviolencias/guia_lilas_1.pdf) — PDF
   - 📄 [Cartilha de prevenção aos assédios moral e sexual (CAPES)](https://www.gov.br/capes/pt-br/centrais-de-conteudo/documentos/16102023_Cartilha_de_Preveno_aos_assdios_moral_e_sexual.pdf) — PDF
   - 📰 [Assédio no serviço público: governo lança novo guia (Câmara dos Deputados)](https://www.camara.leg.br/noticias/1127336-assedio-no-servico-publico-governo-lanca-novo-guia-e-camara-institui-politica-para-coibir-pratica/) — artigo

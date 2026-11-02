@@ -55,6 +55,7 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
 - **3.1** Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações
   - ▶️ [Administração Pública e Programa de Integridade (Compliance)](https://www.youtube.com/watch?v=NkhTw1EBIh4) — LawClass
   - ▶️ [#59 - Análise do Plano de Integridade e Combate a Corrupção da CGU | GOVERNANÇA EM AÇÃO](https://www.youtube.com/watch?v=yillyAkv-hw) — KASSY Consultoria
+  - ▶️ [Capacitação - Gestão de Riscos para Integridade 2020 - Vídeo 1](https://www.youtube.com/watch?v=i4oAchuKMd0) — CGU
   - 📄 [Manual para Implementação de Programas de Integridade (CGU)](https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/integridade/arquivos/manual_profip.pdf) — PDF
   - 📄 [Plano de Integridade da CGU](https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/programa-de-integridade-da-cgu/arquivos/plano-de-integridade-cgu.pdf) — PDF
   - 📰 [Decreto 11.529/2023 — Sistema de Integridade, Transparência e Acesso à Informação (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11529.htm) — artigo

@@ -122,12 +122,14 @@ Para cada item: vídeos do YouTube, PDFs e artigos reais (links diretos, de `fon
   - ▶️ [Qualidade dos dados, suas dimensões e aplicações na governança de dados](https://www.youtube.com/watch?v=7dw7D6j8TzI) — Paulo Cordeiro | Governança de Dados e IA
   - ▶️ [6 Principais Dimensões de Qualidade de Dados | Governança de Dados](https://www.youtube.com/watch?v=wTwWg7W9Bcc) — Diário de Dados
   - ▶️ [Principais Medidas de Qualidade dos Dados - Consistência](https://www.youtube.com/watch?v=Q4HFzs6kJDM) — Data Science Academy
+  - ▶️ [Aula 01 - Qualidade em Dados](https://www.youtube.com/watch?v=FdxxQfWHMeQ)
   - 📄 [Governança de Dados — Módulo 4: metadados e qualidade (ENAP)](https://repositorio.enap.gov.br/bitstream/1/5008/4/M%C3%B3dulo%204%20-%20Gerenciamento%20de%20Metadados%20e%20da%20qualidade%20de%20Dados.pdf) — PDF
   - 📄 [Qualidade em cadastros públicos de pessoas (TCU)](https://sites.tcu.gov.br/recursos/trabalhos-pos-graduacao/pdfs/Qualidade%20em%20cadastros%20p%C3%BAblicos%20de%20pessoas_%20uma%20proposta%20de%20guia%20para%20avalia%C3%A7%C3%A3o.pdf) — PDF
 - **5.3** Perfilamento, deduplicação, vinculação de registros e enriquecimento
   - ▶️ [O que é enriquecimento de dados? Veja como fazer!](https://www.youtube.com/watch?v=GAUtoGNVvos) — Assertiva
   - ▶️ [Introdução à vinculação de dados administrativos (Record Linkage)](https://www.youtube.com/watch?v=-hb7MeIozVU) — Cidacs Fiocruz
   - 📄 [Conquistas e desafios do record linkage (Epidemiol. Serv. Saúde/SciELO)](https://www.scielo.br/j/ress/a/zH4GSZzP9DNZRxwGz3wpMTL/?lang=pt&format=pdf) — PDF
+  - 📄 [SimCleaner: padronização de bases com funções de similaridade (Levenshtein, Jaro-Winkler)](https://arxiv.org/pdf/2107.12884) — PDF
   - 📰 [Estratégia de deduplicação de dados com blocagem (UFRGS)](https://lume.ufrgs.br/handle/10183/26350) — artigo
   - 📰 [Record linkage em condições subótimas — atenção primária no Rio de Janeiro](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8204416/) — artigo
   - 📝 [CEB-2025-ANM-CD-Q107](../../../questoes/2025-anm-ciencia-de-dados/ceb-2025-anm-cd-q107.md) — questão real · Banca Cebraspe

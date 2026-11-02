@@ -403,7 +403,18 @@
    "canal": "Suelia Souza | Defesa Estratégica para Servidores"
   }
  ],
- "ET.4.2": [],
+ "ET.4.2": [
+  {
+   "id": "0k3BWtF2pz8",
+   "titulo": "Agosto Lilás: Como apurar assédio e discriminação no serviço público",
+   "canal": ""
+  },
+  {
+   "id": "RmSkdAS1hcM",
+   "titulo": "Guia Lilás na Prática: Papel das Ouvidorias e Corregedorias nas Denúncias de Assédio Sexual",
+   "canal": ""
+  }
+ ],
  "ET.5.1": [
   {
    "id": "CSfpEr4YIM4",
@@ -552,6 +563,11 @@
    "id": "yillyAkv-hw",
    "titulo": "#59 - Análise do Plano de Integridade e Combate a Corrupção da CGU | GOVERNANÇA EM AÇÃO",
    "canal": "KASSY Consultoria"
+  },
+  {
+   "id": "i4oAchuKMd0",
+   "titulo": "Capacitação - Gestão de Riscos para Integridade 2020 - Vídeo 1",
+   "canal": "CGU"
   }
  ],
  "GR.3.2": [
@@ -718,6 +734,11 @@
    "id": "64u2DAcEN6E",
    "titulo": "Fundamentos de uma Ouvidoria com Canal de Denúncias",
    "canal": "Academia Target de Ensino"
+  },
+  {
+   "id": "MZDXtS2hq7o",
+   "titulo": "Webinário \"Proteção ao denunciante: Do relato à apuração segura\"",
+   "canal": "Ouvidoria-Geral da União (CGU)"
   }
  ],
  "TO.4.1": [
@@ -786,6 +807,21 @@
    "id": "IIOdBe47HwQ",
    "titulo": "02.02.01. Aula da Controladoria Geral da União (Auditoria Governamental e Controle)",
    "canal": "TecConcursos"
+  },
+  {
+   "id": "Z1sUB-JCFiM",
+   "titulo": "Capacitação - Transparência Ativa: Diretrizes e Boas Práticas",
+   "canal": ""
+  },
+  {
+   "id": "IBHSnA9WCcw",
+   "titulo": "CGU divulga resultado da segunda edição da Escala Brasil Transparente",
+   "canal": ""
+  },
+  {
+   "id": "YhEdioQVH-8",
+   "titulo": "Transparência Ativa: Aspectos Gerais da Avaliação e do Monitoramento",
+   "canal": ""
   }
  ],
  "TO.5.1": [
@@ -1029,6 +1065,16 @@
    "id": "Btf44V2RRT8",
    "titulo": "Lei 8.112/90 | Aula 13 | Estatuto dos Servidores Federais |  Processo Administrativo Disciplinar",
    "canal": "Professor Alê"
+  },
+  {
+   "id": "0k3BWtF2pz8",
+   "titulo": "Agosto Lilás: Como apurar assédio e discriminação no serviço público",
+   "canal": ""
+  },
+  {
+   "id": "RmSkdAS1hcM",
+   "titulo": "Guia Lilás na Prática: Papel das Ouvidorias e Corregedorias nas Denúncias de Assédio Sexual",
+   "canal": ""
   }
  ],
  "EV.1.1": [
@@ -1680,6 +1726,11 @@
    "id": "Q4HFzs6kJDM",
    "titulo": "Principais Medidas de Qualidade dos Dados - Consistência",
    "canal": "Data Science Academy"
+  },
+  {
+   "id": "FdxxQfWHMeQ",
+   "titulo": "Aula 01 - Qualidade em Dados",
+   "canal": ""
   }
  ],
  "ED.5.3": [
